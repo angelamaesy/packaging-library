@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Packaging Design Reference Library</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:          #0d0d10;
+      --surface:     #16161c;
+      --surface-2:   #1e1e26;
+      --surface-3:   #26262f;
+      --border:      #2c2c38;
+      --border-2:    #3a3a48;
+      --accent:      #7c6aff;
+      --accent-dim:  #4f42b5;
+      --accent-glow: rgba(124,106,255,0.15);
+      --danger:      #ff4f6a;
+      --success:     #3dd68c;
+      --text:        #e8e8f0;
+      --text-2:      #9898b0;
+      --text-3:      #5a5a70;
+      --radius:      10px;
+      --radius-sm:   6px;
+      --shadow:      0 4px 24px rgba(0,0,0,0.5);
+      --transition:  0.18s ease;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      font-size: 14px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── App shell ───────────────────────────────────────────────────── */
+    #sync-status {
+      font-size: 11px;
+      color: var(--text-3);
+      padding: 5px 40px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      letter-spacing: 0.2px;
+    }
+
+    #app-header {
+      padding: 24px 40px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    #app-title {
+      font-size: 17px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      color: var(--text);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    #app-title::before {
+      content: '';
+      display: inline-block;
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 8px var(--accent);
+    }
+
+    #main-content { padding: 28px 40px; max-width: 1500px; }
+
+    /* ── Tabs ───────────────────────────────────────────────────────── */
+    #tabs { display: flex; gap: 2px; }
+    .tab-btn {
+      padding: 9px 18px;
+      cursor: pointer;
+      border: none;
+      background: transparent;
+      color: var(--text-3);
+      font-size: 13px;
+      font-weight: 500;
+      font-family: inherit;
+      border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+      transition: color var(--transition), background var(--transition);
+      position: relative;
+      bottom: -1px;
+    }
+    .tab-btn:hover { color: var(--text-2); }
+    .tab-btn.active {
+      color: var(--text);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-bottom-color: var(--bg);
+    }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── Buttons ─────────────────────────────────────────────────────── */
+    button {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border: 1px solid var(--border-2);
+      border-radius: var(--radius-sm);
+      background: var(--surface-2);
+      color: var(--text-2);
+      font-size: 12px;
+      font-family: inherit;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all var(--transition);
+      white-space: nowrap;
+    }
+    button:hover { background: var(--surface-3); color: var(--text); border-color: var(--border-2); }
+    button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+    button.primary:hover { background: var(--accent-dim); border-color: var(--accent-dim); }
+    button.danger:hover { background: var(--danger); border-color: var(--danger); color: #fff; }
+
+    /* ── Form elements ────────────────────────────────────────────────── */
+    label {
+      display: block;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--text-3);
+      margin-bottom: 5px;
+    }
+
+    input[type=text], input[type=file], textarea, select {
+      width: 100%;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 13px;
+      padding: 8px 10px;
+      outline: none;
+      transition: border-color var(--transition);
+    }
+    input[type=text]:focus, textarea:focus, select:focus { border-color: var(--accent); }
+    input[type=file] { padding: 6px; cursor: pointer; }
+    textarea { resize: vertical; min-height: 60px; }
+    select { cursor: pointer; }
+    select option { background: var(--surface-2); }
+
+    .field { margin-bottom: 14px; }
+    .field-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+    .field-grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+
+    /* ── Section card ─────────────────────────────────────────────────── */
+    .section-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    .section-card h2 {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 18px;
+    }
+
+    /* ── Upload preview ───────────────────────────────────────────────── */
+    #file-preview { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 4px; }
+    .preview-item { position: relative; }
+    .preview-item img { width: 72px; height: 56px; object-fit: cover; border: 1px solid var(--border); border-radius: 4px; display: block; }
+    .remove-preview {
+      position: absolute; top: -5px; right: -5px;
+      background: var(--danger); color: #fff;
+      border: none; border-radius: 50%;
+      width: 16px; height: 16px; padding: 0;
+      font-size: 10px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+    }
+    #upload-progress { font-size: 11px; color: var(--success); margin-top: 6px; min-height: 16px; }
+
+    /* ── Custom multi-select ─────────────────────────────────────────── */
+    .ms-wrap { position: relative; }
+    .ms-trigger {
+      width: 100%;
+      justify-content: space-between;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text-2);
+      padding: 7px 10px;
+      font-size: 13px;
+      font-weight: 400;
+    }
+    .ms-trigger:hover { border-color: var(--border-2); color: var(--text); }
+    .ms-trigger.has-value { border-color: var(--accent); color: var(--text); }
+    .ms-trigger .ms-label { flex: 1; text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; }
+    .ms-trigger .ms-arrow { font-size: 10px; color: var(--text-3); flex-shrink: 0; }
+    .ms-dropdown {
+      display: none;
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0; right: 0;
+      background: var(--surface-2);
+      border: 1px solid var(--border-2);
+      border-radius: var(--radius-sm);
+      box-shadow: var(--shadow);
+      z-index: 50;
+      max-height: 220px;
+      overflow-y: auto;
+    }
+    .ms-dropdown.open { display: block; }
+    .ms-option {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 10px;
+      cursor: pointer;
+      font-size: 12px;
+      color: var(--text-2);
+      transition: background var(--transition);
+    }
+    .ms-option:hover { background: var(--surface-3); color: var(--text); }
+    .ms-option input[type=checkbox] {
+      width: 13px; height: 13px; min-width: 13px;
+      cursor: pointer; accent-color: var(--accent); padding: 0;
+    }
+    .ms-option.checked { color: var(--text); }
+    .ms-add-row {
+      display: flex; gap: 6px;
+      padding: 6px 10px;
+      border-top: 1px solid var(--border);
+    }
+    .ms-add-row input { flex: 1; font-size: 12px; padding: 5px 8px; margin: 0; }
+    .ms-add-row button { padding: 5px 10px; font-size: 12px; flex-shrink: 0; }
+
+    /* ── Filter bar ──────────────────────────────────────────────────── */
+    #filter-bar {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-bottom: 16px;
+    }
+    #filter-top-row {
+      display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+    }
+    #search-input { flex: 1; min-width: 200px; max-width: 340px; }
+    #filter-count {
+      background: var(--accent); color: #fff;
+      border-radius: 10px; font-size: 10px;
+      padding: 1px 6px; font-weight: 600;
+    }
+    #filter-panel {
+      display: none; margin-top: 14px;
+      padding-top: 14px; border-top: 1px solid var(--border);
+    }
+    #filter-panel.open { display: block; }
+    #filter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+      gap: 12px; align-items: start;
+    }
+    #filter-grid .field { margin: 0; }
+    #filter-grid label { margin-bottom: 4px; }
+
+    /* Active filter chips */
+    #active-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .filter-chip {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: var(--accent-glow); border: 1px solid var(--accent-dim);
+      border-radius: 20px; padding: 3px 10px;
+      font-size: 11px; color: var(--accent);
+    }
+    .chip-remove {
+      cursor: pointer; font-size: 14px; line-height: 1;
+      color: var(--accent); opacity: 0.7;
+      background: none; border: none; padding: 0;
+    }
+    .chip-remove:hover { opacity: 1; background: none !important; }
+
+    /* ── Gallery ─────────────────────────────────────────────────────── */
+    #gallery-header {
+      display: flex; justify-content: space-between;
+      align-items: center; margin-bottom: 12px;
+    }
+    #gallery-count { font-size: 12px; color: var(--text-3); }
+    #sort-input { width: auto; font-size: 12px; padding: 5px 8px; }
+
+    #gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius); overflow: hidden;
+      transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+    }
+    .card:hover { border-color: var(--border-2); box-shadow: 0 8px 32px rgba(0,0,0,0.4); transform: translateY(-2px); }
+    .card img { width: 100%; height: 160px; object-fit: cover; display: block; cursor: zoom-in; }
+    .card-body { padding: 11px 12px 12px; }
+
+    .card-type-badge {
+      display: inline-block; font-size: 10px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.5px;
+      color: var(--accent); margin-bottom: 3px;
+    }
+    .card-client { font-size: 12px; font-weight: 500; color: var(--text); margin-bottom: 5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .card-meta-row { font-size: 11px; color: var(--text-3); margin-bottom: 4px; }
+    .card-meta-row span { color: var(--text-2); }
+
+    .card-chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+    .chip {
+      display: inline-block; background: var(--surface-3);
+      border-radius: 4px; padding: 2px 7px;
+      font-size: 10px; color: var(--text-2); cursor: pointer;
+      transition: background var(--transition), color var(--transition);
+    }
+    .chip:hover { background: var(--accent-glow); color: var(--accent); }
+
+    .card-notes { font-size: 11px; color: var(--text-3); margin-top: 6px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .card-actions { display: flex; gap: 6px; margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--border); }
+    .card-actions button { font-size: 11px; padding: 5px 10px; flex: 1; justify-content: center; }
+
+    #no-results { grid-column: 1/-1; text-align: center; padding: 60px 0; color: var(--text-3); font-size: 13px; }
+
+    /* ── Moodboard ────────────────────────────────────────────────────── */
+    #mb-keyword-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; font-size: 13px; color: var(--text-2); }
+    #mb-tag-hint { font-size: 12px; color: var(--text-3); }
+    #mb-tags-container { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; min-height: 28px; }
+    .mb-tag-btn {
+      padding: 4px 12px; cursor: pointer;
+      border: 1px solid var(--border-2); background: var(--surface-2);
+      border-radius: 20px; font-size: 12px; color: var(--text-2);
+      font-family: inherit; transition: all var(--transition);
+    }
+    .mb-tag-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .mb-tag-btn.selected { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .mb-keyword-wrap { margin-bottom: 14px; }
+    .mb-keyword-wrap input { max-width: 360px; }
+    .matching-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-3); margin-bottom: 8px; }
+    #mb-matches { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+    #mb-matches .mb-thumb { position: relative; cursor: pointer; border-radius: 6px; overflow: hidden; }
+    #mb-matches .mb-thumb img { width: 96px; height: 72px; object-fit: cover; display: block; border: 2px solid transparent; border-radius: 6px; transition: border-color var(--transition); }
+    #mb-matches .mb-thumb.selected img { border-color: var(--accent); }
+    #mb-matches .mb-thumb .mb-check { display: none; position: absolute; top: 4px; left: 4px; background: var(--accent); color: #fff; font-size: 9px; padding: 1px 5px; border-radius: 3px; font-weight: 600; }
+    #mb-matches .mb-thumb.selected .mb-check { display: block; }
+    #mb-match-count { font-size: 11px; color: var(--text-3); margin-bottom: 12px; }
+    #mb-controls-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
+    #moodboard-canvas { background: #0a0a0d; border: 1px solid var(--border); border-radius: var(--radius); position: relative; overflow: hidden; }
+    .mb-canvas-title {
+      position: absolute; bottom: 24px; left: 28px;
+      color: rgba(255,255,255,0.92); font-size: 22px; font-weight: 600; letter-spacing: -0.5px;
+      text-shadow: 0 2px 20px rgba(0,0,0,0.9), 0 1px 4px rgba(0,0,0,0.7);
+      pointer-events: none; z-index: 2;
+    }
+    .mb-canvas-title span { display: block; font-size: 12px; font-weight: 400; letter-spacing: 0.5px; color: rgba(255,255,255,0.45); margin-top: 3px; text-transform: uppercase; text-shadow: none; }
+
+    /* ── Saved moodboards ─────────────────────────────────────────────── */
+    #saved-moodboards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; margin-top: 4px; }
+    .mb-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; transition: border-color var(--transition), transform var(--transition); }
+    .mb-card:hover { border-color: var(--border-2); transform: translateY(-2px); }
+    .mb-card h3 { font-size: 13px; font-weight: 600; color: var(--text); padding: 14px 14px 0; margin-bottom: 4px; }
+    .mb-card .mb-meta { font-size: 11px; color: var(--text-3); padding: 0 14px 10px; }
+    .mb-card .mb-preview-grid { display: grid; gap: 2px; }
+    .mb-card .mb-preview-grid img { width: 100%; height: 72px; object-fit: cover; }
+    .mb-card .mb-card-actions { display: flex; gap: 6px; padding: 12px 14px; border-top: 1px solid var(--border); }
+    .mb-card .mb-card-actions button { flex: 1; justify-content: center; font-size: 12px; padding: 6px 10px; }
+    #no-saved { color: var(--text-3); font-size: 13px; padding: 40px 0; text-align: center; }
+
+    /* ── Modal ────────────────────────────────────────────────────────── */
+    .modal-bg { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); backdrop-filter: blur(4px); z-index: 100; overflow-y: auto; }
+    .modal-box { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin: 4% auto; padding: 28px; width: 560px; max-width: 95%; box-shadow: var(--shadow); }
+    .modal-box h2 { font-size: 15px; font-weight: 600; margin-bottom: 20px; color: var(--text); }
+    .modal-actions { display: flex; gap: 8px; margin-top: 20px; }
+    .modal-box .field { margin-bottom: 14px; }
+    .modal-box .field-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+
+    /* ── Lightbox ─────────────────────────────────────────────────────── */
+    #lightbox { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.92); backdrop-filter: blur(8px); z-index: 200; align-items: center; justify-content: center; }
+    #lightbox.open { display: flex; }
+    #lightbox img { max-width: 90%; max-height: 90vh; border-radius: var(--radius); box-shadow: 0 24px 80px rgba(0,0,0,0.7); }
+    #lightbox-close { position: absolute; top: 20px; right: 28px; color: rgba(255,255,255,0.6); font-size: 28px; cursor: pointer; line-height: 1; transition: color var(--transition); }
+    #lightbox-close:hover { color: #fff; }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border-2); border-radius: 3px; }
+  </style>
+</head>
+<body>
+
+<div id="sync-status">Connecting to library.json…</div>
+
+<div id="app-header">
+  <div id="app-title">Packaging Design Reference Library</div>
+  <div id="tabs">
+    <button class="tab-btn active" onclick="switchTab('library')">Library</button>
+    <button class="tab-btn" onclick="switchTab('moodboard')">Moodboard Builder</button>
+    <button class="tab-btn" onclick="switchTab('saved')">Saved Moodboards</button>
+  </div>
+</div>
+
+<div id="main-content">
+
+<!-- ===== LIBRARY TAB ===== -->
+<div id="tab-library" class="tab-panel active">
+
+  <div id="upload-section" class="section-card">
+    <h2>Add Images</h2>
+
+    <div class="field">
+      <label>Image Files (select multiple)</label>
+      <input type="file" id="file-input" accept="image/*" multiple onchange="previewFiles()">
+      <div id="file-preview"></div>
+    </div>
+
+    <div class="field-grid-2">
+      <div class="field">
+        <label>Client</label>
+        <input type="text" id="up-client" placeholder="e.g. Nestlé, self-initiated">
+      </div>
+      <div class="field">
+        <label>Image Type</label>
+        <select id="up-imageType">
+          <option value="">— select —</option>
+          <option>Pack Design</option><option>Mood</option><option>Key Visual</option>
+          <option>Product Photography</option><option>Campaign</option>
+          <option>Reference</option><option>Competitor</option><option>Illustration</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="field-grid-2">
+      <div class="field">
+        <label>Product Category</label>
+        <div class="ms-wrap" id="ms-up-productCategory"></div>
+      </div>
+      <div class="field">
+        <label>Format</label>
+        <select id="up-format">
+          <option value="">— select —</option>
+          <option>Bottle</option><option>Pouch</option><option>Box</option><option>Bag</option>
+          <option>Can</option><option>Tube</option><option>Jar</option><option>Sachet</option>
+          <option>Wrapper</option><option>Label</option><option>Carton</option><option>Other</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="field-grid-2">
+      <div class="field">
+        <label>Tonality</label>
+        <div class="ms-wrap" id="ms-up-tonality"></div>
+      </div>
+      <div class="field">
+        <label>Design Code</label>
+        <div class="ms-wrap" id="ms-up-designCode"></div>
+      </div>
+    </div>
+
+    <div class="field-grid-2">
+      <div class="field">
+        <label>Target Audience</label>
+        <div class="ms-wrap" id="ms-up-targetAudience"></div>
+      </div>
+      <div class="field">
+        <label>Colour Palette</label>
+        <div class="ms-wrap" id="ms-up-colourPalette"></div>
+      </div>
+    </div>
+
+    <div class="field">
+      <label>Notes</label>
+      <textarea id="up-notes" placeholder="Optional notes"></textarea>
+    </div>
+
+    <button class="primary" onclick="addImages()">Add to Library</button>
+    <div id="upload-progress"></div>
+  </div>
+
+  <!-- Filter bar -->
+  <div id="filter-bar">
+    <div id="filter-top-row">
+      <input type="text" id="search-input" placeholder="Search across all fields…" oninput="renderGallery()">
+      <button id="filter-toggle-btn" onclick="toggleFilterPanel()">
+        Filters <span id="filter-count" style="display:none; background:var(--accent); color:#fff; border-radius:10px; font-size:10px; padding:1px 6px; font-weight:600;"></span>
+      </button>
+      <div style="margin-left:auto; display:flex; gap:8px; align-items:center;">
+        <label style="margin:0; text-transform:none; font-size:12px; color:var(--text-3);">Sort</label>
+        <select id="sort-input" onchange="renderGallery()">
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+          <option value="client">Client A–Z</option>
+          <option value="type">Type A–Z</option>
+        </select>
+        <button onclick="clearFilters()">Clear all</button>
+      </div>
+    </div>
+
+    <div id="filter-panel">
+      <div id="filter-grid">
+        <div class="field">
+          <label>Client</label>
+          <select id="f-client" onchange="renderGallery()"><option value="">All clients</option></select>
+        </div>
+        <div class="field">
+          <label>Image Type</label>
+          <select id="f-imageType" onchange="renderGallery()">
+            <option value="">All types</option>
+            <option>Pack Design</option><option>Mood</option><option>Key Visual</option>
+            <option>Product Photography</option><option>Campaign</option>
+            <option>Reference</option><option>Competitor</option><option>Illustration</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Format</label>
+          <select id="f-format" onchange="renderGallery()">
+            <option value="">All formats</option>
+            <option>Bottle</option><option>Pouch</option><option>Box</option><option>Bag</option>
+            <option>Can</option><option>Tube</option><option>Jar</option><option>Sachet</option>
+            <option>Wrapper</option><option>Label</option><option>Carton</option><option>Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Product Category</label>
+          <div class="ms-wrap" id="ms-f-productCategory"></div>
+        </div>
+        <div class="field">
+          <label>Tonality</label>
+          <div class="ms-wrap" id="ms-f-tonality"></div>
+        </div>
+        <div class="field">
+          <label>Design Code</label>
+          <div class="ms-wrap" id="ms-f-designCode"></div>
+        </div>
+        <div class="field">
+          <label>Target Audience</label>
+          <div class="ms-wrap" id="ms-f-targetAudience"></div>
+        </div>
+        <div class="field">
+          <label>Colour Palette</label>
+          <div class="ms-wrap" id="ms-f-colourPalette"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="active-chips"></div>
+  </div>
+
+  <div id="gallery-header">
+    <div id="gallery-count"></div>
+  </div>
+  <div id="gallery"></div>
+</div>
+
+<!-- ===== MOODBOARD TAB ===== -->
+<div id="tab-moodboard" class="tab-panel">
+  <div class="section-card">
+    <h2>Generate Moodboard</h2>
+    <p style="font-size:13px;color:var(--text-2);margin-bottom:16px;">Select tags that describe the territory / brief, then pick images to include.</p>
+
+    <div id="mb-keyword-row">
+      <span>Filter by tags:</span>
+      <span id="mb-tag-hint">(tags from your library will appear here)</span>
+    </div>
+    <div id="mb-tags-container"></div>
+
+    <div class="mb-keyword-wrap">
+      <label>Or type keywords</label>
+      <input type="text" id="mb-keyword-input" placeholder="e.g. earthy, raw, bold" oninput="renderMoodboardMatches()">
+    </div>
+
+    <div class="matching-label">Matching images — click to select / deselect</div>
+    <div id="mb-matches"></div>
+    <div id="mb-match-count"></div>
+
+    <div id="mb-controls-row">
+      <input type="text" id="moodboard-title-input" placeholder="Moodboard title…" style="max-width:240px;">
+      <select id="mb-layout-select" style="max-width:150px;">
+        <option value="grid">Grid layout</option>
+        <option value="masonry">Rows layout</option>
+        <option value="hero">Hero + grid</option>
+      </select>
+      <button class="primary" onclick="generateMoodboard()">Generate</button>
+      <button id="mb-export-btn" onclick="exportMoodboard()" style="display:none;">Export PNG</button>
+      <button id="mb-save-btn" onclick="saveMoodboard()" style="display:none;">Save</button>
+    </div>
+
+    <div id="moodboard-canvas-wrap">
+      <div id="moodboard-canvas"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SAVED MOODBOARDS TAB ===== -->
+<div id="tab-saved" class="tab-panel">
+  <div style="margin-bottom:20px;">
+    <h2 style="font-size:15px;font-weight:600;color:var(--text);">Saved Moodboards</h2>
+  </div>
+  <div id="saved-moodboards"></div>
+  <p id="no-saved">No moodboards saved yet.</p>
+</div>
+
+</div><!-- /#main-content -->
+
+<!-- Edit Modal -->
+<div id="edit-modal" class="modal-bg">
+  <div class="modal-box">
+    <h2>Edit Entry</h2>
+    <input type="hidden" id="edit-id">
+
+    <div class="field-grid-2">
+      <div class="field"><label>Client</label><input type="text" id="edit-client"></div>
+      <div class="field">
+        <label>Image Type</label>
+        <select id="edit-imageType">
+          <option value="">— select —</option>
+          <option>Pack Design</option><option>Mood</option><option>Key Visual</option>
+          <option>Product Photography</option><option>Campaign</option>
+          <option>Reference</option><option>Competitor</option><option>Illustration</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="field-grid-2">
+      <div class="field"><label>Product Category</label><div class="ms-wrap" id="ms-edit-productCategory"></div></div>
+      <div class="field">
+        <label>Format</label>
+        <select id="edit-format">
+          <option value="">— select —</option>
+          <option>Bottle</option><option>Pouch</option><option>Box</option><option>Bag</option>
+          <option>Can</option><option>Tube</option><option>Jar</option><option>Sachet</option>
+          <option>Wrapper</option><option>Label</option><option>Carton</option><option>Other</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="field-grid-2">
+      <div class="field"><label>Tonality</label><div class="ms-wrap" id="ms-edit-tonality"></div></div>
+      <div class="field"><label>Design Code</label><div class="ms-wrap" id="ms-edit-designCode"></div></div>
+    </div>
+
+    <div class="field-grid-2">
+      <div class="field"><label>Target Audience</label><div class="ms-wrap" id="ms-edit-targetAudience"></div></div>
+      <div class="field"><label>Colour Palette</label><div class="ms-wrap" id="ms-edit-colourPalette"></div></div>
+    </div>
+
+    <div class="field"><label>Notes</label><textarea id="edit-notes"></textarea></div>
+
+    <div class="modal-actions">
+      <button class="primary" onclick="saveEdit()">Save</button>
+      <button onclick="closeModal('edit-modal')">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div id="lightbox" onclick="closeLightbox()">
+  <span id="lightbox-close">&times;</span>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script src="library-data.js"></script>
+<script>
+// ── Taxonomy ──────────────────────────────────────────────────────────────────
+const TAXONOMY = {
+  productCategory: {
+    options: ['Food','Snack','Confectionery','Beverage','Dairy','Alcohol','Personal Care','Beauty','Household','Health & Wellness','Pet','Baby','Supplement','Gifting'],
+    extensible: false
+  },
+  tonality: {
+    options: ['Minimal','Bold','Luxury','Playful','Earthy','Dark','Bright','Retro','Heritage','Clinical','Organic','Maximalist'],
+    extensible: true, storageKey: 'tax_tonality'
+  },
+  designCode: {
+    options: ['Typography-led','Illustration-led','Pattern-led','Photography-led','Geometric','Abstract','Handcrafted','Colour-led','Clean'],
+    extensible: true, storageKey: 'tax_designCode'
+  },
+  targetAudience: {
+    options: ['Mass Market','Premium','Kids','Teens','Young Adults','Women','Men','Health Conscious','Eco Conscious','Gen Z','Millennial'],
+    extensible: false
+  },
+  colourPalette: {
+    options: ['Warm','Cool','Monochrome','Pastel','Neon','Earthy','Dark','Bright','Neutral','Metallic'],
+    extensible: false
+  }
+};
+
+// Merge any saved custom options for extensible fields
+Object.keys(TAXONOMY).forEach(key => {
+  const t = TAXONOMY[key];
+  if (t.extensible) {
+    const saved = JSON.parse(localStorage.getItem(t.storageKey) || '[]');
+    t.options = [...new Set([...t.options, ...saved])];
+  }
+});
+
+function persistCustomOptions(key) {
+  const t = TAXONOMY[key];
+  if (t.extensible) localStorage.setItem(t.storageKey, JSON.stringify(t.options));
+}
+
+// ── Multi-select widget ───────────────────────────────────────────────────────
+const msState = {}; // containerId -> Set<string>
+
+function buildMultiSelect(containerId, taxKey, onChange) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  container.innerHTML = '';
+  if (!msState[containerId]) msState[containerId] = new Set();
+
+  // Trigger button
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'ms-trigger';
+  btn.id = containerId + '-btn';
+  btn.innerHTML = '<span class="ms-label">Any</span><span class="ms-arrow">▾</span>';
+  btn.onclick = e => { e.stopPropagation(); toggleMsDd(containerId); };
+  container.appendChild(btn);
+
+  // Dropdown
+  const dd = document.createElement('div');
+  dd.className = 'ms-dropdown';
+  dd.id = containerId + '-dd';
+  dd.onclick = e => e.stopPropagation();
+  TAXONOMY[taxKey].options.forEach(opt => dd.appendChild(makeMsOption(containerId, taxKey, opt, onChange)));
+  if (TAXONOMY[taxKey].extensible) dd.appendChild(makeMsAddRow(containerId, taxKey, dd, onChange));
+  container.appendChild(dd);
+
+  updateMsTrigger(containerId);
+}
+
+function makeMsOption(containerId, taxKey, opt, onChange) {
+  const lbl = document.createElement('label');
+  lbl.className = 'ms-option' + (msState[containerId]?.has(opt) ? ' checked' : '');
+  lbl.dataset.val = opt;
+  const cb = document.createElement('input');
+  cb.type = 'checkbox';
+  cb.value = opt;
+  cb.checked = !!msState[containerId]?.has(opt);
+  cb.onchange = () => {
+    cb.checked ? msState[containerId].add(opt) : msState[containerId].delete(opt);
+    lbl.classList.toggle('checked', cb.checked);
+    updateMsTrigger(containerId);
+    if (onChange) onChange();
+  };
+  lbl.appendChild(cb);
+  lbl.appendChild(document.createTextNode(opt));
+  return lbl;
+}
+
+function makeMsAddRow(containerId, taxKey, dd, onChange) {
+  const wrap = document.createElement('div');
+  wrap.className = 'ms-add-row';
+  const inp = document.createElement('input');
+  inp.type = 'text'; inp.placeholder = 'Add new…';
+  inp.onkeydown = e => { if (e.key === 'Enter') doAdd(); };
+  const btn = document.createElement('button');
+  btn.type = 'button'; btn.textContent = '+';
+  btn.onclick = doAdd;
+  wrap.appendChild(inp); wrap.appendChild(btn);
+
+  function doAdd() {
+    const val = inp.value.trim();
+    if (!val) return;
+    const t = TAXONOMY[taxKey];
+    if (t.options.some(o => o.toLowerCase() === val.toLowerCase())) { inp.value = ''; return; }
+    t.options.push(val);
+    persistCustomOptions(taxKey);
+    // Add option to all ms widgets using this taxKey
+    ['ms-up-', 'ms-edit-', 'ms-f-'].forEach(prefix => {
+      const cid = prefix + taxKey;
+      const cdd = document.getElementById(cid + '-dd');
+      if (!cdd) return;
+      const addRow = cdd.querySelector('.ms-add-row');
+      const newOpt = makeMsOption(cid, taxKey, val, cid.startsWith('ms-f-') ? renderGallery : null);
+      cdd.insertBefore(newOpt, addRow);
+    });
+    inp.value = '';
+    msState[containerId].add(val);
+    updateMsTrigger(containerId);
+    if (onChange) onChange();
+  }
+  return wrap;
+}
+
+function toggleMsDd(id) {
+  const dd = document.getElementById(id + '-dd');
+  if (!dd) return;
+  const wasOpen = dd.classList.contains('open');
+  document.querySelectorAll('.ms-dropdown.open').forEach(d => d.classList.remove('open'));
+  if (!wasOpen) dd.classList.add('open');
+}
+
+function updateMsTrigger(id) {
+  const btn = document.getElementById(id + '-btn');
+  if (!btn) return;
+  const sel = msState[id];
+  const lbl = btn.querySelector('.ms-label');
+  if (!sel || sel.size === 0) { lbl.textContent = 'Any'; btn.classList.remove('has-value'); }
+  else { lbl.textContent = [...sel].join(', '); btn.classList.add('has-value'); }
+}
+
+function getMsValues(id) { return msState[id] ? [...msState[id]] : []; }
+
+function setMsValues(id, vals) {
+  msState[id] = new Set(vals);
+  const dd = document.getElementById(id + '-dd');
+  if (dd) dd.querySelectorAll('input[type=checkbox]').forEach(cb => {
+    cb.checked = msState[id].has(cb.value);
+    cb.closest('.ms-option')?.classList.toggle('checked', cb.checked);
+  });
+  updateMsTrigger(id);
+}
+
+function clearMsValues(id) { setMsValues(id, []); }
+
+document.addEventListener('click', () => document.querySelectorAll('.ms-dropdown.open').forEach(d => d.classList.remove('open')));
+
+// ── Data / sync ───────────────────────────────────────────────────────────────
+let library = [];
+let moodboards = JSON.parse(localStorage.getItem('packagingMoodboards') || '[]');
+let pendingFiles = [];
+let selectedMbIds = new Set();
+let activeMbTags = new Set();
+let lastLibraryHash = '';
+let localUploads = JSON.parse(localStorage.getItem('packagingLocalUploads') || '[]');
+
+function saveLocal() { localStorage.setItem('packagingLocalUploads', JSON.stringify(localUploads)); }
+function saveMoodboards() { localStorage.setItem('packagingMoodboards', JSON.stringify(moodboards)); }
+
+async function loadLibraryJson() {
+  let fromFile = null;
+
+  // Primary: inline script data — works with file:// and http://
+  if (window.LIBRARY_DATA) {
+    fromFile = window.LIBRARY_DATA;
+    document.getElementById('sync-status').textContent =
+      'library-data.js · ' + fromFile.length + ' entries';
+  }
+
+  // When served via HTTP, also try fetch so live edits to library.json are picked up
+  if (window.location.protocol !== 'file:') {
+    try {
+      const res = await fetch('library.json?_=' + Date.now());
+      if (res.ok) {
+        const text = await res.text();
+        if (text !== lastLibraryHash) {
+          lastLibraryHash = text;
+          fromFile = JSON.parse(text);
+          document.getElementById('sync-status').textContent =
+            'Synced · ' + new Date().toLocaleTimeString();
+        }
+      }
+    } catch { /* stay with LIBRARY_DATA */ }
+  }
+
+  if (!fromFile) {
+    library = [...localUploads];
+    document.getElementById('sync-status').textContent =
+      'No library data — add images using the form above';
+  } else {
+    const fileIds = new Set(fromFile.map(e => String(e.id)));
+    library = [...fromFile, ...localUploads.filter(e => !fileIds.has(String(e.id)))];
+  }
+  renderGallery();
+  updateClientFilter();
+}
+
+// ── Tabs ──────────────────────────────────────────────────────────────────────
+function switchTab(name) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  document.querySelectorAll('.tab-btn').forEach(b => {
+    if (b.textContent.toLowerCase().includes(name === 'saved' ? 'saved' : name)) b.classList.add('active');
+  });
+  if (name === 'moodboard') initMoodboardTab();
+  if (name === 'saved') renderSavedMoodboards();
+}
+
+// ── Upload ────────────────────────────────────────────────────────────────────
+function previewFiles() {
+  const input = document.getElementById('file-input');
+  const container = document.getElementById('file-preview');
+  pendingFiles = []; container.innerHTML = '';
+  Array.from(input.files).forEach((file, i) => {
+    const reader = new FileReader();
+    reader.onload = e => {
+      pendingFiles[i] = { dataUrl: e.target.result };
+      const wrap = document.createElement('div'); wrap.className = 'preview-item';
+      const img = document.createElement('img'); img.src = e.target.result;
+      const btn = document.createElement('button'); btn.className = 'remove-preview'; btn.textContent = '✕';
+      btn.onclick = () => { pendingFiles[i] = null; wrap.remove(); };
+      wrap.appendChild(img); wrap.appendChild(btn); container.appendChild(wrap);
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+function addImages() {
+  const validFiles = pendingFiles.filter(Boolean);
+  if (!validFiles.length) { alert('Please select at least one image.'); return; }
+
+  const base = {
+    client:          document.getElementById('up-client').value.trim(),
+    imageType:       document.getElementById('up-imageType').value,
+    format:          document.getElementById('up-format').value,
+    productCategory: getMsValues('ms-up-productCategory'),
+    tonality:        getMsValues('ms-up-tonality'),
+    designCode:      getMsValues('ms-up-designCode'),
+    targetAudience:  getMsValues('ms-up-targetAudience'),
+    colourPalette:   getMsValues('ms-up-colourPalette'),
+    notes:           document.getElementById('up-notes').value.trim(),
+  };
+
+  let done = 0;
+  const progress = document.getElementById('upload-progress');
+  validFiles.forEach(({ dataUrl }) => {
+    const entry = { ...base, id: Date.now() + Math.random(), src: dataUrl, added: Date.now() };
+    localUploads.unshift(entry);
+    library.unshift(entry);
+    progress.textContent = `Added ${++done} / ${validFiles.length} image(s)`;
+  });
+
+  saveLocal(); renderGallery(); updateClientFilter();
+
+  document.getElementById('file-input').value = '';
+  document.getElementById('file-preview').innerHTML = '';
+  document.getElementById('up-client').value = '';
+  document.getElementById('up-imageType').value = '';
+  document.getElementById('up-format').value = '';
+  document.getElementById('up-notes').value = '';
+  ['ms-up-productCategory','ms-up-tonality','ms-up-designCode','ms-up-targetAudience','ms-up-colourPalette'].forEach(clearMsValues);
+  pendingFiles = [];
+  setTimeout(() => { progress.textContent = ''; }, 2500);
+}
+
+// ── Gallery ───────────────────────────────────────────────────────────────────
+function updateClientFilter() {
+  const clients = [...new Set(library.map(e => e.client).filter(Boolean))].sort();
+  const sel = document.getElementById('f-client');
+  const cur = sel.value;
+  sel.innerHTML = '<option value="">All clients</option>' + clients.map(c => `<option${c===cur?' selected':''}>${c}</option>`).join('');
+}
+
+function getActiveFilters() {
+  return {
+    search:          document.getElementById('search-input').value.trim().toLowerCase(),
+    client:          document.getElementById('f-client').value,
+    imageType:       document.getElementById('f-imageType').value,
+    format:          document.getElementById('f-format').value,
+    productCategory: getMsValues('ms-f-productCategory'),
+    tonality:        getMsValues('ms-f-tonality'),
+    designCode:      getMsValues('ms-f-designCode'),
+    targetAudience:  getMsValues('ms-f-targetAudience'),
+    colourPalette:   getMsValues('ms-f-colourPalette'),
+  };
+}
+
+function entryMatches(e, f) {
+  if (f.search) {
+    const hay = [
+      e.client||'', e.imageType||'', e.type||'', e.format||'', e.notes||'',
+      ...(e.productCategory||[]), ...(e.tonality||[]), ...(e.designCode||[]),
+      ...(e.targetAudience||[]), ...(e.colourPalette||[]), ...(e.tags||[])
+    ].join(' ').toLowerCase();
+    if (!hay.includes(f.search)) return false;
+  }
+  if (f.client && e.client !== f.client) return false;
+  if (f.imageType && (e.imageType||e.type||'') !== f.imageType) return false;
+  if (f.format && (e.format||'') !== f.format) return false;
+  if (f.productCategory.length && !f.productCategory.some(v => (e.productCategory||[]).includes(v))) return false;
+  if (f.tonality.length        && !f.tonality.some(v        => (e.tonality||[]).includes(v)))        return false;
+  if (f.designCode.length      && !f.designCode.some(v      => (e.designCode||[]).includes(v)))      return false;
+  if (f.targetAudience.length  && !f.targetAudience.some(v  => (e.targetAudience||[]).includes(v)))  return false;
+  if (f.colourPalette.length   && !f.colourPalette.some(v   => (e.colourPalette||[]).includes(v)))   return false;
+  return true;
+}
+
+function renderGallery() {
+  const f = getActiveFilters();
+  const sort = document.getElementById('sort-input').value;
+  let results = library.filter(e => entryMatches(e, f));
+  if (sort === 'oldest') results.sort((a,b) => a.added - b.added);
+  else if (sort === 'client') results.sort((a,b) => (a.client||'').localeCompare(b.client||''));
+  else if (sort === 'type') results.sort((a,b) => ((a.imageType||a.type||'')).localeCompare((b.imageType||b.type||'')));
+
+  document.getElementById('gallery-count').textContent = `${results.length} image${results.length!==1?'s':''}`;
+
+  // Active filter chips
+  buildActiveChips(f);
+
+  // Filter count badge
+  const total = (f.search?1:0) + (f.client?1:0) + (f.imageType?1:0) + (f.format?1:0) +
+    f.productCategory.length + f.tonality.length + f.designCode.length + f.targetAudience.length + f.colourPalette.length;
+  const badge = document.getElementById('filter-count');
+  badge.textContent = total; badge.style.display = total ? 'inline' : 'none';
+
+  if (!results.length) {
+    document.getElementById('gallery').innerHTML = '<div id="no-results">No images match your filters.</div>';
+    return;
+  }
+
+  document.getElementById('gallery').innerHTML = results.map(e => {
+    const type = e.imageType || e.type || '';
+    const chips1 = [...(e.productCategory||[]), ...(e.tonality||[])];
+    const chips2 = [...(e.designCode||[]), ...(e.targetAudience||[]), ...(e.colourPalette||[]), ...(e.tags||[])];
+    return `<div class="card">
+      <img src="${e.src}" onclick="openLightbox('${e.src}')" alt="">
+      <div class="card-body">
+        ${type ? `<div class="card-type-badge">${type}</div>` : ''}
+        ${e.client ? `<div class="card-client">${e.client}</div>` : ''}
+        ${e.format ? `<div class="card-meta-row">Format: <span>${e.format}</span></div>` : ''}
+        ${chips1.length ? `<div class="card-chips">${chips1.map(c=>`<span class="chip" onclick="addFilterChip(event,'tonality','${c}')">${c}</span>`).join('')}</div>` : ''}
+        ${chips2.length ? `<div class="card-chips">${chips2.map(c=>`<span class="chip" onclick="addFilterChip(event,'designCode','${c}')">${c}</span>`).join('')}</div>` : ''}
+        ${e.notes ? `<div class="card-notes">${e.notes}</div>` : ''}
+        <div class="card-actions">
+          <button onclick="openEdit(${e.id})">Edit</button>
+          <button class="danger" onclick="deleteEntry(${e.id})">Delete</button>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function addFilterChip(evt, field, value) {
+  evt.stopPropagation();
+  // Figure out which multiselect fields actually contain this value
+  const allMultiFields = ['productCategory','tonality','designCode','targetAudience','colourPalette'];
+  // Find the field(s) that have this value
+  let targetField = field;
+  allMultiFields.forEach(k => {
+    if (TAXONOMY[k].options.includes(value)) targetField = k;
+  });
+  const id = 'ms-f-' + targetField;
+  if (!msState[id]) msState[id] = new Set();
+  msState[id].add(value);
+  const dd = document.getElementById(id + '-dd');
+  if (dd) dd.querySelectorAll('input[type=checkbox]').forEach(cb => {
+    if (cb.value === value) { cb.checked = true; cb.closest('.ms-option')?.classList.add('checked'); }
+  });
+  updateMsTrigger(id);
+  document.getElementById('filter-panel').classList.add('open');
+  renderGallery();
+}
+
+function buildActiveChips(f) {
+  const removers = [];
+  const chips = [];
+
+  const add = (label, remove) => { chips.push(label); removers.push(remove); };
+
+  if (f.search) add(`"${f.search}"`, () => { document.getElementById('search-input').value=''; renderGallery(); });
+  if (f.client) add(`Client: ${f.client}`, () => { document.getElementById('f-client').value=''; renderGallery(); });
+  if (f.imageType) add(`Type: ${f.imageType}`, () => { document.getElementById('f-imageType').value=''; renderGallery(); });
+  if (f.format) add(`Format: ${f.format}`, () => { document.getElementById('f-format').value=''; renderGallery(); });
+
+  ['productCategory','tonality','designCode','targetAudience','colourPalette'].forEach(key => {
+    f[key].forEach(val => {
+      add(val, () => {
+        msState['ms-f-'+key].delete(val);
+        const dd = document.getElementById('ms-f-'+key+'-dd');
+        if (dd) dd.querySelectorAll('input[type=checkbox]').forEach(cb => {
+          if (cb.value===val) { cb.checked=false; cb.closest('.ms-option')?.classList.remove('checked'); }
+        });
+        updateMsTrigger('ms-f-'+key);
+        renderGallery();
+      });
+    });
+  });
+
+  const container = document.getElementById('active-chips');
+  container.innerHTML = chips.map((c,i) =>
+    `<span class="filter-chip">${c}<button class="chip-remove" onclick="window.__chipRemovers[${i}]()">×</button></span>`
+  ).join('');
+  window.__chipRemovers = removers;
+}
+
+function toggleFilterPanel() { document.getElementById('filter-panel').classList.toggle('open'); }
+
+function clearFilters() {
+  document.getElementById('search-input').value = '';
+  document.getElementById('f-client').value = '';
+  document.getElementById('f-imageType').value = '';
+  document.getElementById('f-format').value = '';
+  ['ms-f-productCategory','ms-f-tonality','ms-f-designCode','ms-f-targetAudience','ms-f-colourPalette'].forEach(clearMsValues);
+  renderGallery();
+}
+
+// ── Edit ──────────────────────────────────────────────────────────────────────
+function openEdit(id) {
+  const e = library.find(x => x.id === id);
+  if (!e) return;
+  document.getElementById('edit-id').value = id;
+  document.getElementById('edit-client').value = e.client || '';
+  document.getElementById('edit-imageType').value = e.imageType || e.type || '';
+  document.getElementById('edit-format').value = e.format || '';
+  document.getElementById('edit-notes').value = e.notes || '';
+  setMsValues('ms-edit-productCategory', e.productCategory||[]);
+  setMsValues('ms-edit-tonality', e.tonality||[]);
+  setMsValues('ms-edit-designCode', e.designCode||[]);
+  setMsValues('ms-edit-targetAudience', e.targetAudience||[]);
+  setMsValues('ms-edit-colourPalette', e.colourPalette||[]);
+  document.getElementById('edit-modal').style.display = 'block';
+}
+
+function saveEdit() {
+  const id = parseFloat(document.getElementById('edit-id').value);
+  const e = library.find(x => x.id === id);
+  if (!e) return;
+  e.client          = document.getElementById('edit-client').value.trim();
+  e.imageType       = document.getElementById('edit-imageType').value;
+  e.format          = document.getElementById('edit-format').value;
+  e.notes           = document.getElementById('edit-notes').value.trim();
+  e.productCategory = getMsValues('ms-edit-productCategory');
+  e.tonality        = getMsValues('ms-edit-tonality');
+  e.designCode      = getMsValues('ms-edit-designCode');
+  e.targetAudience  = getMsValues('ms-edit-targetAudience');
+  e.colourPalette   = getMsValues('ms-edit-colourPalette');
+  const li = localUploads.find(x => x.id === id);
+  if (li) Object.assign(li, e);
+  saveLocal(); closeModal('edit-modal'); renderGallery(); updateClientFilter();
+}
+
+function deleteEntry(id) {
+  if (!confirm('Delete this entry?')) return;
+  library = library.filter(e => e.id !== id);
+  localUploads = localUploads.filter(e => e.id !== id);
+  saveLocal(); renderGallery(); updateClientFilter();
+}
+
+function closeModal(id) { document.getElementById(id).style.display = 'none'; }
+document.getElementById('edit-modal').addEventListener('click', function(e) { if (e.target===this) closeModal('edit-modal'); });
+
+// ── Lightbox ──────────────────────────────────────────────────────────────────
+function openLightbox(src) { document.getElementById('lightbox-img').src=src; document.getElementById('lightbox').classList.add('open'); }
+function closeLightbox() { document.getElementById('lightbox').classList.remove('open'); }
+
+// ── Moodboard ─────────────────────────────────────────────────────────────────
+function getAllTaxonomyValues() {
+  const all = new Set();
+  library.forEach(e => {
+    ['productCategory','tonality','designCode','targetAudience','colourPalette'].forEach(k => (e[k]||[]).forEach(v => all.add(v)));
+    (e.tags||[]).forEach(v => all.add(v));
+    if (e.imageType) all.add(e.imageType);
+    if (e.format) all.add(e.format);
+  });
+  return [...all].sort();
+}
+
+function initMoodboardTab() {
+  activeMbTags.clear(); selectedMbIds.clear();
+  renderMbTagButtons(); renderMoodboardMatches();
+  document.getElementById('mb-export-btn').style.display = 'none';
+  document.getElementById('mb-save-btn').style.display = 'none';
+  document.getElementById('moodboard-canvas').innerHTML = '';
+}
+
+function renderMbTagButtons() {
+  const tags = getAllTaxonomyValues();
+  const container = document.getElementById('mb-tags-container');
+  const hint = document.getElementById('mb-tag-hint');
+  if (!tags.length) { hint.style.display='inline'; return; }
+  hint.style.display = 'none';
+  container.innerHTML = tags.map(t =>
+    `<button class="mb-tag-btn${activeMbTags.has(t)?' selected':''}" onclick="toggleMbTag(this,'${t.replace(/'/g,"\\'")}')">${t}</button>`
+  ).join('');
+}
+
+function toggleMbTag(btn, tag) {
+  if (activeMbTags.has(tag)) activeMbTags.delete(tag);
+  else activeMbTags.add(tag);
+  btn.classList.toggle('selected', activeMbTags.has(tag));
+  renderMoodboardMatches();
+}
+
+function getMbMatches() {
+  const kws = document.getElementById('mb-keyword-input').value
+    .split(',').map(t=>t.trim().toLowerCase()).filter(Boolean);
+  const combined = [...new Set([...[...activeMbTags].map(t=>t.toLowerCase()), ...kws])];
+  if (!combined.length) return library.slice();
+  return library.filter(e => {
+    const vals = [
+      ...(e.productCategory||[]), ...(e.tonality||[]), ...(e.designCode||[]),
+      ...(e.targetAudience||[]), ...(e.colourPalette||[]), ...(e.tags||[]),
+      e.imageType||'', e.type||'', e.format||'', e.client||''
+    ].map(v=>v.toLowerCase());
+    return combined.some(kw => vals.some(v => v.includes(kw)));
+  });
+}
+
+function renderMoodboardMatches() {
+  const matches = getMbMatches();
+  const matchIds = new Set(matches.map(e=>String(e.id)));
+  selectedMbIds.forEach(id => { if (!matchIds.has(String(id))) selectedMbIds.delete(id); });
+  document.getElementById('mb-match-count').textContent = `${matches.length} image(s) found. Click to add/remove from moodboard.`;
+  document.getElementById('mb-matches').innerHTML = matches.map(e =>
+    `<div class="mb-thumb${selectedMbIds.has(e.id)?' selected':''}" onclick="toggleMbSelect(${e.id})">
+      <span class="mb-check">✓</span>
+      <img src="${e.src}" alt="" title="${[e.imageType||e.type, e.client, ...(e.tonality||[])].filter(Boolean).join(' · ')}">
+    </div>`
+  ).join('');
+}
+
+function toggleMbSelect(id) {
+  selectedMbIds.has(id) ? selectedMbIds.delete(id) : selectedMbIds.add(id);
+  renderMoodboardMatches();
+}
+
+function generateMoodboard() {
+  if (!selectedMbIds.size) getMbMatches().forEach(e => selectedMbIds.add(e.id));
+  const images = [...selectedMbIds].map(id=>library.find(e=>e.id===id)).filter(Boolean);
+  if (!images.length) { alert('No images to display.'); return; }
+
+  const layout = document.getElementById('mb-layout-select').value;
+  const titleText = document.getElementById('moodboard-title-input').value.trim();
+  const canvas = document.getElementById('moodboard-canvas');
+  canvas.innerHTML = '';
+  const GAP=6, PAD=16;
+  const W = Math.min(900, window.innerWidth-120);
+  const iW = W - PAD*2;
+  canvas.style.cssText = `width:${W}px;padding:${PAD}px;background:#0a0a0d;position:relative;`;
+
+  if (layout==='grid') {
+    const cols = Math.ceil(Math.sqrt(images.length));
+    canvas.style.display='grid'; canvas.style.gridTemplateColumns=`repeat(${cols},1fr)`; canvas.style.gap=GAP+'px';
+    images.forEach(e => { const img=document.createElement('img'); img.src=e.src; img.style.cssText=`width:100%;height:${Math.round(iW/cols*0.72)}px;object-fit:cover;border-radius:4px;`; canvas.appendChild(img); });
+  } else if (layout==='masonry') {
+    canvas.style.display='flex'; canvas.style.flexDirection='column'; canvas.style.gap=GAP+'px';
+    for (let r=0; r<Math.ceil(images.length/3); r++) {
+      const row=document.createElement('div'); row.style.cssText=`display:flex;gap:${GAP}px;`;
+      images.slice(r*3,r*3+3).forEach(e => { const img=document.createElement('img'); img.src=e.src; img.style.cssText='flex:1;height:210px;object-fit:cover;min-width:0;border-radius:4px;'; row.appendChild(img); });
+      canvas.appendChild(row);
+    }
+  } else {
+    canvas.style.display='flex'; canvas.style.flexDirection='column'; canvas.style.gap=GAP+'px';
+    if (images[0]) { const h=document.createElement('img'); h.src=images[0].src; h.style.cssText=`width:100%;height:${Math.round(iW*0.52)}px;object-fit:cover;border-radius:4px;`; canvas.appendChild(h); }
+    if (images.length>1) { const row=document.createElement('div'); row.style.cssText=`display:flex;gap:${GAP}px;`; images.slice(1).forEach(e=>{const img=document.createElement('img');img.src=e.src;img.style.cssText='flex:1;height:160px;object-fit:cover;min-width:0;border-radius:4px;';row.appendChild(img);}); canvas.appendChild(row); }
+  }
+
+  if (titleText) {
+    const t=document.createElement('div'); t.className='mb-canvas-title';
+    t.innerHTML=titleText+`<span>${images.length} image${images.length!==1?'s':''} · ${layout}</span>`;
+    canvas.appendChild(t);
+  }
+  document.getElementById('mb-export-btn').style.display='inline-flex';
+  document.getElementById('mb-save-btn').style.display='inline-flex';
+  renderMoodboardMatches();
+}
+
+function exportMoodboard() {
+  const canvas = document.getElementById('moodboard-canvas');
+  const titleText = document.getElementById('moodboard-title-input').value||'moodboard';
+  const imgEls = canvas.querySelectorAll('img');
+  if (!imgEls.length) { alert('Generate a moodboard first.'); return; }
+
+  const SCALE = 2; // 2× for crisp presentation-quality PNG
+  const W = canvas.offsetWidth, H = canvas.offsetHeight;
+  const oc = document.createElement('canvas');
+  oc.width = W * SCALE; oc.height = H * SCALE;
+  const ctx = oc.getContext('2d');
+  ctx.scale(SCALE, SCALE);
+  ctx.fillStyle = '#0a0a0d'; ctx.fillRect(0, 0, W, H);
+
+  const cr = canvas.getBoundingClientRect();
+  let pending = imgEls.length;
+
+  function finish() {
+    // Draw title text directly onto canvas so it appears in the export
+    if (titleText && titleText !== 'moodboard') {
+      ctx.save();
+      ctx.font = '600 22px Inter, system-ui, sans-serif';
+      ctx.fillStyle = 'rgba(255,255,255,0.92)';
+      ctx.shadowColor = 'rgba(0,0,0,0.9)'; ctx.shadowBlur = 16;
+      ctx.fillText(titleText, 28, H - 24);
+      ctx.restore();
+    }
+    try {
+      const a = document.createElement('a');
+      a.download = titleText.replace(/\s+/g, '-').toLowerCase() + '.png';
+      a.href = oc.toDataURL('image/png');
+      a.click();
+    } catch (err) {
+      if (err.name === 'SecurityError') {
+        alert('Export blocked by browser security.\n\nTo fix: open Terminal, run this command in the packaging-library folder:\n\n  python3 -m http.server 8080\n\nThen visit http://localhost:8080 in your browser.');
+      } else {
+        alert('Export failed: ' + err.message);
+      }
+    }
+  }
+
+  imgEls.forEach(el => {
+    const r = el.getBoundingClientRect();
+    const tmp = new Image();
+    tmp.onload = () => {
+      ctx.drawImage(tmp, r.left - cr.left, r.top - cr.top, r.width, r.height);
+      if (--pending === 0) finish();
+    };
+    tmp.onerror = () => { if (--pending === 0) finish(); };
+    tmp.src = el.src;
+  });
+}
+
+function saveMoodboard() {
+  const title = document.getElementById('moodboard-title-input').value.trim()||'Untitled';
+  if (!selectedMbIds.size) { alert('No images selected.'); return; }
+  const keywords = [...activeMbTags, ...document.getElementById('mb-keyword-input').value.split(',').map(t=>t.trim()).filter(Boolean)];
+  moodboards.unshift({ id:Date.now(), title, ids:[...selectedMbIds], keywords, layout:document.getElementById('mb-layout-select').value, created:Date.now() });
+  saveMoodboards(); alert(`"${title}" saved!`); renderSavedMoodboards();
+}
+
+function renderSavedMoodboards() {
+  const cont=document.getElementById('saved-moodboards'), noSaved=document.getElementById('no-saved');
+  if (!moodboards.length) { cont.innerHTML=''; noSaved.style.display='block'; return; }
+  noSaved.style.display='none';
+  cont.innerHTML=moodboards.map(mb=>{
+    const imgs=mb.ids.map(id=>library.find(e=>e.id===id)).filter(Boolean);
+    return `<div class="mb-card">
+      <h3>${mb.title}</h3>
+      <div class="mb-meta">${imgs.length} image${imgs.length!==1?'s':''} &middot; ${mb.keywords.slice(0,4).join(', ')||'no keywords'} &middot; ${mb.layout}</div>
+      <div class="mb-preview-grid" style="grid-template-columns:repeat(${Math.min(imgs.length,3)},1fr);">${imgs.slice(0,6).map(e=>`<img src="${e.src}" alt="">`).join('')}</div>
+      <div class="mb-card-actions">
+        <button onclick="loadMoodboard(${mb.id})">Open</button>
+        <button class="danger" onclick="deleteMoodboard(${mb.id})">Delete</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function loadMoodboard(id) {
+  const mb=moodboards.find(m=>m.id===id); if(!mb) return;
+  switchTab('moodboard');
+  setTimeout(()=>{
+    document.getElementById('moodboard-title-input').value=mb.title;
+    document.getElementById('mb-layout-select').value=mb.layout;
+    document.getElementById('mb-keyword-input').value=mb.keywords.join(', ');
+    activeMbTags.clear(); mb.keywords.forEach(k=>{if(getAllTaxonomyValues().includes(k))activeMbTags.add(k);});
+    selectedMbIds.clear(); mb.ids.forEach(id=>selectedMbIds.add(id));
+    renderMbTagButtons(); renderMoodboardMatches(); generateMoodboard();
+  },50);
+}
+
+function deleteMoodboard(id) {
+  if(!confirm('Delete this moodboard?')) return;
+  moodboards=moodboards.filter(m=>m.id!==id); saveMoodboards(); renderSavedMoodboards();
+}
+
+// ── Boot ──────────────────────────────────────────────────────────────────────
+// Build all multiselect widgets
+['up','edit','f'].forEach(prefix => {
+  Object.keys(TAXONOMY).forEach(key => {
+    buildMultiSelect(`ms-${prefix}-${key}`, key, prefix==='f' ? renderGallery : null);
+  });
+});
+
+loadLibraryJson();
+if (window.location.protocol !== 'file:') setInterval(loadLibraryJson, 4000);
+</script>
+</body>
+</html>
