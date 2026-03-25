@@ -587,11 +587,13 @@
     <div id="mb-match-count"></div>
 
     <div id="mb-controls-row">
-      <input type="text" id="moodboard-title-input" placeholder="Moodboard title…" style="max-width:240px;">
-      <select id="mb-layout-select" style="max-width:150px;">
-        <option value="grid">Grid layout</option>
-        <option value="masonry">Rows layout</option>
-        <option value="hero">Hero + grid</option>
+      <input type="text" id="mb-project-input" placeholder="Project / client…" style="max-width:160px;">
+      <input type="text" id="moodboard-title-input" placeholder="Territory title…" style="max-width:200px;">
+      <select id="mb-layout-select" style="max-width:200px;">
+        <option value="territory">Territory Split</option>
+        <option value="collage">Collage Overlay</option>
+        <option value="scatter">Annotated Scatter</option>
+        <option value="columns">Column Analysis</option>
       </select>
       <button class="primary" onclick="generateMoodboard()">Generate</button>
       <button id="mb-export-btn" onclick="exportMoodboard()" style="display:none;">Export PNG</button>
@@ -672,6 +674,7 @@
   <img id="lightbox-img" src="" alt="">
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script src="library-data.js"></script>
 <script>
 // ── Taxonomy ──────────────────────────────────────────────────────────────────
@@ -1220,97 +1223,181 @@ function toggleMbSelect(id) {
   renderMoodboardMatches();
 }
 
+// ── Moodboard template helpers ─────────────────────────────────────────────────
+function el(tag, style, text) {
+  const e = document.createElement(tag);
+  e.style.cssText = style;
+  if (text !== undefined) e.textContent = text;
+  return e;
+}
+
+function getTopTags(images, n = 6) {
+  const freq = {};
+  images.forEach(e => {
+    [...(e.tonality||[]), ...(e.designCode||[]), ...(e.targetAudience||[]), ...(e.productCategory||[])].forEach(t => {
+      freq[t] = (freq[t]||0) + 1;
+    });
+  });
+  return Object.entries(freq).sort((a,b) => b[1]-a[1]).slice(0, n).map(([t]) => t);
+}
+
+// Template A — Territory Split (dark text panel left, image grid right)
+function renderTemplateA(canvas, images, title, project) {
+  canvas.style.cssText = 'width:900px; height:520px; display:flex; background:#0d0d10; font-family:Inter,sans-serif; overflow:hidden;';
+
+  const left = document.createElement('div');
+  left.style.cssText = 'width:320px; min-width:320px; background:#0d0d10; padding:44px 36px; display:flex; flex-direction:column; justify-content:center;';
+
+  if (project) left.appendChild(el('div', 'font-size:10px; letter-spacing:2.5px; text-transform:uppercase; color:#7c6aff; margin-bottom:14px; font-weight:600;', project));
+  left.appendChild(el('div', `font-size:${title.length > 20 ? '22' : '28'}px; font-weight:700; color:#fff; line-height:1.15; margin-bottom:18px; letter-spacing:-0.5px;`, title || 'Territory'));
+  left.appendChild(el('div', 'width:36px; height:2px; background:#7c6aff; margin-bottom:20px;', ''));
+  getTopTags(images).forEach(tag => left.appendChild(el('div', 'font-size:12px; color:rgba(255,255,255,0.45); line-height:2.2;', tag)));
+
+  const cols = images.length <= 4 ? 2 : 3;
+  const right = document.createElement('div');
+  right.style.cssText = `flex:1; display:grid; grid-template-columns:repeat(${cols},1fr); gap:2px; background:#000; overflow:hidden;`;
+  images.slice(0, cols * 2).forEach(e => {
+    const img = document.createElement('img');
+    img.src = e.src;
+    img.style.cssText = `width:100%; height:259px; object-fit:cover; display:block;`;
+    right.appendChild(img);
+  });
+
+  canvas.appendChild(left);
+  canvas.appendChild(right);
+}
+
+// Template B — Collage Overlay (full-bleed mosaic + bold italic text)
+function renderTemplateB(canvas, images, title, project) {
+  canvas.style.cssText = 'width:900px; height:480px; position:relative; overflow:hidden; background:#000; font-family:Inter,sans-serif;';
+
+  const grid = document.createElement('div');
+  grid.style.cssText = 'position:absolute; inset:0; display:grid; grid-template-columns:repeat(4,1fr); grid-template-rows:repeat(2,1fr); gap:3px; background:#111;';
+  const spans = ['grid-column:1;grid-row:1/3', '', '', 'grid-column:4;grid-row:1/3', '', ''];
+  images.slice(0, 6).forEach((e, i) => {
+    const cell = document.createElement('div');
+    cell.style.cssText = (spans[i] ? spans[i] + ';' : '') + 'overflow:hidden;';
+    const img = document.createElement('img');
+    img.src = e.src;
+    img.style.cssText = 'width:100%; height:100%; object-fit:cover; display:block;';
+    cell.appendChild(img);
+    grid.appendChild(cell);
+  });
+  canvas.appendChild(grid);
+  canvas.appendChild(el('div', 'position:absolute; inset:0; background:rgba(0,0,0,0.2); pointer-events:none;', ''));
+
+  if (project) canvas.appendChild(el('div', 'position:absolute; top:14px; left:18px; font-size:11px; color:rgba(255,255,255,0.65); letter-spacing:1px; z-index:10; text-shadow:0 1px 6px rgba(0,0,0,0.9);', project));
+
+  const words = (title || 'Bold Collage').split(/\s+/);
+  const wordPos = ['bottom:110px; left:160px;', 'top:130px; left:270px;', 'bottom:20px; left:18px;', 'top:18px; right:160px;'];
+  words.slice(0, 4).forEach((word, i) => {
+    canvas.appendChild(el('div',
+      `position:absolute; ${wordPos[i]}; background:#000; color:#fff; font-style:italic; font-size:${i===0?'46':'36'}px; font-weight:800; padding:3px 16px 6px; letter-spacing:-0.5px; z-index:10; line-height:1.1;`,
+      word
+    ));
+  });
+}
+
+// Template C — Annotated Scatter (white bg, images scattered, caption labels)
+function renderTemplateC(canvas, images, title, project) {
+  canvas.style.cssText = 'width:960px; height:580px; background:#fff; position:relative; font-family:Inter,sans-serif; overflow:hidden;';
+
+  if (project) canvas.appendChild(el('div', 'position:absolute; top:28px; left:36px; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#aaa; font-weight:600;', project));
+  const titleTop = project ? 48 : 32;
+  canvas.appendChild(el('div',
+    `position:absolute; top:${titleTop}px; left:36px; font-size:${title.length > 25 ? '26' : '34'}px; font-weight:700; color:#111; letter-spacing:-0.5px; border-bottom:2px solid #111; padding-bottom:6px; max-width:580px; line-height:1.1;`,
+    title || 'Design Territory'
+  ));
+
+  const positions = [
+    {l:36,  t:140, w:190, h:150}, {l:250, t:118, w:165, h:135},
+    {l:440, t:100, w:220, h:180}, {l:688, t:128, w:172, h:145},
+    {l:90,  t:330, w:185, h:148}, {l:310, t:305, w:200, h:162},
+    {l:545, t:316, w:174, h:145}, {l:760, t:308, w:172, h:145},
+  ];
+  const tags = getTopTags(images, 8);
+  images.slice(0, 8).forEach((e, i) => {
+    const pos = positions[i]; if (!pos) return;
+    const wrap = document.createElement('div');
+    wrap.style.cssText = `position:absolute; left:${pos.l}px; top:${pos.t}px;`;
+    const img = document.createElement('img');
+    img.src = e.src;
+    img.style.cssText = `width:${pos.w}px; height:${pos.h}px; object-fit:cover; display:block;`;
+    wrap.appendChild(img);
+    if (tags[i]) wrap.appendChild(el('div', 'font-size:10px; font-weight:600; color:#2c5fff; margin-top:5px; letter-spacing:0.2px;', tags[i]));
+    canvas.appendChild(wrap);
+  });
+}
+
+// Template D — Column Grid Analysis (column headers, 2-row grid, footer bar)
+function renderTemplateD(canvas, images, title, project) {
+  canvas.style.cssText = 'width:960px; background:#fff; font-family:Inter,sans-serif; display:flex; flex-direction:column; overflow:hidden;';
+
+  const header = document.createElement('div');
+  header.style.cssText = 'padding:22px 28px 14px;';
+  if (project) header.appendChild(el('div', 'font-size:10px; letter-spacing:1.5px; text-transform:uppercase; color:#999; margin-bottom:4px;', project));
+  header.appendChild(el('div', 'font-size:22px; font-weight:600; color:#111; letter-spacing:-0.3px;', title || 'Design Analysis'));
+  canvas.appendChild(header);
+
+  const tags = getTopTags(images, 4);
+  const cols = Math.min(4, Math.max(2, images.length));
+  const colImgs = Array.from({length: cols}, () => []);
+  images.forEach((img, i) => colImgs[i % cols].push(img));
+
+  const grid = document.createElement('div');
+  grid.style.cssText = `display:grid; grid-template-columns:repeat(${cols},1fr); gap:0; padding:0 20px 12px;`;
+  colImgs.forEach((imgs, ci) => {
+    const col = document.createElement('div');
+    col.style.cssText = 'display:flex; flex-direction:column; gap:3px; margin:0 3px;';
+    col.appendChild(el('div', 'background:#4a4a4a; color:#fff; font-size:11px; font-weight:600; padding:7px 10px; text-align:center; margin-bottom:3px;', tags[ci] || `Direction ${ci+1}`));
+    imgs.slice(0, 2).forEach(e => {
+      const img = document.createElement('img');
+      img.src = e.src;
+      img.style.cssText = 'width:100%; height:175px; object-fit:cover; display:block;';
+      col.appendChild(img);
+    });
+    grid.appendChild(col);
+  });
+  canvas.appendChild(grid);
+
+  const firstNote = images.map(e => e.notes).filter(Boolean)[0];
+  canvas.appendChild(el('div', 'background:#333; color:#fff; font-size:12px; padding:13px 28px; line-height:1.5;',
+    firstNote || `${images.length} reference images across ${cols} design directions.`
+  ));
+}
+
 function generateMoodboard() {
   if (!selectedMbIds.size) getMbMatches().forEach(e => selectedMbIds.add(e.id));
-  const images = [...selectedMbIds].map(id=>library.find(e=>e.id===id)).filter(Boolean);
+  const images = [...selectedMbIds].map(id => library.find(e => e.id === id)).filter(Boolean);
   if (!images.length) { alert('No images to display.'); return; }
 
-  const layout = document.getElementById('mb-layout-select').value;
-  const titleText = document.getElementById('moodboard-title-input').value.trim();
-  const canvas = document.getElementById('moodboard-canvas');
+  const layout  = document.getElementById('mb-layout-select').value;
+  const title   = document.getElementById('moodboard-title-input').value.trim();
+  const project = document.getElementById('mb-project-input').value.trim();
+  const canvas  = document.getElementById('moodboard-canvas');
+  canvas.style.cssText = '';
   canvas.innerHTML = '';
-  const GAP=6, PAD=16;
-  const W = Math.min(900, window.innerWidth-120);
-  const iW = W - PAD*2;
-  canvas.style.cssText = `width:${W}px;padding:${PAD}px;background:#0a0a0d;position:relative;`;
 
-  if (layout==='grid') {
-    const cols = Math.ceil(Math.sqrt(images.length));
-    canvas.style.display='grid'; canvas.style.gridTemplateColumns=`repeat(${cols},1fr)`; canvas.style.gap=GAP+'px';
-    images.forEach(e => { const img=document.createElement('img'); img.src=e.src; img.style.cssText=`width:100%;height:${Math.round(iW/cols*0.72)}px;object-fit:cover;border-radius:4px;`; canvas.appendChild(img); });
-  } else if (layout==='masonry') {
-    canvas.style.display='flex'; canvas.style.flexDirection='column'; canvas.style.gap=GAP+'px';
-    for (let r=0; r<Math.ceil(images.length/3); r++) {
-      const row=document.createElement('div'); row.style.cssText=`display:flex;gap:${GAP}px;`;
-      images.slice(r*3,r*3+3).forEach(e => { const img=document.createElement('img'); img.src=e.src; img.style.cssText='flex:1;height:210px;object-fit:cover;min-width:0;border-radius:4px;'; row.appendChild(img); });
-      canvas.appendChild(row);
-    }
-  } else {
-    canvas.style.display='flex'; canvas.style.flexDirection='column'; canvas.style.gap=GAP+'px';
-    if (images[0]) { const h=document.createElement('img'); h.src=images[0].src; h.style.cssText=`width:100%;height:${Math.round(iW*0.52)}px;object-fit:cover;border-radius:4px;`; canvas.appendChild(h); }
-    if (images.length>1) { const row=document.createElement('div'); row.style.cssText=`display:flex;gap:${GAP}px;`; images.slice(1).forEach(e=>{const img=document.createElement('img');img.src=e.src;img.style.cssText='flex:1;height:160px;object-fit:cover;min-width:0;border-radius:4px;';row.appendChild(img);}); canvas.appendChild(row); }
-  }
+  if      (layout === 'territory') renderTemplateA(canvas, images, title, project);
+  else if (layout === 'collage')   renderTemplateB(canvas, images, title, project);
+  else if (layout === 'scatter')   renderTemplateC(canvas, images, title, project);
+  else if (layout === 'columns')   renderTemplateD(canvas, images, title, project);
 
-  if (titleText) {
-    const t=document.createElement('div'); t.className='mb-canvas-title';
-    t.innerHTML=titleText+`<span>${images.length} image${images.length!==1?'s':''} · ${layout}</span>`;
-    canvas.appendChild(t);
-  }
-  document.getElementById('mb-export-btn').style.display='inline-flex';
-  document.getElementById('mb-save-btn').style.display='inline-flex';
+  document.getElementById('mb-export-btn').style.display = 'inline-flex';
+  document.getElementById('mb-save-btn').style.display   = 'inline-flex';
   renderMoodboardMatches();
 }
 
 function exportMoodboard() {
   const canvas = document.getElementById('moodboard-canvas');
-  const titleText = document.getElementById('moodboard-title-input').value||'moodboard';
-  const imgEls = canvas.querySelectorAll('img');
-  if (!imgEls.length) { alert('Generate a moodboard first.'); return; }
-
-  const SCALE = 2; // 2× for crisp presentation-quality PNG
-  const W = canvas.offsetWidth, H = canvas.offsetHeight;
-  const oc = document.createElement('canvas');
-  oc.width = W * SCALE; oc.height = H * SCALE;
-  const ctx = oc.getContext('2d');
-  ctx.scale(SCALE, SCALE);
-  ctx.fillStyle = '#0a0a0d'; ctx.fillRect(0, 0, W, H);
-
-  const cr = canvas.getBoundingClientRect();
-  let pending = imgEls.length;
-
-  function finish() {
-    // Draw title text directly onto canvas so it appears in the export
-    if (titleText && titleText !== 'moodboard') {
-      ctx.save();
-      ctx.font = '600 22px Inter, system-ui, sans-serif';
-      ctx.fillStyle = 'rgba(255,255,255,0.92)';
-      ctx.shadowColor = 'rgba(0,0,0,0.9)'; ctx.shadowBlur = 16;
-      ctx.fillText(titleText, 28, H - 24);
-      ctx.restore();
-    }
-    try {
-      const a = document.createElement('a');
-      a.download = titleText.replace(/\s+/g, '-').toLowerCase() + '.png';
-      a.href = oc.toDataURL('image/png');
-      a.click();
-    } catch (err) {
-      if (err.name === 'SecurityError') {
-        alert('Export blocked by browser security.\n\nTo fix: open Terminal, run this command in the packaging-library folder:\n\n  python3 -m http.server 8080\n\nThen visit http://localhost:8080 in your browser.');
-      } else {
-        alert('Export failed: ' + err.message);
-      }
-    }
-  }
-
-  imgEls.forEach(el => {
-    const r = el.getBoundingClientRect();
-    const tmp = new Image();
-    tmp.onload = () => {
-      ctx.drawImage(tmp, r.left - cr.left, r.top - cr.top, r.width, r.height);
-      if (--pending === 0) finish();
-    };
-    tmp.onerror = () => { if (--pending === 0) finish(); };
-    tmp.src = el.src;
+  const title  = document.getElementById('moodboard-title-input').value || 'moodboard';
+  if (!canvas.children.length) { alert('Generate a moodboard first.'); return; }
+  if (typeof html2canvas === 'undefined') { alert('Export library not loaded yet — try again in a moment.'); return; }
+  html2canvas(canvas, { scale:2, useCORS:true, allowTaint:true, backgroundColor:null }).then(c => {
+    const a = document.createElement('a');
+    a.download = title.replace(/\s+/g, '-').toLowerCase() + '.png';
+    a.href = c.toDataURL('image/png');
+    a.click();
   });
 }
 
