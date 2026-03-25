@@ -1209,7 +1209,7 @@ function getMbMatches() {
       ...(e.productCategory||[]), ...(e.tonality||[]), ...(e.designCode||[]),
       ...(e.targetAudience||[]), ...(e.colourPalette||[]), ...(e.tags||[]),
       e.imageType||'', e.type||'', e.format||'', e.client||''
-    ].map(v=>v.toLowerCase());
+    ].filter(v => typeof v === 'string').map(v=>v.toLowerCase());
     return combined.some(kw => vals.some(v => v.includes(kw)));
   });
 }
