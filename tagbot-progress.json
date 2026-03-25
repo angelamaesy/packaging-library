@@ -1,0 +1,33 @@
+{
+  "total": 366,
+  "processed": [
+    "00a3d5323c178f036f692a625523d60e 2.jpg",
+    "02e5f7741240daac778be8983ac8f819.jpeg",
+    "02ec04f39750985f3f716c014b8f6852.jpeg",
+    "02f689aadbb4be7f303ecb95ecf83abd.jpeg",
+    "040d31233c3c6e56648ddb838af99bbe.jpg",
+    "054131ecee8a0f14f5c430d01243b3c4.jpg",
+    "077584526dce4b9b879d5eb8d60468fd.jpg",
+    "07d480bc8857dd42a0cb4f07f6162171.jpg",
+    "0840c2167c752db6046189d92f1e595b.jpg",
+    "0a40944efb5c6f7947a801728e56fc25.jpeg",
+    "0bbe25dfec8399c19a34980cd2631671.jpg",
+    "0bcc0188fd9d5f9dbbcdfa8d1339409d.jpg",
+    "0cf3539ae72b970309a5775a191ffe12.jpg",
+    "0d969571382001b962e15137497d8085.jpeg",
+    "0fe842594332626047813f1c5444be27.jpg",
+    "10c6a8ce7f090aa7457c5ddbe75973a9.jpg",
+    "10d6f11597cb80e9ddcd7962e29a1ecb.jpg",
+    "1148a1057c7c6a4c7240bb48052efe9f.jpeg",
+    "1bb429275c5f06e8e5def9c443343abb.jpg",
+    "1dbcbabe54e932a63690fa1d83b7d2fd.jpg",
+    "1e1d2acbe70aca12ab2cac9ef70bdf1d.jpg",
+    "1e36ce6033e2d79a488233e4b496166c.jpeg",
+    "1f5953cc938c9d4e4492cf473fc93628.jpg",
+    "1f5fb0dce74ee68c76e54daa7e2b1e89.jpg",
+    "1f6a5b4ea830145c67d9d94b91aaa5bc.jpg"
+  ],
+  "last_batch_date": "2026-03-25",
+  "batch_size": 25,
+  "notes": "AutoTagger checkpoint. processed = filenames already tagged and moved to dated subfolder. Do not re-tag these."
+}
