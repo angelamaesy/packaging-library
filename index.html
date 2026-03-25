@@ -592,7 +592,6 @@
       <select id="mb-layout-select" style="max-width:200px;">
         <option value="territory">Territory Split</option>
         <option value="collage">Collage Overlay</option>
-        <option value="scatter">Annotated Scatter</option>
         <option value="columns">Column Analysis</option>
       </select>
       <button class="primary" id="mb-generate-btn">Generate</button>
@@ -1281,66 +1280,37 @@ function renderTemplateA(canvas, images, title, project) {
   canvas.appendChild(right);
 }
 
-// Template B — Collage Overlay (full-bleed mosaic + bold italic text)
+// Template B — Collage Overlay (full-width spread, overlapping chain, centered title at base)
 function renderTemplateB(canvas, images, title, project) {
-  canvas.style.cssText = 'width:900px; height:480px; position:relative; overflow:hidden; background:#000; font-family:Inter,sans-serif;';
+  canvas.style.cssText = 'width:960px; height:520px; background:#f4f3ef; position:relative; overflow:hidden; font-family:Inter,sans-serif;';
 
-  const grid = document.createElement('div');
-  grid.style.cssText = 'position:absolute; inset:0; display:grid; grid-template-columns:repeat(4,1fr); grid-template-rows:repeat(2,1fr); gap:3px; background:#111;';
-  const spans = ['grid-column:1;grid-row:1/3', '', '', 'grid-column:4;grid-row:1/3', '', ''];
-  images.slice(0, 6).forEach((e, i) => {
-    const cell = document.createElement('div');
-    cell.style.cssText = (spans[i] ? spans[i] + ';' : '') + 'overflow:hidden;';
+  // 5 images spread across full width — portraits and landscapes alternating, overlapping at edges
+  // Chain: img1 portrait · img2 landscape over img1 · img3 portrait · img4 landscape over img3 · img5 portrait over img4
+  const positions = [
+    {l:18,  t:110, w:196, h:290, z:1},  // portrait, far left
+    {l:168, t:110, w:264, h:218, z:2},  // landscape, overlaps img1 right edge
+    {l:382, t:110, w:198, h:290, z:1},  // portrait, centre
+    {l:535, t:110, w:264, h:218, z:2},  // landscape, overlaps img3 right edge
+    {l:744, t:110, w:198, h:290, z:3},  // portrait, far right, overlaps img4
+  ];
+  const shadow = '0 8px 28px rgba(0,0,0,0.13), 0 1px 4px rgba(0,0,0,0.07)';
+  images.slice(0, 5).forEach((e, i) => {
+    const pos = positions[i]; if (!pos) return;
     const img = document.createElement('img');
     img.src = e.src;
-    img.style.cssText = 'width:100%; height:100%; object-fit:cover; display:block;';
-    cell.appendChild(img);
-    grid.appendChild(cell);
+    img.style.cssText = `position:absolute; left:${pos.l}px; top:${pos.t}px; width:${pos.w}px; height:${pos.h}px; object-fit:cover; display:block; box-shadow:${shadow}; z-index:${pos.z};`;
+    canvas.appendChild(img);
   });
-  canvas.appendChild(grid);
-  canvas.appendChild(el('div', 'position:absolute; inset:0; background:rgba(0,0,0,0.2); pointer-events:none;', ''));
 
-  if (project) canvas.appendChild(el('div', 'position:absolute; top:14px; left:18px; font-size:11px; color:rgba(255,255,255,0.65); letter-spacing:1px; z-index:10; text-shadow:0 1px 6px rgba(0,0,0,0.9);', project));
-
-  const words = (title || 'Bold Collage').split(/\s+/);
-  const wordPos = ['bottom:110px; left:160px;', 'top:130px; left:270px;', 'bottom:20px; left:18px;', 'top:18px; right:160px;'];
-  words.slice(0, 4).forEach((word, i) => {
-    canvas.appendChild(el('div',
-      `position:absolute; ${wordPos[i]}; background:#000; color:#fff; font-style:italic; font-size:${i===0?'46':'36'}px; font-weight:800; padding:3px 16px 6px; letter-spacing:-0.5px; z-index:10; line-height:1.1;`,
-      word
-    ));
-  });
-}
-
-// Template C — Annotated Scatter (white bg, images scattered, caption labels)
-function renderTemplateC(canvas, images, title, project) {
-  canvas.style.cssText = 'width:960px; height:580px; background:#fff; position:relative; font-family:Inter,sans-serif; overflow:hidden;';
-
-  if (project) canvas.appendChild(el('div', 'position:absolute; top:28px; left:36px; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#aaa; font-weight:600;', project));
-  const titleTop = project ? 48 : 32;
-  canvas.appendChild(el('div',
-    `position:absolute; top:${titleTop}px; left:36px; font-size:${title.length > 25 ? '26' : '34'}px; font-weight:700; color:#111; letter-spacing:-0.5px; border-bottom:2px solid #111; padding-bottom:6px; max-width:580px; line-height:1.1;`,
+  // Title — centered at top, images sit below
+  const textWrap = document.createElement('div');
+  textWrap.style.cssText = 'position:absolute; left:0; right:0; top:28px; text-align:center; z-index:10; padding:0 40px;';
+  if (project) textWrap.appendChild(el('div', 'font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#999; font-weight:600; margin-bottom:8px;', project));
+  textWrap.appendChild(el('div',
+    'font-size:' + ((title||'').length > 24 ? '22' : '28') + 'px; font-weight:700; color:#111; letter-spacing:-0.4px; line-height:1.1;',
     title || 'Design Territory'
   ));
-
-  const positions = [
-    {l:36,  t:140, w:190, h:150}, {l:250, t:118, w:165, h:135},
-    {l:440, t:100, w:220, h:180}, {l:688, t:128, w:172, h:145},
-    {l:90,  t:330, w:185, h:148}, {l:310, t:305, w:200, h:162},
-    {l:545, t:316, w:174, h:145}, {l:760, t:308, w:172, h:145},
-  ];
-  const tags = getTopTags(images, 8);
-  images.slice(0, 8).forEach((e, i) => {
-    const pos = positions[i]; if (!pos) return;
-    const wrap = document.createElement('div');
-    wrap.style.cssText = `position:absolute; left:${pos.l}px; top:${pos.t}px;`;
-    const img = document.createElement('img');
-    img.src = e.src;
-    img.style.cssText = `width:${pos.w}px; height:${pos.h}px; object-fit:cover; display:block;`;
-    wrap.appendChild(img);
-    if (tags[i]) wrap.appendChild(el('div', 'font-size:10px; font-weight:600; color:#2c5fff; margin-top:5px; letter-spacing:0.2px;', tags[i]));
-    canvas.appendChild(wrap);
-  });
+  canvas.appendChild(textWrap);
 }
 
 // Template D — Column Grid Analysis (column headers, 2-row grid, footer bar)
@@ -1394,7 +1364,6 @@ function generateMoodboard() {
 
   if      (layout === 'territory') renderTemplateA(canvas, images, title, project);
   else if (layout === 'collage')   renderTemplateB(canvas, images, title, project);
-  else if (layout === 'scatter')   renderTemplateC(canvas, images, title, project);
   else if (layout === 'columns')   renderTemplateD(canvas, images, title, project);
 
   document.getElementById('mb-export-btn').style.display = 'inline-flex';

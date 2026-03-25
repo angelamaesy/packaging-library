@@ -14,3 +14,7 @@ Always read, edit, and commit from `~/Desktop/packaging-library/`.
 - Deployed via Vercel: `https://vercel.com/25s/packaging-library/deployments`
 - Images are in `TAGBOT/` and referenced with relative paths (e.g. `TAGBOT/2026-03-24/filename.jpg`)
 - To deploy: `cd ~/Desktop/packaging-library && git add -A && git commit -m "message" && git push`
+
+## Known Bugs
+
+No known bugs as of 2026-03-25. All previously logged Moodboard Builder issues (image load timing, thumbnail selection, generate button) are resolved.
