@@ -4,18 +4,23 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-02%20at%2018.26.42.png",
     "client": "Unknown",
     "imageType": "Pack Design",
-    "format": "Box",
+    "format": [
+      "Box",
+      "Gift Box"
+    ],
     "productCategory": [
       "Gifting"
     ],
     "tonality": [
       "Luxury",
       "Dark",
-      "Maximalist"
+      "Maximalist",
+      "Ornate"
     ],
     "designCode": [
       "Illustration-led",
-      "Colour-led"
+      "Colour-led",
+      "Visual Hammer"
     ],
     "targetAudience": [
       "Premium"
@@ -25,7 +30,45 @@ const LIBRARY_DATA = [
       "Dark",
       "Metallic"
     ],
-    "notes": "Ornate arch-shaped gift box with elaborate gold illustration on deep red, dramatic staged setting.",
+    "ingredient": [],
+    "style": [
+      "Art Deco",
+      "Chinese"
+    ],
+    "occasion": [
+      "Chinese New Year",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Aspirational",
+      "Indulgent",
+      "Mysterious"
+    ],
+    "typography": [
+      "Serif",
+      "Display"
+    ],
+    "finish": [
+      "Foil",
+      "Emboss",
+      "Gloss"
+    ],
+    "keywords": [
+      "arch box",
+      "handle box",
+      "horse",
+      "phoenix",
+      "filigree",
+      "gold foil",
+      "Chinese New Year",
+      "storytelling",
+      "theatrical",
+      "stage setting",
+      "3D render",
+      "ornate",
+      "red"
+    ],
+    "notes": "Ornate arch-shaped gift box with elaborate gold foil horse/phoenix illustration on deep crimson red — Chinese New Year handle box. Art deco styling, theatrical 3D staged setting with candelabras.",
     "added": 1740891600001
   },
   {
@@ -33,18 +76,23 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-02%20at%2019.02.23.png",
     "client": "Teazen",
     "imageType": "Pack Design",
-    "format": "Box",
+    "format": [
+      "Box",
+      "Sachet"
+    ],
     "productCategory": [
       "Beverage",
       "Health & Wellness"
     ],
     "tonality": [
       "Minimal",
-      "Bright"
+      "Bright",
+      "Friendly"
     ],
     "designCode": [
       "Clean",
-      "Colour-led"
+      "Colour-led",
+      "Typography-led"
     ],
     "targetAudience": [
       "Health Conscious",
@@ -55,7 +103,42 @@ const LIBRARY_DATA = [
       "Cool",
       "Bright"
     ],
-    "notes": "Teazen Kombucha Green Mandarin Lime — box and stick pack, clean white/green/yellow palette.",
+    "ingredient": [
+      "kombucha",
+      "green mandarin",
+      "lime"
+    ],
+    "style": [
+      "Korean"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Script"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "kombucha",
+      "stick pack",
+      "sachet",
+      "prebiotics",
+      "low calorie",
+      "wave shape",
+      "bilingual",
+      "Korean",
+      "green tea",
+      "range shot",
+      "box and sachet"
+    ],
+    "notes": "Teazen Kombucha Green Mandarin Lime — 30pk box + stick sachet. Clean white/green/yellow, Korean bilingual, RTB callouts (prebiotics, low calorie).",
     "added": 1740891600002
   },
   {
@@ -63,14 +146,17 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-04%20at%2011.13.03.png",
     "client": "Smartfood",
     "imageType": "Pack Design",
-    "format": "Bag",
+    "format": [
+      "Bag"
+    ],
     "productCategory": [
       "Snack"
     ],
     "tonality": [
       "Bold",
       "Playful",
-      "Bright"
+      "Bright",
+      "Dopamine"
     ],
     "designCode": [
       "Colour-led",
@@ -84,7 +170,41 @@ const LIBRARY_DATA = [
       "Bright",
       "Warm"
     ],
-    "notes": "Smartfood Fiber Pop Toffee & Sea Salt bag — bold, bright snack energy.",
+    "ingredient": [
+      "popcorn",
+      "toffee",
+      "sea salt"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Indulgent"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "popcorn",
+      "fiber",
+      "toffee",
+      "sea salt",
+      "snack bag",
+      "RTB",
+      "bold type",
+      "blue bag",
+      "light blue"
+    ],
+    "notes": "Smartfood Fiber Pop Toffee & Sea Salt — light blue bag, bold condensed type, high-energy snack with fiber RTB callout.",
     "added": 1740891600003
   },
   {
@@ -92,13 +212,16 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-04%20at%2011.23.43.png",
     "client": "Lesser Evil",
     "imageType": "Pack Design",
-    "format": "Bag",
+    "format": [
+      "Bag"
+    ],
     "productCategory": [
       "Snack"
     ],
     "tonality": [
       "Minimal",
-      "Organic"
+      "Organic",
+      "Friendly"
     ],
     "designCode": [
       "Illustration-led",
@@ -106,13 +229,48 @@ const LIBRARY_DATA = [
     ],
     "targetAudience": [
       "Health Conscious",
-      "Millennial"
+      "Millennial",
+      "Eco Conscious"
     ],
     "colourPalette": [
       "Monochrome",
       "Neutral"
     ],
-    "notes": "Lesser Evil Popcorn — minimal illustrated organic bag, quirky mascot face, monochrome.",
+    "ingredient": [
+      "popcorn"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Grounded"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "popcorn",
+      "mascot",
+      "face",
+      "character",
+      "organic",
+      "USDA organic",
+      "monk",
+      "Buddha",
+      "illustrated face",
+      "white bag",
+      "monochrome",
+      "clean label"
+    ],
+    "notes": "Lesser Evil Organic Popcorn — minimal white matte bag, quirky illustrated monk/Buddha mascot face, USDA organic, clean label.",
     "added": 1740891600004
   },
   {
@@ -120,7 +278,9 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/a88fb2da6f0d07e5ee170c32ecc795ea%20(1).jpg",
     "client": "Lovebites",
     "imageType": "Pack Design",
-    "format": "Pouch",
+    "format": [
+      "Pouch"
+    ],
     "productCategory": [
       "Snack",
       "Confectionery"
@@ -128,7 +288,8 @@ const LIBRARY_DATA = [
     "tonality": [
       "Bold",
       "Playful",
-      "Bright"
+      "Bright",
+      "Dopamine"
     ],
     "designCode": [
       "Photography-led",
@@ -143,7 +304,44 @@ const LIBRARY_DATA = [
       "Warm",
       "Bright"
     ],
-    "notes": "LOVEBITES cookie pouch — bold pink/coral with product photography, playful energy.",
+    "ingredient": [
+      "cookie",
+      "sea salt",
+      "chocolate chip"
+    ],
+    "style": [
+      "American",
+      "European"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Indulgent",
+      "Joyful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "cookie",
+      "New York style",
+      "sea salt",
+      "chocolate chip",
+      "product photography",
+      "flatlay",
+      "scattered packs",
+      "pink pouch",
+      "lifestyle shot",
+      "overhead",
+      "organic"
+    ],
+    "notes": "LOVEBITES cookie pouch — bold pink matte pouch, stacked cookie product photography, New York Style callout, sea salt & chocolate chip. Organic. Flatlay with scattered packs.",
     "added": 1740891600005
   },
   {
@@ -151,7 +349,9 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/7980ef60fc9b2501d3589ab5b2fa1b8f.jpg",
     "client": "Joy Days",
     "imageType": "Pack Design",
-    "format": "Bag",
+    "format": [
+      "Bag"
+    ],
     "productCategory": [
       "Snack",
       "Confectionery"
@@ -159,7 +359,9 @@ const LIBRARY_DATA = [
     "tonality": [
       "Bold",
       "Playful",
-      "Bright"
+      "Bright",
+      "Dopamine",
+      "Friendly"
     ],
     "designCode": [
       "Colour-led",
@@ -174,7 +376,47 @@ const LIBRARY_DATA = [
       "Neon",
       "Bright"
     ],
-    "notes": "Joy Days cookie bars — 3-SKU range in hot pink, cobalt blue, teal. High-energy neon palette.",
+    "ingredient": [
+      "cookie",
+      "chocolate chip",
+      "double chocolate",
+      "peanut butter",
+      "fiber"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Indulgent"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "cookie bar",
+      "range shot",
+      "three SKUs",
+      "fiber",
+      "chocolate chip",
+      "double chocolate",
+      "peanut butter",
+      "bold colour blocking",
+      "contrast",
+      "pink",
+      "cobalt blue",
+      "teal",
+      "deliciously balanced"
+    ],
+    "notes": "Joy Days cookie bars — 3-SKU range in hot pink, cobalt blue, teal. High-energy neon palette, bold colour-blocked bags. Dopamine dressing at its best.",
     "added": 1740891600006
   },
   {
@@ -182,18 +424,22 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-04%20at%2014.46.51.png",
     "client": "IncrediPuffs",
     "imageType": "Pack Design",
-    "format": "Bag",
+    "format": [
+      "Bag"
+    ],
     "productCategory": [
       "Snack"
     ],
     "tonality": [
       "Playful",
       "Retro",
-      "Bold"
+      "Bold",
+      "Friendly"
     ],
     "designCode": [
       "Illustration-led",
-      "Handcrafted"
+      "Handcrafted",
+      "Cartoon"
     ],
     "targetAudience": [
       "Mass Market",
@@ -204,7 +450,48 @@ const LIBRARY_DATA = [
       "Warm",
       "Bright"
     ],
-    "notes": "IncrediPuffs Saucilian Pizza — white bag, hand-drawn character illustration, red background.",
+    "ingredient": [
+      "puffs",
+      "pizza",
+      "mozzarella",
+      "tomato"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Playful",
+      "Adventurous",
+      "Joyful"
+    ],
+    "typography": [
+      "Mixed Fonts",
+      "Display",
+      "Hand-lettered"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "chef",
+      "character",
+      "illustrated chef",
+      "pizza",
+      "puffs",
+      "white bag",
+      "tomato",
+      "mozzarella",
+      "baked never fried",
+      "mascot",
+      "comic style",
+      "Italian",
+      "Snack Brigade",
+      "red orange background"
+    ],
+    "notes": "IncrediPuffs Saucilian Pizza — white bag on vivid red/orange, hand-drawn Italian chef mascot tossing pizza. Baked never fried. Comic-style illustration, bold display type.",
     "added": 1740891600007
   },
   {
@@ -212,12 +499,13 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/0b38228098b24d223b21bf88bdfea297.jpg",
     "client": "Unknown",
     "imageType": "Reference",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Bold",
       "Bright",
-      "Retro"
+      "Retro",
+      "Dopamine"
     ],
     "designCode": [
       "Typography-led",
@@ -231,7 +519,39 @@ const LIBRARY_DATA = [
       "Bright",
       "Neon"
     ],
-    "notes": "Bold rainbow 'Hey' typographic poster — retro layered colour stripes, strong graphic energy.",
+    "ingredient": [],
+    "style": [
+      "Swiss/Modernist",
+      "American"
+    ],
+    "occasion": [],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Confident"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "typography",
+      "rainbow",
+      "layered type",
+      "colour stripes",
+      "poster",
+      "retro typography",
+      "bold type",
+      "Hey",
+      "wordplay",
+      "graphic design reference",
+      "3D type",
+      "shadow type"
+    ],
+    "notes": "Bold rainbow 'Hey' typographic poster — oversized condensed sans-serif with layered rainbow colour stripes creating 3D shadow effect. Strong retro graphic energy.",
     "added": 1740891600008
   },
   {
@@ -239,12 +559,13 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/2a729ec22988b2a284a7fdf37f1847fd.jpg",
     "client": "Unknown",
     "imageType": "Illustration",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Bold",
       "Bright",
-      "Playful"
+      "Playful",
+      "Dreamy"
     ],
     "designCode": [
       "Illustration-led",
@@ -259,7 +580,34 @@ const LIBRARY_DATA = [
       "Warm",
       "Cool"
     ],
-    "notes": "Illustrated cat close-up in pop-art style — strong blue sky, warm orange/pink fur gradient.",
+    "ingredient": [],
+    "style": [
+      "Pop Art"
+    ],
+    "occasion": [],
+    "mood": [
+      "Joyful",
+      "Dreamy",
+      "Aspirational"
+    ],
+    "typography": [],
+    "finish": [],
+    "keywords": [
+      "cat",
+      "animal",
+      "pop art",
+      "close-up",
+      "gradient",
+      "blue sky",
+      "orange fur",
+      "digital art",
+      "serene",
+      "upward gaze",
+      "illustration reference",
+      "cat face",
+      "warm to cool contrast"
+    ],
+    "notes": "Illustrated cat close-up in pop-art style — extreme close-up of cat face looking upward, warm orange/pink fur gradient against vivid blue sky. Dreamy, serene energy.",
     "added": 1740891600009
   },
   {
@@ -267,16 +615,19 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/514cb519e759b0f806a36b93382f416f.jpg",
     "client": "Unknown",
     "imageType": "Reference",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Bold",
       "Bright",
-      "Maximalist"
+      "Maximalist",
+      "Dopamine"
     ],
     "designCode": [
       "Abstract",
-      "Colour-led"
+      "Colour-led",
+      "Gradient",
+      "3D"
     ],
     "targetAudience": [
       "Young Adults",
@@ -286,7 +637,36 @@ const LIBRARY_DATA = [
       "Neon",
       "Bright"
     ],
-    "notes": "Abstract gradient organic blob forms — neon pink/purple/orange, digital/3D aesthetic.",
+    "ingredient": [],
+    "style": [
+      "Retro-Futurist"
+    ],
+    "occasion": [],
+    "mood": [
+      "Energising",
+      "Dreamy",
+      "Aspirational"
+    ],
+    "typography": [],
+    "finish": [],
+    "keywords": [
+      "gradient",
+      "blob",
+      "organic shapes",
+      "3D",
+      "neon",
+      "fluid",
+      "digital art",
+      "abstract",
+      "pink",
+      "purple",
+      "orange",
+      "wavy lines",
+      "tactile",
+      "render",
+      "generative"
+    ],
+    "notes": "Abstract gradient organic blob/pill forms — stacked 3D renders in neon pink/purple/blue/orange. Fluid, generative digital aesthetic.",
     "added": 1740891600010
   },
   {
@@ -294,17 +674,20 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/361450b5ebb95ffab48f555627fc3093.jpg",
     "client": "Unknown",
     "imageType": "Reference",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Playful",
       "Bold",
-      "Bright"
+      "Bright",
+      "Dopamine",
+      "Friendly"
     ],
     "designCode": [
       "Illustration-led",
       "Colour-led",
-      "Pattern-led"
+      "Pattern-led",
+      "Flat Design"
     ],
     "targetAudience": [
       "Young Adults",
@@ -314,7 +697,33 @@ const LIBRARY_DATA = [
       "Bright",
       "Neon"
     ],
-    "notes": "9-panel emoji-face icon grid — bold flat design, multicolour backgrounds, joyful brand identity reference.",
+    "ingredient": [],
+    "style": [
+      "American"
+    ],
+    "occasion": [],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising"
+    ],
+    "typography": [],
+    "finish": [],
+    "keywords": [
+      "emoji",
+      "smiley face",
+      "icon grid",
+      "9-panel",
+      "brand identity",
+      "faces",
+      "expressions",
+      "multicolour",
+      "flat design",
+      "characters",
+      "logo system",
+      "mascot system"
+    ],
+    "notes": "9-panel emoji-face icon grid — bold flat design smiley face system on multicolour backgrounds (teal, mint, pink, yellow, cream, red, orange, blue). Joyful brand identity reference.",
     "added": 1740891600011
   },
   {
@@ -322,14 +731,17 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/5ac3218302f8254ea1e63b9c61da4581.jpg",
     "client": "Unknown",
     "imageType": "Reference",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
-      "Minimal"
+      "Minimal",
+      "Dreamy",
+      "Elegant"
     ],
     "designCode": [
       "Abstract",
-      "Geometric"
+      "Geometric",
+      "Gradient"
     ],
     "targetAudience": [
       "Premium",
@@ -340,7 +752,35 @@ const LIBRARY_DATA = [
       "Cool",
       "Neutral"
     ],
-    "notes": "Minimalist gradient circle/sphere with reflection — orange-to-pink on cool grey, serene and modern.",
+    "ingredient": [],
+    "style": [
+      "Swiss/Modernist"
+    ],
+    "occasion": [],
+    "mood": [
+      "Calming",
+      "Aspirational",
+      "Dreamy"
+    ],
+    "typography": [],
+    "finish": [],
+    "keywords": [
+      "sphere",
+      "gradient",
+      "reflection",
+      "orange",
+      "pink",
+      "minimal",
+      "3D",
+      "digital art",
+      "serene",
+      "abstract art",
+      "circle",
+      "geometric",
+      "cool grey",
+      "sunrise"
+    ],
+    "notes": "Minimalist gradient sphere with ground reflection — orange-to-deep-pink gradient circle on cool grey background. Serene, meditative, 3D digital art reference.",
     "added": 1740891600012
   },
   {
@@ -348,13 +788,16 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-04%20at%2020.38.49.png",
     "client": "Rilla",
     "imageType": "Pack Design",
-    "format": "Box",
+    "format": [
+      "Box"
+    ],
     "productCategory": [
       "Food"
     ],
     "tonality": [
       "Minimal",
-      "Bold"
+      "Bold",
+      "Sophisticated"
     ],
     "designCode": [
       "Typography-led",
@@ -368,7 +811,45 @@ const LIBRARY_DATA = [
       "Cool",
       "Monochrome"
     ],
-    "notes": "Rilla Penne pasta box — cool blue-grey, oversized bold type, product photo inset. Clean modernist.",
+    "ingredient": [
+      "penne",
+      "pasta"
+    ],
+    "style": [
+      "Swiss/Modernist",
+      "European"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Display",
+      "Condensed",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "pasta",
+      "penne",
+      "typography led",
+      "oversized type",
+      "product photo inset",
+      "blue grey",
+      "modernist",
+      "grid",
+      "editorial",
+      "Italian food",
+      "N-265",
+      "code typography"
+    ],
+    "notes": "Rilla Penne pasta box — cool blue-grey matte, oversized condensed sans-serif, product photo inset, numeric code N-265. Swiss Modernist grid-based editorial design.",
     "added": 1740891600013
   },
   {
@@ -376,13 +857,16 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-04%20at%2020.38.54.png",
     "client": "Love Corn",
     "imageType": "Pack Design",
-    "format": "Pouch",
+    "format": [
+      "Pouch"
+    ],
     "productCategory": [
       "Snack"
     ],
     "tonality": [
       "Playful",
-      "Organic"
+      "Organic",
+      "Friendly"
     ],
     "designCode": [
       "Illustration-led",
@@ -397,7 +881,42 @@ const LIBRARY_DATA = [
       "Neutral",
       "Earthy"
     ],
-    "notes": "Love Corn small pouch — warm tan/brown tones, approachable and natural snack energy.",
+    "ingredient": [
+      "corn",
+      "bbq"
+    ],
+    "style": [
+      "American",
+      "European"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Joyful",
+      "Grounded"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "corn",
+      "roasted corn",
+      "bbq",
+      "natural snack",
+      "warm tones",
+      "illustrated",
+      "small pouch",
+      "on-the-go",
+      "mini pack",
+      "brown tones"
+    ],
+    "notes": "Love Corn BBQ small pouch — warm tan/brown matte, illustrated, approachable natural snack energy. Mini on-the-go format.",
     "added": 1740891600014
   },
   {
@@ -405,7 +924,9 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/0a1b034c82ca33c16523b28ee9d7583d.jpg",
     "client": "Avinka",
     "imageType": "Pack Design",
-    "format": "Bag",
+    "format": [
+      "Bag"
+    ],
     "productCategory": [
       "Snack",
       "Food"
@@ -413,7 +934,8 @@ const LIBRARY_DATA = [
     "tonality": [
       "Bold",
       "Playful",
-      "Bright"
+      "Bright",
+      "Dopamine"
     ],
     "designCode": [
       "Illustration-led",
@@ -428,7 +950,44 @@ const LIBRARY_DATA = [
       "Bright",
       "Warm"
     ],
-    "notes": "Avinka Pop Corn Chicken — bold green bag with dense fork/pattern illustration, vibrant orange product.",
+    "ingredient": [
+      "chicken",
+      "popcorn chicken"
+    ],
+    "style": [
+      "American",
+      "Latin American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Adventurous",
+      "Joyful",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "chicken",
+      "popcorn chicken",
+      "green bag",
+      "fork pattern",
+      "dense illustration",
+      "lifestyle shot",
+      "hand reaching",
+      "bold green",
+      "scattered bags",
+      "hand photography",
+      "overhead",
+      "topshot"
+    ],
+    "notes": "Avinka Pop Corn Chicken — vibrant green bag with all-over fork illustration pattern, vivid orange product. Lifestyle topshot with hand reaching in, scattered bags.",
     "added": 1740891600015
   },
   {
@@ -436,14 +995,17 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/19266df3731d33d1116e94cead3d20d6.jpg",
     "client": "Kettle",
     "imageType": "Pack Design",
-    "format": "Bag",
+    "format": [
+      "Bag"
+    ],
     "productCategory": [
       "Snack"
     ],
     "tonality": [
       "Bold",
       "Heritage",
-      "Earthy"
+      "Earthy",
+      "Gourmet"
     ],
     "designCode": [
       "Typography-led",
@@ -457,7 +1019,47 @@ const LIBRARY_DATA = [
       "Dark",
       "Earthy"
     ],
-    "notes": "Kettle Ridge Cut Jalapeño Jack — deep green bag, wave texture, rustic heritage feel, styled with fresh ingredients.",
+    "ingredient": [
+      "chips",
+      "jalapeño",
+      "jack cheese"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Adventurous",
+      "Indulgent",
+      "Grounded"
+    ],
+    "typography": [
+      "Display",
+      "Script",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "chips",
+      "jalapeño",
+      "jack cheese",
+      "ridge cut",
+      "hand-cooked",
+      "dark green bag",
+      "ingredient photography",
+      "styled shot",
+      "rustic",
+      "wood surface",
+      "lifestyle",
+      "wave texture",
+      "tomatoes",
+      "flowers"
+    ],
+    "notes": "Kettle Ridge Cut Jalapeño Jack — deep forest green bag, wave texture, styled with fresh jalapeños, cheese, tomatoes and flowers on rustic wood. Heritage hand-cooked positioning.",
     "added": 1740891600016
   },
   {
@@ -465,13 +1067,17 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/0907fc5d400e90c5baab8f117967162d%20(1).jpg",
     "client": "Little Sesame",
     "imageType": "Pack Design",
-    "format": "Jar",
+    "format": [
+      "Other"
+    ],
     "productCategory": [
       "Food"
     ],
     "tonality": [
       "Bold",
-      "Playful"
+      "Playful",
+      "Friendly",
+      "Dopamine"
     ],
     "designCode": [
       "Typography-led",
@@ -486,7 +1092,50 @@ const LIBRARY_DATA = [
       "Pastel",
       "Bright"
     ],
-    "notes": "Little Sesame hummus tubs — 3 stacked tubs in orange/mint/pink pastel, bold all-type labels.",
+    "ingredient": [
+      "hummus",
+      "sesame",
+      "caramelized onion",
+      "tomato"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Wholesome",
+      "Approachable"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Circular"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "hummus",
+      "tub",
+      "stacked",
+      "circular label",
+      "wrap-around type",
+      "three SKUs",
+      "pastel",
+      "orange",
+      "mint",
+      "pink",
+      "floating stack",
+      "food brand",
+      "dip",
+      "sesame",
+      "caramelized onion",
+      "jammy tomato"
+    ],
+    "notes": "Little Sesame hummus tubs — 3 stacked tubs (orange/mint/pink), bold all-type wrap-around labels. Flavours: Jammy Tomato, Smooth Classic, Caramelized Onion. Playful approachable health brand.",
     "added": 1740891600017
   },
   {
@@ -494,7 +1143,7 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/83bc10d153ec84efc2b1f631b196c005.jpg",
     "client": "Stuffed Puffs",
     "imageType": "Key Visual",
-    "format": "Other",
+    "format": [],
     "productCategory": [
       "Snack",
       "Confectionery"
@@ -502,7 +1151,8 @@ const LIBRARY_DATA = [
     "tonality": [
       "Bold",
       "Playful",
-      "Bright"
+      "Bright",
+      "Dopamine"
     ],
     "designCode": [
       "Typography-led",
@@ -518,7 +1168,42 @@ const LIBRARY_DATA = [
       "Bright",
       "Cool"
     ],
-    "notes": "Stuffed Puffs S'mores key visual — repeated type on vivid blue, hand-holding product, punchy campaign energy.",
+    "ingredient": [
+      "marshmallow",
+      "s'mores",
+      "chocolate"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Indulgent",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Uppercase Only",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "s'mores",
+      "marshmallow",
+      "hand holding product",
+      "blue background",
+      "repeat type",
+      "campaign",
+      "product photography",
+      "bold blue",
+      "lifestyle",
+      "hand shot",
+      "all-over type"
+    ],
+    "notes": "Stuffed Puffs S'mores campaign key visual — hand holding product against vivid cobalt blue, all-over repeated S'MORES type. High-energy punchy campaign.",
     "added": 1740891600018
   },
   {
@@ -526,14 +1211,17 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/078d095f5edf83b28af2255c8bba1268.jpg",
     "client": "Savonnière",
     "imageType": "Pack Design",
-    "format": "Other",
+    "format": [
+      "Tin"
+    ],
     "productCategory": [
       "Personal Care",
       "Beauty"
     ],
     "tonality": [
       "Luxury",
-      "Minimal"
+      "Minimal",
+      "Elegant"
     ],
     "designCode": [
       "Clean",
@@ -548,7 +1236,50 @@ const LIBRARY_DATA = [
       "Cool",
       "Neutral"
     ],
-    "notes": "Savonnière soap tins — stacked oval tins in pastel mint/lavender/cream/orange. French pharmacy elegance.",
+    "ingredient": [
+      "soap"
+    ],
+    "style": [
+      "French"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Calming",
+      "Aspirational",
+      "Indulgent"
+    ],
+    "typography": [
+      "Serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte",
+      "Emboss"
+    ],
+    "keywords": [
+      "soap",
+      "tin",
+      "oval tin",
+      "stacked",
+      "French pharmacy",
+      "pastel",
+      "mint",
+      "lavender",
+      "cream",
+      "orange",
+      "medallion",
+      "badge",
+      "signature",
+      "RTB",
+      "100g",
+      "clean ingredients",
+      "Les Bienfaits"
+    ],
+    "notes": "Savonnière soap tins — 5 stacked oval matte tins in pastel mint/lavender/cream/orange/green. French pharmacy elegance, embossed medallion badge, serif type, clean ingredient RTB.",
     "added": 1740891600019
   },
   {
@@ -556,7 +1287,9 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/b29662b7266b2d318a633e2d1f57f51a.jpg",
     "client": "Oatcen",
     "imageType": "Pack Design",
-    "format": "Pouch",
+    "format": [
+      "Pouch"
+    ],
     "productCategory": [
       "Food",
       "Health & Wellness"
@@ -564,7 +1297,9 @@ const LIBRARY_DATA = [
     "tonality": [
       "Bold",
       "Playful",
-      "Retro"
+      "Retro",
+      "Dopamine",
+      "Friendly"
     ],
     "designCode": [
       "Illustration-led",
@@ -580,7 +1315,49 @@ const LIBRARY_DATA = [
       "Warm",
       "Bright"
     ],
-    "notes": "Oatcen Oat Porridge — bold retro yellow/pink pouch with illustrated spoon characters, fun and energetic.",
+    "ingredient": [
+      "oat",
+      "porridge",
+      "strawberry",
+      "lychee"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Hand-lettered"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "porridge",
+      "oat",
+      "strawberry",
+      "lychee",
+      "spoon characters",
+      "illustrated spoons",
+      "yellow bag",
+      "pink",
+      "plant based",
+      "zero sugar",
+      "RTB",
+      "hand holding pack",
+      "retro",
+      "bubbly font",
+      "Not your grandma's porridge"
+    ],
+    "notes": "Oatcen Oat Porridge Strawberry & Lychee — bold yellow/pink retro pouch, illustrated spoon characters with faces, hand holding pack. Plant-based, zero sugar RTBs. Not your grandma's porridge.",
     "added": 1740891600020
   },
   {
@@ -588,14 +1365,17 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/c4df9875f0129b996f918c6f549fe76f.jpg",
     "client": "Cravers",
     "imageType": "Pack Design",
-    "format": "Jar",
+    "format": [
+      "Jar"
+    ],
     "productCategory": [
       "Food",
       "Health & Wellness"
     ],
     "tonality": [
       "Bold",
-      "Minimal"
+      "Minimal",
+      "Gourmet"
     ],
     "designCode": [
       "Typography-led",
@@ -610,7 +1390,46 @@ const LIBRARY_DATA = [
       "Warm",
       "Bright"
     ],
-    "notes": "Cravers Super Nutritious Hazelnut Butter — vivid orange label on clear jar, bold utilitarian typography.",
+    "ingredient": [
+      "hazelnut",
+      "hazelnut butter"
+    ],
+    "style": [
+      "European"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Trustworthy",
+      "Indulgent",
+      "Confident"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "hazelnut butter",
+      "nut butter",
+      "clear jar",
+      "orange label",
+      "92%",
+      "vegan",
+      "plant-based",
+      "German",
+      "utilitarian type",
+      "RTB",
+      "transparent packaging",
+      "product visible",
+      "crunchy",
+      "kinda crunchy"
+    ],
+    "notes": "Cravers 92% Hazelnut Butter — vivid orange label on clear glass jar, stark utilitarian sans-serif type, product visible. Vegan, plant-based, palm oil free RTBs. German brand.",
     "added": 1740891600021
   },
   {
