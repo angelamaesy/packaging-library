@@ -1454,7 +1454,7 @@ function deleteMoodboard(id) {
 });
 
 loadLibraryJson();
-if (window.location.protocol !== 'file:') setInterval(loadLibraryJson, 4000);
+// No polling — data is static, only changes on deploy
 </script>
 </body>
 </html>
