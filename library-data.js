@@ -1437,17 +1437,22 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-05%20at%2015.05.00.png",
     "client": "Tama Tea",
     "imageType": "Pack Design",
-    "format": "Can",
+    "format": [
+      "Can"
+    ],
     "productCategory": [
-      "Beverage"
+      "Beverage",
+      "Tea"
     ],
     "tonality": [
       "Minimal",
-      "Luxury"
+      "Luxury",
+      "Elegant"
     ],
     "designCode": [
       "Clean",
-      "Colour-led"
+      "Colour-led",
+      "Typography-led"
     ],
     "targetAudience": [
       "Premium",
@@ -1458,6 +1463,40 @@ const LIBRARY_DATA = [
       "Pastel",
       "Cool"
     ],
+    "ingredient": [
+      "green tea",
+      "lavender",
+      "lemon"
+    ],
+    "style": [
+      "Japanese",
+      "Scandinavian"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "sparkling tea",
+      "can",
+      "lavender",
+      "lemon",
+      "pastel purple",
+      "pastel yellow",
+      "minimal",
+      "premium tea",
+      "bilingual"
+    ],
     "notes": "Tama Tea Lemo Lavender sparkling green tea can — soft purple/yellow pastel, minimal premium feel.",
     "added": 1740891600022
   },
@@ -1466,14 +1505,18 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-05%20at%2015.09.04.png",
     "client": "Hotel Tango",
     "imageType": "Pack Design",
-    "format": "Bottle",
+    "format": [
+      "Bottle"
+    ],
     "productCategory": [
-      "Alcohol"
+      "Alcohol",
+      "Spirits"
     ],
     "tonality": [
       "Minimal",
       "Bold",
-      "Luxury"
+      "Luxury",
+      "Sophisticated"
     ],
     "designCode": [
       "Typography-led",
@@ -1488,6 +1531,42 @@ const LIBRARY_DATA = [
       "Warm",
       "Monochrome"
     ],
+    "ingredient": [
+      "limoncello",
+      "lemon"
+    ],
+    "style": [
+      "American",
+      "Swiss/Modernist"
+    ],
+    "occasion": [
+      "Gifting Season",
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Aspirational"
+    ],
+    "typography": [
+      "Display",
+      "Serif",
+      "Uppercase Only",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "limoncello",
+      "spirits",
+      "amber bottle",
+      "editorial label",
+      "oversized type",
+      "typography led",
+      "alcohol",
+      "modern",
+      "bold label"
+    ],
     "notes": "Hotel Tango Lemoncello — editorial bold type label on amber bottle, confident typographic minimalism.",
     "added": 1740891600023
   },
@@ -1495,15 +1574,19 @@ const LIBRARY_DATA = [
     "id": 1740000000015,
     "src": "TAGBOT/2026-03-24/ee0a04d24068b0cf8699afee90fa0e83.jpg",
     "client": "NICE4U",
-    "imageType": "Reference",
-    "format": "Sachet",
+    "imageType": "Pack Design",
+    "format": [
+      "Sachet"
+    ],
     "productCategory": [
       "Supplement",
       "Health & Wellness"
     ],
     "tonality": [
       "Bold",
-      "Playful"
+      "Playful",
+      "Bright",
+      "Dopamine"
     ],
     "designCode": [
       "Typography-led",
@@ -1513,11 +1596,44 @@ const LIBRARY_DATA = [
     "targetAudience": [
       "Young Adults",
       "Gen Z",
-      "Health Conscious"
+      "Health Conscious",
+      "Women"
     ],
     "colourPalette": [
       "Warm",
       "Bright"
+    ],
+    "ingredient": [],
+    "style": [
+      "American",
+      "Korean"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Joyful",
+      "Confident"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "sachet",
+      "vitamin",
+      "repeating grid",
+      "bold pink",
+      "100%",
+      "pattern",
+      "health supplement",
+      "stick pack",
+      "fun health brand"
     ],
     "notes": "100% NICE4U vitamin sachets — repeating grid, bold pink type, playful health brand with pattern energy.",
     "added": 1740891600024
@@ -1527,13 +1643,17 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/0b34f68243aa333a2cd76e390a7bfe19.jpg",
     "client": "Fujian Tea",
     "imageType": "Pack Design",
-    "format": "Box",
+    "format": [
+      "Box"
+    ],
     "productCategory": [
-      "Beverage"
+      "Beverage",
+      "Tea"
     ],
     "tonality": [
       "Minimal",
-      "Heritage"
+      "Heritage",
+      "Sophisticated"
     ],
     "designCode": [
       "Typography-led",
@@ -1547,6 +1667,44 @@ const LIBRARY_DATA = [
       "Monochrome",
       "Neutral"
     ],
+    "ingredient": [
+      "tea"
+    ],
+    "style": [
+      "Chinese",
+      "Swiss/Modernist"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Trustworthy",
+      "Confident",
+      "Grounded"
+    ],
+    "typography": [
+      "Serif",
+      "Display",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte",
+      "Uncoated"
+    ],
+    "keywords": [
+      "tea",
+      "newspaper style",
+      "editorial",
+      "bilingual",
+      "off-white",
+      "bold type",
+      "Chinese brand",
+      "Fujian",
+      "tea box",
+      "minimal editorial"
+    ],
     "notes": "Fujian Tea newspaper-style packaging — off-white with bold bilingual type, minimalist editorial.",
     "added": 1740891600025
   },
@@ -1555,17 +1713,21 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/26846e7203856fa5ff468589ccb3dc32.jpg",
     "client": "Dacoola",
     "imageType": "Pack Design",
-    "format": "Box",
+    "format": [
+      "Box"
+    ],
     "productCategory": [
       "Confectionery"
     ],
     "tonality": [
       "Playful",
-      "Bright"
+      "Bright",
+      "Friendly"
     ],
     "designCode": [
       "Illustration-led",
-      "Colour-led"
+      "Colour-led",
+      "Typography-led"
     ],
     "targetAudience": [
       "Kids",
@@ -1576,36 +1738,113 @@ const LIBRARY_DATA = [
       "Bright",
       "Cool"
     ],
+    "ingredient": [
+      "mint",
+      "jasmine",
+      "green apple"
+    ],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "mint",
+      "jasmine",
+      "green apple",
+      "mints candy",
+      "bright green",
+      "Chinese confectionery",
+      "sour",
+      "fresh",
+      "illustrated"
+    ],
     "notes": "Dacoola Sour Jasmine & Green Apple mints — green illustrated box, fresh and vibrant Chinese packaging.",
     "added": 1740891600026
   },
   {
     "id": 1740000000012,
     "src": "TAGBOT/2026-03-24/d182ca0c5f6fe46352a7134de9a8b8bc.jpg",
-    "client": "Unknown",
+    "client": "乘否",
     "imageType": "Pack Design",
-    "format": "Box",
+    "format": [
+      "Box"
+    ],
     "productCategory": [
-      "Snack"
+      "Snack",
+      "Health & Wellness"
     ],
     "tonality": [
       "Minimal",
-      "Luxury"
+      "Clinical",
+      "Gourmet"
     ],
     "designCode": [
       "Typography-led",
-      "Clean",
-      "Photography-led"
+      "Photography-led",
+      "Clean"
     ],
     "targetAudience": [
       "Health Conscious",
-      "Premium"
+      "Premium",
+      "Young Adults"
     ],
     "colourPalette": [
       "Neutral",
       "Metallic"
     ],
-    "notes": "Chinese no-fat chips box — white/gold, data-forward layout, clean minimal premium positioning.",
+    "ingredient": [
+      "chips",
+      "potato"
+    ],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Trustworthy",
+      "Confident"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "no fat chips",
+      "zero fat",
+      "RTB",
+      "data stats",
+      "Chinese brand",
+      "potato chips",
+      "white box",
+      "gold accents",
+      "health claims",
+      "bilingual",
+      "clinical packaging",
+      "+200%",
+      "-57%",
+      "-40%"
+    ],
+    "notes": "乘否 Zero-Fat Chips — white/gold box with data-forward RTB claims: 0% fat, +200% zinc, -57% calories. Clean clinical premium Chinese packaging.",
     "added": 1740891600027
   },
   {
@@ -1613,19 +1852,23 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/31d8307115bf1dc992229351754941cd.jpg",
     "client": "Unknown",
     "imageType": "Pack Design",
-    "format": "Carton",
+    "format": [
+      "Carton"
+    ],
     "productCategory": [
       "Dairy",
       "Beverage"
     ],
     "tonality": [
       "Minimal",
-      "Bright"
+      "Bright",
+      "Friendly"
     ],
     "designCode": [
-      "Pattern-led",
       "Typography-led",
-      "Clean"
+      "Pattern-led",
+      "Clean",
+      "Topshot"
     ],
     "targetAudience": [
       "Health Conscious",
@@ -1636,7 +1879,43 @@ const LIBRARY_DATA = [
       "Cool",
       "Bright"
     ],
-    "notes": "Chinese plant milk tetra pak range — cool blue/green, repeated Chinese character pattern, fresh and modern.",
+    "ingredient": [
+      "plant milk",
+      "oat"
+    ],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Trustworthy",
+      "Calming"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "plant milk",
+      "tetra pak",
+      "flat lay",
+      "topshot",
+      "pattern",
+      "green",
+      "blue",
+      "Chinese characters",
+      "diagonal layout",
+      "repeat pattern",
+      "bilingual",
+      "carton"
+    ],
+    "notes": "Chinese plant milk (植草奶) Tetra paks — light blue/white cartons with bold green Chinese characters arranged in diagonal repeat topshot.",
     "added": 1740891600028
   },
   {
@@ -1644,28 +1923,68 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-05%20at%2015.42.49.png",
     "client": "Sun Tropics",
     "imageType": "Pack Design",
-    "format": "Pouch",
+    "format": [
+      "Pouch"
+    ],
     "productCategory": [
       "Snack",
-      "Confectionery"
+      "Food"
     ],
     "tonality": [
       "Bold",
-      "Playful"
+      "Playful",
+      "Friendly"
     ],
     "designCode": [
+      "Typography-led",
       "Colour-led",
-      "Typography-led"
+      "Photography-led"
     ],
     "targetAudience": [
       "Young Adults",
-      "Mass Market"
+      "Mass Market",
+      "Health Conscious"
     ],
     "colourPalette": [
       "Warm",
       "Bright"
     ],
-    "notes": "Sun Tropics Mochi Tamari Teriyaki — warm golden-orange pouch, approachable and clean.",
+    "ingredient": [
+      "mochi",
+      "tamari",
+      "teriyaki"
+    ],
+    "style": [
+      "Japanese",
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Adventurous",
+      "Joyful"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "mochi",
+      "tamari",
+      "teriyaki",
+      "snack bites",
+      "gluten free",
+      "dairy free",
+      "floating product",
+      "golden pouch",
+      "rice crunch",
+      "tangy glaze"
+    ],
+    "notes": "Sun Tropics Mochi Tamari Teriyaki Snack Bites — warm golden pouch, bold display type, floating product photography. Gluten free, dairy free RTBs.",
     "added": 1740891600029
   },
   {
@@ -1673,10 +1992,12 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/2acf68b9cd734d4402e674640503dd85.jpg",
     "client": "Tohato",
     "imageType": "Pack Design",
-    "format": "Bag",
+    "format": [
+      "Bag"
+    ],
     "productCategory": [
       "Snack",
-      "Food"
+      "Bakery"
     ],
     "tonality": [
       "Heritage",
@@ -1685,8 +2006,8 @@ const LIBRARY_DATA = [
     ],
     "designCode": [
       "Handcrafted",
-      "Pattern-led",
-      "Photography-led"
+      "Photography-led",
+      "Pattern-led"
     ],
     "targetAudience": [
       "Mass Market"
@@ -1696,7 +2017,42 @@ const LIBRARY_DATA = [
       "Neutral",
       "Earthy"
     ],
-    "notes": "Tohato baguette snack — hessian-texture bag, warm cream/beige, traditional Japanese snack feel.",
+    "ingredient": [
+      "baguette",
+      "butter"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Grounded",
+      "Nostalgic"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte",
+      "Textured"
+    ],
+    "keywords": [
+      "baguette",
+      "butter salt",
+      "hessian texture",
+      "linen",
+      "Japanese snack",
+      "savory",
+      "traditional",
+      "textured bag",
+      "saku saku",
+      "bakery"
+    ],
+    "notes": "Tohato Saku Saku Bakery baguette snack — hessian-texture bag, warm cream/beige, product photography of small baguette shapes. Butter salt flavor, traditional Japanese heritage.",
     "added": 1740891600030
   },
   {
@@ -1704,20 +2060,22 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/31dfe8d5ce565175833a808a65cbf1a4.jpg",
     "client": "Kinto Kuri",
     "imageType": "Pack Design",
-    "format": "Bag",
+    "format": [
+      "Bag"
+    ],
     "productCategory": [
       "Confectionery",
       "Food"
     ],
     "tonality": [
       "Heritage",
-      "Earthy",
-      "Luxury"
+      "Luxury",
+      "Gourmet"
     ],
     "designCode": [
-      "Handcrafted",
+      "Visual Hammer",
       "Typography-led",
-      "Illustration-led"
+      "Photography-led"
     ],
     "targetAudience": [
       "Premium",
@@ -1729,15 +2087,54 @@ const LIBRARY_DATA = [
       "Dark",
       "Metallic"
     ],
-    "notes": "Kinto Kuri chestnut confection — traditional Japanese bag, gold seal emblem, earthy artisan quality.",
+    "ingredient": [
+      "chestnut"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Indulgent",
+      "Nostalgic",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss",
+      "Foil"
+    ],
+    "keywords": [
+      "chestnut",
+      "kuri",
+      "gold emblem",
+      "stamp",
+      "badge",
+      "visual hammer",
+      "Japanese confection",
+      "artisan",
+      "roasted",
+      "glazed",
+      "gold circle",
+      "kanji"
+    ],
+    "notes": "Kinto Kuri chestnut confection — white/cream bag, large gold circular 栗 kanji emblem (visual hammer), product photography of glazed chestnuts. Earthy artisan Japanese heritage.",
     "added": 1740891600031
   },
   {
     "id": 1740000000007,
     "src": "TAGBOT/2026-03-24/fb88117eaa3811e43fd247f1be296f40.jpg",
     "client": "Sanriku",
-    "imageType": "Pack Design",
-    "format": "Box",
+    "imageType": "Range Shot",
+    "format": [
+      "Box"
+    ],
     "productCategory": [
       "Food"
     ],
@@ -1748,7 +2145,8 @@ const LIBRARY_DATA = [
     ],
     "designCode": [
       "Illustration-led",
-      "Colour-led"
+      "Colour-led",
+      "Line Art"
     ],
     "targetAudience": [
       "Mass Market"
@@ -1757,7 +2155,48 @@ const LIBRARY_DATA = [
       "Warm",
       "Earthy"
     ],
-    "notes": "Japanese Sanriku seafood rice pack range — illustrated flat-lay of 7 SKUs, warm multicolour, folk art style.",
+    "ingredient": [
+      "oyster",
+      "salmon",
+      "mackerel",
+      "scallop",
+      "seaweed"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Nostalgic",
+      "Adventurous"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "seafood",
+      "rice mix",
+      "炊き込みご飯",
+      "oyster",
+      "salmon",
+      "mackerel",
+      "scallop",
+      "line illustration",
+      "range shot",
+      "color-coded",
+      "Japanese",
+      "multicolour",
+      "flat lay",
+      "8 SKUs"
+    ],
+    "notes": "Sanriku seafood 炊き込み御飯 rice mix range — 8 color-coded boxes with detailed line illustrations of seafood. Japanese heritage folk art style, warm multicolour flat lay.",
     "added": 1740891600032
   },
   {
@@ -1765,14 +2204,17 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/c1353e0a252360e9e30087de8691700d.jpg",
     "client": "Consum",
     "imageType": "Pack Design",
-    "format": "Bag",
+    "format": [
+      "Bag"
+    ],
     "productCategory": [
       "Snack"
     ],
     "tonality": [
       "Luxury",
       "Dark",
-      "Minimal"
+      "Minimal",
+      "Gourmet"
     ],
     "designCode": [
       "Photography-led",
@@ -1787,17 +2229,60 @@ const LIBRARY_DATA = [
       "Cool",
       "Metallic"
     ],
-    "notes": "Consum Receta Premium crisps — dark navy/grey bag, delicate herb photography, gold type. Pentawards Silver 2020.",
+    "ingredient": [
+      "chips",
+      "sea salt",
+      "rosemary",
+      "herbs"
+    ],
+    "style": [
+      "European"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Aspirational",
+      "Indulgent",
+      "Sophisticated"
+    ],
+    "typography": [
+      "Serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "crisps",
+      "sea salt",
+      "rosemary",
+      "herbs",
+      "dark navy bag",
+      "mint teal",
+      "spoons",
+      "premium crisps",
+      "Pentawards Silver 2020",
+      "Spanish",
+      "herb photography",
+      "gourmet",
+      "award-winning"
+    ],
+    "notes": "Consum Receta Premium chips — dark navy upper/mint teal lower bag, premium ingredient photography (chips + rosemary + salt spoons). 2020 Pentawards Silver winner.",
     "added": 1740891600033
   },
   {
     "id": 1740000000005,
     "src": "TAGBOT/2026-03-24/89299019f91a54cea106d7ed6187923f.jpg",
     "client": "Bestore",
-    "imageType": "Pack Design",
-    "format": "Bag",
+    "imageType": "Range Shot",
+    "format": [
+      "Bag"
+    ],
     "productCategory": [
-      "Snack"
+      "Snack",
+      "Food"
     ],
     "tonality": [
       "Bold",
@@ -1816,7 +2301,47 @@ const LIBRARY_DATA = [
       "Bright",
       "Warm"
     ],
-    "notes": "Bestore snack range — 4 bags in yellow/brown/blue/white, bold vertical Chinese type, clean product shots.",
+    "ingredient": [
+      "shrimp",
+      "cuttlefish",
+      "pork floss",
+      "rice cracker"
+    ],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Joyful"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "range shot",
+      "four SKUs",
+      "yellow",
+      "brown",
+      "blue",
+      "grey",
+      "Chinese snacks",
+      "shrimp chips",
+      "cuttlefish",
+      "pork floss",
+      "large Chinese type",
+      "bold type",
+      "product photography",
+      "良品铺子"
+    ],
+    "notes": "Bestore (良品铺子) snack range — 4 bags (yellow/brown/blue/grey) with bold oversized Chinese typography and product photography. Clean range shot topshot.",
     "added": 1740891600034
   },
   {
@@ -1824,18 +2349,22 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-05%20at%2017.25.46.png",
     "client": "Attitude",
     "imageType": "Pack Design",
-    "format": "Tube",
+    "format": [
+      "Other"
+    ],
     "productCategory": [
       "Personal Care",
-      "Beauty"
+      "Skincare"
     ],
     "tonality": [
       "Minimal",
-      "Organic"
+      "Organic",
+      "Approachable"
     ],
     "designCode": [
       "Clean",
-      "Colour-led"
+      "Colour-led",
+      "Typography-led"
     ],
     "targetAudience": [
       "Eco Conscious",
@@ -1847,7 +2376,40 @@ const LIBRARY_DATA = [
       "Cool",
       "Bright"
     ],
-    "notes": "Attitude Sunly after sun stick — clean blue/green, plastic-free, eco-conscious minimal design.",
+    "ingredient": [],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Trustworthy",
+      "Calming"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Script"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "suncare",
+      "after sun",
+      "stick format",
+      "plastic free",
+      "eco",
+      "vegan",
+      "dermatologist tested",
+      "blue",
+      "white",
+      "clean beauty",
+      "sun protection",
+      "sunly"
+    ],
+    "notes": "Attitude Sunly after sun stick — clean pale blue/white, plastic-free suncare. Eco-conscious minimal design. Vegan, dermatologist-tested.",
     "added": 1740891600035
   },
   {
@@ -1855,7 +2417,9 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-05%20at%2017.26.56.png",
     "client": "Huel",
     "imageType": "Pack Design",
-    "format": "Can",
+    "format": [
+      "Can"
+    ],
     "productCategory": [
       "Beverage",
       "Health & Wellness",
@@ -1879,7 +2443,43 @@ const LIBRARY_DATA = [
       "Dark",
       "Cool"
     ],
-    "notes": "Huel Daily Greens — dark forest green can, clean bold type, confident premium health nutrition.",
+    "ingredient": [
+      "greens",
+      "mushroom"
+    ],
+    "style": [
+      "British"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Trustworthy",
+      "Empowering"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Script"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "daily greens",
+      "adaptogens",
+      "lion's mane mushroom",
+      "functional beverage",
+      "vitamins",
+      "minerals",
+      "electrolytes",
+      "slim can",
+      "dark green",
+      "health nutrition",
+      "antioxidants"
+    ],
+    "notes": "Huel Daily Greens — dark forest green slim can, clean bold type, confident premium health nutrition. 25 calories, adaptogens, lion's mane.",
     "added": 1740891600036
   },
   {
@@ -1887,7 +2487,9 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-05%20at%2017.47.06.png",
     "client": "Flock",
     "imageType": "Pack Design",
-    "format": "Pouch",
+    "format": [
+      "Pouch"
+    ],
     "productCategory": [
       "Snack",
       "Food",
@@ -1905,21 +2507,58 @@ const LIBRARY_DATA = [
     "targetAudience": [
       "Health Conscious",
       "Men",
-      "Young Adults"
+      "Young Adults",
+      "Athletes"
     ],
     "colourPalette": [
       "Monochrome",
       "Neutral"
     ],
-    "notes": "Flock Chicken Breast Sticks — stark white pouch, minimal black type, clinical protein-forward.",
+    "ingredient": [
+      "chicken"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "protein snack",
+      "chicken sticks",
+      "white pouch",
+      "RTB",
+      "15g protein",
+      "zero carb",
+      "minimal",
+      "clean label",
+      "meat snack",
+      "functional",
+      "USDA inspected"
+    ],
+    "notes": "Flock Chicken Breast Sticks Original — stark white stand-up pouch, minimal black type, clinical protein-forward. 15G protein, 0G carbs, 0G sugar.",
     "added": 1740891600037
   },
   {
     "id": 1740000000001,
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-05%20at%2018.09.59.png",
     "client": "Unknown",
-    "imageType": "Pack Design",
-    "format": "Bag",
+    "imageType": "Range Shot",
+    "format": [
+      "Bag"
+    ],
     "productCategory": [
       "Snack",
       "Food",
@@ -1928,12 +2567,14 @@ const LIBRARY_DATA = [
     "tonality": [
       "Minimal",
       "Organic",
-      "Playful"
+      "Playful",
+      "Friendly"
     ],
     "designCode": [
       "Illustration-led",
       "Colour-led",
-      "Clean"
+      "Clean",
+      "Topshot"
     ],
     "targetAudience": [
       "Health Conscious",
@@ -1945,7 +2586,48 @@ const LIBRARY_DATA = [
       "Cool",
       "Warm"
     ],
-    "notes": "Dried Fruit range — 3 soft pastel pouches in mint/lavender/peach with delicate fruit illustrations.",
+    "ingredient": [
+      "dried fruit",
+      "apple",
+      "kiwi",
+      "peach",
+      "coconut",
+      "carrot"
+    ],
+    "style": [
+      "European"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Calming",
+      "Joyful"
+    ],
+    "typography": [
+      "Script",
+      "Display"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "dried fruit",
+      "topshot",
+      "range shot",
+      "three SKUs",
+      "pastel pouches",
+      "lifestyle",
+      "ingredient styling",
+      "lavender",
+      "mint",
+      "peach",
+      "food photography",
+      "organic",
+      "flat lay"
+    ],
+    "notes": "Dried Fruit range — 3 soft pastel pouches (lavender/mint/peach) in topshot lifestyle with fresh and dried ingredients styled around them on warm cream background.",
     "added": 1740891600038
   },
   {
@@ -1953,27 +2635,71 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/00a3d5323c178f036f692a625523d60e 2.jpg",
     "client": "Whatever / Kulangsu",
     "imageType": "Pack Design",
-    "format": "Box",
+    "format": [
+      "Box",
+      "Other"
+    ],
     "productCategory": [
       "Gifting"
     ],
     "tonality": [
       "Minimal",
-      "Bright"
+      "Dreamy",
+      "Elegant"
     ],
     "designCode": [
       "Colour-led",
-      "Typography-led"
+      "Typography-led",
+      "Gradient"
     ],
     "targetAudience": [
       "Young Adults",
-      "Women"
+      "Women",
+      "Gen Z"
     ],
     "colourPalette": [
       "Pastel",
-      "Cool"
+      "Cool",
+      "Gradient"
     ],
-    "notes": "Gift set featuring 'Whatever' branded small boxes, gift bag, and scented candle in soft green gradient palette. Bilingual Chinese/English. Clean, airy lifestyle aesthetic.",
+    "ingredient": [],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [
+      "Gifting Season",
+      "Everyday"
+    ],
+    "mood": [
+      "Dreamy",
+      "Aspirational",
+      "Calming"
+    ],
+    "typography": [
+      "Display",
+      "Serif"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "candle",
+      "gift set",
+      "gradient",
+      "blob art",
+      "dreamy",
+      "Chinese brand",
+      "green",
+      "yellow",
+      "editorial",
+      "shopping bag",
+      "MINI travel set",
+      "lifestyle",
+      "bilingual",
+      "南岛",
+      "scented candle"
+    ],
+    "notes": "Whatever by 南岛KULANGSU — Chinese gifting set with dreamy green/yellow gradient art direction on boxes, candle jar, and shopping bag. Editorial lifestyle, MINI旅行套盒.",
     "added": 1774353600001
   },
   {
@@ -1981,18 +2707,17 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/02e5f7741240daac778be8983ac8f819.jpeg",
     "client": "Unknown",
     "imageType": "Illustration",
-    "format": "Other",
-    "productCategory": [
-      "Gifting",
-      "Confectionery"
-    ],
+    "format": [],
+    "productCategory": [],
     "tonality": [
       "Playful",
-      "Bright"
+      "Bright",
+      "Dopamine"
     ],
     "designCode": [
       "Illustration-led",
-      "Colour-led"
+      "Colour-led",
+      "Flat Design"
     ],
     "targetAudience": [
       "Young Adults",
@@ -2002,19 +2727,49 @@ const LIBRARY_DATA = [
       "Bright",
       "Bold"
     ],
-    "notes": "Flat vector illustration of abstract music note characters in orange, purple, teal, yellow, and pink on white. Playful, minimal icon set.",
+    "ingredient": [],
+    "style": [
+      "American"
+    ],
+    "occasion": [],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [],
+    "keywords": [
+      "music notes",
+      "icons",
+      "flat design",
+      "vector",
+      "multicolour",
+      "orange",
+      "purple",
+      "teal",
+      "yellow",
+      "pink",
+      "abstract illustration",
+      "icon set",
+      "scattered"
+    ],
+    "notes": "Flat vector music note icon set — scattered colorful abstract music note characters in orange, purple, teal, yellow, pink on white. Bold, playful, minimal.",
     "added": 1774353600002
   },
   {
     "id": 1774353600003,
     "src": "TAGBOT/2026-03-25/02ec04f39750985f3f716c014b8f6852.jpeg",
     "client": "Unknown",
-    "imageType": "Key Visual",
-    "format": "Other",
+    "imageType": "Reference",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Playful",
-      "Retro"
+      "Retro",
+      "Nostalgic"
     ],
     "designCode": [
       "Illustration-led",
@@ -2029,7 +2784,40 @@ const LIBRARY_DATA = [
       "Pastel",
       "Bright"
     ],
-    "notes": "Six Y2K / retro computer-themed social media sale post templates. Pastel purples, yellows, greens, pinks with pixel-art UI window motifs. Nostalgia-driven campaign reference.",
+    "ingredient": [],
+    "style": [
+      "Y2K",
+      "American"
+    ],
+    "occasion": [],
+    "mood": [
+      "Nostalgic",
+      "Joyful",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "Y2K",
+      "retro internet",
+      "browser window",
+      "sale templates",
+      "social media templates",
+      "emoji",
+      "stars",
+      "pastel",
+      "purple",
+      "pixel art",
+      "retro computer",
+      "nostalgia",
+      "2000s aesthetic",
+      "smiley face"
+    ],
+    "notes": "Y2K retro computer-themed social media sale templates — 6-panel grid with pastel purples/yellows/greens, browser window UI elements, emoji, stars. Nostalgia-driven campaign reference.",
     "added": 1774353600003
   },
   {
@@ -2037,19 +2825,18 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/02f689aadbb4be7f303ecb95ecf83abd.jpeg",
     "client": "Unknown",
     "imageType": "Illustration",
-    "format": "Other",
-    "productCategory": [
-      "Confectionery",
-      "Snack"
-    ],
+    "format": [],
+    "productCategory": [],
     "tonality": [
       "Playful",
-      "Bright"
+      "Bright",
+      "Friendly"
     ],
     "designCode": [
       "Illustration-led",
       "Geometric",
-      "Colour-led"
+      "Colour-led",
+      "Flat Design"
     ],
     "targetAudience": [
       "Young Adults",
@@ -2059,7 +2846,35 @@ const LIBRARY_DATA = [
       "Warm",
       "Bright"
     ],
-    "notes": "Layered concentric smiley face circles in yellow, orange, and pink. Simple cheerful flat illustration with minimal closed-eye expressions.",
+    "ingredient": [],
+    "style": [
+      "American"
+    ],
+    "occasion": [],
+    "mood": [
+      "Joyful",
+      "Calming"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [],
+    "keywords": [
+      "smiley face",
+      "concentric circles",
+      "nested circles",
+      "yellow",
+      "orange",
+      "pink",
+      "flat illustration",
+      "icon",
+      "mascot",
+      "happy face",
+      "character",
+      "minimal",
+      "warm tones"
+    ],
+    "notes": "Three nested concentric smiley face circles — yellow (large), orange (medium), pink (small) with closed-eye content expressions. Joyful flat illustration.",
     "added": 1774353600004
   },
   {
