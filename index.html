@@ -880,6 +880,9 @@ async function loadLibraryJson() {
   }
   renderGallery();
   updateClientFilter();
+  if (document.getElementById('tab-moodboard').classList.contains('active')) {
+    renderMbTagButtons(); renderMoodboardMatches();
+  }
 }
 
 // ── Tabs ──────────────────────────────────────────────────────────────────────
