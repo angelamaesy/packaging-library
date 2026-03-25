@@ -2882,16 +2882,13 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/040d31233c3c6e56648ddb838af99bbe.jpg",
     "client": "Unknown",
     "imageType": "Reference",
-    "format": "Other",
-    "productCategory": [
-      "Snack",
-      "Food",
-      "Alcohol"
-    ],
+    "format": [],
+    "productCategory": [],
     "tonality": [
       "Bold",
       "Retro",
-      "Playful"
+      "Playful",
+      "Nostalgic"
     ],
     "designCode": [
       "Typography-led",
@@ -2907,6 +2904,43 @@ const LIBRARY_DATA = [
       "Bright",
       "Warm"
     ],
+    "ingredient": [],
+    "style": [
+      "American",
+      "80s",
+      "90s"
+    ],
+    "occasion": [],
+    "mood": [
+      "Adventurous",
+      "Nostalgic",
+      "Joyful"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Hand-lettered",
+      "Script"
+    ],
+    "finish": [],
+    "keywords": [
+      "typography",
+      "font promo",
+      "retro Americana",
+      "travel",
+      "resort",
+      "surf",
+      "vacation",
+      "lettering",
+      "collage",
+      "pink",
+      "navy",
+      "orange",
+      "badge",
+      "stamp",
+      "luggage tag",
+      "Vacation Display font"
+    ],
     "notes": "Font/lettering promo collage on pink background. Bold retro typography — 'The Surf Shack', 'Passport', 'Summer Hiatus', 'Vacation Display' — in navy, orange, and red. Retro Americana resort aesthetic.",
     "added": 1774353600005
   },
@@ -2915,11 +2949,12 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/054131ecee8a0f14f5c430d01243b3c4.jpg",
     "client": "Koganecho Area Management Center",
     "imageType": "Reference",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Bold",
-      "Minimal"
+      "Minimal",
+      "Sophisticated"
     ],
     "designCode": [
       "Typography-led",
@@ -2930,7 +2965,38 @@ const LIBRARY_DATA = [
     ],
     "colourPalette": [
       "Bold",
-      "Neutral"
+      "Neutral",
+      "Monochrome"
+    ],
+    "ingredient": [],
+    "style": [
+      "Japanese",
+      "Swiss/Modernist"
+    ],
+    "occasion": [],
+    "mood": [
+      "Confident",
+      "Grounded"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "Japanese poster",
+      "event poster",
+      "bilingual",
+      "green border",
+      "urban revitalisation",
+      "Yokohama",
+      "Taipei",
+      "bold type",
+      "grid",
+      "katakana",
+      "strong hierarchy",
+      "2009"
     ],
     "notes": "Japanese urban revitalisation event poster (2009). Large bold Japanese/English typography on white with green border. Network Between Two Cities — Taipei and Yokohama Koganecho. Strong typographic hierarchy.",
     "added": 1774353600006
@@ -2940,27 +3006,60 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/077584526dce4b9b879d5eb8d60468fd.jpg",
     "client": "Unknown",
     "imageType": "Key Visual",
-    "format": "Other",
-    "productCategory": [
-      "Food",
-      "Gifting"
-    ],
+    "format": [],
+    "productCategory": [],
     "tonality": [
       "Organic",
       "Earthy",
-      "Bright"
+      "Bright",
+      "Elegant"
     ],
     "designCode": [
       "Illustration-led",
       "Colour-led"
     ],
     "targetAudience": [
-      "Mass Market",
-      "Women"
+      "Women",
+      "Millennial",
+      "Mass Market"
     ],
     "colourPalette": [
       "Earthy",
-      "Cool"
+      "Cool",
+      "Bright"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [
+      "Spring"
+    ],
+    "mood": [
+      "Calming",
+      "Dreamy",
+      "Wholesome"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "spring equinox",
+      "春分",
+      "botanical",
+      "flowers",
+      "ladybird",
+      "nature",
+      "dark green",
+      "pink",
+      "floral illustration",
+      "seasonal",
+      "bilingual",
+      "2023",
+      "yellow flowers"
     ],
     "notes": "Spring Equinox (春分) seasonal poster 2023. Dark forest green background with illustrated pink and yellow flowers, leaves, and ladybirds. Bilingual Chinese/English. Nature-forward festive design.",
     "added": 1774353600007
@@ -2970,22 +3069,52 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/07d480bc8857dd42a0cb4f07f6162171.jpg",
     "client": "Unknown",
     "imageType": "Illustration",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Minimal",
-      "Dark"
+      "Dark",
+      "Edgy"
     ],
     "designCode": [
       "Geometric",
       "Abstract"
     ],
     "targetAudience": [
-      "Premium"
+      "Premium",
+      "Young Adults"
     ],
     "colourPalette": [
       "Monochrome",
       "Dark"
+    ],
+    "ingredient": [],
+    "style": [
+      "Swiss/Modernist",
+      "Neo-Brutalist"
+    ],
+    "occasion": [],
+    "mood": [
+      "Mysterious",
+      "Confident"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [],
+    "keywords": [
+      "badge",
+      "geometric",
+      "abstract",
+      "monochrome",
+      "black",
+      "spike",
+      "arrow",
+      "icon",
+      "emblem",
+      "identity mark",
+      "minimal",
+      "dark background"
     ],
     "notes": "Minimal geometric badge on solid black — rounded square with radiating spike/arrow details in grey. Stark monochrome identity mark or icon reference.",
     "added": 1774353600008
@@ -2995,14 +3124,15 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/0840c2167c752db6046189d92f1e595b.jpg",
     "client": "Waking Lotus Bar",
     "imageType": "Key Visual",
-    "format": "Other",
+    "format": [],
     "productCategory": [
       "Alcohol",
       "Beverage"
     ],
     "tonality": [
       "Bold",
-      "Playful"
+      "Playful",
+      "Dopamine"
     ],
     "designCode": [
       "Illustration-led",
@@ -3018,6 +3148,38 @@ const LIBRARY_DATA = [
       "Bright",
       "Neon"
     ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "American"
+    ],
+    "occasion": [],
+    "mood": [
+      "Joyful",
+      "Adventurous",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Hand-lettered"
+    ],
+    "finish": [],
+    "keywords": [
+      "bar",
+      "event poster",
+      "cheers",
+      "beer glasses",
+      "neon green",
+      "purple",
+      "illustration",
+      "bilingual",
+      "bold type",
+      "collage",
+      "sticker elements",
+      "2022",
+      "碰个杯"
+    ],
     "notes": "Bar event 'Cheers! / 碰个杯' poster (2022). Neon green and purple with bold illustrated beer glasses. Collaborative event between Waking Lotus Bar and a creative studio. Hand-drawn illustration feel.",
     "added": 1774353600009
   },
@@ -3026,14 +3188,13 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/0a40944efb5c6f7947a801728e56fc25.jpeg",
     "client": "Huajiao Design",
     "imageType": "Key Visual",
-    "format": "Other",
-    "productCategory": [
-      "Food",
-      "Gifting"
-    ],
+    "format": [],
+    "productCategory": [],
     "tonality": [
       "Playful",
-      "Bold"
+      "Bold",
+      "Dopamine",
+      "Friendly"
     ],
     "designCode": [
       "Illustration-led",
@@ -3048,6 +3209,37 @@ const LIBRARY_DATA = [
       "Bold",
       "Neutral"
     ],
+    "ingredient": [],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [
+      "Mid-Autumn"
+    ],
+    "mood": [
+      "Joyful",
+      "Nostalgic"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "Mid-Autumn Festival",
+      "moon",
+      "smiley face",
+      "yellow moon",
+      "cartoon hands",
+      "halftone",
+      "bilingual",
+      "Chinese festival",
+      "contemporary",
+      "pointing hands",
+      "2021",
+      "月是故乡圆"
+    ],
     "notes": "Mid-Autumn Festival 2021 promotional poster. Yellow smiley moon with waving cartoon hands on grey halftone background. Bilingual Chinese/English. Contemporary playful festive design.",
     "added": 1774353600010
   },
@@ -3056,11 +3248,12 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/0bbe25dfec8399c19a34980cd2631671.jpg",
     "client": "InterDesign Inc.",
     "imageType": "Reference",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Minimal",
-      "Retro"
+      "Retro",
+      "Sophisticated"
     ],
     "designCode": [
       "Geometric",
@@ -3074,6 +3267,37 @@ const LIBRARY_DATA = [
       "Bold",
       "Neutral"
     ],
+    "ingredient": [],
+    "style": [
+      "Swiss/Modernist",
+      "Bauhaus",
+      "American"
+    ],
+    "occasion": [],
+    "mood": [
+      "Trustworthy",
+      "Confident",
+      "Grounded"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display"
+    ],
+    "finish": [],
+    "keywords": [
+      "Modernist",
+      "Helvetica",
+      "geometric grid",
+      "lime green",
+      "rounded shapes",
+      "Swiss design",
+      "Bauhaus",
+      "1970s",
+      "pattern",
+      "identity",
+      "brochure",
+      "grid"
+    ],
     "notes": "Classic Modernist poster for InterDesign Inc., Minneapolis-Saint Paul. Lime green rounded geometric shapes on white. Helvetica-era grid-based design c.1970s. Strong Swiss/Modernist aesthetic reference.",
     "added": 1774353600011
   },
@@ -3082,17 +3306,19 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/0bcc0188fd9d5f9dbbcdfa8d1339409d.jpg",
     "client": "Unknown",
     "imageType": "Reference",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Bold",
       "Bright",
-      "Maximalist"
+      "Maximalist",
+      "Dopamine"
     ],
     "designCode": [
       "Colour-led",
       "Abstract",
-      "Geometric"
+      "Geometric",
+      "Gradient"
     ],
     "targetAudience": [
       "Young Adults",
@@ -3103,6 +3329,37 @@ const LIBRARY_DATA = [
       "Bold",
       "Neon"
     ],
+    "ingredient": [],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [],
+    "mood": [
+      "Energising",
+      "Aspirational"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Serif",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "exhibition poster",
+      "gradient blobs",
+      "collision",
+      "time and space",
+      "CMYK",
+      "cyan",
+      "magenta",
+      "green",
+      "yellow",
+      "4-quadrant",
+      "bilingual",
+      "art exhibition",
+      "abstract shapes"
+    ],
     "notes": "Chinese art exhibition poster 'Collision Between Time and Space.' Four-quadrant grid with bold gradient colour blobs — cyan, magenta, green, yellow. Typography in black on white cutouts. Bilingual Chinese/English.",
     "added": 1774353600012
   },
@@ -3111,29 +3368,77 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/0cf3539ae72b970309a5775a191ffe12.jpg",
     "client": "MIS",
     "imageType": "Pack Design",
-    "format": "Carton",
+    "format": [
+      "Carton"
+    ],
     "productCategory": [
       "Beverage"
     ],
     "tonality": [
       "Bold",
       "Bright",
-      "Playful"
+      "Playful",
+      "Dopamine"
     ],
     "designCode": [
       "Illustration-led",
-      "Colour-led"
+      "Colour-led",
+      "Photography-led"
     ],
     "targetAudience": [
       "Young Adults",
-      "Mass Market"
+      "Mass Market",
+      "Kids"
     ],
     "colourPalette": [
       "Bright",
       "Bold",
       "Warm"
     ],
-    "notes": "1L ice tea carton packaging for MIS brand. Two flavours — Lemon (yellow/teal) and Watermelon (red/green). Bold illustrative label with fruit graphics and ice motifs. Vibrant, appetite-forward packaging.",
+    "ingredient": [
+      "lemon",
+      "watermelon",
+      "ice tea"
+    ],
+    "style": [
+      "Middle Eastern",
+      "European"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Adventurous",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "ice tea",
+      "carton",
+      "lemon",
+      "watermelon",
+      "fruit",
+      "ice",
+      "1L",
+      "illustrated",
+      "bilingual",
+      "Arabic",
+      "bold colour",
+      "appetite-forward",
+      "summer drink",
+      "two SKUs",
+      "product shot"
+    ],
+    "notes": "MIS Ice Tea carton range — Lemon (yellow/teal) and Watermelon (red/green). 1L carton with bold illustrated fruit graphics and ice motifs. Vibrant, appetite-forward Middle Eastern brand.",
     "added": 1774353600013
   },
   {
@@ -3141,11 +3446,12 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/0d969571382001b962e15137497d8085.jpeg",
     "client": "Unknown",
     "imageType": "Reference",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Bold",
-      "Bright"
+      "Bright",
+      "Minimal"
     ],
     "designCode": [
       "Geometric",
@@ -3160,6 +3466,37 @@ const LIBRARY_DATA = [
       "Bold",
       "Neon"
     ],
+    "ingredient": [],
+    "style": [
+      "Korean",
+      "Swiss/Modernist"
+    ],
+    "occasion": [],
+    "mood": [
+      "Confident",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "event poster",
+      "Korean design",
+      "geometric shapes",
+      "arts education",
+      "bilingual",
+      "2017",
+      "purple",
+      "teal",
+      "magenta",
+      "bold",
+      "vertical text",
+      "rotated type"
+    ],
     "notes": "2017 International Arts Education Week poster (Korea). Bold geometric shapes — purple triangle, teal rectangle, magenta arc — on white. Strong typographic layout with vertically rotated text. Korean and English.",
     "added": 1774353600014
   },
@@ -3168,7 +3505,10 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/0fe842594332626047813f1c5444be27.jpg",
     "client": "SeeSaw Coffee",
     "imageType": "Pack Design",
-    "format": "Box",
+    "format": [
+      "Box",
+      "Gift Box"
+    ],
     "productCategory": [
       "Food",
       "Confectionery",
@@ -3176,7 +3516,9 @@ const LIBRARY_DATA = [
     ],
     "tonality": [
       "Minimal",
-      "Playful"
+      "Playful",
+      "Elegant",
+      "Dreamy"
     ],
     "designCode": [
       "Illustration-led",
@@ -3192,7 +3534,44 @@ const LIBRARY_DATA = [
       "Pastel",
       "Neutral"
     ],
-    "notes": "'Steal the Moon (2021)' mooncake gift set by SeeSaw Coffee collaboration. Minimal white boxes with abstract illustrated labels in yellow, purple, and green. Displayed on clear acrylic stand with fruit props.",
+    "ingredient": [
+      "mooncake"
+    ],
+    "style": [
+      "Chinese",
+      "Swiss/Modernist"
+    ],
+    "occasion": [
+      "Mid-Autumn"
+    ],
+    "mood": [
+      "Aspirational",
+      "Joyful",
+      "Dreamy"
+    ],
+    "typography": [
+      "Display",
+      "Script",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "mooncake",
+      "gift set",
+      "Mid-Autumn Festival",
+      "collab",
+      "SeeSaw Coffee",
+      "white box",
+      "acrylic display",
+      "abstract illustration",
+      "fruit props",
+      "lifestyle",
+      "2021",
+      "steal the moon"
+    ],
+    "notes": "'Steal the Moon (2021)' mooncake gift set by SeeSaw Coffee collab. Minimal white boxes with abstract illustrated labels in yellow, purple, and green. Displayed on clear acrylic stand with fruit props.",
     "added": 1774353600015
   },
   {
@@ -3200,13 +3579,18 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/10c6a8ce7f090aa7457c5ddbe75973a9.jpg",
     "client": "Mount Fuji BOO BOOK",
     "imageType": "Pack Design",
-    "format": "Box",
+    "format": [
+      "Box",
+      "Gift Box"
+    ],
     "productCategory": [
       "Gifting"
     ],
     "tonality": [
       "Playful",
-      "Bright"
+      "Bright",
+      "Bold",
+      "Dopamine"
     ],
     "designCode": [
       "Colour-led",
@@ -3222,22 +3606,60 @@ const LIBRARY_DATA = [
       "Bold",
       "Pastel"
     ],
-    "notes": "Flatlay of square gift boxes with bold pink and green spray/airbrush abstract petal pattern on white. Multiple boxes arranged in diamond orientation on beige background.",
+    "ingredient": [],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Gifting Season",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Dreamy"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "gift box",
+      "airbrush",
+      "spray",
+      "petal pattern",
+      "pink",
+      "green",
+      "white",
+      "flat lay",
+      "diamond layout",
+      "abstract",
+      "Japanese gifting",
+      "topshot",
+      "bold graphic"
+    ],
+    "notes": "Mount Fuji BOO BOOK gift boxes — bold pink and green airbrush abstract petal pattern on white. Multiple boxes in diamond orientation flat lay on beige. Very graphic, high contrast.",
     "added": 1774353600016
   },
   {
     "id": 1774353600017,
     "src": "TAGBOT/2026-03-25/10d6f11597cb80e9ddcd7962e29a1ecb.jpg",
     "client": "Mikkeller San Diego",
-    "imageType": "Pack Design",
-    "format": "Other",
+    "imageType": "Label Design",
+    "format": [
+      "Label"
+    ],
     "productCategory": [
-      "Alcohol"
+      "Alcohol",
+      "Beer"
     ],
     "tonality": [
       "Heritage",
       "Dark",
-      "Retro"
+      "Retro",
+      "Edgy"
     ],
     "designCode": [
       "Illustration-led",
@@ -3245,14 +3667,55 @@ const LIBRARY_DATA = [
     ],
     "targetAudience": [
       "Premium",
-      "Millennial"
+      "Millennial",
+      "Young Adults"
     ],
     "colourPalette": [
       "Warm",
       "Earthy",
       "Neutral"
     ],
-    "notes": "Beer label for 'Beer Geek Brunch' barrel-aged imperial oatmeal stout by Mikkeller San Diego. Circular label with two illustrated quirky bear characters. Brown/tan colour scheme. Bourbon barrel-aged typography treatment.",
+    "ingredient": [
+      "oatmeal stout",
+      "coffee"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Adventurous",
+      "Indulgent",
+      "Irreverent"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Script",
+      "Hand-lettered"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "beer label",
+      "craft beer",
+      "imperial stout",
+      "oatmeal stout",
+      "bourbon barrel",
+      "circular label",
+      "bear illustration",
+      "quirky",
+      "brown",
+      "cream",
+      "hand-drawn",
+      "Mikkeller",
+      "barrel-aged",
+      "coffee stout"
+    ],
+    "notes": "Mikkeller San Diego 'Beer Geek Brunch' — circular beer label, two illustrated quirky bear characters, brown/cream. Barrel-aged imperial oatmeal stout brewed with coffee.",
     "added": 1774353600017
   },
   {
@@ -3260,11 +3723,14 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/1148a1057c7c6a4c7240bb48052efe9f.jpeg",
     "client": "Unknown",
     "imageType": "Key Visual",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Bold",
-      "Playful"
+      "Playful",
+      "Bright",
+      "Friendly",
+      "Dopamine"
     ],
     "designCode": [
       "Illustration-led",
@@ -3272,13 +3738,44 @@ const LIBRARY_DATA = [
       "Typography-led"
     ],
     "targetAudience": [
-      "Young Adults"
+      "Young Adults",
+      "Mass Market"
     ],
     "colourPalette": [
       "Bold",
-      "Bright"
+      "Bright",
+      "Warm"
     ],
-    "notes": "2020 Taiwan employment fair social media post. Bright yellow-green background with bold Chinese typography and event details. Flat style character illustration. Social media graphic design reference.",
+    "ingredient": [],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [],
+    "mood": [
+      "Energising",
+      "Joyful"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "event poster",
+      "social media",
+      "employment fair",
+      "bilingual",
+      "bold",
+      "yellow-green",
+      "cartoon",
+      "character",
+      "Chinese",
+      "Tainan",
+      "jobs",
+      "2020"
+    ],
+    "notes": "2020 Tainan employment fair social media post. Bright yellow-green background, bold Chinese typography, flat cartoon character. Bilingual social media graphic.",
     "added": 1774353600018
   },
   {
@@ -3286,7 +3783,7 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/1bb429275c5f06e8e5def9c443343abb.jpg",
     "client": "Guangxi Design Week 2020",
     "imageType": "Reference",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Minimal",
@@ -3306,7 +3803,43 @@ const LIBRARY_DATA = [
       "Cool",
       "Bright"
     ],
-    "notes": "Set of four event credential badges for Guangxi Design Week 2020 — VIP, Staff, Exhibitor, Guest. Each badge features a distinct abstract geometric shape in lavender, blue, teal, and orange on white.",
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Swiss/Modernist"
+    ],
+    "occasion": [],
+    "mood": [
+      "Confident",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Die-cut"
+    ],
+    "keywords": [
+      "event badge",
+      "die-cut",
+      "credential",
+      "VIP",
+      "staff",
+      "exhibitor",
+      "guest",
+      "geometric",
+      "abstract",
+      "design week",
+      "Guangxi",
+      "bilingual",
+      "lavender",
+      "blue",
+      "teal",
+      "orange"
+    ],
+    "notes": "Guangxi Design Week 2020 event badge set — 4 die-cut credentials (VIP, Staff, Exhibitor, Guest) each with distinct abstract geometric shape in lavender, blue, teal, and orange.",
     "added": 1774353600019
   },
   {
@@ -3314,13 +3847,11 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/1dbcbabe54e932a63690fa1d83b7d2fd.jpg",
     "client": "Unknown",
     "imageType": "Key Visual",
-    "format": "Other",
-    "productCategory": [
-      "Food",
-      "Snack"
-    ],
+    "format": [],
+    "productCategory": [],
     "tonality": [
       "Bold",
+      "Edgy",
       "Playful"
     ],
     "designCode": [
@@ -3336,7 +3867,41 @@ const LIBRARY_DATA = [
       "Bold",
       "Neon"
     ],
-    "notes": "Outdoor/camping festival sticker set on black background. Bold Chinese calligraphic and brush typography in neon green and yellow. 'Fight Wild' / Ancinet Springtown camping event branding.",
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Streetwear"
+    ],
+    "occasion": [],
+    "mood": [
+      "Adventurous",
+      "Energising",
+      "Irreverent"
+    ],
+    "typography": [
+      "Display",
+      "Hand-lettered",
+      "Mixed Fonts",
+      "Kinetic / Expressive"
+    ],
+    "finish": [],
+    "keywords": [
+      "sticker set",
+      "camping",
+      "outdoor",
+      "festival",
+      "calligraphy",
+      "brush typography",
+      "neon green",
+      "yellow",
+      "black",
+      "Fight Wild",
+      "Chinese brand",
+      "streetwear",
+      "sticker design",
+      "Ancinet Springtown"
+    ],
+    "notes": "Camping/outdoor festival sticker set on black background. Bold Chinese calligraphic brush type in neon green and yellow. 'Fight Wild' / Ancinet Springtown event branding.",
     "added": 1774353600020
   },
   {
@@ -3344,25 +3909,59 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/1e1d2acbe70aca12ab2cac9ef70bdf1d.jpg",
     "client": "Unknown",
     "imageType": "Reference",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Minimal",
-      "Bold"
+      "Bold",
+      "Dreamy"
     ],
     "designCode": [
       "Abstract",
       "Colour-led",
-      "Geometric"
+      "Geometric",
+      "3D",
+      "Gradient"
     ],
     "targetAudience": [
-      "Young Adults"
+      "Young Adults",
+      "Premium"
     ],
     "colourPalette": [
       "Cool",
       "Bold"
     ],
-    "notes": "Minimalist digital artwork labelled 'Wednesday' on vivid electric blue background. Two overlapping gradient spheres in soft blue/white. Clean, contemporary 3D gradient reference.",
+    "ingredient": [],
+    "style": [
+      "Swiss/Modernist"
+    ],
+    "occasion": [],
+    "mood": [
+      "Calming",
+      "Aspirational",
+      "Dreamy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "gradient spheres",
+      "3D",
+      "electric blue",
+      "digital art",
+      "abstract",
+      "glossy",
+      "minimal",
+      "Wednesday",
+      "contemporary",
+      "render",
+      "overlapping circles",
+      "blue"
+    ],
+    "notes": "Minimalist digital artwork 'WEDNESDAY' — vivid electric blue background with two overlapping soft blue/white gradient 3D spheres. Clean, contemporary digital art reference.",
     "added": 1774353600021
   },
   {
@@ -3370,31 +3969,74 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/1e36ce6033e2d79a488233e4b496166c.jpeg",
     "client": "Baskin-Robbins",
     "imageType": "Key Visual",
-    "format": "Other",
+    "format": [],
     "productCategory": [
       "Food",
       "Confectionery"
     ],
     "tonality": [
       "Playful",
-      "Bright"
+      "Bright",
+      "Dopamine",
+      "Kawaii",
+      "Friendly"
     ],
     "designCode": [
       "Illustration-led",
+      "Photography-led",
       "Typography-led",
       "Colour-led"
     ],
     "targetAudience": [
       "Young Adults",
       "Women",
-      "Teens"
+      "Teens",
+      "Gen Z"
     ],
     "colourPalette": [
       "Pastel",
       "Warm",
       "Bold"
     ],
-    "notes": "Korean Baskin-Robbins 'Triple Cheese Love' promotion poster. Pink background with oversized ice cream cone photography, illustrated bunny character, and heart motifs. Bold playful typography.",
+    "ingredient": [
+      "ice cream",
+      "cheese",
+      "cone"
+    ],
+    "style": [
+      "Korean"
+    ],
+    "occasion": [
+      "Valentine's Day",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Romantic",
+      "Playful"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Script"
+    ],
+    "finish": [],
+    "keywords": [
+      "ice cream",
+      "Baskin-Robbins",
+      "Korean",
+      "bunny character",
+      "IP collab",
+      "hearts",
+      "pink",
+      "kawaii",
+      "promotional",
+      "cheese ice cream",
+      "오버액션토끼",
+      "Triple Cheese Love",
+      "product photography"
+    ],
+    "notes": "Korean Baskin-Robbins 'Triple Cheese Love' promotion — bright pink poster, oversized ice cream cone photography, illustrated bunny IP collab character, hearts. Bold playful Korean type.",
     "added": 1774353600022
   },
   {
@@ -3402,31 +4044,63 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/1f5953cc938c9d4e4492cf473fc93628.jpg",
     "client": "Unknown",
     "imageType": "Key Visual",
-    "format": "Other",
-    "productCategory": [
-      "Beverage",
-      "Health & Wellness"
-    ],
+    "format": [],
+    "productCategory": [],
     "tonality": [
       "Bold",
       "Playful",
-      "Bright"
+      "Bright",
+      "Energising"
     ],
     "designCode": [
       "Illustration-led",
       "Colour-led",
-      "Typography-led"
+      "Typography-led",
+      "Photography-led"
     ],
     "targetAudience": [
       "Young Adults",
-      "Gen Z"
+      "Gen Z",
+      "Athletes"
     ],
     "colourPalette": [
       "Cool",
       "Bold",
       "Bright"
     ],
-    "notes": "Chinese ultimate frisbee event poster. Light blue sky background with bold illustrated 3D frisbee, action figures playing, and sticker-style Chinese/English typography. Energetic sporty aesthetic.",
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "American"
+    ],
+    "occasion": [],
+    "mood": [
+      "Adventurous",
+      "Energising",
+      "Joyful"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Hand-lettered",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "frisbee",
+      "ultimate frisbee",
+      "sport",
+      "event poster",
+      "3D",
+      "sky blue",
+      "sticker type",
+      "Chinese",
+      "bilingual",
+      "action",
+      "lifestyle photography",
+      "极限飞盘"
+    ],
+    "notes": "Chinese ultimate frisbee (极限飞盘) event poster — light sky blue background, bold 3D illustrated frisbee, real action photography, sticker-style typography. Energetic sporty aesthetic.",
     "added": 1774353600023
   },
   {
@@ -3434,11 +4108,13 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/1f5fb0dce74ee68c76e54daa7e2b1e89.jpg",
     "client": "Unknown",
     "imageType": "Reference",
-    "format": "Other",
+    "format": [],
     "productCategory": [],
     "tonality": [
       "Dark",
-      "Minimal"
+      "Minimal",
+      "Sophisticated",
+      "Edgy"
     ],
     "designCode": [
       "Typography-led",
@@ -3452,7 +4128,39 @@ const LIBRARY_DATA = [
       "Monochrome",
       "Dark"
     ],
-    "notes": "Dark typographic poster. Words — tradition, season, dream, smile, solution — arranged in a continuous spiral ribbon on solid black. White clean sans-serif type. Strong typographic form experiment.",
+    "ingredient": [],
+    "style": [
+      "Swiss/Modernist",
+      "Neo-Brutalist"
+    ],
+    "occasion": [],
+    "mood": [
+      "Mysterious",
+      "Confident",
+      "Dreamy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only",
+      "Kinetic / Expressive"
+    ],
+    "finish": [],
+    "keywords": [
+      "typography spiral",
+      "ribbon type",
+      "kinetic typography",
+      "black",
+      "white",
+      "sans-serif",
+      "experimental",
+      "words",
+      "type art",
+      "poster",
+      "contemporary",
+      "text spiral"
+    ],
+    "notes": "Dark typographic poster — words (tradition, season, dream, smile, solution...) arranged in a continuous spiral ribbon on solid black. White sans-serif type. Strong typographic form experiment.",
     "added": 1774353600024
   },
   {
@@ -3460,18 +4168,21 @@ const LIBRARY_DATA = [
     "src": "TAGBOT/2026-03-25/1f6a5b4ea830145c67d9d94b91aaa5bc.jpg",
     "client": "Freshippo",
     "imageType": "Key Visual",
-    "format": "Other",
+    "format": [],
     "productCategory": [
       "Food"
     ],
     "tonality": [
       "Minimal",
-      "Bright"
+      "Bright",
+      "Clinical",
+      "Sophisticated"
     ],
     "designCode": [
       "Clean",
       "Typography-led",
-      "Colour-led"
+      "Colour-led",
+      "Abstract"
     ],
     "targetAudience": [
       "Mass Market",
@@ -3482,7 +4193,41 @@ const LIBRARY_DATA = [
       "Pastel",
       "Bold"
     ],
-    "notes": "Brand & Package Design overview key visual for Freshippo (盒马) private label '盒马零系列' 2020–2022. Cyan gradient background with large 'O' letterform. Clean, clinical, fresh brand identity reference.",
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Swiss/Modernist"
+    ],
+    "occasion": [],
+    "mood": [
+      "Trustworthy",
+      "Confident",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "brand identity",
+      "private label",
+      "Freshippo",
+      "Hema",
+      "盒马",
+      "letterform",
+      "O",
+      "cyan",
+      "gradient",
+      "clean",
+      "clinical",
+      "package design",
+      "2020-2022",
+      "brand presentation",
+      "zero series"
+    ],
+    "notes": "Freshippo (盒马) private label '盒马零系列' brand & package design 2020–2022 key visual. Cyan gradient background with large gradient 'O' letterform. Clean, clinical, contemporary brand reference.",
     "added": 1774353600025
   }
 ];
