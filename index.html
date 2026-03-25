@@ -843,14 +843,26 @@ let localUploads = JSON.parse(localStorage.getItem('packagingLocalUploads') || '
 function saveLocal() { localStorage.setItem('packagingLocalUploads', JSON.stringify(localUploads)); }
 function saveMoodboards() { localStorage.setItem('packagingMoodboards', JSON.stringify(moodboards)); }
 
-async function loadLibraryJson() {
-  let fromFile = null;
+function applyLibraryData(fromFile) {
+  if (!fromFile) {
+    library = [...localUploads];
+  } else {
+    const fileIds = new Set(fromFile.map(e => String(e.id)));
+    library = [...fromFile, ...localUploads.filter(e => !fileIds.has(String(e.id)))];
+  }
+  renderGallery();
+  updateClientFilter();
+  if (document.getElementById('tab-moodboard').classList.contains('active')) {
+    renderMbTagButtons(); renderMoodboardMatches();
+  }
+}
 
-  // Primary: inline script data — works with file:// and http://
+async function loadLibraryJson() {
+  // Populate library immediately (synchronous) so tabs are usable right away
   if (window.LIBRARY_DATA) {
-    fromFile = window.LIBRARY_DATA;
     document.getElementById('sync-status').textContent =
-      'library-data.js · ' + fromFile.length + ' entries';
+      'library-data.js · ' + window.LIBRARY_DATA.length + ' entries';
+    applyLibraryData(window.LIBRARY_DATA);
   }
 
   // When served via HTTP, also try fetch so live edits to library.json are picked up
@@ -861,26 +873,19 @@ async function loadLibraryJson() {
         const text = await res.text();
         if (text !== lastLibraryHash) {
           lastLibraryHash = text;
-          fromFile = JSON.parse(text);
+          const fromFile = JSON.parse(text);
           document.getElementById('sync-status').textContent =
             'Synced · ' + new Date().toLocaleTimeString();
+          applyLibraryData(fromFile);
         }
       }
     } catch { /* stay with LIBRARY_DATA */ }
   }
 
-  if (!fromFile) {
-    library = [...localUploads];
+  if (!library.length && !window.LIBRARY_DATA) {
     document.getElementById('sync-status').textContent =
       'No library data — add images using the form above';
-  } else {
-    const fileIds = new Set(fromFile.map(e => String(e.id)));
-    library = [...fromFile, ...localUploads.filter(e => !fileIds.has(String(e.id)))];
-  }
-  renderGallery();
-  updateClientFilter();
-  if (document.getElementById('tab-moodboard').classList.contains('active')) {
-    renderMbTagButtons(); renderMoodboardMatches();
+    applyLibraryData(null);
   }
 }
 
@@ -1181,16 +1186,20 @@ function renderMbTagButtons() {
   if (!tags.length) { hint.style.display='inline'; return; }
   hint.style.display = 'none';
   container.innerHTML = tags.map(t =>
-    `<button class="mb-tag-btn${activeMbTags.has(t)?' selected':''}" onclick="toggleMbTag(this,'${t.replace(/'/g,"\\'")}')">${t}</button>`
+    `<button class="mb-tag-btn${activeMbTags.has(t)?' selected':''}" data-tag="${t.replace(/"/g,'&quot;')}">${t}</button>`
   ).join('');
 }
 
-function toggleMbTag(btn, tag) {
+// Delegated listener for tag buttons
+document.addEventListener('click', function(ev) {
+  const btn = ev.target.closest('#mb-tags-container .mb-tag-btn');
+  if (!btn) return;
+  const tag = btn.dataset.tag;
   if (activeMbTags.has(tag)) activeMbTags.delete(tag);
   else activeMbTags.add(tag);
   btn.classList.toggle('selected', activeMbTags.has(tag));
   renderMoodboardMatches();
-}
+});
 
 function getMbMatches() {
   const kws = document.getElementById('mb-keyword-input').value
@@ -1212,18 +1221,23 @@ function renderMoodboardMatches() {
   const matchIds = new Set(matches.map(e=>String(e.id)));
   selectedMbIds.forEach(id => { if (!matchIds.has(String(id))) selectedMbIds.delete(id); });
   document.getElementById('mb-match-count').textContent = `${matches.length} image(s) found. Click to add/remove from moodboard.`;
-  document.getElementById('mb-matches').innerHTML = matches.map(e =>
-    `<div class="mb-thumb${selectedMbIds.has(e.id)?' selected':''}" onclick="toggleMbSelect(${e.id})">
+  const container = document.getElementById('mb-matches');
+  container.innerHTML = matches.map(e =>
+    `<div class="mb-thumb${selectedMbIds.has(e.id)?' selected':''}" data-id="${e.id}">
       <span class="mb-check">✓</span>
-      <img src="${e.src}" alt="" title="${[e.imageType||e.type, e.client, ...(e.tonality||[])].filter(Boolean).join(' · ')}">
+      <img src="${e.src}" alt="">
     </div>`
   ).join('');
 }
 
-function toggleMbSelect(id) {
+// Single delegated listener — no inline onclick needed
+document.addEventListener('click', function(ev) {
+  const thumb = ev.target.closest('#mb-matches .mb-thumb');
+  if (!thumb) return;
+  const id = Number(thumb.dataset.id);
   selectedMbIds.has(id) ? selectedMbIds.delete(id) : selectedMbIds.add(id);
   renderMoodboardMatches();
-}
+});
 
 // ── Moodboard template helpers ─────────────────────────────────────────────────
 function el(tag, style, text) {
