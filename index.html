@@ -674,7 +674,6 @@
   <img id="lightbox-img" src="" alt="">
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script src="library-data.js"></script>
 <script>
 // ── Taxonomy ──────────────────────────────────────────────────────────────────
@@ -1392,16 +1391,51 @@ function generateMoodboard() {
 }
 
 function exportMoodboard() {
-  const canvas = document.getElementById('moodboard-canvas');
-  const title  = document.getElementById('moodboard-title-input').value || 'moodboard';
-  if (!canvas.children.length) { alert('Generate a moodboard first.'); return; }
-  if (typeof html2canvas === 'undefined') { alert('Export library not loaded yet — try again in a moment.'); return; }
-  html2canvas(canvas, { scale:2, useCORS:true, allowTaint:true, backgroundColor:null }).then(c => {
-    const a = document.createElement('a');
-    a.download = title.replace(/\s+/g, '-').toLowerCase() + '.png';
-    a.href = c.toDataURL('image/png');
-    a.click();
+  const wrap = document.getElementById('moodboard-canvas');
+  const title = document.getElementById('moodboard-title-input').value || 'moodboard';
+  if (!wrap.children.length) { alert('Generate a moodboard first.'); return; }
+
+  // Collect all img elements inside the moodboard
+  const imgs = Array.from(wrap.querySelectorAll('img'));
+  const W = 1800, H = 1040;
+  const c = document.createElement('canvas');
+  c.width = W; c.height = H;
+  const ctx = c.getContext('2d');
+
+  // Background
+  ctx.fillStyle = '#0d0d10';
+  ctx.fillRect(0, 0, W, H);
+
+  // Draw each image proportionally based on its rendered position
+  const wrapRect = wrap.getBoundingClientRect();
+  const scaleX = W / wrapRect.width;
+  const scaleY = H / wrapRect.height;
+
+  let pending = imgs.length;
+  if (!pending) { downloadCanvas(c, title); return; }
+
+  imgs.forEach(img => {
+    const r = img.getBoundingClientRect();
+    const x = (r.left - wrapRect.left) * scaleX;
+    const y = (r.top  - wrapRect.top)  * scaleY;
+    const w = r.width  * scaleX;
+    const h = r.height * scaleY;
+    const image = new Image();
+    image.crossOrigin = 'anonymous';
+    image.onload = () => {
+      ctx.drawImage(image, x, y, w, h);
+      if (--pending === 0) downloadCanvas(c, title);
+    };
+    image.onerror = () => { if (--pending === 0) downloadCanvas(c, title); };
+    image.src = img.src;
   });
+}
+
+function downloadCanvas(c, title) {
+  const a = document.createElement('a');
+  a.download = title.replace(/\s+/g, '-').toLowerCase() + '.png';
+  a.href = c.toDataURL('image/png');
+  a.click();
 }
 
 function saveMoodboard() {
