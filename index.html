@@ -579,7 +579,7 @@
 
     <div class="mb-keyword-wrap">
       <label>Or type keywords</label>
-      <input type="text" id="mb-keyword-input" placeholder="e.g. earthy, raw, bold" oninput="renderMoodboardMatches()">
+      <input type="text" id="mb-keyword-input" placeholder="e.g. earthy, raw, bold">
     </div>
 
     <div class="matching-label">Matching images — click to select / deselect</div>
@@ -595,9 +595,9 @@
         <option value="scatter">Annotated Scatter</option>
         <option value="columns">Column Analysis</option>
       </select>
-      <button class="primary" onclick="generateMoodboard()">Generate</button>
-      <button id="mb-export-btn" onclick="exportMoodboard()" style="display:none;">Export PNG</button>
-      <button id="mb-save-btn" onclick="saveMoodboard()" style="display:none;">Save</button>
+      <button class="primary" id="mb-generate-btn">Generate</button>
+      <button id="mb-export-btn" style="display:none;">Export PNG</button>
+      <button id="mb-save-btn" style="display:none;">Save</button>
     </div>
 
     <div id="moodboard-canvas-wrap">
@@ -1186,20 +1186,18 @@ function renderMbTagButtons() {
   if (!tags.length) { hint.style.display='inline'; return; }
   hint.style.display = 'none';
   container.innerHTML = tags.map(t =>
-    `<button class="mb-tag-btn${activeMbTags.has(t)?' selected':''}" data-tag="${t.replace(/"/g,'&quot;')}">${t}</button>`
+    `<button class="mb-tag-btn${activeMbTags.has(t)?' selected':''}">${t}</button>`
   ).join('');
+  Array.from(container.querySelectorAll('.mb-tag-btn')).forEach(function(btn, i) {
+    btn.addEventListener('click', function() {
+      var tag = tags[i];
+      if (activeMbTags.has(tag)) activeMbTags.delete(tag);
+      else activeMbTags.add(tag);
+      btn.classList.toggle('selected', activeMbTags.has(tag));
+      renderMoodboardMatches();
+    });
+  });
 }
-
-// Delegated listener for tag buttons
-document.addEventListener('click', function(ev) {
-  const btn = ev.target.closest('#mb-tags-container .mb-tag-btn');
-  if (!btn) return;
-  const tag = btn.dataset.tag;
-  if (activeMbTags.has(tag)) activeMbTags.delete(tag);
-  else activeMbTags.add(tag);
-  btn.classList.toggle('selected', activeMbTags.has(tag));
-  renderMoodboardMatches();
-});
 
 function getMbMatches() {
   const kws = document.getElementById('mb-keyword-input').value
@@ -1220,24 +1218,24 @@ function renderMoodboardMatches() {
   const matches = getMbMatches();
   const matchIds = new Set(matches.map(e=>String(e.id)));
   selectedMbIds.forEach(id => { if (!matchIds.has(String(id))) selectedMbIds.delete(id); });
-  document.getElementById('mb-match-count').textContent = `${matches.length} image(s) found. Click to add/remove from moodboard.`;
+  document.getElementById('mb-match-count').textContent = matches.length + ' image(s) found. Click to add/remove from moodboard.';
   const container = document.getElementById('mb-matches');
   container.innerHTML = matches.map(e =>
-    `<div class="mb-thumb${selectedMbIds.has(e.id)?' selected':''}" data-id="${e.id}">
-      <span class="mb-check">✓</span>
-      <img src="${e.src}" alt="">
-    </div>`
+    '<div class="mb-thumb' + (selectedMbIds.has(e.id)?' selected':'') + '">' +
+    '<span class="mb-check">\u2713</span>' +
+    '<img src="' + e.src + '" alt="">' +
+    '</div>'
   ).join('');
+  var thumbEls = Array.from(container.querySelectorAll('.mb-thumb'));
+  thumbEls.forEach(function(el, i) {
+    var entry = matches[i];
+    el.addEventListener('click', function() {
+      if (selectedMbIds.has(entry.id)) selectedMbIds.delete(entry.id);
+      else selectedMbIds.add(entry.id);
+      renderMoodboardMatches();
+    });
+  });
 }
-
-// Single delegated listener — no inline onclick needed
-document.addEventListener('click', function(ev) {
-  const thumb = ev.target.closest('#mb-matches .mb-thumb');
-  if (!thumb) return;
-  const id = Number(thumb.dataset.id);
-  selectedMbIds.has(id) ? selectedMbIds.delete(id) : selectedMbIds.add(id);
-  renderMoodboardMatches();
-});
 
 // ── Moodboard template helpers ─────────────────────────────────────────────────
 function el(tag, style, text) {
@@ -1506,6 +1504,12 @@ function deleteMoodboard(id) {
 
 loadLibraryJson();
 // No polling — data is static, only changes on deploy
+
+// Wire up moodboard controls directly (don't rely on inline HTML attributes)
+document.getElementById('mb-keyword-input').addEventListener('input', renderMoodboardMatches);
+document.getElementById('mb-generate-btn').addEventListener('click', generateMoodboard);
+document.getElementById('mb-export-btn').addEventListener('click', exportMoodboard);
+document.getElementById('mb-save-btn').addEventListener('click', saveMoodboard);
 </script>
 </body>
 </html>
