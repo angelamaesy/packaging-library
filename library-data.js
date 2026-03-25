@@ -2,7 +2,7 @@ const LIBRARY_DATA = [
   {
     "id": 1740000000038,
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-02%20at%2018.26.42.png",
-    "client": "",
+    "client": "Unknown",
     "imageType": "Pack Design",
     "format": "Box",
     "productCategory": [
@@ -210,7 +210,7 @@ const LIBRARY_DATA = [
   {
     "id": 1740000000031,
     "src": "TAGBOT/2026-03-24/0b38228098b24d223b21bf88bdfea297.jpg",
-    "client": "",
+    "client": "Unknown",
     "imageType": "Reference",
     "format": "Other",
     "productCategory": [],
@@ -223,7 +223,10 @@ const LIBRARY_DATA = [
       "Typography-led",
       "Colour-led"
     ],
-    "targetAudience": [],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z"
+    ],
     "colourPalette": [
       "Bright",
       "Neon"
@@ -234,7 +237,7 @@ const LIBRARY_DATA = [
   {
     "id": 1740000000030,
     "src": "TAGBOT/2026-03-24/2a729ec22988b2a284a7fdf37f1847fd.jpg",
-    "client": "",
+    "client": "Unknown",
     "imageType": "Illustration",
     "format": "Other",
     "productCategory": [],
@@ -247,7 +250,10 @@ const LIBRARY_DATA = [
       "Illustration-led",
       "Colour-led"
     ],
-    "targetAudience": [],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z"
+    ],
     "colourPalette": [
       "Bright",
       "Warm",
@@ -259,7 +265,7 @@ const LIBRARY_DATA = [
   {
     "id": 1740000000029,
     "src": "TAGBOT/2026-03-24/514cb519e759b0f806a36b93382f416f.jpg",
-    "client": "",
+    "client": "Unknown",
     "imageType": "Reference",
     "format": "Other",
     "productCategory": [],
@@ -272,7 +278,10 @@ const LIBRARY_DATA = [
       "Abstract",
       "Colour-led"
     ],
-    "targetAudience": [],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z"
+    ],
     "colourPalette": [
       "Neon",
       "Bright"
@@ -283,7 +292,7 @@ const LIBRARY_DATA = [
   {
     "id": 1740000000028,
     "src": "TAGBOT/2026-03-24/361450b5ebb95ffab48f555627fc3093.jpg",
-    "client": "",
+    "client": "Unknown",
     "imageType": "Reference",
     "format": "Other",
     "productCategory": [],
@@ -297,7 +306,10 @@ const LIBRARY_DATA = [
       "Colour-led",
       "Pattern-led"
     ],
-    "targetAudience": [],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z"
+    ],
     "colourPalette": [
       "Bright",
       "Neon"
@@ -308,7 +320,7 @@ const LIBRARY_DATA = [
   {
     "id": 1740000000027,
     "src": "TAGBOT/2026-03-24/5ac3218302f8254ea1e63b9c61da4581.jpg",
-    "client": "",
+    "client": "Unknown",
     "imageType": "Reference",
     "format": "Other",
     "productCategory": [],
@@ -319,7 +331,10 @@ const LIBRARY_DATA = [
       "Abstract",
       "Geometric"
     ],
-    "targetAudience": [],
+    "targetAudience": [
+      "Premium",
+      "Young Adults"
+    ],
     "colourPalette": [
       "Warm",
       "Cool",
@@ -660,7 +675,7 @@ const LIBRARY_DATA = [
   {
     "id": 1740000000015,
     "src": "TAGBOT/2026-03-24/ee0a04d24068b0cf8699afee90fa0e83.jpg",
-    "client": "",
+    "client": "NICE4U",
     "imageType": "Reference",
     "format": "Sachet",
     "productCategory": [
@@ -748,7 +763,7 @@ const LIBRARY_DATA = [
   {
     "id": 1740000000012,
     "src": "TAGBOT/2026-03-24/d182ca0c5f6fe46352a7134de9a8b8bc.jpg",
-    "client": "",
+    "client": "Unknown",
     "imageType": "Pack Design",
     "format": "Box",
     "productCategory": [
@@ -777,7 +792,7 @@ const LIBRARY_DATA = [
   {
     "id": 1740000000011,
     "src": "TAGBOT/2026-03-24/31d8307115bf1dc992229351754941cd.jpg",
-    "client": "",
+    "client": "Unknown",
     "imageType": "Pack Design",
     "format": "Carton",
     "productCategory": [
@@ -901,7 +916,7 @@ const LIBRARY_DATA = [
   {
     "id": 1740000000007,
     "src": "TAGBOT/2026-03-24/fb88117eaa3811e43fd247f1be296f40.jpg",
-    "client": "",
+    "client": "Sanriku",
     "imageType": "Pack Design",
     "format": "Box",
     "productCategory": [
@@ -1083,7 +1098,7 @@ const LIBRARY_DATA = [
   {
     "id": 1740000000001,
     "src": "TAGBOT/2026-03-24/Screenshot%202026-03-05%20at%2018.09.59.png",
-    "client": "",
+    "client": "Unknown",
     "imageType": "Pack Design",
     "format": "Bag",
     "productCategory": [
@@ -1148,7 +1163,10 @@ const LIBRARY_DATA = [
     "client": "Unknown",
     "imageType": "Illustration",
     "format": "Other",
-    "productCategory": [],
+    "productCategory": [
+      "Gifting",
+      "Confectionery"
+    ],
     "tonality": [
       "Playful",
       "Bright"
@@ -1201,7 +1219,10 @@ const LIBRARY_DATA = [
     "client": "Unknown",
     "imageType": "Illustration",
     "format": "Other",
-    "productCategory": [],
+    "productCategory": [
+      "Confectionery",
+      "Snack"
+    ],
     "tonality": [
       "Playful",
       "Bright"
@@ -1228,7 +1249,11 @@ const LIBRARY_DATA = [
     "client": "Unknown",
     "imageType": "Reference",
     "format": "Other",
-    "productCategory": [],
+    "productCategory": [
+      "Snack",
+      "Food",
+      "Alcohol"
+    ],
     "tonality": [
       "Bold",
       "Retro",
@@ -1282,7 +1307,10 @@ const LIBRARY_DATA = [
     "client": "Unknown",
     "imageType": "Key Visual",
     "format": "Other",
-    "productCategory": [],
+    "productCategory": [
+      "Food",
+      "Gifting"
+    ],
     "tonality": [
       "Organic",
       "Earthy",
@@ -1365,7 +1393,10 @@ const LIBRARY_DATA = [
     "client": "Huajiao Design",
     "imageType": "Key Visual",
     "format": "Other",
-    "productCategory": [],
+    "productCategory": [
+      "Food",
+      "Gifting"
+    ],
     "tonality": [
       "Playful",
       "Bold"
@@ -1650,7 +1681,10 @@ const LIBRARY_DATA = [
     "client": "Unknown",
     "imageType": "Key Visual",
     "format": "Other",
-    "productCategory": [],
+    "productCategory": [
+      "Food",
+      "Snack"
+    ],
     "tonality": [
       "Bold",
       "Playful"
@@ -1735,7 +1769,10 @@ const LIBRARY_DATA = [
     "client": "Unknown",
     "imageType": "Key Visual",
     "format": "Other",
-    "productCategory": [],
+    "productCategory": [
+      "Beverage",
+      "Health & Wellness"
+    ],
     "tonality": [
       "Bold",
       "Playful",
