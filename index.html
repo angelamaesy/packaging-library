@@ -16,9 +16,9 @@
       --surface-3:   #26262f;
       --border:      #2c2c38;
       --border-2:    #3a3a48;
-      --accent:      #7c6aff;
-      --accent-dim:  #4f42b5;
-      --accent-glow: rgba(124,106,255,0.15);
+      --accent:      #ff3366;
+      --accent-dim:  #cc1a44;
+      --accent-glow: rgba(255,51,102,0.15);
       --danger:      #ff4f6a;
       --success:     #3dd68c;
       --text:        #e8e8f0;
@@ -57,9 +57,10 @@
     }
 
     #app-title {
-      font-size: 17px;
-      font-weight: 600;
-      letter-spacing: -0.3px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
       color: var(--text);
       margin-bottom: 20px;
       display: flex;
@@ -79,27 +80,28 @@
     #main-content { padding: 28px 40px; max-width: 1500px; }
 
     /* ── Tabs ───────────────────────────────────────────────────────── */
-    #tabs { display: flex; gap: 2px; }
+    #tabs { display: flex; gap: 0; }
     .tab-btn {
-      padding: 9px 18px;
+      padding: 10px 20px;
       cursor: pointer;
       border: none;
+      border-bottom: 2px solid transparent;
       background: transparent;
       color: var(--text-3);
-      font-size: 13px;
-      font-weight: 500;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
       font-family: inherit;
-      border-radius: var(--radius-sm) var(--radius-sm) 0 0;
-      transition: color var(--transition), background var(--transition);
+      transition: color var(--transition), border-color var(--transition);
       position: relative;
       bottom: -1px;
     }
-    .tab-btn:hover { color: var(--text-2); }
+    .tab-btn:hover { color: var(--text-2); background: transparent; border-color: var(--border-2); }
     .tab-btn.active {
       color: var(--text);
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-bottom-color: var(--bg);
+      background: transparent;
+      border-bottom-color: var(--accent);
     }
     .tab-panel { display: none; }
     .tab-panel.active { display: block; }
@@ -122,7 +124,7 @@
       white-space: nowrap;
     }
     button:hover { background: var(--surface-3); color: var(--text); border-color: var(--border-2); }
-    button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+    button.primary { background: var(--accent); border-color: var(--accent); color: #fff; text-transform: uppercase; letter-spacing: 1px; font-size: 11px; }
     button.primary:hover { background: var(--accent-dim); border-color: var(--accent-dim); }
     button.danger:hover { background: var(--danger); border-color: var(--danger); color: #fff; }
 
@@ -336,6 +338,13 @@
 
     #no-results { grid-column: 1/-1; text-align: center; padding: 60px 0; color: var(--text-3); font-size: 13px; }
 
+    /* ── Pagination ───────────────────────────────────────────────────── */
+    #gallery-pagination { display: none; justify-content: center; align-items: center; gap: 12px; padding: 24px 0; flex-wrap: wrap; }
+    .pag-btn { padding: 6px 14px; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
+    .pag-btn:disabled { opacity: 0.3; cursor: default; }
+    .pag-btn:disabled:hover { background: var(--surface-2); color: var(--text-2); border-color: var(--border-2); }
+    #pag-info { font-size: 11px; color: var(--text-3); letter-spacing: 0.5px; }
+
     /* ── Moodboard ────────────────────────────────────────────────────── */
     #mb-keyword-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; font-size: 13px; color: var(--text-2); }
     #mb-tag-hint { font-size: 12px; color: var(--text-3); }
@@ -354,6 +363,8 @@
     }
     .mb-tag-btn:hover { border-color: var(--accent); color: var(--accent); }
     .mb-tag-btn.selected { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .mb-show-more-btn { padding: 4px 10px; border: none; background: none; color: var(--text-3); font-size: 11px; letter-spacing: 0.3px; cursor: pointer; }
+    .mb-show-more-btn:hover { color: var(--accent); background: none; }
     .mb-keyword-wrap { margin-bottom: 14px; }
     .mb-keyword-wrap input { max-width: 360px; }
     .matching-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-3); margin-bottom: 8px; }
@@ -411,19 +422,19 @@
 <div id="sync-status">Connecting to library.json…</div>
 
 <div id="app-header">
-  <div id="app-title">Packaging Design Reference Library</div>
+  <div id="app-title">Reference Library</div>
   <div id="tabs">
-    <button class="tab-btn active" onclick="switchTab('library')">Library</button>
-    <button class="tab-btn" onclick="switchTab('moodboard')">Moodboard Builder</button>
-    <button class="tab-btn" onclick="switchTab('saved')">Saved Moodboards</button>
+    <button class="tab-btn active" onclick="switchTab('library')">01 — Library</button>
+    <button class="tab-btn" onclick="switchTab('upload')">02 — Upload</button>
+    <button class="tab-btn" onclick="switchTab('moodboard')">03 — Moodboard</button>
+    <button class="tab-btn" onclick="switchTab('saved')">04 — Saved</button>
   </div>
 </div>
 
 <div id="main-content">
 
-<!-- ===== LIBRARY TAB ===== -->
-<div id="tab-library" class="tab-panel active">
-
+<!-- ===== UPLOAD TAB ===== -->
+<div id="tab-upload" class="tab-panel">
   <div id="upload-section" class="section-card">
     <h2>Add Images</h2>
 
@@ -495,17 +506,21 @@
     <button class="primary" onclick="addImages()">Add to Library</button>
     <div id="upload-progress"></div>
   </div>
+</div>
+
+<!-- ===== LIBRARY TAB ===== -->
+<div id="tab-library" class="tab-panel active">
 
   <!-- Filter bar -->
   <div id="filter-bar">
     <div id="filter-top-row">
-      <input type="text" id="search-input" placeholder="Search across all fields…" oninput="renderGallery()">
+      <input type="text" id="search-input" placeholder="Search across all fields…" oninput="galleryPage=1;renderGallery()">
       <button id="filter-toggle-btn" onclick="toggleFilterPanel()">
         Filters <span id="filter-count" style="display:none; background:var(--accent); color:#fff; border-radius:10px; font-size:10px; padding:1px 6px; font-weight:600;"></span>
       </button>
       <div style="margin-left:auto; display:flex; gap:8px; align-items:center;">
         <label style="margin:0; text-transform:none; font-size:12px; color:var(--text-3);">Sort</label>
-        <select id="sort-input" onchange="renderGallery()">
+        <select id="sort-input" onchange="galleryPage=1;renderGallery()">
           <option value="newest">Newest first</option>
           <option value="oldest">Oldest first</option>
           <option value="client">Client A–Z</option>
@@ -519,11 +534,11 @@
       <div id="filter-grid">
         <div class="field">
           <label>Client</label>
-          <select id="f-client" onchange="renderGallery()"><option value="">All clients</option></select>
+          <select id="f-client" onchange="galleryPage=1;renderGallery()"><option value="">All clients</option></select>
         </div>
         <div class="field">
           <label>Image Type</label>
-          <select id="f-imageType" onchange="renderGallery()">
+          <select id="f-imageType" onchange="galleryPage=1;renderGallery()">
             <option value="">All types</option>
             <option>Pack Design</option><option>Mood</option><option>Key Visual</option>
             <option>Product Photography</option><option>Campaign</option>
@@ -532,7 +547,7 @@
         </div>
         <div class="field">
           <label>Format</label>
-          <select id="f-format" onchange="renderGallery()">
+          <select id="f-format" onchange="galleryPage=1;renderGallery()">
             <option value="">All formats</option>
             <option>Bottle</option><option>Pouch</option><option>Box</option><option>Bag</option>
             <option>Can</option><option>Tube</option><option>Jar</option><option>Sachet</option>
@@ -569,6 +584,7 @@
     <div id="gallery-count"></div>
   </div>
   <div id="gallery"></div>
+  <div id="gallery-pagination"></div>
 </div>
 
 <!-- ===== MOODBOARD TAB ===== -->
@@ -795,7 +811,7 @@ function makeMsAddRow(containerId, taxKey, dd, onChange) {
       const cdd = document.getElementById(cid + '-dd');
       if (!cdd) return;
       const addRow = cdd.querySelector('.ms-add-row');
-      const newOpt = makeMsOption(cid, taxKey, val, cid.startsWith('ms-f-') ? renderGallery : null);
+      const newOpt = makeMsOption(cid, taxKey, val, cid.startsWith('ms-f-') ? () => { galleryPage=1; renderGallery(); } : null);
       cdd.insertBefore(newOpt, addRow);
     });
     inp.value = '';
@@ -847,6 +863,8 @@ let selectedMbIds = new Set();
 let activeMbTags = new Set();
 let lastLibraryHash = '';
 let localUploads = JSON.parse(localStorage.getItem('packagingLocalUploads') || '[]');
+let galleryPage = 1;
+const PAGE_SIZE = 30;
 
 function saveLocal() { localStorage.setItem('packagingLocalUploads', JSON.stringify(localUploads)); }
 function saveMoodboards() { localStorage.setItem('packagingMoodboards', JSON.stringify(moodboards)); }
@@ -1019,7 +1037,18 @@ function renderGallery() {
   else if (sort === 'client') results.sort((a,b) => (a.client||'').localeCompare(b.client||''));
   else if (sort === 'type') results.sort((a,b) => ((a.imageType||a.type||'')).localeCompare((b.imageType||b.type||'')));
 
-  document.getElementById('gallery-count').textContent = `${results.length} image${results.length!==1?'s':''}`;
+  const totalPages = Math.ceil(results.length / PAGE_SIZE);
+  if (galleryPage > totalPages) galleryPage = Math.max(1, totalPages);
+  const start = (galleryPage - 1) * PAGE_SIZE;
+  const end = start + PAGE_SIZE;
+  const pageItems = results.slice(start, end);
+
+  const countEl = document.getElementById('gallery-count');
+  if (results.length <= PAGE_SIZE) {
+    countEl.textContent = `${results.length} image${results.length!==1?'s':''}`;
+  } else {
+    countEl.textContent = `${start+1}–${Math.min(end, results.length)} of ${results.length} images`;
+  }
 
   // Active filter chips
   buildActiveChips(f);
@@ -1030,12 +1059,24 @@ function renderGallery() {
   const badge = document.getElementById('filter-count');
   badge.textContent = total; badge.style.display = total ? 'inline' : 'none';
 
+  // Pagination UI
+  const pagEl = document.getElementById('gallery-pagination');
+  if (totalPages > 1) {
+    pagEl.style.display = 'flex';
+    pagEl.innerHTML = `
+      <button class="pag-btn" onclick="setGalleryPage(${galleryPage-1})" ${galleryPage<=1?'disabled':''}>← Prev</button>
+      <span id="pag-info">Page ${galleryPage} of ${totalPages}</span>
+      <button class="pag-btn" onclick="setGalleryPage(${galleryPage+1})" ${galleryPage>=totalPages?'disabled':''}>Next →</button>`;
+  } else {
+    pagEl.style.display = 'none';
+  }
+
   if (!results.length) {
     document.getElementById('gallery').innerHTML = '<div id="no-results">No images match your filters.</div>';
     return;
   }
 
-  document.getElementById('gallery').innerHTML = results.map(e => {
+  document.getElementById('gallery').innerHTML = pageItems.map(e => {
     const type = e.imageType || e.type || '';
     const chips1 = [...(e.productCategory||[]), ...(e.tonality||[])];
     const chips2 = [...(e.designCode||[]), ...(e.targetAudience||[]), ...(e.colourPalette||[]), ...(e.tags||[])];
@@ -1057,6 +1098,12 @@ function renderGallery() {
   }).join('');
 }
 
+function setGalleryPage(page) {
+  galleryPage = page;
+  renderGallery();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 function addFilterChip(evt, field, value) {
   evt.stopPropagation();
   // Figure out which multiselect fields actually contain this value
@@ -1075,6 +1122,7 @@ function addFilterChip(evt, field, value) {
   });
   updateMsTrigger(id);
   document.getElementById('filter-panel').classList.add('open');
+  galleryPage = 1;
   renderGallery();
 }
 
@@ -1084,10 +1132,10 @@ function buildActiveChips(f) {
 
   const add = (label, remove) => { chips.push(label); removers.push(remove); };
 
-  if (f.search) add(`"${f.search}"`, () => { document.getElementById('search-input').value=''; renderGallery(); });
-  if (f.client) add(`Client: ${f.client}`, () => { document.getElementById('f-client').value=''; renderGallery(); });
-  if (f.imageType) add(`Type: ${f.imageType}`, () => { document.getElementById('f-imageType').value=''; renderGallery(); });
-  if (f.format) add(`Format: ${f.format}`, () => { document.getElementById('f-format').value=''; renderGallery(); });
+  if (f.search) add(`"${f.search}"`, () => { document.getElementById('search-input').value=''; galleryPage=1; renderGallery(); });
+  if (f.client) add(`Client: ${f.client}`, () => { document.getElementById('f-client').value=''; galleryPage=1; renderGallery(); });
+  if (f.imageType) add(`Type: ${f.imageType}`, () => { document.getElementById('f-imageType').value=''; galleryPage=1; renderGallery(); });
+  if (f.format) add(`Format: ${f.format}`, () => { document.getElementById('f-format').value=''; galleryPage=1; renderGallery(); });
 
   ['productCategory','tonality','designCode','targetAudience','colourPalette'].forEach(key => {
     f[key].forEach(val => {
@@ -1098,6 +1146,7 @@ function buildActiveChips(f) {
           if (cb.value===val) { cb.checked=false; cb.closest('.ms-option')?.classList.remove('checked'); }
         });
         updateMsTrigger('ms-f-'+key);
+        galleryPage = 1;
         renderGallery();
       });
     });
@@ -1118,6 +1167,7 @@ function clearFilters() {
   document.getElementById('f-imageType').value = '';
   document.getElementById('f-format').value = '';
   ['ms-f-productCategory','ms-f-tonality','ms-f-designCode','ms-f-targetAudience','ms-f-colourPalette'].forEach(clearMsValues);
+  galleryPage = 1;
   renderGallery();
 }
 
@@ -1214,6 +1264,8 @@ function initMoodboardTab() {
   updateTemplateFields();
 }
 
+const MB_TAGS_VISIBLE = 8;
+
 function renderMbTagButtons() {
   const groups = getTaxonomyGroups();
   const container = document.getElementById('mb-tags-container');
@@ -1224,6 +1276,7 @@ function renderMbTagButtons() {
 
   groups.forEach(function(group) {
     const details = document.createElement('details');
+    details.open = true;
     const activeInGroup = group.tags.filter(function(t) { return activeMbTags.has(t); }).length;
 
     const summary = document.createElement('summary');
@@ -1232,7 +1285,8 @@ function renderMbTagButtons() {
 
     const wrap = document.createElement('div');
     wrap.className = 'mb-tag-group';
-    group.tags.forEach(function(tag) {
+
+    function makeTagBtn(tag) {
       const btn = document.createElement('button');
       btn.className = 'mb-tag-btn' + (activeMbTags.has(tag) ? ' selected' : '');
       btn.textContent = tag;
@@ -1244,8 +1298,37 @@ function renderMbTagButtons() {
         summary.textContent = group.name + (activeNow ? ' (' + activeNow + ')' : '');
         renderMoodboardMatches();
       });
-      wrap.appendChild(btn);
-    });
+      return btn;
+    }
+
+    const visible = group.tags.slice(0, MB_TAGS_VISIBLE);
+    const hidden = group.tags.slice(MB_TAGS_VISIBLE);
+
+    visible.forEach(function(tag) { wrap.appendChild(makeTagBtn(tag)); });
+
+    if (hidden.length) {
+      const overflow = document.createElement('span');
+      overflow.style.display = 'none';
+      hidden.forEach(function(tag) { overflow.appendChild(makeTagBtn(tag)); });
+
+      const moreBtn = document.createElement('button');
+      moreBtn.className = 'mb-show-more-btn';
+      moreBtn.textContent = '+ ' + hidden.length + ' more';
+      moreBtn.addEventListener('click', function() {
+        const expanded = overflow.style.display !== 'none' && overflow.style.display !== '';
+        if (expanded) {
+          overflow.style.display = 'none';
+          moreBtn.textContent = '+ ' + hidden.length + ' more';
+        } else {
+          overflow.style.display = 'contents';
+          moreBtn.textContent = '− show less';
+        }
+      });
+
+      wrap.appendChild(overflow);
+      wrap.appendChild(moreBtn);
+    }
+
     details.appendChild(wrap);
     container.appendChild(details);
   });
@@ -1393,7 +1476,7 @@ function updateTemplateFields() {
 
 // ── Template: Code Column ──────────────────────────────────────────────────────
 function renderCodeColumn(canvas, images, title, project, bannerText, bannerColor, colNames) {
-  canvas.style.cssText = 'width:980px; background:#fff; font-family:Inter,sans-serif; display:flex; flex-direction:column; overflow:hidden;';
+  canvas.style.cssText = 'width:960px; height:540px; background:#fff; font-family:Inter,sans-serif; display:flex; flex-direction:column; overflow:hidden;';
 
   // Header
   const hdr = document.createElement('div');
@@ -1466,7 +1549,7 @@ function renderSlash(canvas, images, title, project, description) {
 
 // ── Template: GG Board ────────────────────────────────────────────────────────
 function renderGGBoard(canvas, images, title, project, subtitle, labelText, keywords, descRight, statementRight) {
-  canvas.style.cssText = 'width:1100px; background:#fff; font-family:Inter,sans-serif; display:flex; flex-direction:column; overflow:hidden; padding:32px 40px 40px; box-sizing:border-box;';
+  canvas.style.cssText = 'width:960px; height:540px; background:#fff; font-family:Inter,sans-serif; display:flex; flex-direction:column; overflow:hidden; padding:24px 32px 20px; box-sizing:border-box;';
 
   // ── Top row ──
   const topRow = document.createElement('div');
@@ -1509,11 +1592,11 @@ function renderGGBoard(canvas, images, title, project, subtitle, labelText, keyw
   const row1Imgs = images.slice(0, 4);
   if (row1Imgs.length) {
     const row1 = document.createElement('div');
-    row1.style.cssText = 'display:flex; gap:8px; height:255px;';
+    row1.style.cssText = 'display:flex; gap:6px; height:210px;';
     row1Imgs.forEach(function(e) {
       const img = document.createElement('img');
       img.src = e.src;
-      img.style.cssText = 'flex:1; min-width:0; height:255px; object-fit:cover; display:block;';
+      img.style.cssText = 'flex:1; min-width:0; height:210px; object-fit:cover; display:block;';
       row1.appendChild(img);
     });
     mosaic.appendChild(row1);
@@ -1523,12 +1606,12 @@ function renderGGBoard(canvas, images, title, project, subtitle, labelText, keyw
   const row2Imgs = images.slice(4, 7);
   if (row2Imgs.length) {
     const row2 = document.createElement('div');
-    row2.style.cssText = 'display:flex; gap:8px; height:230px;';
+    row2.style.cssText = 'display:flex; gap:6px; height:190px;';
     const flexW = [0.75, 1.1, 1.5];
     row2Imgs.forEach(function(e, i) {
       const img = document.createElement('img');
       img.src = e.src;
-      img.style.cssText = 'flex:' + (flexW[i] || 1) + '; min-width:0; height:230px; object-fit:cover; display:block;';
+      img.style.cssText = 'flex:' + (flexW[i] || 1) + '; min-width:0; height:190px; object-fit:cover; display:block;';
       row2.appendChild(img);
     });
     mosaic.appendChild(row2);
@@ -1581,7 +1664,7 @@ function renderStory(canvas, images, title, project, description) {
 
 // ── Template: Collage ─────────────────────────────────────────────────────────
 function renderCollage(canvas, images, title, project, kw1, kw2, kw3) {
-  canvas.style.cssText = 'width:980px; background:#0d0d10; font-family:Inter,sans-serif; display:flex; flex-direction:column; overflow:hidden;';
+  canvas.style.cssText = 'width:960px; height:540px; background:#0d0d10; font-family:Inter,sans-serif; display:flex; flex-direction:column; overflow:hidden;';
 
   // Header
   const hdr = document.createElement('div');
@@ -1662,17 +1745,33 @@ function generateMoodboard() {
   renderMoodboardMatches();
 }
 
+function drawImageCover(ctx, img, dx, dy, dw, dh) {
+  const imgAR = img.naturalWidth / img.naturalHeight;
+  const boxAR = dw / dh;
+  let sx, sy, sw, sh;
+  if (imgAR > boxAR) {
+    sh = img.naturalHeight;
+    sw = sh * boxAR;
+    sx = (img.naturalWidth - sw) / 2;
+    sy = 0;
+  } else {
+    sw = img.naturalWidth;
+    sh = sw / boxAR;
+    sx = 0;
+    sy = (img.naturalHeight - sh) / 2;
+  }
+  ctx.drawImage(img, sx, sy, sw, sh, dx, dy, dw, dh);
+}
+
 function exportMoodboard() {
   const wrap = document.getElementById('moodboard-canvas');
   const title = document.getElementById('moodboard-title-input').value || 'moodboard';
   const layout = document.getElementById('mb-layout-select').value;
   if (!wrap.children.length) { alert('Generate a moodboard first.'); return; }
 
-  // Collect all img elements inside the moodboard
-  const imgs = Array.from(wrap.querySelectorAll('img'));
-  const scale = 2;
-  const W = wrap.offsetWidth * scale;
-  const H = wrap.offsetHeight * scale;
+  // Output at fixed 1920×1080 (16:9)
+  const W = 1920;
+  const H = 1080;
   const c = document.createElement('canvas');
   c.width = W; c.height = H;
   const ctx = c.getContext('2d');
@@ -1683,6 +1782,7 @@ function exportMoodboard() {
   ctx.fillRect(0, 0, W, H);
 
   // Draw each image proportionally based on its rendered position
+  const imgs = Array.from(wrap.querySelectorAll('img'));
   const wrapRect = wrap.getBoundingClientRect();
   const scaleX = W / wrapRect.width;
   const scaleY = H / wrapRect.height;
@@ -1699,7 +1799,7 @@ function exportMoodboard() {
     const image = new Image();
     image.crossOrigin = 'anonymous';
     image.onload = () => {
-      ctx.drawImage(image, x, y, w, h);
+      drawImageCover(ctx, image, x, y, w, h);
       if (--pending === 0) downloadCanvas(c, title);
     };
     image.onerror = () => { if (--pending === 0) downloadCanvas(c, title); };
@@ -1762,7 +1862,7 @@ function deleteMoodboard(id) {
 // Build all multiselect widgets
 ['up','edit','f'].forEach(prefix => {
   Object.keys(TAXONOMY).forEach(key => {
-    buildMultiSelect(`ms-${prefix}-${key}`, key, prefix==='f' ? renderGallery : null);
+    buildMultiSelect(`ms-${prefix}-${key}`, key, prefix==='f' ? () => { galleryPage=1; renderGallery(); } : null);
   });
 });
 
