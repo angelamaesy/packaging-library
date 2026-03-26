@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Packaging Design Reference Library</title>
+  <title>The Shelf — by The 25s</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
@@ -16,9 +16,9 @@
       --surface-3:   #26262f;
       --border:      #2c2c38;
       --border-2:    #3a3a48;
-      --accent:      #ff3366;
-      --accent-dim:  #cc1a44;
-      --accent-glow: rgba(255,51,102,0.15);
+      --accent:      #ff6600;
+      --accent-dim:  #cc4400;
+      --accent-glow: rgba(255,102,0,0.15);
       --danger:      #ff4f6a;
       --success:     #3dd68c;
       --text:        #e8e8f0;
@@ -52,29 +52,42 @@
     }
 
     #app-header {
-      padding: 24px 40px 0;
+      padding: 20px 40px 0;
       border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: flex-end;
+      gap: 40px;
     }
 
-    #app-title {
-      font-size: 11px;
+    #app-logo {
+      display: flex;
+      align-items: baseline;
+      gap: 11px;
+      padding-bottom: 18px;
+      flex-shrink: 0;
+    }
+    #app-logo-mark {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--accent);
+      letter-spacing: -1px;
+      line-height: 1;
+    }
+    #app-logo-text { display: flex; flex-direction: column; gap: 3px; }
+    #app-logo-name {
+      font-size: 12px;
       font-weight: 700;
-      letter-spacing: 2px;
+      letter-spacing: 3px;
       text-transform: uppercase;
       color: var(--text);
-      margin-bottom: 20px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
+      line-height: 1;
     }
-
-    #app-title::before {
-      content: '';
-      display: inline-block;
-      width: 8px; height: 8px;
-      border-radius: 50%;
-      background: var(--accent);
-      box-shadow: 0 0 8px var(--accent);
+    #app-logo-sub {
+      font-size: 9px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--text-3);
+      line-height: 1;
     }
 
     #main-content { padding: 28px 40px; max-width: 1500px; }
@@ -422,7 +435,13 @@
 <div id="sync-status">Connecting to library.json…</div>
 
 <div id="app-header">
-  <div id="app-title">Reference Library</div>
+  <div id="app-logo">
+    <div id="app-logo-mark">25</div>
+    <div id="app-logo-text">
+      <div id="app-logo-name">The Shelf</div>
+      <div id="app-logo-sub">by The 25s</div>
+    </div>
+  </div>
   <div id="tabs">
     <button class="tab-btn active" onclick="switchTab('library')">01 — Library</button>
     <button class="tab-btn" onclick="switchTab('upload')">02 — Upload</button>
