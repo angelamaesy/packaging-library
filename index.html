@@ -2213,6 +2213,7 @@ function initShelfShotTab() {
   document.querySelectorAll('.ss-rows-btn').forEach(function(btn) {
     btn.addEventListener('click', function() {
       ssRows = parseInt(btn.dataset.rows);
+      ssProducts.forEach(function(p, i) { p.row = (i % ssRows) + 1; });
       document.querySelectorAll('.ss-rows-btn').forEach(function(b) { b.classList.toggle('primary', b===btn); });
       renderSsProductList();
     });
@@ -2399,9 +2400,7 @@ function buildShelfRow(rowProducts, colWidth) {
   var orderedRight = expand(rightComps);
   var allSlots = orderedLeft.concat(orderedHero).concat(orderedRight);
 
-  var heroWidth = Math.round(colWidth * 1.15);
-  var heroHeight = Math.round(heroWidth * 1.5);  // taller hero
-  var compHeight = Math.round(colWidth * 1.35);
+  var prodHeight = Math.round(colWidth * 1.4);
 
   var rowEl = document.createElement('div');
   rowEl.className = 'ss-shelf-row';
@@ -2411,8 +2410,7 @@ function buildShelfRow(rowProducts, colWidth) {
     slot.className = 'ss-product-slot' + (p.role === 'hero' ? ' hero' : '');
     var img = document.createElement('img');
     img.src = p.src;
-    var h = p.role === 'hero' ? heroHeight : compHeight;
-    img.style.cssText = 'height:' + h + 'px; width:' + colWidth + 'px; object-fit:contain;';
+    img.style.cssText = 'height:' + prodHeight + 'px; width:' + colWidth + 'px; object-fit:contain;';
     slot.appendChild(img);
     rowEl.appendChild(slot);
   });
