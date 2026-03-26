@@ -418,6 +418,80 @@
     .modal-box .field { margin-bottom: 14px; }
     .modal-box .field-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
 
+    /* ── Shelf Shot ───────────────────────────────────────────────────── */
+    #ss-upload-zone {
+      border: 2px dashed var(--border-2);
+      border-radius: var(--radius);
+      padding: 32px;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color var(--transition), background var(--transition);
+      position: relative;
+    }
+    #ss-upload-zone:hover { border-color: var(--accent); background: var(--accent-glow); }
+    #ss-upload-zone input[type=file] { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%; }
+    #ss-upload-label { display: flex; flex-direction: column; gap: 6px; align-items: center; color: var(--text-2); font-size: 13px; pointer-events: none; }
+
+    #ss-product-list { display: flex; flex-direction: column; gap: 10px; }
+    .ss-product-card {
+      display: flex; align-items: center; gap: 12px;
+      background: var(--surface-2); border: 1px solid var(--border);
+      border-radius: var(--radius-sm); padding: 10px 12px;
+      flex-wrap: wrap;
+    }
+    .ss-product-card img { width: 56px; height: 56px; object-fit: contain; border-radius: 4px; background: #fff; flex-shrink: 0; }
+    .ss-product-card input[type=text] { width: 140px; font-size: 12px; }
+    .ss-btn-group { display: flex; gap: 4px; }
+    .ss-btn-group button { padding: 4px 10px; font-size: 11px; }
+    .ss-btn-group button.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .ss-product-card .ss-remove { margin-left: auto; color: var(--text-3); font-size: 16px; padding: 2px 6px; }
+    .ss-row-label { font-size: 11px; color: var(--text-3); }
+
+    .ss-bg-btn, .ss-rows-btn, .ss-cols-btn { padding: 5px 12px; font-size: 11px; }
+
+    /* Shelf canvas */
+    #ss-canvas-wrap {
+      border-radius: var(--radius);
+      overflow: hidden;
+      display: inline-block;
+      min-width: 100%;
+    }
+    .ss-shelf-bg-light { background: linear-gradient(180deg, #ebebeb 0%, #d5d5d5 100%); }
+    .ss-shelf-bg-white { background: linear-gradient(180deg, #f8f8f8 0%, #ececec 100%); }
+    .ss-shelf-outer { padding: 48px 48px 0; }
+    .ss-shelf-row {
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding-bottom: 24px;
+      margin-bottom: 40px;
+      gap: 0;
+    }
+    .ss-shelf-plank {
+      position: absolute; bottom: 0; left: -48px; right: -48px;
+      height: 22px;
+      background: #ffffff;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.08);
+      border-radius: 2px;
+    }
+    .ss-product-slot { display: flex; flex-direction: column; align-items: center; position: relative; flex-shrink: 0; }
+    .ss-product-slot img {
+      display: block;
+      object-fit: contain;
+      filter: drop-shadow(0 5px 10px rgba(0,0,0,0.20));
+    }
+    .ss-product-slot.hero img {
+      filter: drop-shadow(0 7px 14px rgba(0,0,0,0.30));
+    }
+
+    /* Saved section labels */
+    .saved-section-label {
+      font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--text-3); margin-bottom: 12px;
+    }
+    #saved-shelf-shots { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px,1fr)); gap: 16px; }
+
     /* ── Password screen ─────────────────────────────────────────────── */
     #password-screen {
       display: none;
@@ -529,18 +603,24 @@
   </div>
   <div id="tabs">
     <button class="tab-btn active" onclick="switchTab('library')">01 — Library</button>
-    <button class="tab-btn" onclick="switchTab('upload')">02 — Upload</button>
-    <button class="tab-btn" onclick="switchTab('moodboard')">03 — Moodboard</button>
+    <button class="tab-btn" onclick="switchTab('moodboard')">02 — Moodboard</button>
+    <button class="tab-btn" onclick="switchTab('shelfshot')">03 — Shelf Shot</button>
     <button class="tab-btn" onclick="switchTab('saved')">04 — Saved</button>
   </div>
 </div>
 
 <div id="main-content">
 
-<!-- ===== UPLOAD TAB ===== -->
-<div id="tab-upload" class="tab-panel">
-  <div id="upload-section" class="section-card">
-    <h2>Add Images</h2>
+<!-- ===== LIBRARY TAB ===== -->
+<div id="tab-library" class="tab-panel active">
+
+  <!-- Upload (collapsible) -->
+  <div id="upload-section" class="section-card" style="margin-bottom:16px;">
+    <div id="upload-toggle" onclick="toggleUploadSection()" style="display:flex;align-items:center;gap:8px;cursor:pointer;user-select:none;">
+      <span id="upload-toggle-arrow" style="font-size:12px;color:var(--text-3);transition:transform 0.15s;">›</span>
+      <h2 style="margin:0;">Add Images</h2>
+    </div>
+    <div id="upload-body" style="display:none; margin-top:16px;">
 
     <div class="field">
       <label>Image Files (select multiple)</label>
@@ -609,11 +689,8 @@
 
     <button class="primary" onclick="addImages()">Add to Library</button>
     <div id="upload-progress"></div>
+    </div><!-- /#upload-body -->
   </div>
-</div>
-
-<!-- ===== LIBRARY TAB ===== -->
-<div id="tab-library" class="tab-panel active">
 
   <!-- Filter bar -->
   <div id="filter-bar">
@@ -734,13 +811,93 @@
   </div>
 </div>
 
-<!-- ===== SAVED MOODBOARDS TAB ===== -->
-<div id="tab-saved" class="tab-panel">
-  <div style="margin-bottom:20px;">
-    <h2 style="font-size:15px;font-weight:600;color:var(--text);">Saved Moodboards</h2>
+<!-- ===== SHELF SHOT TAB ===== -->
+<div id="tab-shelfshot" class="tab-panel">
+  <div class="section-card" style="margin-bottom:16px;">
+    <h2>Shelf Shot</h2>
+    <p style="font-size:13px;color:var(--text-2);margin-bottom:16px;">Upload pack renders — your design + competitors. We'll remove white backgrounds and arrange them on a shelf with your pack centred.</p>
+
+    <!-- Upload zone -->
+    <div id="ss-upload-zone">
+      <input type="file" id="ss-file-input" accept="image/*" multiple>
+      <div id="ss-upload-label">
+        <span style="font-size:22px;">↑</span>
+        <span>Drop renders here or click to upload</span>
+        <span style="font-size:11px;color:var(--text-3);">PNG with transparency recommended — or we'll remove white backgrounds automatically</span>
+      </div>
+    </div>
+    <label id="ss-bg-remove-label" style="display:flex;align-items:center;gap:8px;cursor:pointer;margin-top:10px;font-size:12px;color:var(--text-2);text-transform:none;letter-spacing:0;">
+      <input type="checkbox" id="ss-bg-remove" checked style="accent-color:var(--accent);width:13px;height:13px;">
+      Auto-remove white background
+    </label>
   </div>
+
+  <!-- Product list -->
+  <div class="section-card" id="ss-product-section" style="display:none;margin-bottom:16px;">
+    <h2>Products</h2>
+    <div id="ss-product-list"></div>
+  </div>
+
+  <!-- Layout controls -->
+  <div class="section-card" id="ss-layout-section" style="display:none;margin-bottom:16px;">
+    <h2>Layout</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start;">
+
+      <div>
+        <label>Title</label>
+        <input type="text" id="ss-title" placeholder="Shelf shot name…" style="max-width:220px;">
+      </div>
+
+      <div>
+        <label>Background</label>
+        <div style="display:flex;gap:6px;margin-top:4px;">
+          <button class="ss-bg-btn primary" data-bg="light">Light grey</button>
+          <button class="ss-bg-btn" data-bg="white">White</button>
+        </div>
+      </div>
+
+      <div>
+        <label>Rows</label>
+        <div style="display:flex;gap:6px;margin-top:4px;" id="ss-rows-btns">
+          <button class="ss-rows-btn primary" data-rows="1">1</button>
+          <button class="ss-rows-btn" data-rows="2">2</button>
+          <button class="ss-rows-btn" data-rows="3">3</button>
+        </div>
+      </div>
+
+      <div>
+        <label>Columns per row</label>
+        <div style="display:flex;gap:6px;margin-top:4px;" id="ss-cols-btns">
+          <button class="ss-cols-btn" data-cols="4">4</button>
+          <button class="ss-cols-btn" data-cols="6">6</button>
+          <button class="ss-cols-btn primary" data-cols="8">8</button>
+          <button class="ss-cols-btn" data-cols="10">10</button>
+          <button class="ss-cols-btn" data-cols="12">12</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Generate + preview -->
+  <div class="section-card" id="ss-preview-section" style="display:none;">
+    <div style="display:flex;gap:8px;align-items:center;margin-bottom:16px;flex-wrap:wrap;">
+      <button class="primary" id="ss-generate-btn">Generate</button>
+      <button id="ss-export-btn" style="display:none;">Export PNG</button>
+      <button id="ss-save-btn" style="display:none;">Save</button>
+    </div>
+    <div id="ss-canvas-wrap"></div>
+  </div>
+</div>
+
+<!-- ===== SAVED TAB ===== -->
+<div id="tab-saved" class="tab-panel">
+  <p class="saved-section-label">Moodboards</p>
   <div id="saved-moodboards"></div>
-  <p id="no-saved">No moodboards saved yet.</p>
+  <p id="no-saved" style="font-size:13px;color:var(--text-3);padding:20px 0;">No moodboards saved yet.</p>
+  <p class="saved-section-label" style="margin-top:24px;">Shelf Shots</p>
+  <div id="saved-shelf-shots"></div>
+  <p id="no-shelf-shots" style="font-size:13px;color:var(--text-3);padding:20px 0;">No shelf shots saved yet.</p>
 </div>
 
 </div><!-- /#main-content -->
@@ -1038,7 +1195,15 @@ function switchTab(name) {
     if (b.textContent.toLowerCase().includes(name === 'saved' ? 'saved' : name)) b.classList.add('active');
   });
   if (name === 'moodboard') initMoodboardTab();
-  if (name === 'saved') renderSavedMoodboards();
+  if (name === 'saved') { renderSavedMoodboards(); renderSavedShelfShots(); }
+}
+
+function toggleUploadSection() {
+  const body = document.getElementById('upload-body');
+  const arrow = document.getElementById('upload-toggle-arrow');
+  const open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : 'block';
+  arrow.style.transform = open ? '' : 'rotate(90deg)';
 }
 
 // ── Upload ────────────────────────────────────────────────────────────────────
@@ -1970,6 +2135,445 @@ function loadMoodboard(id) {
 function deleteMoodboard(id) {
   if(!confirm('Delete this moodboard?')) return;
   moodboards=moodboards.filter(m=>m.id!==id); saveMoodboards(); renderSavedMoodboards();
+}
+
+// ── Shelf Shot ────────────────────────────────────────────────────────────────
+let shelfShots = JSON.parse(localStorage.getItem('packagingShelfShots') || '[]');
+let ssProducts = [];   // [{id, src, label, role, facings, row, side}]
+let ssBg = 'light';
+let ssRows = 1;
+let ssCols = 8;
+
+function saveShelfShots() { localStorage.setItem('packagingShelfShots', JSON.stringify(shelfShots)); }
+
+function removeWhiteBg(src, tolerance) {
+  tolerance = tolerance === undefined ? 28 : tolerance;
+  return new Promise(function(resolve) {
+    var img = new Image();
+    img.onload = function() {
+      var c = document.createElement('canvas');
+      c.width = img.naturalWidth; c.height = img.naturalHeight;
+      var ctx = c.getContext('2d');
+      ctx.drawImage(img, 0, 0);
+      var data = ctx.getImageData(0, 0, c.width, c.height);
+      var px = data.data;
+      var W = c.width, H = c.height;
+      function isWhite(i) { return px[i] > 255-tolerance && px[i+1] > 255-tolerance && px[i+2] > 255-tolerance; }
+      var visited = new Uint8Array(W * H);
+      var queue = [];
+      // seed all four corners + edges every 20px
+      var seeds = [0, W-1, W*(H-1), W*H-1];
+      for (var x=0; x<W; x+=20) { seeds.push(x); seeds.push(W*(H-1)+x); }
+      for (var y=0; y<H; y+=20) { seeds.push(y*W); seeds.push(y*W+W-1); }
+      seeds.forEach(function(idx) {
+        if (!visited[idx] && isWhite(idx*4)) { visited[idx]=1; queue.push(idx); }
+      });
+      while (queue.length) {
+        var idx = queue.pop();
+        px[idx*4+3] = 0;
+        var x = idx % W, y = Math.floor(idx / W);
+        [[x-1,y],[x+1,y],[x,y-1],[x,y+1]].forEach(function(nb) {
+          var nx=nb[0], ny=nb[1];
+          if (nx<0||ny<0||nx>=W||ny>=H) return;
+          var ni = ny*W+nx;
+          if (!visited[ni] && isWhite(ni*4)) { visited[ni]=1; queue.push(ni); }
+        });
+      }
+      ctx.putImageData(data, 0, 0);
+      resolve(c.toDataURL('image/png'));
+    };
+    img.onerror = function() { resolve(src); };
+    img.src = src;
+  });
+}
+
+function initShelfShotTab() {
+  // wire up upload zone
+  var zone = document.getElementById('ss-upload-zone');
+  var fileInput = document.getElementById('ss-file-input');
+  zone.addEventListener('dragover', function(e) { e.preventDefault(); zone.style.borderColor='var(--accent)'; });
+  zone.addEventListener('dragleave', function() { zone.style.borderColor=''; });
+  zone.addEventListener('drop', function(e) {
+    e.preventDefault(); zone.style.borderColor='';
+    handleSsFiles(Array.from(e.dataTransfer.files));
+  });
+  fileInput.addEventListener('change', function() { handleSsFiles(Array.from(fileInput.files)); fileInput.value=''; });
+
+  // bg buttons
+  document.querySelectorAll('.ss-bg-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      ssBg = btn.dataset.bg;
+      document.querySelectorAll('.ss-bg-btn').forEach(function(b) { b.classList.toggle('primary', b===btn); });
+    });
+  });
+
+  // rows buttons
+  document.querySelectorAll('.ss-rows-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      ssRows = parseInt(btn.dataset.rows);
+      document.querySelectorAll('.ss-rows-btn').forEach(function(b) { b.classList.toggle('primary', b===btn); });
+      renderSsProductList();
+    });
+  });
+
+  // cols buttons
+  document.querySelectorAll('.ss-cols-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      ssCols = parseInt(btn.dataset.cols);
+      document.querySelectorAll('.ss-cols-btn').forEach(function(b) { b.classList.toggle('primary', b===btn); });
+    });
+  });
+
+  document.getElementById('ss-generate-btn').addEventListener('click', renderShelfShot);
+  document.getElementById('ss-export-btn').addEventListener('click', exportShelfShot);
+  document.getElementById('ss-save-btn').addEventListener('click', saveShelfShot);
+}
+
+var ssTabInited = false;
+var _initShelfShotTab = initShelfShotTab;
+initShelfShotTab = function() {
+  if (!ssTabInited) { ssTabInited = true; _initShelfShotTab(); }
+};
+
+function handleSsFiles(files) {
+  var removeBg = document.getElementById('ss-bg-remove').checked;
+  var promises = files.filter(function(f) { return f.type.startsWith('image/'); }).map(function(file) {
+    return new Promise(function(resolve) {
+      var reader = new FileReader();
+      reader.onload = function(e) {
+        var src = e.target.result;
+        var name = file.name.replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ');
+        if (removeBg) {
+          removeWhiteBg(src).then(function(processed) {
+            resolve({ id: Date.now() + Math.random(), src: processed, label: name, role: 'competitor', facings: 1, row: 1, side: 'auto' });
+          });
+        } else {
+          resolve({ id: Date.now() + Math.random(), src: src, label: name, role: 'competitor', facings: 1, row: 1, side: 'auto' });
+        }
+      };
+      reader.readAsDataURL(file);
+    });
+  });
+
+  Promise.all(promises).then(function(newProducts) {
+    // if no hero yet, make first one hero
+    var hasHero = ssProducts.some(function(p) { return p.role === 'hero'; });
+    if (!hasHero && newProducts.length) newProducts[0].role = 'hero';
+    ssProducts = ssProducts.concat(newProducts);
+    document.getElementById('ss-product-section').style.display = '';
+    document.getElementById('ss-layout-section').style.display = '';
+    document.getElementById('ss-preview-section').style.display = '';
+    renderSsProductList();
+  });
+}
+
+function renderSsProductList() {
+  var list = document.getElementById('ss-product-list');
+  var multiRow = ssRows > 1;
+  list.innerHTML = '';
+  ssProducts.forEach(function(p, i) {
+    var card = document.createElement('div');
+    card.className = 'ss-product-card';
+
+    var thumb = document.createElement('img');
+    thumb.src = p.src;
+    card.appendChild(thumb);
+
+    var nameInput = document.createElement('input');
+    nameInput.type = 'text'; nameInput.value = p.label; nameInput.placeholder = 'Label…';
+    nameInput.oninput = function() { ssProducts[i].label = nameInput.value; };
+    card.appendChild(nameInput);
+
+    // role toggle
+    var roleGroup = document.createElement('div'); roleGroup.className = 'ss-btn-group';
+    ['Hero','Comp'].forEach(function(r) {
+      var rKey = r === 'Hero' ? 'hero' : 'competitor';
+      var btn = document.createElement('button');
+      btn.textContent = r;
+      if (p.role === rKey) btn.classList.add('active');
+      btn.onclick = function() {
+        if (rKey === 'hero') {
+          // only one hero allowed
+          ssProducts.forEach(function(pp) { if (pp.role === 'hero') pp.role = 'competitor'; });
+        }
+        ssProducts[i].role = rKey;
+        renderSsProductList();
+      };
+      roleGroup.appendChild(btn);
+    });
+    card.appendChild(roleGroup);
+
+    // facings
+    var facGroup = document.createElement('div'); facGroup.className = 'ss-btn-group';
+    var facLabel = document.createElement('span'); facLabel.className = 'ss-row-label'; facLabel.textContent = 'Facings:';
+    facGroup.appendChild(facLabel);
+    [1,2,3,4].forEach(function(n) {
+      var btn = document.createElement('button');
+      btn.textContent = n;
+      if (p.facings === n) btn.classList.add('active');
+      btn.onclick = function() { ssProducts[i].facings = n; renderSsProductList(); };
+      facGroup.appendChild(btn);
+    });
+    card.appendChild(facGroup);
+
+    // row selector (only if multiRow)
+    if (multiRow) {
+      var rowGroup = document.createElement('div'); rowGroup.className = 'ss-btn-group';
+      var rowLabel = document.createElement('span'); rowLabel.className = 'ss-row-label'; rowLabel.textContent = 'Row:';
+      rowGroup.appendChild(rowLabel);
+      for (var r = 1; r <= ssRows; r++) {
+        (function(rowNum) {
+          var btn = document.createElement('button');
+          btn.textContent = rowNum;
+          if (p.row === rowNum) btn.classList.add('active');
+          btn.onclick = function() { ssProducts[i].row = rowNum; renderSsProductList(); };
+          rowGroup.appendChild(btn);
+        })(r);
+      }
+      card.appendChild(rowGroup);
+    }
+
+    // side selector (competitors only)
+    if (p.role === 'competitor') {
+      var sideGroup = document.createElement('div'); sideGroup.className = 'ss-btn-group';
+      var sideLabel = document.createElement('span'); sideLabel.className = 'ss-row-label'; sideLabel.textContent = 'Side:';
+      sideGroup.appendChild(sideLabel);
+      ['L','Auto','R'].forEach(function(s) {
+        var sKey = s.toLowerCase();
+        var btn = document.createElement('button');
+        btn.textContent = s;
+        if (p.side === sKey) btn.classList.add('active');
+        btn.onclick = function() { ssProducts[i].side = sKey; renderSsProductList(); };
+        sideGroup.appendChild(btn);
+      });
+      card.appendChild(sideGroup);
+    }
+
+    // remove
+    var removeBtn = document.createElement('button');
+    removeBtn.className = 'ss-remove';
+    removeBtn.textContent = '×';
+    removeBtn.onclick = function() {
+      ssProducts.splice(i, 1);
+      // ensure at least one hero if any products remain
+      if (ssProducts.length && !ssProducts.some(function(pp) { return pp.role==='hero'; })) {
+        ssProducts[0].role = 'hero';
+      }
+      renderSsProductList();
+    };
+    card.appendChild(removeBtn);
+
+    list.appendChild(card);
+  });
+}
+
+function buildShelfRow(rowProducts, colWidth) {
+  var hero = rowProducts.filter(function(p) { return p.role === 'hero'; });
+  var comps = rowProducts.filter(function(p) { return p.role === 'competitor'; });
+
+  // resolve sides: auto-split comps evenly left/right
+  var leftComps = [], rightComps = [];
+  comps.forEach(function(p, i) {
+    if (p.side === 'l') leftComps.push(p);
+    else if (p.side === 'r') rightComps.push(p);
+    else {
+      // auto: alternate left/right in upload order
+      if (leftComps.length <= rightComps.length) leftComps.push(p);
+      else rightComps.push(p);
+    }
+  });
+
+  // expand facings
+  function expand(arr) {
+    var out = [];
+    arr.forEach(function(p) {
+      for (var f = 0; f < p.facings; f++) out.push(p);
+    });
+    return out;
+  }
+
+  var orderedLeft = expand(leftComps);
+  var orderedHero = expand(hero);
+  var orderedRight = expand(rightComps);
+  var allSlots = orderedLeft.concat(orderedHero).concat(orderedRight);
+
+  var heroWidth = Math.round(colWidth * 1.15);
+  var heroHeight = Math.round(heroWidth * 1.5);  // taller hero
+  var compHeight = Math.round(colWidth * 1.35);
+
+  var rowEl = document.createElement('div');
+  rowEl.className = 'ss-shelf-row';
+
+  allSlots.forEach(function(p) {
+    var slot = document.createElement('div');
+    slot.className = 'ss-product-slot' + (p.role === 'hero' ? ' hero' : '');
+    var img = document.createElement('img');
+    img.src = p.src;
+    var h = p.role === 'hero' ? heroHeight : compHeight;
+    img.style.cssText = 'height:' + h + 'px; width:' + colWidth + 'px; object-fit:contain;';
+    slot.appendChild(img);
+    rowEl.appendChild(slot);
+  });
+
+  // shelf plank
+  var plank = document.createElement('div');
+  plank.className = 'ss-shelf-plank';
+  rowEl.appendChild(plank);
+
+  return rowEl;
+}
+
+function renderShelfShot() {
+  if (!ssProducts.length) { alert('Add at least one product first.'); return; }
+  var wrap = document.getElementById('ss-canvas-wrap');
+  wrap.innerHTML = '';
+
+  // outer bg
+  var outer = document.createElement('div');
+  outer.className = 'ss-shelf-outer ss-shelf-bg-' + ssBg;
+
+  // column width from ssCols (shelf inner width ~1200px equiv / cols)
+  var colWidth = Math.round(1200 / ssCols);
+
+  for (var r = 1; r <= ssRows; r++) {
+    var rowProds = ssProducts.filter(function(p) { return p.row === r; });
+    // if only 1 row, all products go on it
+    if (ssRows === 1) rowProds = ssProducts;
+    if (!rowProds.length) continue;
+    outer.appendChild(buildShelfRow(rowProds, colWidth));
+  }
+
+  wrap.appendChild(outer);
+  document.getElementById('ss-export-btn').style.display = 'inline-flex';
+  document.getElementById('ss-save-btn').style.display = 'inline-flex';
+}
+
+function drawImageContain(ctx, img, dx, dy, dw, dh) {
+  var imgAR = img.naturalWidth / img.naturalHeight;
+  var boxAR = dw / dh;
+  var sx, sy, sw, sh, ox=0, oy=0, ow=dw, oh=dh;
+  if (imgAR > boxAR) { ow = dw; oh = dw / imgAR; oy = (dh - oh) / 2; }
+  else { oh = dh; ow = dh * imgAR; ox = (dw - ow) / 2; }
+  ctx.drawImage(img, dx+ox, dy+oy, ow, oh);
+}
+
+function exportShelfShot() {
+  var wrap = document.getElementById('ss-canvas-wrap');
+  if (!wrap.children.length) { alert('Generate a shelf shot first.'); return; }
+  var title = document.getElementById('ss-title').value || 'shelf-shot';
+
+  var W = 1920, H = 1080;
+  var c = document.createElement('canvas'); c.width = W; c.height = H;
+  var ctx = c.getContext('2d');
+
+  // background
+  var grad = ctx.createLinearGradient(0,0,0,H);
+  if (ssBg === 'light') { grad.addColorStop(0,'#ebebeb'); grad.addColorStop(1,'#d5d5d5'); }
+  else { grad.addColorStop(0,'#f8f8f8'); grad.addColorStop(1,'#ececec'); }
+  ctx.fillStyle = grad; ctx.fillRect(0,0,W,H);
+
+  var imgs = Array.from(wrap.querySelectorAll('img'));
+  var wrapRect = wrap.getBoundingClientRect();
+  var scaleX = W / wrapRect.width;
+  var scaleY = H / wrapRect.height;
+
+  // draw shelf planks
+  wrap.querySelectorAll('.ss-shelf-plank').forEach(function(plank) {
+    var r = plank.getBoundingClientRect();
+    var px = (r.left - wrapRect.left) * scaleX;
+    var py = (r.top - wrapRect.top) * scaleY;
+    var pw = r.width * scaleX;
+    var ph = r.height * scaleY;
+    ctx.fillStyle = '#ffffff';
+    ctx.shadowColor = 'rgba(0,0,0,0.15)';
+    ctx.shadowBlur = 20 * scaleY;
+    ctx.shadowOffsetY = 8 * scaleY;
+    ctx.fillRect(px, py, pw, ph);
+    ctx.shadowColor = 'transparent'; ctx.shadowBlur = 0; ctx.shadowOffsetY = 0;
+  });
+
+  var pending = imgs.length;
+  if (!pending) { downloadCanvas(c, title); return; }
+
+  imgs.forEach(function(img) {
+    var r = img.getBoundingClientRect();
+    var x = (r.left - wrapRect.left) * scaleX;
+    var y = (r.top - wrapRect.top) * scaleY;
+    var w = r.width * scaleX;
+    var h = r.height * scaleY;
+    var image = new Image();
+    image.onload = function() {
+      drawImageContain(ctx, image, x, y, w, h);
+      if (--pending === 0) downloadCanvas(c, title);
+    };
+    image.onerror = function() { if (--pending === 0) downloadCanvas(c, title); };
+    image.src = img.src;
+  });
+}
+
+function saveShelfShot() {
+  var title = document.getElementById('ss-title').value.trim() || 'Untitled Shelf Shot';
+  if (!ssProducts.length) { alert('Add products first.'); return; }
+  var saved = {
+    id: Date.now(), title: title,
+    products: ssProducts.map(function(p) { return { src: p.src, label: p.label, role: p.role, facings: p.facings, row: p.row, side: p.side }; }),
+    bg: ssBg, rows: ssRows, cols: ssCols, created: Date.now()
+  };
+  shelfShots.unshift(saved);
+  saveShelfShots();
+  alert('"' + title + '" saved!');
+  renderSavedShelfShots();
+}
+
+function renderSavedShelfShots() {
+  var cont = document.getElementById('saved-shelf-shots');
+  var noEl = document.getElementById('no-shelf-shots');
+  if (!shelfShots.length) { cont.innerHTML = ''; noEl.style.display = 'block'; return; }
+  noEl.style.display = 'none';
+  cont.innerHTML = shelfShots.map(function(ss) {
+    var hero = ss.products.find(function(p) { return p.role === 'hero'; });
+    var comps = ss.products.filter(function(p) { return p.role === 'competitor'; });
+    var thumbs = [hero].concat(comps.slice(0,4)).filter(Boolean);
+    return '<div class="mb-card">' +
+      '<h3>' + ss.title + '</h3>' +
+      '<div class="mb-meta">' + ss.products.length + ' products &middot; ' + ss.rows + ' row' + (ss.rows!==1?'s':'') + ' &middot; ' + ss.cols + ' cols</div>' +
+      '<div class="mb-preview-grid" style="grid-template-columns:repeat(' + Math.min(thumbs.length,4) + ',1fr);">' +
+        thumbs.map(function(p) { return '<img src="' + p.src + '" alt="" style="background:#fff;">'; }).join('') +
+      '</div>' +
+      '<div class="mb-card-actions">' +
+        '<button onclick="loadShelfShot(' + ss.id + ')">Open</button>' +
+        '<button class="danger" onclick="deleteShelfShot(' + ss.id + ')">Delete</button>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+}
+
+function loadShelfShot(id) {
+  var ss = shelfShots.find(function(s) { return s.id === id; });
+  if (!ss) return;
+  switchTab('shelfshot');
+  setTimeout(function() {
+    ssProducts = ss.products.map(function(p) { return Object.assign({id: Math.random()}, p); });
+    ssBg = ss.bg || 'light';
+    ssRows = ss.rows || 1;
+    ssCols = ss.cols || 8;
+    document.getElementById('ss-title').value = ss.title;
+    document.querySelectorAll('.ss-bg-btn').forEach(function(b) { b.classList.toggle('primary', b.dataset.bg === ssBg); });
+    document.querySelectorAll('.ss-rows-btn').forEach(function(b) { b.classList.toggle('primary', parseInt(b.dataset.rows) === ssRows); });
+    document.querySelectorAll('.ss-cols-btn').forEach(function(b) { b.classList.toggle('primary', parseInt(b.dataset.cols) === ssCols); });
+    document.getElementById('ss-product-section').style.display = '';
+    document.getElementById('ss-layout-section').style.display = '';
+    document.getElementById('ss-preview-section').style.display = '';
+    renderSsProductList();
+    renderShelfShot();
+  }, 50);
+}
+
+function deleteShelfShot(id) {
+  if (!confirm('Delete this shelf shot?')) return;
+  shelfShots = shelfShots.filter(function(s) { return s.id !== id; });
+  saveShelfShots();
+  renderSavedShelfShots();
 }
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
