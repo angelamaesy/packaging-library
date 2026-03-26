@@ -418,6 +418,91 @@
     .modal-box .field { margin-bottom: 14px; }
     .modal-box .field-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
 
+    /* ── Password screen ─────────────────────────────────────────────── */
+    #password-screen {
+      display: none;
+      position: fixed; inset: 0;
+      background: #0a0a0a;
+      z-index: 999;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    #password-screen.visible { display: flex; }
+    #pw-logo-mark {
+      font-size: 52px;
+      font-weight: 800;
+      color: var(--accent);
+      letter-spacing: -2px;
+      line-height: 1;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    #pw-logo-name {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: var(--text);
+      text-align: center;
+      margin-bottom: 6px;
+    }
+    #pw-logo-sub {
+      font-size: 10px;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--text-3);
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    #pw-input {
+      width: 320px;
+      max-width: 90vw;
+      background: #e8ecf7;
+      border: none;
+      border-radius: 3px;
+      color: #0a0a0a;
+      font-family: inherit;
+      font-size: 14px;
+      padding: 14px 16px;
+      outline: none;
+      text-align: center;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+      display: block;
+    }
+    #pw-input::placeholder { color: #9aa0b8; letter-spacing: 1px; }
+    #pw-submit {
+      width: 320px;
+      max-width: 90vw;
+      background: var(--accent);
+      border: none;
+      border-radius: 3px;
+      color: #fff;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      padding: 14px 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      transition: background var(--transition);
+    }
+    #pw-submit:hover { background: var(--accent-dim); }
+    #pw-error {
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--danger);
+      text-align: center;
+      margin-top: 12px;
+      min-height: 14px;
+    }
+
     /* ── Lightbox ─────────────────────────────────────────────────────── */
     #lightbox { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.92); backdrop-filter: blur(8px); z-index: 200; align-items: center; justify-content: center; }
     #lightbox.open { display: flex; }
@@ -709,6 +794,16 @@
       <button onclick="closeModal('edit-modal')">Cancel</button>
     </div>
   </div>
+</div>
+
+<!-- Password screen -->
+<div id="password-screen">
+  <div id="pw-logo-mark">25</div>
+  <div id="pw-logo-name">The Shelf</div>
+  <div id="pw-logo-sub">Internal use only</div>
+  <input id="pw-input" type="password" placeholder="password" autocomplete="current-password">
+  <button id="pw-submit">Enter &nbsp;→</button>
+  <div id="pw-error"></div>
 </div>
 
 <!-- Lightbox -->
@@ -1893,6 +1988,39 @@ document.getElementById('mb-keyword-input').addEventListener('input', renderMood
 document.getElementById('mb-generate-btn').addEventListener('click', generateMoodboard);
 document.getElementById('mb-export-btn').addEventListener('click', exportMoodboard);
 document.getElementById('mb-save-btn').addEventListener('click', saveMoodboard);
+
+// ── Password gate ─────────────────────────────────────────────────────────────
+(function() {
+  const PW = 'plsshelfme';
+  const KEY = 'shelf_auth';
+  const screen = document.getElementById('password-screen');
+  const input  = document.getElementById('pw-input');
+  const submit = document.getElementById('pw-submit');
+  const error  = document.getElementById('pw-error');
+
+  function unlock() {
+    sessionStorage.setItem(KEY, '1');
+    screen.classList.remove('visible');
+  }
+
+  function attempt() {
+    if (input.value === PW) {
+      unlock();
+    } else {
+      error.textContent = 'Incorrect password';
+      input.value = '';
+      input.focus();
+    }
+  }
+
+  if (sessionStorage.getItem(KEY) !== '1') {
+    screen.classList.add('visible');
+    input.focus();
+  }
+
+  submit.addEventListener('click', attempt);
+  input.addEventListener('keydown', e => { if (e.key === 'Enter') attempt(); });
+})();
 </script>
 </body>
 </html>
