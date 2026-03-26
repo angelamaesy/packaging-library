@@ -486,6 +486,50 @@
       filter: drop-shadow(0 7px 14px rgba(0,0,0,0.30));
     }
 
+    /* Grid planner */
+    #ss-product-palette { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+    .ss-palette-item {
+      width: 68px; text-align: center; cursor: pointer; border-radius: 6px;
+      border: 2px solid var(--border); background: var(--surface-2);
+      padding: 6px 4px 4px; transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .ss-palette-item:hover { border-color: var(--text-3); }
+    .ss-palette-item.selected { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+    .ss-palette-item > img { width: 52px; height: 60px; object-fit: contain; display: block; margin: 0 auto; background: #fff; border-radius: 3px; }
+    .ss-palette-item .ss-pal-name { font-size: 9px; color: var(--text-3); display: block; margin-top: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .ss-palette-item .ss-pal-role { font-size: 8px; color: var(--accent); font-weight: 700; letter-spacing: 0.5px; display: block; }
+    #ss-grid-wrap { overflow-x: auto; padding-bottom: 4px; }
+    #ss-grid-planner { display: inline-grid; gap: 3px; }
+    .ss-grid-row-label { display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 10px; color: var(--text-3); white-space: nowrap; user-select: none; }
+    .ss-grid-col-header {
+      font-size: 9px; color: var(--text-3); text-align: center; padding-bottom: 4px;
+      cursor: pointer; transition: color 0.12s; user-select: none;
+    }
+    .ss-grid-col-header:hover { color: var(--accent); }
+    .ss-grid-cell {
+      width: 60px; height: 76px; border: 2px dashed #383838; border-radius: 4px;
+      background: #1c1c1c; cursor: pointer; display: flex; align-items: center;
+      justify-content: center; position: relative; overflow: hidden;
+      transition: border-color 0.12s, background 0.12s;
+    }
+    .ss-grid-cell:hover { border-color: #555; background: #222; }
+    .ss-grid-cell.can-place { border-color: var(--accent); border-style: dashed; }
+    .ss-grid-cell.occupied { border-style: solid; border-color: #484848; background: #202020; }
+    .ss-grid-cell.occupied.is-hero { border-color: var(--accent); }
+    .ss-grid-cell.occupied:hover { border-color: #666; }
+    .ss-grid-cell > img { width: 100%; height: 100%; object-fit: contain; display: block; pointer-events: none; }
+    .ss-grid-cell .ss-cell-x {
+      position: absolute; top: 1px; right: 2px; font-size: 11px; line-height: 1;
+      color: rgba(255,255,255,0.5); opacity: 0; transition: opacity 0.1s; cursor: pointer;
+      padding: 1px 3px; background: rgba(0,0,0,0.4); border-radius: 2px; z-index: 1;
+    }
+    .ss-grid-cell:hover .ss-cell-x { opacity: 1; }
+    .ss-grid-cell .ss-cell-lbl {
+      position: absolute; bottom: 0; left: 0; right: 0; font-size: 8px;
+      text-align: center; color: #fff; background: rgba(0,0,0,0.55);
+      padding: 1px 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; pointer-events: none;
+    }
+
     /* Saved section labels */
     .saved-section-label {
       font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
@@ -837,6 +881,19 @@
   <div class="section-card" id="ss-product-section" style="display:none;margin-bottom:16px;">
     <h2>Products</h2>
     <div id="ss-product-list"></div>
+  </div>
+
+  <!-- Grid planner -->
+  <div class="section-card" id="ss-grid-section" style="display:none;margin-bottom:16px;">
+    <h2>Place on Shelf</h2>
+    <p style="font-size:12px;color:var(--text-2);margin-bottom:14px;">Select a product below, then click cells to place it. Click a placed product to remove it. Click a column number to fill the whole column.</p>
+    <div id="ss-product-palette"></div>
+    <div id="ss-grid-wrap"><div id="ss-grid-planner"></div></div>
+    <div style="display:flex;gap:8px;align-items:center;margin-top:10px;flex-wrap:wrap;">
+      <button id="ss-autofill-btn" style="font-size:11px;padding:5px 12px;">Auto-fill</button>
+      <button id="ss-grid-clear-btn" style="font-size:11px;padding:5px 12px;">Clear All</button>
+      <span id="ss-grid-hint" style="font-size:11px;color:var(--text-3);">Select a product above to begin placing</span>
+    </div>
   </div>
 
   <!-- Layout controls -->
@@ -2141,10 +2198,12 @@ function deleteMoodboard(id) {
 
 // ── Shelf Shot ────────────────────────────────────────────────────────────────
 let shelfShots = JSON.parse(localStorage.getItem('packagingShelfShots') || '[]');
-let ssProducts = [];   // [{id, src, label, role, facings, row, side}]
+let ssProducts = [];   // [{id, src, label, role}]
 let ssBg = 'light';
 let ssRows = 1;
 let ssCols = 8;
+let ssGrid = [];        // [rowIdx][colIdx] → productId | null
+let ssActiveProdId = null; // currently selected product for painting
 
 function saveShelfShots() { localStorage.setItem('packagingShelfShots', JSON.stringify(shelfShots)); }
 
@@ -2213,8 +2272,9 @@ function initShelfShotTab() {
   document.querySelectorAll('.ss-rows-btn').forEach(function(btn) {
     btn.addEventListener('click', function() {
       ssRows = parseInt(btn.dataset.rows);
-      ssProducts.forEach(function(p, i) { p.row = (i % ssRows) + 1; });
       document.querySelectorAll('.ss-rows-btn').forEach(function(b) { b.classList.toggle('primary', b===btn); });
+      initGrid();
+      renderSsGrid();
       renderSsProductList();
     });
   });
@@ -2224,12 +2284,157 @@ function initShelfShotTab() {
     btn.addEventListener('click', function() {
       ssCols = parseInt(btn.dataset.cols);
       document.querySelectorAll('.ss-cols-btn').forEach(function(b) { b.classList.toggle('primary', b===btn); });
+      initGrid();
+      renderSsGrid();
     });
   });
 
   document.getElementById('ss-generate-btn').addEventListener('click', renderShelfShot);
   document.getElementById('ss-export-btn').addEventListener('click', exportShelfShot);
   document.getElementById('ss-save-btn').addEventListener('click', saveShelfShot);
+  document.getElementById('ss-autofill-btn').addEventListener('click', autoFillGrid);
+  document.getElementById('ss-grid-clear-btn').addEventListener('click', function() {
+    initGrid(); // resets all cells to null
+    renderSsGrid();
+  });
+}
+
+// ── Grid planner helpers ───────────────────────────────────────────────────────
+
+function initGrid() {
+  var newGrid = [];
+  for (var r = 0; r < ssRows; r++) {
+    newGrid.push([]);
+    for (var c = 0; c < ssCols; c++) {
+      var existing = (ssGrid[r] && ssGrid[r][c] !== undefined) ? ssGrid[r][c] : null;
+      newGrid[r].push(existing);
+    }
+  }
+  ssGrid = newGrid;
+}
+
+function renderSsGrid() {
+  var palette = document.getElementById('ss-product-palette');
+  var planner = document.getElementById('ss-grid-planner');
+  var hint = document.getElementById('ss-grid-hint');
+  if (!palette || !planner) return;
+
+  // ---- palette ----
+  palette.innerHTML = '';
+  ssProducts.forEach(function(p) {
+    var item = document.createElement('div');
+    item.className = 'ss-palette-item' + (ssActiveProdId === p.id ? ' selected' : '');
+    var img = document.createElement('img'); img.src = p.src; item.appendChild(img);
+    var name = document.createElement('span'); name.className = 'ss-pal-name'; name.textContent = p.label || '—'; item.appendChild(name);
+    if (p.role === 'hero') {
+      var badge = document.createElement('span'); badge.className = 'ss-pal-role'; badge.textContent = 'HERO'; item.appendChild(badge);
+    }
+    item.onclick = function() {
+      ssActiveProdId = (ssActiveProdId === p.id) ? null : p.id;
+      renderSsGrid();
+    };
+    palette.appendChild(item);
+  });
+
+  // ---- hint ----
+  if (ssActiveProdId) {
+    var ap = ssProducts.find(function(p) { return p.id === ssActiveProdId; });
+    hint.textContent = ap ? ('Placing: ' + ap.label + ' — click cells or a column number to fill') : 'Select a product above';
+  } else {
+    hint.textContent = 'Select a product above to begin placing';
+  }
+
+  // ---- grid ----
+  // CSS grid: first column = row label, then ssCols product columns
+  planner.innerHTML = '';
+  planner.style.gridTemplateColumns = '52px ' + Array(ssCols).fill('60px').join(' ');
+
+  // header row: empty corner + column numbers
+  var corner = document.createElement('div'); planner.appendChild(corner);
+  for (var c = 0; c < ssCols; c++) {
+    (function(col) {
+      var header = document.createElement('div');
+      header.className = 'ss-grid-col-header';
+      header.textContent = col + 1;
+      header.title = 'Click to fill entire column ' + (col + 1);
+      header.onclick = function() {
+        if (!ssActiveProdId) return;
+        for (var r = 0; r < ssRows; r++) ssGrid[r][col] = ssActiveProdId;
+        renderSsGrid();
+      };
+      planner.appendChild(header);
+    })(c);
+  }
+
+  // data rows
+  for (var r = 0; r < ssRows; r++) {
+    (function(row) {
+      // row label
+      var rowLabel = document.createElement('div');
+      rowLabel.className = 'ss-grid-row-label';
+      rowLabel.textContent = ssRows > 1 ? ('Row ' + (row + 1)) : 'Shelf';
+      planner.appendChild(rowLabel);
+
+      // cells
+      for (var c = 0; c < ssCols; c++) {
+        (function(col) {
+          var pid = ssGrid[row] && ssGrid[row][col];
+          var prod = pid ? ssProducts.find(function(p) { return p.id === pid; }) : null;
+          var cell = document.createElement('div');
+          cell.className = 'ss-grid-cell' +
+            (prod ? (' occupied' + (prod.role === 'hero' ? ' is-hero' : '')) : '') +
+            (!prod && ssActiveProdId ? ' can-place' : '');
+
+          if (prod) {
+            var img = document.createElement('img'); img.src = prod.src; cell.appendChild(img);
+            var lbl = document.createElement('div'); lbl.className = 'ss-cell-lbl'; lbl.textContent = prod.label; cell.appendChild(lbl);
+            var x = document.createElement('div'); x.className = 'ss-cell-x'; x.textContent = '×';
+            x.onclick = function(e) { e.stopPropagation(); ssGrid[row][col] = null; renderSsGrid(); };
+            cell.appendChild(x);
+          }
+
+          cell.onclick = function() {
+            if (ssActiveProdId) {
+              // toggle: if same product already here, clear it; otherwise place
+              ssGrid[row][col] = (pid === ssActiveProdId) ? null : ssActiveProdId;
+            } else if (prod) {
+              ssGrid[row][col] = null;
+            }
+            renderSsGrid();
+          };
+
+          planner.appendChild(cell);
+        })(c);
+      }
+    })(r);
+  }
+}
+
+function autoFillGrid() {
+  initGrid();
+  var hero = ssProducts.find(function(p) { return p.role === 'hero'; });
+  var comps = ssProducts.filter(function(p) { return p.role === 'competitor'; });
+
+  // Hero goes in the middle column; competitors fill outward on both sides
+  var midCol = Math.floor(ssCols / 2);
+
+  for (var r = 0; r < ssRows; r++) {
+    if (hero) ssGrid[r][midCol] = hero.id;
+
+    var leftCols = [], rightCols = [];
+    for (var i = midCol - 1; i >= 0; i--) leftCols.push(i);
+    for (var j = midCol + 1; j < ssCols; j++) rightCols.push(j);
+
+    var li = 0, ri = 0;
+    comps.forEach(function(comp, ci) {
+      if (ci % 2 === 0 && li < leftCols.length) {
+        ssGrid[r][leftCols[li++]] = comp.id;
+      } else if (ri < rightCols.length) {
+        ssGrid[r][rightCols[ri++]] = comp.id;
+      }
+    });
+  }
+  renderSsGrid();
 }
 
 var ssTabInited = false;
@@ -2248,10 +2453,10 @@ function handleSsFiles(files) {
         var name = file.name.replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ');
         if (removeBg) {
           removeWhiteBg(src).then(function(processed) {
-            resolve({ id: Date.now() + Math.random(), src: processed, label: name, role: 'competitor', facings: 1, row: 1, side: 'auto' });
+            resolve({ id: Date.now() + Math.random(), src: processed, label: name, role: 'competitor' });
           });
         } else {
-          resolve({ id: Date.now() + Math.random(), src: src, label: name, role: 'competitor', facings: 1, row: 1, side: 'auto' });
+          resolve({ id: Date.now() + Math.random(), src: src, label: name, role: 'competitor' });
         }
       };
       reader.readAsDataURL(file);
@@ -2264,15 +2469,17 @@ function handleSsFiles(files) {
     if (!hasHero && newProducts.length) newProducts[0].role = 'hero';
     ssProducts = ssProducts.concat(newProducts);
     document.getElementById('ss-product-section').style.display = '';
+    document.getElementById('ss-grid-section').style.display = '';
     document.getElementById('ss-layout-section').style.display = '';
     document.getElementById('ss-preview-section').style.display = '';
     renderSsProductList();
+    initGrid();
+    renderSsGrid();
   });
 }
 
 function renderSsProductList() {
   var list = document.getElementById('ss-product-list');
-  var multiRow = ssRows > 1;
   list.innerHTML = '';
   ssProducts.forEach(function(p, i) {
     var card = document.createElement('div');
@@ -2284,7 +2491,10 @@ function renderSsProductList() {
 
     var nameInput = document.createElement('input');
     nameInput.type = 'text'; nameInput.value = p.label; nameInput.placeholder = 'Label…';
-    nameInput.oninput = function() { ssProducts[i].label = nameInput.value; };
+    nameInput.oninput = function() {
+      ssProducts[i].label = nameInput.value;
+      renderSsGrid(); // update labels in grid
+    };
     card.appendChild(nameInput);
 
     // role toggle
@@ -2296,73 +2506,35 @@ function renderSsProductList() {
       if (p.role === rKey) btn.classList.add('active');
       btn.onclick = function() {
         if (rKey === 'hero') {
-          // only one hero allowed
           ssProducts.forEach(function(pp) { if (pp.role === 'hero') pp.role = 'competitor'; });
         }
         ssProducts[i].role = rKey;
         renderSsProductList();
+        renderSsGrid();
       };
       roleGroup.appendChild(btn);
     });
     card.appendChild(roleGroup);
-
-    // facings
-    var facGroup = document.createElement('div'); facGroup.className = 'ss-btn-group';
-    var facLabel = document.createElement('span'); facLabel.className = 'ss-row-label'; facLabel.textContent = 'Facings:';
-    facGroup.appendChild(facLabel);
-    [1,2,3,4].forEach(function(n) {
-      var btn = document.createElement('button');
-      btn.textContent = n;
-      if (p.facings === n) btn.classList.add('active');
-      btn.onclick = function() { ssProducts[i].facings = n; renderSsProductList(); };
-      facGroup.appendChild(btn);
-    });
-    card.appendChild(facGroup);
-
-    // row selector (only if multiRow)
-    if (multiRow) {
-      var rowGroup = document.createElement('div'); rowGroup.className = 'ss-btn-group';
-      var rowLabel = document.createElement('span'); rowLabel.className = 'ss-row-label'; rowLabel.textContent = 'Row:';
-      rowGroup.appendChild(rowLabel);
-      for (var r = 1; r <= ssRows; r++) {
-        (function(rowNum) {
-          var btn = document.createElement('button');
-          btn.textContent = rowNum;
-          if (p.row === rowNum) btn.classList.add('active');
-          btn.onclick = function() { ssProducts[i].row = rowNum; renderSsProductList(); };
-          rowGroup.appendChild(btn);
-        })(r);
-      }
-      card.appendChild(rowGroup);
-    }
-
-    // side selector (competitors only)
-    if (p.role === 'competitor') {
-      var sideGroup = document.createElement('div'); sideGroup.className = 'ss-btn-group';
-      var sideLabel = document.createElement('span'); sideLabel.className = 'ss-row-label'; sideLabel.textContent = 'Side:';
-      sideGroup.appendChild(sideLabel);
-      ['L','Auto','R'].forEach(function(s) {
-        var sKey = s.toLowerCase();
-        var btn = document.createElement('button');
-        btn.textContent = s;
-        if (p.side === sKey) btn.classList.add('active');
-        btn.onclick = function() { ssProducts[i].side = sKey; renderSsProductList(); };
-        sideGroup.appendChild(btn);
-      });
-      card.appendChild(sideGroup);
-    }
 
     // remove
     var removeBtn = document.createElement('button');
     removeBtn.className = 'ss-remove';
     removeBtn.textContent = '×';
     removeBtn.onclick = function() {
+      var removedId = ssProducts[i].id;
       ssProducts.splice(i, 1);
-      // ensure at least one hero if any products remain
+      if (ssActiveProdId === removedId) ssActiveProdId = null;
+      // scrub removed product from grid
+      for (var r = 0; r < ssGrid.length; r++) {
+        for (var c = 0; c < ssGrid[r].length; c++) {
+          if (ssGrid[r][c] === removedId) ssGrid[r][c] = null;
+        }
+      }
       if (ssProducts.length && !ssProducts.some(function(pp) { return pp.role==='hero'; })) {
         ssProducts[0].role = 'hero';
       }
       renderSsProductList();
+      renderSsGrid();
     };
     card.appendChild(removeBtn);
 
@@ -2428,19 +2600,54 @@ function renderShelfShot() {
   var wrap = document.getElementById('ss-canvas-wrap');
   wrap.innerHTML = '';
 
-  // outer bg
   var outer = document.createElement('div');
   outer.className = 'ss-shelf-outer ss-shelf-bg-' + ssBg;
 
-  // column width from ssCols (shelf inner width ~1200px equiv / cols)
   var colWidth = Math.round(1200 / ssCols);
+  var prodHeight = Math.round(colWidth * 1.4);
+  var anyRow = false;
 
-  for (var r = 1; r <= ssRows; r++) {
-    var rowProds = ssProducts.filter(function(p) { return p.row === r; });
-    // if only 1 row, all products go on it
-    if (ssRows === 1) rowProds = ssProducts;
-    if (!rowProds.length) continue;
-    outer.appendChild(buildShelfRow(rowProds, colWidth));
+  for (var r = 0; r < ssRows; r++) {
+    // skip completely empty rows
+    var rowHasProduct = ssGrid[r] && ssGrid[r].some(function(pid) { return pid !== null; });
+    if (!rowHasProduct) continue;
+    anyRow = true;
+
+    var rowEl = document.createElement('div');
+    rowEl.className = 'ss-shelf-row';
+    // fixed-position columns: override justify-content so each column is exactly placed
+    rowEl.style.justifyContent = 'center';
+
+    for (var c = 0; c < ssCols; c++) {
+      var pid = ssGrid[r] && ssGrid[r][c];
+      var prod = pid ? ssProducts.find(function(p) { return p.id === pid; }) : null;
+      var slot = document.createElement('div');
+      slot.className = 'ss-product-slot' + (prod && prod.role === 'hero' ? ' hero' : '');
+      slot.style.width = colWidth + 'px';
+      slot.style.flexShrink = '0';
+
+      if (prod) {
+        var img = document.createElement('img');
+        img.src = prod.src;
+        img.style.cssText = 'height:' + prodHeight + 'px; width:' + colWidth + 'px; object-fit:contain;';
+        slot.appendChild(img);
+      } else {
+        // empty column placeholder — holds space but is invisible
+        slot.style.height = prodHeight + 'px';
+        slot.style.opacity = '0';
+      }
+      rowEl.appendChild(slot);
+    }
+
+    var plank = document.createElement('div');
+    plank.className = 'ss-shelf-plank';
+    rowEl.appendChild(plank);
+    outer.appendChild(rowEl);
+  }
+
+  // fallback: if grid has no placements, render all products in a single row
+  if (!anyRow) {
+    outer.appendChild(buildShelfRow(ssProducts, colWidth));
   }
 
   wrap.appendChild(outer);
@@ -2516,7 +2723,8 @@ function saveShelfShot() {
   if (!ssProducts.length) { alert('Add products first.'); return; }
   var saved = {
     id: Date.now(), title: title,
-    products: ssProducts.map(function(p) { return { src: p.src, label: p.label, role: p.role, facings: p.facings, row: p.row, side: p.side }; }),
+    products: ssProducts.map(function(p) { return { src: p.src, label: p.label, role: p.role, id: p.id }; }),
+    grid: ssGrid.map(function(row) { return row.slice(); }),
     bg: ssBg, rows: ssRows, cols: ssCols, created: Date.now()
   };
   shelfShots.unshift(saved);
@@ -2553,18 +2761,48 @@ function loadShelfShot(id) {
   if (!ss) return;
   switchTab('shelfshot');
   setTimeout(function() {
-    ssProducts = ss.products.map(function(p) { return Object.assign({id: Math.random()}, p); });
+    // Restore products — preserve saved IDs so the grid references still resolve
+    ssProducts = ss.products.map(function(p) {
+      return { id: p.id || Math.random(), src: p.src, label: p.label, role: p.role };
+    });
     ssBg = ss.bg || 'light';
     ssRows = ss.rows || 1;
     ssCols = ss.cols || 8;
+    ssActiveProdId = null;
+
+    if (ss.grid) {
+      // New format: grid saved directly
+      ssGrid = ss.grid;
+    } else {
+      // Legacy format: reconstruct grid from old row/side/facings data
+      initGrid();
+      var legacyProds = ss.products;
+      var midCol = Math.floor(ssCols / 2);
+      var hero = ssProducts.find(function(p) { return p.role === 'hero'; });
+      var comps = ssProducts.filter(function(p) { return p.role === 'competitor'; });
+      for (var r = 0; r < ssRows; r++) {
+        if (hero) ssGrid[r][midCol] = hero.id;
+        var li = 0, ri = 0;
+        var leftCols = [], rightCols = [];
+        for (var i = midCol - 1; i >= 0; i--) leftCols.push(i);
+        for (var j = midCol + 1; j < ssCols; j++) rightCols.push(j);
+        comps.forEach(function(comp, ci) {
+          if (ci % 2 === 0 && li < leftCols.length) ssGrid[r][leftCols[li++]] = comp.id;
+          else if (ri < rightCols.length) ssGrid[r][rightCols[ri++]] = comp.id;
+        });
+      }
+    }
+
     document.getElementById('ss-title').value = ss.title;
     document.querySelectorAll('.ss-bg-btn').forEach(function(b) { b.classList.toggle('primary', b.dataset.bg === ssBg); });
     document.querySelectorAll('.ss-rows-btn').forEach(function(b) { b.classList.toggle('primary', parseInt(b.dataset.rows) === ssRows); });
     document.querySelectorAll('.ss-cols-btn').forEach(function(b) { b.classList.toggle('primary', parseInt(b.dataset.cols) === ssCols); });
     document.getElementById('ss-product-section').style.display = '';
+    document.getElementById('ss-grid-section').style.display = '';
     document.getElementById('ss-layout-section').style.display = '';
     document.getElementById('ss-preview-section').style.display = '';
     renderSsProductList();
+    renderSsGrid();
     renderShelfShot();
   }, 50);
 }
