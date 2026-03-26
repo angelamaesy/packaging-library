@@ -587,17 +587,20 @@
     <div id="mb-match-count"></div>
 
     <div id="mb-controls-row">
-      <input type="text" id="mb-project-input" placeholder="Project / client…" style="max-width:160px;">
-      <input type="text" id="moodboard-title-input" placeholder="Territory title…" style="max-width:200px;">
-      <select id="mb-layout-select" style="max-width:200px;">
-        <option value="territory">Territory Split</option>
-        <option value="collage">Collage Overlay</option>
-        <option value="columns">Column Analysis</option>
+      <input type="text" id="mb-project-input" placeholder="Client / project…" style="max-width:160px;">
+      <input type="text" id="moodboard-title-input" placeholder="Title…" style="max-width:200px;">
+      <select id="mb-layout-select" style="max-width:220px;" onchange="updateTemplateFields()">
+        <option value="code-column">Code Column</option>
+        <option value="slash">Slash</option>
+        <option value="tonality">Tonality Look &amp; Feel</option>
+        <option value="story">Story</option>
+        <option value="collage">Collage</option>
       </select>
       <button class="primary" id="mb-generate-btn">Generate</button>
       <button id="mb-export-btn" style="display:none;">Export PNG</button>
       <button id="mb-save-btn" style="display:none;">Save</button>
     </div>
+    <div id="mb-template-fields" style="margin-top:12px; display:flex; flex-wrap:wrap; gap:10px; align-items:flex-start;"></div>
 
     <div id="moodboard-canvas-wrap">
       <div id="moodboard-canvas"></div>
@@ -982,9 +985,12 @@ function getActiveFilters() {
 function entryMatches(e, f) {
   if (f.search) {
     const hay = [
-      e.client||'', e.imageType||'', e.type||'', e.format||'', e.notes||'',
-      ...(e.productCategory||[]), ...(e.tonality||[]), ...(e.designCode||[]),
-      ...(e.targetAudience||[]), ...(e.colourPalette||[]), ...(e.tags||[])
+      e.client||'', e.imageType||'', e.type||'', e.notes||'',
+      ...(e.format||[]), ...(e.productCategory||[]), ...(e.tonality||[]),
+      ...(e.designCode||[]), ...(e.targetAudience||[]), ...(e.colourPalette||[]),
+      ...(e.style||[]), ...(e.occasion||[]), ...(e.mood||[]),
+      ...(e.typography||[]), ...(e.finish||[]), ...(e.ingredient||[]),
+      ...(e.keywords||[]), ...(e.tags||[])
     ].join(' ').toLowerCase();
     if (!hay.includes(f.search)) return false;
   }
@@ -1162,10 +1168,11 @@ function closeLightbox() { document.getElementById('lightbox').classList.remove(
 function getAllTaxonomyValues() {
   const all = new Set();
   library.forEach(e => {
-    ['productCategory','tonality','designCode','targetAudience','colourPalette'].forEach(k => (e[k]||[]).forEach(v => all.add(v)));
-    (e.tags||[]).forEach(v => all.add(v));
+    ['productCategory','tonality','designCode','targetAudience','colourPalette',
+     'style','occasion','mood','typography','finish','ingredient','keywords','tags','format'
+    ].forEach(k => (e[k]||[]).forEach(v => all.add(v)));
     if (e.imageType) all.add(e.imageType);
-    if (e.format) all.add(e.format);
+    if (e.client) all.add(e.client);
   });
   return [...all].sort();
 }
@@ -1176,6 +1183,7 @@ function initMoodboardTab() {
   document.getElementById('mb-export-btn').style.display = 'none';
   document.getElementById('mb-save-btn').style.display = 'none';
   document.getElementById('moodboard-canvas').innerHTML = '';
+  updateTemplateFields();
 }
 
 function renderMbTagButtons() {
@@ -1206,8 +1214,11 @@ function getMbMatches() {
   return library.filter(e => {
     const vals = [
       ...(e.productCategory||[]), ...(e.tonality||[]), ...(e.designCode||[]),
-      ...(e.targetAudience||[]), ...(e.colourPalette||[]), ...(e.tags||[]),
-      e.imageType||'', e.type||'', e.format||'', e.client||''
+      ...(e.targetAudience||[]), ...(e.colourPalette||[]),
+      ...(e.style||[]), ...(e.occasion||[]), ...(e.mood||[]),
+      ...(e.typography||[]), ...(e.finish||[]), ...(e.ingredient||[]),
+      ...(e.keywords||[]), ...(e.tags||[]), ...(e.format||[]),
+      e.imageType||'', e.type||'', e.client||''
     ].filter(v => typeof v === 'string').map(v=>v.toLowerCase());
     return combined.some(kw => vals.some(v => v.includes(kw)));
   });
@@ -1244,35 +1255,155 @@ function el(tag, style, text) {
   return e;
 }
 
-function getTopTags(images, n = 6) {
+function getTopTags(images, n) {
+  n = n || 6;
   const freq = {};
-  images.forEach(e => {
-    [...(e.tonality||[]), ...(e.designCode||[]), ...(e.targetAudience||[]), ...(e.productCategory||[])].forEach(t => {
+  images.forEach(function(e) {
+    [].concat(e.tonality||[], e.designCode||[], e.targetAudience||[], e.productCategory||[]).forEach(function(t) {
       freq[t] = (freq[t]||0) + 1;
     });
   });
-  return Object.entries(freq).sort((a,b) => b[1]-a[1]).slice(0, n).map(([t]) => t);
+  return Object.entries(freq).sort(function(a,b){return b[1]-a[1];}).slice(0, n).map(function(x){return x[0];});
 }
 
-// Template A — Territory Split (dark text panel left, image grid right)
-function renderTemplateA(canvas, images, title, project) {
-  canvas.style.cssText = 'width:900px; height:520px; display:flex; background:#0d0d10; font-family:Inter,sans-serif; overflow:hidden;';
+// ── Dynamic template-specific input fields ─────────────────────────────────────
+function updateTemplateFields() {
+  const layout = document.getElementById('mb-layout-select').value;
+  const f = document.getElementById('mb-template-fields');
+  f.innerHTML = '';
+
+  function inp(id, ph, w) {
+    const i = document.createElement('input');
+    i.type = 'text'; i.id = id; i.placeholder = ph;
+    i.style.cssText = 'max-width:' + (w||180) + 'px; padding:7px 10px; border:1px solid var(--border-2); border-radius:6px; background:var(--surface-2); color:var(--text); font-family:inherit; font-size:13px;';
+    return i;
+  }
+  function ta(id, ph) {
+    const t = document.createElement('textarea');
+    t.id = id; t.placeholder = ph; t.rows = 3;
+    t.style.cssText = 'width:360px; font-family:inherit; font-size:13px; padding:8px 10px; border:1px solid var(--border-2); border-radius:6px; background:var(--surface-2); color:var(--text); resize:vertical;';
+    return t;
+  }
+  function label(txt) {
+    const s = document.createElement('span');
+    s.textContent = txt;
+    s.style.cssText = 'font-size:12px; color:var(--text-2); align-self:center;';
+    return s;
+  }
+
+  if (layout === 'code-column') {
+    const row1 = document.createElement('div');
+    row1.style.cssText = 'display:flex; gap:8px; align-items:center; flex-wrap:wrap; width:100%;';
+    row1.appendChild(label('Banner:'));
+    row1.appendChild(inp('mb-banner-text', 'Banner text…', 340));
+    const cp = document.createElement('input');
+    cp.type = 'color'; cp.id = 'mb-banner-color'; cp.value = '#b03030';
+    cp.title = 'Banner colour'; cp.style.cssText = 'width:36px; height:32px; border:none; cursor:pointer; border-radius:4px; padding:2px; background:none;';
+    row1.appendChild(cp);
+    f.appendChild(row1);
+
+    const row2 = document.createElement('div');
+    row2.style.cssText = 'display:flex; gap:8px; flex-wrap:wrap; align-items:center; width:100%;';
+    row2.appendChild(label('Column names:'));
+    for (let i = 1; i <= 6; i++) row2.appendChild(inp('mb-col-' + i, 'Column ' + i + '…', 120));
+    f.appendChild(row2);
+
+  } else if (layout === 'slash') {
+    f.appendChild(ta('mb-description', 'Description text for left panel…'));
+
+  } else if (layout === 'tonality') {
+    const row = document.createElement('div');
+    row.style.cssText = 'display:flex; gap:16px; flex-wrap:wrap; align-items:flex-start;';
+    row.appendChild(ta('mb-description', 'Descriptive paragraph (overlaid on images)…'));
+    const kwCol = document.createElement('div');
+    kwCol.style.cssText = 'display:flex; flex-direction:column; gap:8px;';
+    kwCol.appendChild(label('Right-side keywords:'));
+    kwCol.appendChild(inp('mb-kw1', 'Keyword 1…', 160));
+    kwCol.appendChild(inp('mb-kw2', 'Keyword 2…', 160));
+    kwCol.appendChild(inp('mb-kw3', 'Keyword 3…', 160));
+    row.appendChild(kwCol);
+    f.appendChild(row);
+
+  } else if (layout === 'story') {
+    f.appendChild(ta('mb-description', 'Story paragraph (centered below title)…'));
+
+  } else if (layout === 'collage') {
+    const row = document.createElement('div');
+    row.style.cssText = 'display:flex; gap:8px; align-items:center; flex-wrap:wrap;';
+    row.appendChild(label('Text tiles:'));
+    row.appendChild(inp('mb-kw1', 'Line / keyword 1…', 180));
+    row.appendChild(inp('mb-kw2', 'Line / keyword 2…', 180));
+    row.appendChild(inp('mb-kw3', 'Line / keyword 3…', 180));
+    f.appendChild(row);
+  }
+}
+
+// ── Template: Code Column ──────────────────────────────────────────────────────
+function renderCodeColumn(canvas, images, title, project, bannerText, bannerColor, colNames) {
+  canvas.style.cssText = 'width:980px; background:#fff; font-family:Inter,sans-serif; display:flex; flex-direction:column; overflow:hidden;';
+
+  // Header
+  const hdr = document.createElement('div');
+  hdr.style.cssText = 'padding:20px 28px 0;';
+  if (project) hdr.appendChild(el('div', 'font-size:11px; font-weight:700; letter-spacing:0.5px; color:#333; margin-bottom:4px;', project));
+  hdr.appendChild(el('div', 'font-size:' + ((title||'').length > 30 ? '22' : '28') + 'px; font-weight:400; color:#111; letter-spacing:-0.3px; line-height:1.2;', title || 'Design Direction'));
+  canvas.appendChild(hdr);
+
+  // Banner bar
+  const banner = document.createElement('div');
+  banner.style.cssText = 'margin:16px 0 0; background:' + (bannerColor || '#b03030') + '; padding:13px 28px; text-align:center;';
+  banner.appendChild(el('div', 'font-size:16px; font-weight:700; color:#fff; letter-spacing:0.3px;', bannerText || 'Visual Codes'));
+  canvas.appendChild(banner);
+
+  // Column grid
+  const numCols = Math.min(6, Math.max(1, images.length));
+  const colImgs = Array.from({length: numCols}, function() { return []; });
+  images.slice(0, numCols * 2).forEach(function(img, i) { colImgs[i % numCols].push(img); });
+
+  const grid = document.createElement('div');
+  grid.style.cssText = 'display:grid; grid-template-columns:repeat(' + numCols + ',1fr); gap:0; padding:16px 20px 24px;';
+
+  colImgs.forEach(function(imgs, ci) {
+    const col = document.createElement('div');
+    col.style.cssText = 'display:flex; flex-direction:column; align-items:center; gap:10px; padding:0 8px;';
+    col.appendChild(el('div', 'width:100%; text-align:center; font-size:12px; font-weight:500; color:#222; line-height:1.35; padding:6px 0 10px; min-height:38px;', colNames[ci] || 'Direction ' + (ci+1)));
+    imgs.slice(0, 2).forEach(function(e) {
+      const img = document.createElement('img');
+      img.src = e.src;
+      img.style.cssText = 'width:100%; height:155px; object-fit:contain; display:block;';
+      col.appendChild(img);
+    });
+    grid.appendChild(col);
+  });
+  canvas.appendChild(grid);
+}
+
+// ── Template: Slash ────────────────────────────────────────────────────────────
+function renderSlash(canvas, images, title, project, description) {
+  canvas.style.cssText = 'width:960px; height:540px; display:flex; background:#0d0d10; font-family:Inter,sans-serif; overflow:hidden;';
 
   const left = document.createElement('div');
-  left.style.cssText = 'width:320px; min-width:320px; background:#0d0d10; padding:44px 36px; display:flex; flex-direction:column; justify-content:center;';
+  left.style.cssText = 'width:300px; min-width:300px; padding:44px 36px; display:flex; flex-direction:column; justify-content:center; z-index:2;';
 
-  if (project) left.appendChild(el('div', 'font-size:10px; letter-spacing:2.5px; text-transform:uppercase; color:#7c6aff; margin-bottom:14px; font-weight:600;', project));
-  left.appendChild(el('div', `font-size:${title.length > 20 ? '22' : '28'}px; font-weight:700; color:#fff; line-height:1.15; margin-bottom:18px; letter-spacing:-0.5px;`, title || 'Territory'));
-  left.appendChild(el('div', 'width:36px; height:2px; background:#7c6aff; margin-bottom:20px;', ''));
-  getTopTags(images).forEach(tag => left.appendChild(el('div', 'font-size:12px; color:rgba(255,255,255,0.45); line-height:2.2;', tag)));
+  if (project) left.appendChild(el('div', 'font-size:10px; letter-spacing:2.5px; text-transform:uppercase; color:#7c6aff; margin-bottom:12px; font-weight:600;', project));
+  left.appendChild(el('div', 'font-size:' + ((title||'').length > 14 ? '28' : '38') + 'px; font-weight:700; color:#fff; line-height:1.1; margin-bottom:16px; letter-spacing:-0.5px;', title || 'Territory'));
+  left.appendChild(el('div', 'width:36px; height:3px; background:#7c6aff; margin-bottom:22px;', ''));
+
+  if (description) {
+    left.appendChild(el('div', 'font-size:13px; color:rgba(255,255,255,0.5); line-height:1.85; white-space:pre-wrap;', description));
+  } else {
+    getTopTags(images, 5).forEach(function(tag) {
+      left.appendChild(el('div', 'font-size:12px; color:rgba(255,255,255,0.4); line-height:2.2;', tag));
+    });
+  }
 
   const cols = images.length <= 4 ? 2 : 3;
   const right = document.createElement('div');
-  right.style.cssText = `flex:1; display:grid; grid-template-columns:repeat(${cols},1fr); gap:2px; background:#000; overflow:hidden;`;
-  images.slice(0, cols * 2).forEach(e => {
+  right.style.cssText = 'flex:1; display:grid; grid-template-columns:repeat(' + cols + ',1fr); grid-template-rows:repeat(2,1fr); gap:2px; background:#000; overflow:hidden;';
+  images.slice(0, cols * 2).forEach(function(e) {
     const img = document.createElement('img');
     img.src = e.src;
-    img.style.cssText = `width:100%; height:259px; object-fit:cover; display:block;`;
+    img.style.cssText = 'width:100%; height:100%; object-fit:cover; display:block;';
     right.appendChild(img);
   });
 
@@ -1280,79 +1411,162 @@ function renderTemplateA(canvas, images, title, project) {
   canvas.appendChild(right);
 }
 
-// Template B — Collage Overlay (full-width spread, overlapping chain, centered title at base)
-function renderTemplateB(canvas, images, title, project) {
-  canvas.style.cssText = 'width:960px; height:520px; background:#f4f3ef; position:relative; overflow:hidden; font-family:Inter,sans-serif;';
+// ── Template: Tonality Look & Feel ────────────────────────────────────────────
+function renderTonality(canvas, images, title, project, description, kw1, kw2, kw3) {
+  canvas.style.cssText = 'width:980px; height:620px; background:#fff; font-family:Inter,sans-serif; position:relative; overflow:hidden; display:flex;';
 
-  // 5 images spread across full width — portraits and landscapes alternating, overlapping at edges
-  // Chain: img1 portrait · img2 landscape over img1 · img3 portrait · img4 landscape over img3 · img5 portrait over img4
+  // Image collage area (left ~640px)
+  const imgArea = document.createElement('div');
+  imgArea.style.cssText = 'position:relative; width:640px; flex-shrink:0; overflow:hidden;';
+
   const positions = [
-    {l:18,  t:110, w:196, h:290, z:1},  // portrait, far left
-    {l:168, t:110, w:264, h:218, z:2},  // landscape, overlaps img1 right edge
-    {l:382, t:110, w:198, h:290, z:1},  // portrait, centre
-    {l:535, t:110, w:264, h:218, z:2},  // landscape, overlaps img3 right edge
-    {l:744, t:110, w:198, h:290, z:3},  // portrait, far right, overlaps img4
+    {l:10,  t:60,  w:280, h:320, z:1},
+    {l:260, t:40,  w:220, h:200, z:2},
+    {l:260, t:240, w:180, h:210, z:2},
+    {l:80,  t:370, w:230, h:210, z:1},
+    {l:420, t:120, w:205, h:270, z:3},
+    {l:305, t:420, w:250, h:180, z:2},
   ];
-  const shadow = '0 8px 28px rgba(0,0,0,0.13), 0 1px 4px rgba(0,0,0,0.07)';
-  images.slice(0, 5).forEach((e, i) => {
+  images.slice(0, 6).forEach(function(e, i) {
     const pos = positions[i]; if (!pos) return;
     const img = document.createElement('img');
     img.src = e.src;
-    img.style.cssText = `position:absolute; left:${pos.l}px; top:${pos.t}px; width:${pos.w}px; height:${pos.h}px; object-fit:cover; display:block; box-shadow:${shadow}; z-index:${pos.z};`;
-    canvas.appendChild(img);
+    img.style.cssText = 'position:absolute; left:' + pos.l + 'px; top:' + pos.t + 'px; width:' + pos.w + 'px; height:' + pos.h + 'px; object-fit:cover; z-index:' + pos.z + '; box-shadow:0 4px 20px rgba(0,0,0,0.12);';
+    imgArea.appendChild(img);
   });
 
-  // Title — centered at top, images sit below
+  // Description paragraph — top-right area of image zone
+  if (description) {
+    imgArea.appendChild(el('div', 'position:absolute; right:12px; top:14px; z-index:10; font-size:12px; color:#111; line-height:1.75; max-width:220px; white-space:pre-wrap;', description));
+  }
+
+  // Giant title overlay — centered on image area
+  const titleLen = (title||'').length;
+  const titleEl = document.createElement('div');
+  titleEl.style.cssText = 'position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); z-index:10; font-size:' + (titleLen > 12 ? '56' : '72') + 'px; font-weight:900; color:#1a3aff; line-height:1; letter-spacing:-2px; text-align:center; white-space:pre-line; pointer-events:none;';
+  titleEl.textContent = (title || 'Territory').toUpperCase();
+  const underline = el('div', 'height:4px; background:#1a3aff; margin-top:10px; width:100%;', '');
+  titleEl.appendChild(underline);
+  imgArea.appendChild(titleEl);
+
+  canvas.appendChild(imgArea);
+
+  // Right white space panel
+  const right = document.createElement('div');
+  right.style.cssText = 'flex:1; padding:28px 24px 28px 28px; display:flex; flex-direction:column; overflow:hidden;';
+
+  if (project) right.appendChild(el('div', 'font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#999; margin-bottom:24px;', project));
+
+  // Spacer to push keywords to lower section
+  const spacer = el('div', 'flex:1;', '');
+  right.appendChild(spacer);
+
+  // Keywords in large mixed typography
+  const kws = [kw1, kw2, kw3].filter(Boolean);
+  const szs = ['52px','38px','58px'];
+  const ffs = ["'Georgia',serif","Inter,sans-serif","'Georgia',serif"];
+  kws.forEach(function(kw, i) {
+    right.appendChild(el('div', 'font-size:' + szs[i] + '; font-family:' + ffs[i] + '; color:#111; line-height:1.05; letter-spacing:-1px; margin-bottom:4px;', kw + '.'));
+  });
+
+  canvas.appendChild(right);
+}
+
+// ── Template: Story ───────────────────────────────────────────────────────────
+function renderStory(canvas, images, title, project, description) {
+  canvas.style.cssText = 'width:960px; height:540px; position:relative; background:#111; font-family:Inter,sans-serif; overflow:hidden;';
+
+  // Images row — full bleed behind text
+  const imgRow = document.createElement('div');
+  imgRow.style.cssText = 'position:absolute; inset:0; display:flex;';
+  images.slice(0, Math.min(images.length, 5)).forEach(function(e) {
+    const img = document.createElement('img');
+    img.src = e.src;
+    img.style.cssText = 'flex:1; width:0; height:100%; object-fit:cover; display:block;';
+    imgRow.appendChild(img);
+  });
+  canvas.appendChild(imgRow);
+
+  // Overlay
+  canvas.appendChild(el('div', 'position:absolute; inset:0; background:rgba(0,0,0,0.4); z-index:1;', ''));
+
+  // Text overlay
   const textWrap = document.createElement('div');
-  textWrap.style.cssText = 'position:absolute; left:0; right:0; top:28px; text-align:center; z-index:10; padding:0 40px;';
-  if (project) textWrap.appendChild(el('div', 'font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#999; font-weight:600; margin-bottom:8px;', project));
+  textWrap.style.cssText = 'position:absolute; inset:0; z-index:2; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:40px 80px; text-align:center;';
+
+  const titleLen = (title||'').length;
   textWrap.appendChild(el('div',
-    'font-size:' + ((title||'').length > 24 ? '22' : '28') + 'px; font-weight:700; color:#111; letter-spacing:-0.4px; line-height:1.1;',
-    title || 'Design Territory'
+    'font-size:' + (titleLen > 20 ? '58' : titleLen > 14 ? '72' : '88') + 'px; font-weight:900; color:#fff; line-height:0.92; letter-spacing:-3px; text-transform:uppercase; margin-bottom:30px; text-shadow:0 4px 40px rgba(0,0,0,0.4);',
+    title || 'STATE OF MIND'
   ));
+
+  if (description) {
+    textWrap.appendChild(el('div',
+      'font-size:14px; font-weight:700; color:#fff; letter-spacing:2.5px; text-transform:uppercase; line-height:1.7; max-width:680px; text-shadow:0 2px 10px rgba(0,0,0,0.5);',
+      description
+    ));
+  }
   canvas.appendChild(textWrap);
+
+  if (project) {
+    canvas.appendChild(el('div', 'position:absolute; bottom:20px; left:28px; z-index:3; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,0.5); font-weight:600;', project));
+  }
 }
 
-// Template D — Column Grid Analysis (column headers, 2-row grid, footer bar)
-function renderTemplateD(canvas, images, title, project) {
-  canvas.style.cssText = 'width:960px; background:#fff; font-family:Inter,sans-serif; display:flex; flex-direction:column; overflow:hidden;';
+// ── Template: Collage ─────────────────────────────────────────────────────────
+function renderCollage(canvas, images, title, project, kw1, kw2, kw3) {
+  canvas.style.cssText = 'width:980px; background:#0d0d10; font-family:Inter,sans-serif; display:flex; flex-direction:column; overflow:hidden;';
 
-  const header = document.createElement('div');
-  header.style.cssText = 'padding:22px 28px 14px;';
-  if (project) header.appendChild(el('div', 'font-size:10px; letter-spacing:1.5px; text-transform:uppercase; color:#999; margin-bottom:4px;', project));
-  header.appendChild(el('div', 'font-size:22px; font-weight:600; color:#111; letter-spacing:-0.3px;', title || 'Design Analysis'));
-  canvas.appendChild(header);
+  // Header
+  const hdr = document.createElement('div');
+  hdr.style.cssText = 'padding:28px 32px 18px;';
+  if (project) hdr.appendChild(el('div', 'font-size:10px; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,0.35); margin-bottom:8px;', project));
+  hdr.appendChild(el('div', 'font-size:' + ((title||'').length > 18 ? '36' : '50') + 'px; font-weight:800; color:#fff; line-height:1; letter-spacing:-1.5px;', title || 'Territory'));
+  canvas.appendChild(hdr);
 
-  const tags = getTopTags(images, 4);
-  const cols = Math.min(4, Math.max(2, images.length));
-  const colImgs = Array.from({length: cols}, () => []);
-  images.forEach((img, i) => colImgs[i % cols].push(img));
-
-  const grid = document.createElement('div');
-  grid.style.cssText = `display:grid; grid-template-columns:repeat(${cols},1fr); gap:0; padding:0 20px 12px;`;
-  colImgs.forEach((imgs, ci) => {
-    const col = document.createElement('div');
-    col.style.cssText = 'display:flex; flex-direction:column; gap:3px; margin:0 3px;';
-    col.appendChild(el('div', 'background:#4a4a4a; color:#fff; font-size:11px; font-weight:600; padding:7px 10px; text-align:center; margin-bottom:3px;', tags[ci] || `Direction ${ci+1}`));
-    imgs.slice(0, 2).forEach(e => {
-      const img = document.createElement('img');
-      img.src = e.src;
-      img.style.cssText = 'width:100%; height:175px; object-fit:cover; display:block;';
-      col.appendChild(img);
-    });
-    grid.appendChild(col);
+  // Build slot list: images + text tiles interspersed
+  const kwList = [kw1, kw2, kw3].filter(Boolean);
+  const slots = [];
+  images.forEach(function(img, i) {
+    slots.push({ type: 'img', entry: img });
+    // Inject a kw tile after position 2, 5, 8…
+    if (kwList.length && (i === 2 || i === 5 || i === 8)) {
+      slots.push({ type: 'kw', text: kwList.shift() });
+    }
   });
-  canvas.appendChild(grid);
+  kwList.forEach(function(kw) { slots.push({ type: 'kw', text: kw }); });
 
-  const firstNote = images.map(e => e.notes).filter(Boolean)[0];
-  canvas.appendChild(el('div', 'background:#333; color:#fff; font-size:12px; padding:13px 28px; line-height:1.5;',
-    firstNote || `${images.length} reference images across ${cols} design directions.`
-  ));
+  function makeRow(rowSlots) {
+    const row = document.createElement('div');
+    row.style.cssText = 'display:flex; height:210px; gap:2px;';
+    rowSlots.forEach(function(slot) {
+      if (slot.type === 'img') {
+        const img = document.createElement('img');
+        img.src = slot.entry.src;
+        img.style.cssText = 'flex:1; min-width:0; height:210px; object-fit:cover; display:block;';
+        row.appendChild(img);
+      } else {
+        const tile = document.createElement('div');
+        tile.style.cssText = 'width:180px; flex-shrink:0; height:210px; background:#1c1c24; display:flex; align-items:center; justify-content:center; padding:20px;';
+        tile.appendChild(el('div', 'font-size:17px; font-weight:700; color:#fff; line-height:1.35; text-align:center;', slot.text));
+        row.appendChild(tile);
+      }
+    });
+    return row;
+  }
+
+  const half = Math.ceil(slots.length / 2);
+  if (slots.length) {
+    canvas.appendChild(makeRow(slots.slice(0, half)));
+    canvas.appendChild(el('div', 'height:2px;', ''));
+    canvas.appendChild(makeRow(slots.slice(half)));
+  }
 }
 
+// ── Generate & export ─────────────────────────────────────────────────────────
 function generateMoodboard() {
-  if (!selectedMbIds.size) getMbMatches().forEach(e => selectedMbIds.add(e.id));
-  const images = [...selectedMbIds].map(id => library.find(e => e.id === id)).filter(Boolean);
+  if (!selectedMbIds.size) getMbMatches().forEach(function(e) { selectedMbIds.add(e.id); });
+  const images = [...selectedMbIds].map(function(id) { return library.find(function(e) { return e.id === id; }); }).filter(Boolean);
   if (!images.length) { alert('No images to display.'); return; }
 
   const layout  = document.getElementById('mb-layout-select').value;
@@ -1362,9 +1576,20 @@ function generateMoodboard() {
   canvas.style.cssText = '';
   canvas.innerHTML = '';
 
-  if      (layout === 'territory') renderTemplateA(canvas, images, title, project);
-  else if (layout === 'collage')   renderTemplateB(canvas, images, title, project);
-  else if (layout === 'columns')   renderTemplateD(canvas, images, title, project);
+  function gv(id) { const el = document.getElementById(id); return el ? el.value.trim() : ''; }
+
+  if (layout === 'code-column') {
+    const colNames = [1,2,3,4,5,6].map(function(i) { return gv('mb-col-' + i); });
+    renderCodeColumn(canvas, images, title, project, gv('mb-banner-text'), gv('mb-banner-color') || '#b03030', colNames);
+  } else if (layout === 'slash') {
+    renderSlash(canvas, images, title, project, gv('mb-description'));
+  } else if (layout === 'tonality') {
+    renderTonality(canvas, images, title, project, gv('mb-description'), gv('mb-kw1'), gv('mb-kw2'), gv('mb-kw3'));
+  } else if (layout === 'story') {
+    renderStory(canvas, images, title, project, gv('mb-description'));
+  } else if (layout === 'collage') {
+    renderCollage(canvas, images, title, project, gv('mb-kw1'), gv('mb-kw2'), gv('mb-kw3'));
+  }
 
   document.getElementById('mb-export-btn').style.display = 'inline-flex';
   document.getElementById('mb-save-btn').style.display   = 'inline-flex';
@@ -1374,17 +1599,21 @@ function generateMoodboard() {
 function exportMoodboard() {
   const wrap = document.getElementById('moodboard-canvas');
   const title = document.getElementById('moodboard-title-input').value || 'moodboard';
+  const layout = document.getElementById('mb-layout-select').value;
   if (!wrap.children.length) { alert('Generate a moodboard first.'); return; }
 
   // Collect all img elements inside the moodboard
   const imgs = Array.from(wrap.querySelectorAll('img'));
-  const W = 1800, H = 1040;
+  const scale = 2;
+  const W = wrap.offsetWidth * scale;
+  const H = wrap.offsetHeight * scale;
   const c = document.createElement('canvas');
   c.width = W; c.height = H;
   const ctx = c.getContext('2d');
 
-  // Background
-  ctx.fillStyle = '#0d0d10';
+  // Background — match template
+  const bgMap = { 'code-column': '#ffffff', 'slash': '#0d0d10', 'tonality': '#ffffff', 'story': '#111111', 'collage': '#0d0d10' };
+  ctx.fillStyle = bgMap[layout] || '#0d0d10';
   ctx.fillRect(0, 0, W, H);
 
   // Draw each image proportionally based on its rendered position
