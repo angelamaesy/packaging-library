@@ -1036,12 +1036,10 @@
 const SUPABASE_URL      = 'https://exavuyhylfzbrxrapuor.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_3mFGSwAmXHky0B7UI5dfnA_hCNdki2r';
 const STORAGE_BUCKET    = 'tagbot-images';
-let supabase = null;
-try {
-  supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-} catch(e) {
-  console.error('Supabase client failed to initialise — running in offline mode.', e);
-}
+const sbClient = (() => {
+  try { return window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY); }
+  catch(e) { console.error('Supabase init failed — offline mode.', e); return null; }
+})();
 
 // Coerce a value that may be a string or array into an array.
 // Needed because `format` is stored as text in Supabase but as array in library-data.js.
@@ -1240,7 +1238,7 @@ async function loadLibraryData() {
   // Seed with local snapshot while Supabase loads
   if (window.LIBRARY_DATA) applyLibraryData(window.LIBRARY_DATA);
 
-  if (!supabase) return; // CDN failed — stay on offline fallback
+  if (!sbClient) return; // CDN failed — stay on offline fallback
 
   try {
     const { data, error } = await supabase
@@ -1328,13 +1326,13 @@ async function addImages() {
     progress.textContent = `Uploading ${done + 1} / ${validFiles.length}…`;
 
     const storagePath = `${today}/${file.name}`;
-    if (!supabase) { alert('Offline — cannot upload images right now.'); return; }
-    const { error: uploadError } = await supabase.storage
+    if (!sbClient) { alert('Offline — cannot upload images right now.'); return; }
+    const { error: uploadError } = await sbClient.storage
       .from(STORAGE_BUCKET)
       .upload(storagePath, file, { upsert: true });
     if (uploadError) { alert(`Upload failed: ${uploadError.message}`); continue; }
 
-    const { data: { publicUrl } } = supabase.storage
+    const { data: { publicUrl } } = sbClient.storage
       .from(STORAGE_BUCKET)
       .getPublicUrl(storagePath);
 
@@ -1351,7 +1349,7 @@ async function addImages() {
       keywords:    [],
       added:       Date.now(),
     };
-    const { error: insertError } = await supabase.from('library').insert(entry);
+    const { error: insertError } = await sbClient.from('library').insert(entry);
     if (insertError) { alert(`Save failed: ${insertError.message}`); continue; }
 
     library.unshift(entry);
@@ -1588,8 +1586,8 @@ async function saveEdit() {
   e.designCode      = getMsValues('ms-edit-designCode');
   e.targetAudience  = getMsValues('ms-edit-targetAudience');
   e.colourPalette   = getMsValues('ms-edit-colourPalette');
-  if (!supabase) { alert('Offline — cannot save right now.'); return; }
-  const { error } = await supabase.from('library').update(e).eq('id', id);
+  if (!sbClient) { alert('Offline — cannot save right now.'); return; }
+  const { error } = await sbClient.from('library').update(e).eq('id', id);
   if (error) { alert('Save failed: ' + error.message); return; }
   closeModal('edit-modal'); renderGallery(); updateClientFilter();
 }
@@ -1597,15 +1595,15 @@ async function saveEdit() {
 async function deleteEntry(id) {
   if (!confirm('Delete this entry?')) return;
   const entry = library.find(e => e.id === id);
-  if (!supabase) { alert('Offline — cannot delete right now.'); return; }
-  const { error } = await supabase.from('library').delete().eq('id', id);
+  if (!sbClient) { alert('Offline — cannot delete right now.'); return; }
+  const { error } = await sbClient.from('library').delete().eq('id', id);
   if (error) { alert('Delete failed: ' + error.message); return; }
   if (entry && entry.src && entry.src.includes(SUPABASE_URL)) {
     const marker = `/object/public/${STORAGE_BUCKET}/`;
     const idx = entry.src.indexOf(marker);
     if (idx !== -1) {
       const storagePath = decodeURIComponent(entry.src.slice(idx + marker.length));
-      await supabase.storage.from(STORAGE_BUCKET).remove([storagePath]);
+      await sbClient.storage.from(STORAGE_BUCKET).remove([storagePath]);
     }
   }
   library = library.filter(e => e.id !== id);
