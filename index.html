@@ -1037,6 +1037,11 @@ const SUPABASE_URL      = 'https://exavuyhylfzbrxrapuor.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_3mFGSwAmXHky0B7UI5dfnA_hCNdki2r';
 const supabase          = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 const STORAGE_BUCKET    = 'tagbot-images';
+
+// Coerce a value that may be a string or array into an array.
+// Needed because `format` is stored as text in Supabase but as array in library-data.js.
+function toArr(v) { return Array.isArray(v) ? v : (v ? [v] : []); }
+
 // ── Taxonomy ──────────────────────────────────────────────────────────────────
 const TAXONOMY = {
   productCategory: {
@@ -1384,7 +1389,7 @@ function entryMatches(e, f) {
   if (f.search) {
     const hay = [
       e.client||'', e.imageType||'', e.type||'', e.notes||'',
-      ...(e.format||[]), ...(e.productCategory||[]), ...(e.tonality||[]),
+      ...toArr(e.format), ...(e.productCategory||[]), ...(e.tonality||[]),
       ...(e.designCode||[]), ...(e.targetAudience||[]), ...(e.colourPalette||[]),
       ...(e.style||[]), ...(e.occasion||[]), ...(e.mood||[]),
       ...(e.typography||[]), ...(e.finish||[]), ...(e.ingredient||[]),
@@ -1626,7 +1631,7 @@ function getTaxonomyGroups() {
 
   library.forEach(function(e) {
     fieldMap.forEach(function(pair) {
-      (e[pair[1]]||[]).forEach(function(v) { if (v) groups[pair[0]].add(v); });
+      toArr(e[pair[1]]).forEach(function(v) { if (v) groups[pair[0]].add(v); });
     });
     if (e.imageType) groups['Image Type'].add(e.imageType);
   });
@@ -1729,7 +1734,7 @@ function getMbMatches() {
       ...(e.targetAudience||[]), ...(e.colourPalette||[]),
       ...(e.style||[]), ...(e.occasion||[]), ...(e.mood||[]),
       ...(e.typography||[]), ...(e.finish||[]), ...(e.ingredient||[]),
-      ...(e.keywords||[]), ...(e.tags||[]), ...(e.format||[]),
+      ...(e.keywords||[]), ...(e.tags||[]), ...toArr(e.format),
       e.imageType||'', e.type||'', e.client||''
     ].filter(v => typeof v === 'string').map(v=>v.toLowerCase());
     return combined.some(kw => vals.some(v => v.includes(kw)));
