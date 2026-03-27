@@ -1035,8 +1035,13 @@
 // The service role key (secret) lives only in .env and is never committed.
 const SUPABASE_URL      = 'https://exavuyhylfzbrxrapuor.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_3mFGSwAmXHky0B7UI5dfnA_hCNdki2r';
-const supabase          = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 const STORAGE_BUCKET    = 'tagbot-images';
+let supabase = null;
+try {
+  supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+} catch(e) {
+  console.error('Supabase client failed to initialise — running in offline mode.', e);
+}
 
 // Coerce a value that may be a string or array into an array.
 // Needed because `format` is stored as text in Supabase but as array in library-data.js.
@@ -1235,6 +1240,8 @@ async function loadLibraryData() {
   // Seed with local snapshot while Supabase loads
   if (window.LIBRARY_DATA) applyLibraryData(window.LIBRARY_DATA);
 
+  if (!supabase) return; // CDN failed — stay on offline fallback
+
   try {
     const { data, error } = await supabase
       .from('library')
@@ -1321,6 +1328,7 @@ async function addImages() {
     progress.textContent = `Uploading ${done + 1} / ${validFiles.length}…`;
 
     const storagePath = `${today}/${file.name}`;
+    if (!supabase) { alert('Offline — cannot upload images right now.'); return; }
     const { error: uploadError } = await supabase.storage
       .from(STORAGE_BUCKET)
       .upload(storagePath, file, { upsert: true });
@@ -1580,6 +1588,7 @@ async function saveEdit() {
   e.designCode      = getMsValues('ms-edit-designCode');
   e.targetAudience  = getMsValues('ms-edit-targetAudience');
   e.colourPalette   = getMsValues('ms-edit-colourPalette');
+  if (!supabase) { alert('Offline — cannot save right now.'); return; }
   const { error } = await supabase.from('library').update(e).eq('id', id);
   if (error) { alert('Save failed: ' + error.message); return; }
   closeModal('edit-modal'); renderGallery(); updateClientFilter();
@@ -1588,6 +1597,7 @@ async function saveEdit() {
 async function deleteEntry(id) {
   if (!confirm('Delete this entry?')) return;
   const entry = library.find(e => e.id === id);
+  if (!supabase) { alert('Offline — cannot delete right now.'); return; }
   const { error } = await supabase.from('library').delete().eq('id', id);
   if (error) { alert('Delete failed: ' + error.message); return; }
   if (entry && entry.src && entry.src.includes(SUPABASE_URL)) {
