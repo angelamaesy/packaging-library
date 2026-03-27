@@ -6,17 +6,21 @@ Reads library.json and upserts all records into the Supabase library table.
 Run this after the AutoTagger has filled in metadata for a batch.
 
 Requirements:
-    pip install requests
+    pip install requests python-dotenv
 
 Run from the packaging-library folder:
     python3 push-to-supabase.py
 """
 
 import json
+import os
 import requests
+from dotenv import load_dotenv
 
-SUPABASE_URL      = 'https://exavuyhylfzbrxrapuor.supabase.co'
-SERVICE_ROLE_KEY  = 'sb_secret_JUaay_TDSz-A7MbXEQEzMQ_KFxGoofL'
+load_dotenv()
+
+SUPABASE_URL      = os.environ['SUPABASE_URL']
+SERVICE_ROLE_KEY  = os.environ['SUPABASE_SERVICE_ROLE_KEY']
 LIBRARY_FILE      = 'library.json'
 
 HEADERS = {

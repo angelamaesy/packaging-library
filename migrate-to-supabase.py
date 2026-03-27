@@ -7,21 +7,24 @@ then upserts all library.json records into the Supabase library table.
 Also rewrites library.json and library-data.js to use Supabase public URLs.
 
 Requirements:
-    pip install requests
+    pip install requests python-dotenv
 
 Run from the packaging-library folder:
     python3 migrate-to-supabase.py
 """
 
 import json
-import os
 import mimetypes
+import os
 from urllib.parse import quote, unquote
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ── Config ────────────────────────────────────────────────────────────────────
-SUPABASE_URL      = 'https://exavuyhylfzbrxrapuor.supabase.co'
-SERVICE_ROLE_KEY  = 'sb_secret_JUaay_TDSz-A7MbXEQEzMQ_KFxGoofL'
+SUPABASE_URL      = os.environ['SUPABASE_URL']
+SERVICE_ROLE_KEY  = os.environ['SUPABASE_SERVICE_ROLE_KEY']
 STORAGE_BUCKET    = 'tagbot-images'
 LIBRARY_FILE      = 'library.json'
 DATAJS_FILE       = 'library-data.js'

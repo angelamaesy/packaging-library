@@ -1031,6 +1031,8 @@
 <script src="library-data.js"></script>
 <script>
 // ── Supabase ──────────────────────────────────────────────────────────────────
+// The anon key is a public/publishable key — safe to ship in client-side code.
+// The service role key (secret) lives only in .env and is never committed.
 const SUPABASE_URL      = 'https://exavuyhylfzbrxrapuor.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_3mFGSwAmXHky0B7UI5dfnA_hCNdki2r';
 const supabase          = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);

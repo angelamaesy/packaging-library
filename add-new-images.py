@@ -8,7 +8,7 @@ adds stub entries to the Supabase library table and to library.json,
 and regenerates library-data.js.
 
 Requirements:
-    pip install requests
+    pip install requests python-dotenv
 
 Run from the packaging-library folder:
     python3 add-new-images.py
@@ -21,15 +21,19 @@ import shutil
 import time
 from datetime import date
 from urllib.parse import quote, unquote
+import os
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 TAGBOT_DIR        = 'TAGBOT'
 LIBRARY_FILE      = 'library.json'
 DATAJS_FILE       = 'library-data.js'
 IMAGE_EXTS        = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.avif'}
 
-SUPABASE_URL      = 'https://exavuyhylfzbrxrapuor.supabase.co'
-SERVICE_ROLE_KEY  = 'sb_secret_JUaay_TDSz-A7MbXEQEzMQ_KFxGoofL'
+SUPABASE_URL      = os.environ['SUPABASE_URL']
+SERVICE_ROLE_KEY  = os.environ['SUPABASE_SERVICE_ROLE_KEY']
 STORAGE_BUCKET    = 'tagbot-images'
 
 HEADERS = {
