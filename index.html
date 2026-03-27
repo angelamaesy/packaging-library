@@ -636,7 +636,7 @@
 </head>
 <body>
 
-<div id="sync-status">Connecting to library.json…</div>
+<div id="sync-status">Loading…</div>
 
 <div id="app-header">
   <div id="app-logo">
@@ -1027,8 +1027,14 @@
   <img id="lightbox-img" src="" alt="">
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <script src="library-data.js"></script>
 <script>
+// ── Supabase ──────────────────────────────────────────────────────────────────
+const SUPABASE_URL      = 'https://exavuyhylfzbrxrapuor.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_3mFGSwAmXHky0B7UI5dfnA_hCNdki2r';
+const supabase          = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const STORAGE_BUCKET    = 'tagbot-images';
 // ── Taxonomy ──────────────────────────────────────────────────────────────────
 const TAXONOMY = {
   productCategory: {
@@ -1190,21 +1196,14 @@ let moodboards = JSON.parse(localStorage.getItem('packagingMoodboards') || '[]')
 let pendingFiles = [];
 let selectedMbIds = new Set();
 let activeMbTags = new Set();
-let lastLibraryHash = '';
-let localUploads = JSON.parse(localStorage.getItem('packagingLocalUploads') || '[]');
 let galleryPage = 1;
 const PAGE_SIZE = 30;
 
-function saveLocal() { localStorage.setItem('packagingLocalUploads', JSON.stringify(localUploads)); }
+function saveLocal() { /* no-op: data lives in Supabase */ }
 function saveMoodboards() { localStorage.setItem('packagingMoodboards', JSON.stringify(moodboards)); }
 
-function applyLibraryData(fromFile) {
-  if (!fromFile) {
-    library = [...localUploads];
-  } else {
-    const fileIds = new Set(fromFile.map(e => String(e.id)));
-    library = [...fromFile, ...localUploads.filter(e => !fileIds.has(String(e.id)))];
-  }
+function applyLibraryData(data) {
+  library = data || [];
   renderGallery();
   updateClientFilter();
   if (document.getElementById('tab-moodboard').classList.contains('active')) {
@@ -1212,35 +1211,42 @@ function applyLibraryData(fromFile) {
   }
 }
 
-async function loadLibraryJson() {
-  // Populate library immediately (synchronous) so tabs are usable right away
-  if (window.LIBRARY_DATA) {
-    document.getElementById('sync-status').textContent =
-      'library-data.js · ' + window.LIBRARY_DATA.length + ' entries';
-    applyLibraryData(window.LIBRARY_DATA);
+async function loadLibraryData() {
+  // Offline fallback: file:// protocol can't reach Supabase
+  if (window.location.protocol === 'file:') {
+    if (window.LIBRARY_DATA) {
+      document.getElementById('sync-status').textContent =
+        'Offline · ' + window.LIBRARY_DATA.length + ' entries';
+      applyLibraryData(window.LIBRARY_DATA);
+    } else {
+      document.getElementById('sync-status').textContent = 'No library data';
+      applyLibraryData(null);
+    }
+    return;
   }
 
-  // When served via HTTP, also try fetch so live edits to library.json are picked up
-  if (window.location.protocol !== 'file:') {
-    try {
-      const res = await fetch('library.json?_=' + Date.now());
-      if (res.ok) {
-        const text = await res.text();
-        if (text !== lastLibraryHash) {
-          lastLibraryHash = text;
-          const fromFile = JSON.parse(text);
-          document.getElementById('sync-status').textContent =
-            'Synced · ' + new Date().toLocaleTimeString();
-          applyLibraryData(fromFile);
-        }
-      }
-    } catch { /* stay with LIBRARY_DATA */ }
-  }
+  // Seed with local snapshot while Supabase loads
+  if (window.LIBRARY_DATA) applyLibraryData(window.LIBRARY_DATA);
 
-  if (!library.length && !window.LIBRARY_DATA) {
+  try {
+    const { data, error } = await supabase
+      .from('library')
+      .select('*')
+      .order('added', { ascending: false });
+    if (error) throw error;
     document.getElementById('sync-status').textContent =
-      'No library data — add images using the form above';
-    applyLibraryData(null);
+      'Synced · ' + data.length + ' entries';
+    applyLibraryData(data);
+  } catch (err) {
+    console.error('Supabase load failed:', err);
+    if (window.LIBRARY_DATA) {
+      document.getElementById('sync-status').textContent =
+        'Offline · ' + window.LIBRARY_DATA.length + ' entries';
+      applyLibraryData(window.LIBRARY_DATA);
+    } else {
+      document.getElementById('sync-status').textContent = 'Failed to load library';
+      applyLibraryData(null);
+    }
   }
 }
 
@@ -1273,7 +1279,7 @@ function previewFiles() {
   Array.from(input.files).forEach((file, i) => {
     const reader = new FileReader();
     reader.onload = e => {
-      pendingFiles[i] = { dataUrl: e.target.result };
+      pendingFiles[i] = { dataUrl: e.target.result, file };
       const wrap = document.createElement('div'); wrap.className = 'preview-item';
       const img = document.createElement('img'); img.src = e.target.result;
       const btn = document.createElement('button'); btn.className = 'remove-preview'; btn.textContent = '✕';
@@ -1284,7 +1290,7 @@ function previewFiles() {
   });
 }
 
-function addImages() {
+async function addImages() {
   const validFiles = pendingFiles.filter(Boolean);
   if (!validFiles.length) { alert('Please select at least one image.'); return; }
 
@@ -1302,14 +1308,42 @@ function addImages() {
 
   let done = 0;
   const progress = document.getElementById('upload-progress');
-  validFiles.forEach(({ dataUrl }) => {
-    const entry = { ...base, id: Date.now() + Math.random(), src: dataUrl, added: Date.now() };
-    localUploads.unshift(entry);
-    library.unshift(entry);
-    progress.textContent = `Added ${++done} / ${validFiles.length} image(s)`;
-  });
+  const today = new Date().toISOString().split('T')[0];
 
-  saveLocal(); renderGallery(); updateClientFilter();
+  for (const { file } of validFiles) {
+    progress.textContent = `Uploading ${done + 1} / ${validFiles.length}…`;
+
+    const storagePath = `${today}/${file.name}`;
+    const { error: uploadError } = await supabase.storage
+      .from(STORAGE_BUCKET)
+      .upload(storagePath, file, { upsert: true });
+    if (uploadError) { alert(`Upload failed: ${uploadError.message}`); continue; }
+
+    const { data: { publicUrl } } = supabase.storage
+      .from(STORAGE_BUCKET)
+      .getPublicUrl(storagePath);
+
+    const entry = {
+      ...base,
+      id:          Date.now() + Math.random(),
+      src:         publicUrl,
+      ingredient:  [],
+      style:       [],
+      occasion:    [],
+      mood:        [],
+      typography:  [],
+      finish:      [],
+      keywords:    [],
+      added:       Date.now(),
+    };
+    const { error: insertError } = await supabase.from('library').insert(entry);
+    if (insertError) { alert(`Save failed: ${insertError.message}`); continue; }
+
+    library.unshift(entry);
+    progress.textContent = `Added ${++done} / ${validFiles.length}`;
+  }
+
+  renderGallery(); updateClientFilter();
 
   document.getElementById('file-input').value = '';
   document.getElementById('file-preview').innerHTML = '';
@@ -1526,7 +1560,7 @@ function openEdit(id) {
   document.getElementById('edit-modal').style.display = 'block';
 }
 
-function saveEdit() {
+async function saveEdit() {
   const id = parseFloat(document.getElementById('edit-id').value);
   const e = library.find(x => x.id === id);
   if (!e) return;
@@ -1539,16 +1573,26 @@ function saveEdit() {
   e.designCode      = getMsValues('ms-edit-designCode');
   e.targetAudience  = getMsValues('ms-edit-targetAudience');
   e.colourPalette   = getMsValues('ms-edit-colourPalette');
-  const li = localUploads.find(x => x.id === id);
-  if (li) Object.assign(li, e);
-  saveLocal(); closeModal('edit-modal'); renderGallery(); updateClientFilter();
+  const { error } = await supabase.from('library').update(e).eq('id', id);
+  if (error) { alert('Save failed: ' + error.message); return; }
+  closeModal('edit-modal'); renderGallery(); updateClientFilter();
 }
 
-function deleteEntry(id) {
+async function deleteEntry(id) {
   if (!confirm('Delete this entry?')) return;
+  const entry = library.find(e => e.id === id);
+  const { error } = await supabase.from('library').delete().eq('id', id);
+  if (error) { alert('Delete failed: ' + error.message); return; }
+  if (entry && entry.src && entry.src.includes(SUPABASE_URL)) {
+    const marker = `/object/public/${STORAGE_BUCKET}/`;
+    const idx = entry.src.indexOf(marker);
+    if (idx !== -1) {
+      const storagePath = decodeURIComponent(entry.src.slice(idx + marker.length));
+      await supabase.storage.from(STORAGE_BUCKET).remove([storagePath]);
+    }
+  }
   library = library.filter(e => e.id !== id);
-  localUploads = localUploads.filter(e => e.id !== id);
-  saveLocal(); renderGallery(); updateClientFilter();
+  renderGallery(); updateClientFilter();
 }
 
 function closeModal(id) { document.getElementById(id).style.display = 'none'; }
@@ -2822,8 +2866,7 @@ function deleteShelfShot(id) {
   });
 });
 
-loadLibraryJson();
-// No polling — data is static, only changes on deploy
+loadLibraryData();
 
 // Wire up moodboard controls directly (don't rely on inline HTML attributes)
 document.getElementById('mb-keyword-input').addEventListener('input', renderMoodboardMatches);
