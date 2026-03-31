@@ -1,5 +1,4 @@
-window.LIBRARY_DATA = 
-[
+const LIBRARY_DATA = [
   {
     "id": 1740000000038,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-24/Screenshot%202026-03-02%20at%2018.26.42.png",
@@ -69,7 +68,7 @@ window.LIBRARY_DATA =
       "ornate",
       "red"
     ],
-    "notes": "Ornate arch-shaped gift box with elaborate gold foil horse/phoenix illustration on deep crimson red \u2014 Chinese New Year handle box. Art deco styling, theatrical 3D staged setting with candelabras.",
+    "notes": "Ornate arch-shaped gift box with elaborate gold foil horse/phoenix illustration on deep crimson red — Chinese New Year handle box. Art deco styling, theatrical 3D staged setting with candelabras.",
     "added": 1740891600001
   },
   {
@@ -139,7 +138,7 @@ window.LIBRARY_DATA =
       "range shot",
       "box and sachet"
     ],
-    "notes": "Teazen Kombucha Green Mandarin Lime \u2014 30pk box + stick sachet. Clean white/green/yellow, Korean bilingual, RTB callouts (prebiotics, low calorie).",
+    "notes": "Teazen Kombucha Green Mandarin Lime — 30pk box + stick sachet. Clean white/green/yellow, Korean bilingual, RTB callouts (prebiotics, low calorie).",
     "added": 1740891600002
   },
   {
@@ -205,7 +204,7 @@ window.LIBRARY_DATA =
       "blue bag",
       "light blue"
     ],
-    "notes": "Smartfood Fiber Pop Toffee & Sea Salt \u2014 light blue bag, bold condensed type, high-energy snack with fiber RTB callout.",
+    "notes": "Smartfood Fiber Pop Toffee & Sea Salt — light blue bag, bold condensed type, high-energy snack with fiber RTB callout.",
     "added": 1740891600003
   },
   {
@@ -271,7 +270,7 @@ window.LIBRARY_DATA =
       "monochrome",
       "clean label"
     ],
-    "notes": "Lesser Evil Organic Popcorn \u2014 minimal white matte bag, quirky illustrated monk/Buddha mascot face, USDA organic, clean label.",
+    "notes": "Lesser Evil Organic Popcorn — minimal white matte bag, quirky illustrated monk/Buddha mascot face, USDA organic, clean label.",
     "added": 1740891600004
   },
   {
@@ -342,7 +341,7 @@ window.LIBRARY_DATA =
       "overhead",
       "organic"
     ],
-    "notes": "LOVEBITES cookie pouch \u2014 bold pink matte pouch, stacked cookie product photography, New York Style callout, sea salt & chocolate chip. Organic. Flatlay with scattered packs.",
+    "notes": "LOVEBITES cookie pouch — bold pink matte pouch, stacked cookie product photography, New York Style callout, sea salt & chocolate chip. Organic. Flatlay with scattered packs.",
     "added": 1740891600005
   },
   {
@@ -417,7 +416,7 @@ window.LIBRARY_DATA =
       "teal",
       "deliciously balanced"
     ],
-    "notes": "Joy Days cookie bars \u2014 3-SKU range in hot pink, cobalt blue, teal. High-energy neon palette, bold colour-blocked bags. Dopamine dressing at its best.",
+    "notes": "Joy Days cookie bars — 3-SKU range in hot pink, cobalt blue, teal. High-energy neon palette, bold colour-blocked bags. Dopamine dressing at its best.",
     "added": 1740891600006
   },
   {
@@ -492,7 +491,7 @@ window.LIBRARY_DATA =
       "Snack Brigade",
       "red orange background"
     ],
-    "notes": "IncrediPuffs Saucilian Pizza \u2014 white bag on vivid red/orange, hand-drawn Italian chef mascot tossing pizza. Baked never fried. Comic-style illustration, bold display type.",
+    "notes": "IncrediPuffs Saucilian Pizza — white bag on vivid red/orange, hand-drawn Italian chef mascot tossing pizza. Baked never fried. Comic-style illustration, bold display type.",
     "added": 1740891600007
   },
   {
@@ -552,7 +551,7 @@ window.LIBRARY_DATA =
       "3D type",
       "shadow type"
     ],
-    "notes": "Bold rainbow 'Hey' typographic poster \u2014 oversized condensed sans-serif with layered rainbow colour stripes creating 3D shadow effect. Strong retro graphic energy.",
+    "notes": "Bold rainbow 'Hey' typographic poster — oversized condensed sans-serif with layered rainbow colour stripes creating 3D shadow effect. Strong retro graphic energy.",
     "added": 1740891600008
   },
   {
@@ -608,7 +607,7 @@ window.LIBRARY_DATA =
       "cat face",
       "warm to cool contrast"
     ],
-    "notes": "Illustrated cat close-up in pop-art style \u2014 extreme close-up of cat face looking upward, warm orange/pink fur gradient against vivid blue sky. Dreamy, serene energy.",
+    "notes": "Illustrated cat close-up in pop-art style — extreme close-up of cat face looking upward, warm orange/pink fur gradient against vivid blue sky. Dreamy, serene energy.",
     "added": 1740891600009
   },
   {
@@ -667,7 +666,7 @@ window.LIBRARY_DATA =
       "render",
       "generative"
     ],
-    "notes": "Abstract gradient organic blob/pill forms \u2014 stacked 3D renders in neon pink/purple/blue/orange. Fluid, generative digital aesthetic.",
+    "notes": "Abstract gradient organic blob/pill forms — stacked 3D renders in neon pink/purple/blue/orange. Fluid, generative digital aesthetic.",
     "added": 1740891600010
   },
   {
@@ -724,7 +723,7 @@ window.LIBRARY_DATA =
       "logo system",
       "mascot system"
     ],
-    "notes": "9-panel emoji-face icon grid \u2014 bold flat design smiley face system on multicolour backgrounds (teal, mint, pink, yellow, cream, red, orange, blue). Joyful brand identity reference.",
+    "notes": "9-panel emoji-face icon grid — bold flat design smiley face system on multicolour backgrounds (teal, mint, pink, yellow, cream, red, orange, blue). Joyful brand identity reference.",
     "added": 1740891600011
   },
   {
@@ -781,7 +780,7 @@ window.LIBRARY_DATA =
       "cool grey",
       "sunrise"
     ],
-    "notes": "Minimalist gradient sphere with ground reflection \u2014 orange-to-deep-pink gradient circle on cool grey background. Serene, meditative, 3D digital art reference.",
+    "notes": "Minimalist gradient sphere with ground reflection — orange-to-deep-pink gradient circle on cool grey background. Serene, meditative, 3D digital art reference.",
     "added": 1740891600012
   },
   {
@@ -850,7 +849,7 @@ window.LIBRARY_DATA =
       "N-265",
       "code typography"
     ],
-    "notes": "Rilla Penne pasta box \u2014 cool blue-grey matte, oversized condensed sans-serif, product photo inset, numeric code N-265. Swiss Modernist grid-based editorial design.",
+    "notes": "Rilla Penne pasta box — cool blue-grey matte, oversized condensed sans-serif, product photo inset, numeric code N-265. Swiss Modernist grid-based editorial design.",
     "added": 1740891600013
   },
   {
@@ -917,7 +916,7 @@ window.LIBRARY_DATA =
       "mini pack",
       "brown tones"
     ],
-    "notes": "Love Corn BBQ small pouch \u2014 warm tan/brown matte, illustrated, approachable natural snack energy. Mini on-the-go format.",
+    "notes": "Love Corn BBQ small pouch — warm tan/brown matte, illustrated, approachable natural snack energy. Mini on-the-go format.",
     "added": 1740891600014
   },
   {
@@ -988,7 +987,7 @@ window.LIBRARY_DATA =
       "overhead",
       "topshot"
     ],
-    "notes": "Avinka Pop Corn Chicken \u2014 vibrant green bag with all-over fork illustration pattern, vivid orange product. Lifestyle topshot with hand reaching in, scattered bags.",
+    "notes": "Avinka Pop Corn Chicken — vibrant green bag with all-over fork illustration pattern, vivid orange product. Lifestyle topshot with hand reaching in, scattered bags.",
     "added": 1740891600015
   },
   {
@@ -1022,7 +1021,7 @@ window.LIBRARY_DATA =
     ],
     "ingredient": [
       "chips",
-      "jalape\u00f1o",
+      "jalapeño",
       "jack cheese"
     ],
     "style": [
@@ -1046,7 +1045,7 @@ window.LIBRARY_DATA =
     ],
     "keywords": [
       "chips",
-      "jalape\u00f1o",
+      "jalapeño",
       "jack cheese",
       "ridge cut",
       "hand-cooked",
@@ -1060,7 +1059,7 @@ window.LIBRARY_DATA =
       "tomatoes",
       "flowers"
     ],
-    "notes": "Kettle Ridge Cut Jalape\u00f1o Jack \u2014 deep forest green bag, wave texture, styled with fresh jalape\u00f1os, cheese, tomatoes and flowers on rustic wood. Heritage hand-cooked positioning.",
+    "notes": "Kettle Ridge Cut Jalapeño Jack — deep forest green bag, wave texture, styled with fresh jalapeños, cheese, tomatoes and flowers on rustic wood. Heritage hand-cooked positioning.",
     "added": 1740891600016
   },
   {
@@ -1136,7 +1135,7 @@ window.LIBRARY_DATA =
       "caramelized onion",
       "jammy tomato"
     ],
-    "notes": "Little Sesame hummus tubs \u2014 3 stacked tubs (orange/mint/pink), bold all-type wrap-around labels. Flavours: Jammy Tomato, Smooth Classic, Caramelized Onion. Playful approachable health brand.",
+    "notes": "Little Sesame hummus tubs — 3 stacked tubs (orange/mint/pink), bold all-type wrap-around labels. Flavours: Jammy Tomato, Smooth Classic, Caramelized Onion. Playful approachable health brand.",
     "added": 1740891600017
   },
   {
@@ -1204,13 +1203,13 @@ window.LIBRARY_DATA =
       "hand shot",
       "all-over type"
     ],
-    "notes": "Stuffed Puffs S'mores campaign key visual \u2014 hand holding product against vivid cobalt blue, all-over repeated S'MORES type. High-energy punchy campaign.",
+    "notes": "Stuffed Puffs S'mores campaign key visual — hand holding product against vivid cobalt blue, all-over repeated S'MORES type. High-energy punchy campaign.",
     "added": 1740891600018
   },
   {
     "id": 1740000000020,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-24/078d095f5edf83b28af2255c8bba1268.jpg",
-    "client": "Savonni\u00e8re",
+    "client": "Savonnière",
     "imageType": "Pack Design",
     "format": [
       "Tin"
@@ -1280,7 +1279,7 @@ window.LIBRARY_DATA =
       "clean ingredients",
       "Les Bienfaits"
     ],
-    "notes": "Savonni\u00e8re soap tins \u2014 5 stacked oval matte tins in pastel mint/lavender/cream/orange/green. French pharmacy elegance, embossed medallion badge, serif type, clean ingredient RTB.",
+    "notes": "Savonnière soap tins — 5 stacked oval matte tins in pastel mint/lavender/cream/orange/green. French pharmacy elegance, embossed medallion badge, serif type, clean ingredient RTB.",
     "added": 1740891600019
   },
   {
@@ -1358,7 +1357,7 @@ window.LIBRARY_DATA =
       "bubbly font",
       "Not your grandma's porridge"
     ],
-    "notes": "Oatcen Oat Porridge Strawberry & Lychee \u2014 bold yellow/pink retro pouch, illustrated spoon characters with faces, hand holding pack. Plant-based, zero sugar RTBs. Not your grandma's porridge.",
+    "notes": "Oatcen Oat Porridge Strawberry & Lychee — bold yellow/pink retro pouch, illustrated spoon characters with faces, hand holding pack. Plant-based, zero sugar RTBs. Not your grandma's porridge.",
     "added": 1740891600020
   },
   {
@@ -1430,7 +1429,7 @@ window.LIBRARY_DATA =
       "crunchy",
       "kinda crunchy"
     ],
-    "notes": "Cravers 92% Hazelnut Butter \u2014 vivid orange label on clear glass jar, stark utilitarian sans-serif type, product visible. Vegan, plant-based, palm oil free RTBs. German brand.",
+    "notes": "Cravers 92% Hazelnut Butter — vivid orange label on clear glass jar, stark utilitarian sans-serif type, product visible. Vegan, plant-based, palm oil free RTBs. German brand.",
     "added": 1740891600021
   },
   {
@@ -1498,7 +1497,7 @@ window.LIBRARY_DATA =
       "premium tea",
       "bilingual"
     ],
-    "notes": "Tama Tea Lemo Lavender sparkling green tea can \u2014 soft purple/yellow pastel, minimal premium feel.",
+    "notes": "Tama Tea Lemo Lavender sparkling green tea can — soft purple/yellow pastel, minimal premium feel.",
     "added": 1740891600022
   },
   {
@@ -1568,7 +1567,7 @@ window.LIBRARY_DATA =
       "modern",
       "bold label"
     ],
-    "notes": "Hotel Tango Lemoncello \u2014 editorial bold type label on amber bottle, confident typographic minimalism.",
+    "notes": "Hotel Tango Lemoncello — editorial bold type label on amber bottle, confident typographic minimalism.",
     "added": 1740891600023
   },
   {
@@ -1636,7 +1635,7 @@ window.LIBRARY_DATA =
       "stick pack",
       "fun health brand"
     ],
-    "notes": "100% NICE4U vitamin sachets \u2014 repeating grid, bold pink type, playful health brand with pattern energy.",
+    "notes": "100% NICE4U vitamin sachets — repeating grid, bold pink type, playful health brand with pattern energy.",
     "added": 1740891600024
   },
   {
@@ -1706,7 +1705,7 @@ window.LIBRARY_DATA =
       "tea box",
       "minimal editorial"
     ],
-    "notes": "Fujian Tea newspaper-style packaging \u2014 off-white with bold bilingual type, minimalist editorial.",
+    "notes": "Fujian Tea newspaper-style packaging — off-white with bold bilingual type, minimalist editorial.",
     "added": 1740891600025
   },
   {
@@ -1773,13 +1772,13 @@ window.LIBRARY_DATA =
       "fresh",
       "illustrated"
     ],
-    "notes": "Dacoola Sour Jasmine & Green Apple mints \u2014 green illustrated box, fresh and vibrant Chinese packaging.",
+    "notes": "Dacoola Sour Jasmine & Green Apple mints — green illustrated box, fresh and vibrant Chinese packaging.",
     "added": 1740891600026
   },
   {
     "id": 1740000000012,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-24/d182ca0c5f6fe46352a7134de9a8b8bc.jpg",
-    "client": "\u4e58\u5426",
+    "client": "乘否",
     "imageType": "Pack Design",
     "format": [
       "Box"
@@ -1845,7 +1844,7 @@ window.LIBRARY_DATA =
       "-57%",
       "-40%"
     ],
-    "notes": "\u4e58\u5426 Zero-Fat Chips \u2014 white/gold box with data-forward RTB claims: 0% fat, +200% zinc, -57% calories. Clean clinical premium Chinese packaging.",
+    "notes": "乘否 Zero-Fat Chips — white/gold box with data-forward RTB claims: 0% fat, +200% zinc, -57% calories. Clean clinical premium Chinese packaging.",
     "added": 1740891600027
   },
   {
@@ -1916,7 +1915,7 @@ window.LIBRARY_DATA =
       "bilingual",
       "carton"
     ],
-    "notes": "Chinese plant milk (\u690d\u8349\u5976) Tetra paks \u2014 light blue/white cartons with bold green Chinese characters arranged in diagonal repeat topshot.",
+    "notes": "Chinese plant milk (植草奶) Tetra paks — light blue/white cartons with bold green Chinese characters arranged in diagonal repeat topshot.",
     "added": 1740891600028
   },
   {
@@ -1985,7 +1984,7 @@ window.LIBRARY_DATA =
       "rice crunch",
       "tangy glaze"
     ],
-    "notes": "Sun Tropics Mochi Tamari Teriyaki Snack Bites \u2014 warm golden pouch, bold display type, floating product photography. Gluten free, dairy free RTBs.",
+    "notes": "Sun Tropics Mochi Tamari Teriyaki Snack Bites — warm golden pouch, bold display type, floating product photography. Gluten free, dairy free RTBs.",
     "added": 1740891600029
   },
   {
@@ -2053,7 +2052,7 @@ window.LIBRARY_DATA =
       "saku saku",
       "bakery"
     ],
-    "notes": "Tohato Saku Saku Bakery baguette snack \u2014 hessian-texture bag, warm cream/beige, product photography of small baguette shapes. Butter salt flavor, traditional Japanese heritage.",
+    "notes": "Tohato Saku Saku Bakery baguette snack — hessian-texture bag, warm cream/beige, product photography of small baguette shapes. Butter salt flavor, traditional Japanese heritage.",
     "added": 1740891600030
   },
   {
@@ -2125,7 +2124,7 @@ window.LIBRARY_DATA =
       "gold circle",
       "kanji"
     ],
-    "notes": "Kinto Kuri chestnut confection \u2014 white/cream bag, large gold circular \u6817 kanji emblem (visual hammer), product photography of glazed chestnuts. Earthy artisan Japanese heritage.",
+    "notes": "Kinto Kuri chestnut confection — white/cream bag, large gold circular 栗 kanji emblem (visual hammer), product photography of glazed chestnuts. Earthy artisan Japanese heritage.",
     "added": 1740891600031
   },
   {
@@ -2184,7 +2183,7 @@ window.LIBRARY_DATA =
     "keywords": [
       "seafood",
       "rice mix",
-      "\u708a\u304d\u8fbc\u307f\u3054\u98ef",
+      "炊き込みご飯",
       "oyster",
       "salmon",
       "mackerel",
@@ -2197,7 +2196,7 @@ window.LIBRARY_DATA =
       "flat lay",
       "8 SKUs"
     ],
-    "notes": "Sanriku seafood \u708a\u304d\u8fbc\u307f\u5fa1\u98ef rice mix range \u2014 8 color-coded boxes with detailed line illustrations of seafood. Japanese heritage folk art style, warm multicolour flat lay.",
+    "notes": "Sanriku seafood 炊き込み御飯 rice mix range — 8 color-coded boxes with detailed line illustrations of seafood. Japanese heritage folk art style, warm multicolour flat lay.",
     "added": 1740891600032
   },
   {
@@ -2270,7 +2269,7 @@ window.LIBRARY_DATA =
       "gourmet",
       "award-winning"
     ],
-    "notes": "Consum Receta Premium chips \u2014 dark navy upper/mint teal lower bag, premium ingredient photography (chips + rosemary + salt spoons). 2020 Pentawards Silver winner.",
+    "notes": "Consum Receta Premium chips — dark navy upper/mint teal lower bag, premium ingredient photography (chips + rosemary + salt spoons). 2020 Pentawards Silver winner.",
     "added": 1740891600033
   },
   {
@@ -2340,9 +2339,9 @@ window.LIBRARY_DATA =
       "large Chinese type",
       "bold type",
       "product photography",
-      "\u826f\u54c1\u94fa\u5b50"
+      "良品铺子"
     ],
-    "notes": "Bestore (\u826f\u54c1\u94fa\u5b50) snack range \u2014 4 bags (yellow/brown/blue/grey) with bold oversized Chinese typography and product photography. Clean range shot topshot.",
+    "notes": "Bestore (良品铺子) snack range — 4 bags (yellow/brown/blue/grey) with bold oversized Chinese typography and product photography. Clean range shot topshot.",
     "added": 1740891600034
   },
   {
@@ -2410,7 +2409,7 @@ window.LIBRARY_DATA =
       "sun protection",
       "sunly"
     ],
-    "notes": "Attitude Sunly after sun stick \u2014 clean pale blue/white, plastic-free suncare. Eco-conscious minimal design. Vegan, dermatologist-tested.",
+    "notes": "Attitude Sunly after sun stick — clean pale blue/white, plastic-free suncare. Eco-conscious minimal design. Vegan, dermatologist-tested.",
     "added": 1740891600035
   },
   {
@@ -2480,7 +2479,7 @@ window.LIBRARY_DATA =
       "health nutrition",
       "antioxidants"
     ],
-    "notes": "Huel Daily Greens \u2014 dark forest green slim can, clean bold type, confident premium health nutrition. 25 calories, adaptogens, lion's mane.",
+    "notes": "Huel Daily Greens — dark forest green slim can, clean bold type, confident premium health nutrition. 25 calories, adaptogens, lion's mane.",
     "added": 1740891600036
   },
   {
@@ -2549,7 +2548,7 @@ window.LIBRARY_DATA =
       "functional",
       "USDA inspected"
     ],
-    "notes": "Flock Chicken Breast Sticks Original \u2014 stark white stand-up pouch, minimal black type, clinical protein-forward. 15G protein, 0G carbs, 0G sugar.",
+    "notes": "Flock Chicken Breast Sticks Original — stark white stand-up pouch, minimal black type, clinical protein-forward. 15G protein, 0G carbs, 0G sugar.",
     "added": 1740891600037
   },
   {
@@ -2628,7 +2627,7 @@ window.LIBRARY_DATA =
       "organic",
       "flat lay"
     ],
-    "notes": "Dried Fruit range \u2014 3 soft pastel pouches (lavender/mint/peach) in topshot lifestyle with fresh and dried ingredients styled around them on warm cream background.",
+    "notes": "Dried Fruit range — 3 soft pastel pouches (lavender/mint/peach) in topshot lifestyle with fresh and dried ingredients styled around them on warm cream background.",
     "added": 1740891600038
   },
   {
@@ -2697,10 +2696,10 @@ window.LIBRARY_DATA =
       "MINI travel set",
       "lifestyle",
       "bilingual",
-      "\u5357\u5c9b",
+      "南岛",
       "scented candle"
     ],
-    "notes": "Whatever by \u5357\u5c9bKULANGSU \u2014 Chinese gifting set with dreamy green/yellow gradient art direction on boxes, candle jar, and shopping bag. Editorial lifestyle, MINI\u65c5\u884c\u5957\u76d2.",
+    "notes": "Whatever by 南岛KULANGSU — Chinese gifting set with dreamy green/yellow gradient art direction on boxes, candle jar, and shopping bag. Editorial lifestyle, MINI旅行套盒.",
     "added": 1774353600001
   },
   {
@@ -2757,7 +2756,7 @@ window.LIBRARY_DATA =
       "icon set",
       "scattered"
     ],
-    "notes": "Flat vector music note icon set \u2014 scattered colorful abstract music note characters in orange, purple, teal, yellow, pink on white. Bold, playful, minimal.",
+    "notes": "Flat vector music note icon set — scattered colorful abstract music note characters in orange, purple, teal, yellow, pink on white. Bold, playful, minimal.",
     "added": 1774353600002
   },
   {
@@ -2818,7 +2817,7 @@ window.LIBRARY_DATA =
       "2000s aesthetic",
       "smiley face"
     ],
-    "notes": "Y2K retro computer-themed social media sale templates \u2014 6-panel grid with pastel purples/yellows/greens, browser window UI elements, emoji, stars. Nostalgia-driven campaign reference.",
+    "notes": "Y2K retro computer-themed social media sale templates — 6-panel grid with pastel purples/yellows/greens, browser window UI elements, emoji, stars. Nostalgia-driven campaign reference.",
     "added": 1774353600003
   },
   {
@@ -2875,7 +2874,7 @@ window.LIBRARY_DATA =
       "minimal",
       "warm tones"
     ],
-    "notes": "Three nested concentric smiley face circles \u2014 yellow (large), orange (medium), pink (small) with closed-eye content expressions. Joyful flat illustration.",
+    "notes": "Three nested concentric smiley face circles — yellow (large), orange (medium), pink (small) with closed-eye content expressions. Joyful flat illustration.",
     "added": 1774353600004
   },
   {
@@ -2942,7 +2941,7 @@ window.LIBRARY_DATA =
       "luggage tag",
       "Vacation Display font"
     ],
-    "notes": "Font/lettering promo collage on pink background. Bold retro typography \u2014 'The Surf Shack', 'Passport', 'Summer Hiatus', 'Vacation Display' \u2014 in navy, orange, and red. Retro Americana resort aesthetic.",
+    "notes": "Font/lettering promo collage on pink background. Bold retro typography — 'The Surf Shack', 'Passport', 'Summer Hiatus', 'Vacation Display' — in navy, orange, and red. Retro Americana resort aesthetic.",
     "added": 1774353600005
   },
   {
@@ -2999,7 +2998,7 @@ window.LIBRARY_DATA =
       "strong hierarchy",
       "2009"
     ],
-    "notes": "Japanese urban revitalisation event poster (2009). Large bold Japanese/English typography on white with green border. Network Between Two Cities \u2014 Taipei and Yokohama Koganecho. Strong typographic hierarchy.",
+    "notes": "Japanese urban revitalisation event poster (2009). Large bold Japanese/English typography on white with green border. Network Between Two Cities — Taipei and Yokohama Koganecho. Strong typographic hierarchy.",
     "added": 1774353600006
   },
   {
@@ -3049,7 +3048,7 @@ window.LIBRARY_DATA =
     "finish": [],
     "keywords": [
       "spring equinox",
-      "\u6625\u5206",
+      "春分",
       "botanical",
       "flowers",
       "ladybird",
@@ -3062,7 +3061,7 @@ window.LIBRARY_DATA =
       "2023",
       "yellow flowers"
     ],
-    "notes": "Spring Equinox (\u6625\u5206) seasonal poster 2023. Dark forest green background with illustrated pink and yellow flowers, leaves, and ladybirds. Bilingual Chinese/English. Nature-forward festive design.",
+    "notes": "Spring Equinox (春分) seasonal poster 2023. Dark forest green background with illustrated pink and yellow flowers, leaves, and ladybirds. Bilingual Chinese/English. Nature-forward festive design.",
     "added": 1774353600007
   },
   {
@@ -3117,7 +3116,7 @@ window.LIBRARY_DATA =
       "minimal",
       "dark background"
     ],
-    "notes": "Minimal geometric badge on solid black \u2014 rounded square with radiating spike/arrow details in grey. Stark monochrome identity mark or icon reference.",
+    "notes": "Minimal geometric badge on solid black — rounded square with radiating spike/arrow details in grey. Stark monochrome identity mark or icon reference.",
     "added": 1774353600008
   },
   {
@@ -3179,9 +3178,9 @@ window.LIBRARY_DATA =
       "collage",
       "sticker elements",
       "2022",
-      "\u78b0\u4e2a\u676f"
+      "碰个杯"
     ],
-    "notes": "Bar event 'Cheers! / \u78b0\u4e2a\u676f' poster (2022). Neon green and purple with bold illustrated beer glasses. Collaborative event between Waking Lotus Bar and a creative studio. Hand-drawn illustration feel.",
+    "notes": "Bar event 'Cheers! / 碰个杯' poster (2022). Neon green and purple with bold illustrated beer glasses. Collaborative event between Waking Lotus Bar and a creative studio. Hand-drawn illustration feel.",
     "added": 1774353600009
   },
   {
@@ -3239,7 +3238,7 @@ window.LIBRARY_DATA =
       "contemporary",
       "pointing hands",
       "2021",
-      "\u6708\u662f\u6545\u4e61\u5706"
+      "月是故乡圆"
     ],
     "notes": "Mid-Autumn Festival 2021 promotional poster. Yellow smiley moon with waving cartoon hands on grey halftone background. Bilingual Chinese/English. Contemporary playful festive design.",
     "added": 1774353600010
@@ -3361,7 +3360,7 @@ window.LIBRARY_DATA =
       "art exhibition",
       "abstract shapes"
     ],
-    "notes": "Chinese art exhibition poster 'Collision Between Time and Space.' Four-quadrant grid with bold gradient colour blobs \u2014 cyan, magenta, green, yellow. Typography in black on white cutouts. Bilingual Chinese/English.",
+    "notes": "Chinese art exhibition poster 'Collision Between Time and Space.' Four-quadrant grid with bold gradient colour blobs — cyan, magenta, green, yellow. Typography in black on white cutouts. Bilingual Chinese/English.",
     "added": 1774353600012
   },
   {
@@ -3439,7 +3438,7 @@ window.LIBRARY_DATA =
       "two SKUs",
       "product shot"
     ],
-    "notes": "MIS Ice Tea carton range \u2014 Lemon (yellow/teal) and Watermelon (red/green). 1L carton with bold illustrated fruit graphics and ice motifs. Vibrant, appetite-forward Middle Eastern brand.",
+    "notes": "MIS Ice Tea carton range — Lemon (yellow/teal) and Watermelon (red/green). 1L carton with bold illustrated fruit graphics and ice motifs. Vibrant, appetite-forward Middle Eastern brand.",
     "added": 1774353600013
   },
   {
@@ -3498,7 +3497,7 @@ window.LIBRARY_DATA =
       "vertical text",
       "rotated type"
     ],
-    "notes": "2017 International Arts Education Week poster (Korea). Bold geometric shapes \u2014 purple triangle, teal rectangle, magenta arc \u2014 on white. Strong typographic layout with vertically rotated text. Korean and English.",
+    "notes": "2017 International Arts Education Week poster (Korea). Bold geometric shapes — purple triangle, teal rectangle, magenta arc — on white. Strong typographic layout with vertically rotated text. Korean and English.",
     "added": 1774353600014
   },
   {
@@ -3641,7 +3640,7 @@ window.LIBRARY_DATA =
       "topshot",
       "bold graphic"
     ],
-    "notes": "Mount Fuji BOO BOOK gift boxes \u2014 bold pink and green airbrush abstract petal pattern on white. Multiple boxes in diamond orientation flat lay on beige. Very graphic, high contrast.",
+    "notes": "Mount Fuji BOO BOOK gift boxes — bold pink and green airbrush abstract petal pattern on white. Multiple boxes in diamond orientation flat lay on beige. Very graphic, high contrast.",
     "added": 1774353600016
   },
   {
@@ -3716,7 +3715,7 @@ window.LIBRARY_DATA =
       "barrel-aged",
       "coffee stout"
     ],
-    "notes": "Mikkeller San Diego 'Beer Geek Brunch' \u2014 circular beer label, two illustrated quirky bear characters, brown/cream. Barrel-aged imperial oatmeal stout brewed with coffee.",
+    "notes": "Mikkeller San Diego 'Beer Geek Brunch' — circular beer label, two illustrated quirky bear characters, brown/cream. Barrel-aged imperial oatmeal stout brewed with coffee.",
     "added": 1774353600017
   },
   {
@@ -3840,7 +3839,7 @@ window.LIBRARY_DATA =
       "teal",
       "orange"
     ],
-    "notes": "Guangxi Design Week 2020 event badge set \u2014 4 die-cut credentials (VIP, Staff, Exhibitor, Guest) each with distinct abstract geometric shape in lavender, blue, teal, and orange.",
+    "notes": "Guangxi Design Week 2020 event badge set — 4 die-cut credentials (VIP, Staff, Exhibitor, Guest) each with distinct abstract geometric shape in lavender, blue, teal, and orange.",
     "added": 1774353600019
   },
   {
@@ -3962,7 +3961,7 @@ window.LIBRARY_DATA =
       "overlapping circles",
       "blue"
     ],
-    "notes": "Minimalist digital artwork 'WEDNESDAY' \u2014 vivid electric blue background with two overlapping soft blue/white gradient 3D spheres. Clean, contemporary digital art reference.",
+    "notes": "Minimalist digital artwork 'WEDNESDAY' — vivid electric blue background with two overlapping soft blue/white gradient 3D spheres. Clean, contemporary digital art reference.",
     "added": 1774353600021
   },
   {
@@ -4033,11 +4032,11 @@ window.LIBRARY_DATA =
       "kawaii",
       "promotional",
       "cheese ice cream",
-      "\uc624\ubc84\uc561\uc158\ud1a0\ub07c",
+      "오버액션토끼",
       "Triple Cheese Love",
       "product photography"
     ],
-    "notes": "Korean Baskin-Robbins 'Triple Cheese Love' promotion \u2014 bright pink poster, oversized ice cream cone photography, illustrated bunny IP collab character, hearts. Bold playful Korean type.",
+    "notes": "Korean Baskin-Robbins 'Triple Cheese Love' promotion — bright pink poster, oversized ice cream cone photography, illustrated bunny IP collab character, hearts. Bold playful Korean type.",
     "added": 1774353600022
   },
   {
@@ -4099,9 +4098,9 @@ window.LIBRARY_DATA =
       "bilingual",
       "action",
       "lifestyle photography",
-      "\u6781\u9650\u98de\u76d8"
+      "极限飞盘"
     ],
-    "notes": "Chinese ultimate frisbee (\u6781\u9650\u98de\u76d8) event poster \u2014 light sky blue background, bold 3D illustrated frisbee, real action photography, sticker-style typography. Energetic sporty aesthetic.",
+    "notes": "Chinese ultimate frisbee (极限飞盘) event poster — light sky blue background, bold 3D illustrated frisbee, real action photography, sticker-style typography. Energetic sporty aesthetic.",
     "added": 1774353600023
   },
   {
@@ -4161,7 +4160,7 @@ window.LIBRARY_DATA =
       "contemporary",
       "text spiral"
     ],
-    "notes": "Dark typographic poster \u2014 words (tradition, season, dream, smile, solution...) arranged in a continuous spiral ribbon on solid black. White sans-serif type. Strong typographic form experiment.",
+    "notes": "Dark typographic poster — words (tradition, season, dream, smile, solution...) arranged in a continuous spiral ribbon on solid black. White sans-serif type. Strong typographic form experiment.",
     "added": 1774353600024
   },
   {
@@ -4216,7 +4215,7 @@ window.LIBRARY_DATA =
       "private label",
       "Freshippo",
       "Hema",
-      "\u76d2\u9a6c",
+      "盒马",
       "letterform",
       "O",
       "cyan",
@@ -4228,7 +4227,7 @@ window.LIBRARY_DATA =
       "brand presentation",
       "zero series"
     ],
-    "notes": "Freshippo (\u76d2\u9a6c) private label '\u76d2\u9a6c\u96f6\u7cfb\u5217' brand & package design 2020\u20132022 key visual. Cyan gradient background with large gradient 'O' letterform. Clean, clinical, contemporary brand reference.",
+    "notes": "Freshippo (盒马) private label '盒马零系列' brand & package design 2020–2022 key visual. Cyan gradient background with large gradient 'O' letterform. Clean, clinical, contemporary brand reference.",
     "added": 1774353600025
   },
   {
@@ -4295,7 +4294,7 @@ window.LIBRARY_DATA =
       "graphic",
       "wordmark"
     ],
-    "notes": "Bold 'YOU GOT THIS' typographic poster in coral and navy \u2014 high-energy motivational design with large display type and shadow cutout effect. Strong reference for bold colour-led campaigns.",
+    "notes": "Bold 'YOU GOT THIS' typographic poster in coral and navy — high-energy motivational design with large display type and shadow cutout effect. Strong reference for bold colour-led campaigns.",
     "added": 1774353600026
   },
   {
@@ -4368,7 +4367,7 @@ window.LIBRARY_DATA =
       "grid",
       "online"
     ],
-    "notes": "ARITAUM 'ONLINE ONLY' K-beauty campaign poster \u2014 inflated 3D bubble text in pink/blue against a pink grid background. Strong Y2K kawaii aesthetic with sparkle details.",
+    "notes": "ARITAUM 'ONLINE ONLY' K-beauty campaign poster — inflated 3D bubble text in pink/blue against a pink grid background. Strong Y2K kawaii aesthetic with sparkle details.",
     "added": 1774353600027
   },
   {
@@ -4430,7 +4429,7 @@ window.LIBRARY_DATA =
       "gentle",
       "no-type"
     ],
-    "notes": "Soft watercolour wash in mint green and pale yellow \u2014 pure mood/texture reference. Useful as background or palette inspiration for gentle, calming packaging directions.",
+    "notes": "Soft watercolour wash in mint green and pale yellow — pure mood/texture reference. Useful as background or palette inspiration for gentle, calming packaging directions.",
     "added": 1774353600028
   },
   {
@@ -4509,7 +4508,7 @@ window.LIBRARY_DATA =
       "green",
       "gardening"
     ],
-    "notes": "GELIOUS cylindrical tubes with embossed surface texture and minimal line-art botanical illustration \u2014 'Sustainable Gardening' concept. Scandinavian clean aesthetic with script label.",
+    "notes": "GELIOUS cylindrical tubes with embossed surface texture and minimal line-art botanical illustration — 'Sustainable Gardening' concept. Scandinavian clean aesthetic with script label.",
     "added": 1774353600029
   },
   {
@@ -4589,7 +4588,7 @@ window.LIBRARY_DATA =
       "multipack",
       "shelf"
     ],
-    "notes": "LOTTE Milkis carbonated milk drink cans in Strawberry and Melon flavours \u2014 pastel illustrated cans with cute cartoon characters. Strong reference for playful Korean beverage packaging.",
+    "notes": "LOTTE Milkis carbonated milk drink cans in Strawberry and Melon flavours — pastel illustrated cans with cute cartoon characters. Strong reference for playful Korean beverage packaging.",
     "added": 1774353600030
   },
   {
@@ -4663,7 +4662,7 @@ window.LIBRARY_DATA =
       "minimal",
       "geometric"
     ],
-    "notes": "Headspace 'Feel closer' campaign \u2014 bold orange background with abstract geometric face characters in yellow and pink circles. Clean, warm illustration style for wellness brand.",
+    "notes": "Headspace 'Feel closer' campaign — bold orange background with abstract geometric face characters in yellow and pink circles. Clean, warm illustration style for wellness brand.",
     "added": 1774353600031
   },
   {
@@ -4735,7 +4734,7 @@ window.LIBRARY_DATA =
       "yellow",
       "purple"
     ],
-    "notes": "520 Valentine's Day campaign (Chinese '\u6211\u7231\u4f60' equivalent) \u2014 retro TV sets with bold pop art typography on hot pink. Y2K nostalgia meets Chinese digital culture.",
+    "notes": "520 Valentine's Day campaign (Chinese '我爱你' equivalent) — retro TV sets with bold pop art typography on hot pink. Y2K nostalgia meets Chinese digital culture.",
     "added": 1774353600032
   },
   {
@@ -4818,7 +4817,7 @@ window.LIBRARY_DATA =
       "tomato",
       "bolognese"
     ],
-    "notes": "AIRMETER \u7a7a\u523b\u610f\u9762 spaghetti box \u2014 vivid orange with large photographic hero shot of bolognese pasta. Confident bilingual Chinese food brand that blends Western product with bold Chinese design.",
+    "notes": "AIRMETER 空刻意面 spaghetti box — vivid orange with large photographic hero shot of bolognese pasta. Confident bilingual Chinese food brand that blends Western product with bold Chinese design.",
     "added": 1774353600033
   },
   {
@@ -4886,7 +4885,7 @@ window.LIBRARY_DATA =
       "designer",
       "party"
     ],
-    "notes": "Busan Designer Annual Party 2019 \u2014 Korean editorial poster with experimental kinetic typography and ribbon graphic. Strong reference for bold Korean graphic design and condensed mixed-weight type.",
+    "notes": "Busan Designer Annual Party 2019 — Korean editorial poster with experimental kinetic typography and ribbon graphic. Strong reference for bold Korean graphic design and condensed mixed-weight type.",
     "added": 1774353600034
   },
   {
@@ -4964,7 +4963,7 @@ window.LIBRARY_DATA =
       "chaoshan",
       "streetfood"
     ],
-    "notes": "\u6f6e\u6c55\u725b\u8089\u4e38 Chaoshan beef ball brand poster \u2014 electric yellow and blue duotone with bold bilingual display type and illustrated hand holding meatballs on a skewer. Energetic neo-brutalist Chinese food branding.",
+    "notes": "潮汕牛肉丸 Chaoshan beef ball brand poster — electric yellow and blue duotone with bold bilingual display type and illustrated hand holding meatballs on a skewer. Energetic neo-brutalist Chinese food branding.",
     "added": 1774353600035
   },
   {
@@ -5048,7 +5047,7 @@ window.LIBRARY_DATA =
       "mixed-type",
       "macaroni"
     ],
-    "notes": "Hawaiian style macaroni salad label \u2014 abstract illustrated ingredients (olive, tomato, blueberry, macaroni) with bold serif and hand-lettered type on white. Memphis-influenced playful food label design.",
+    "notes": "Hawaiian style macaroni salad label — abstract illustrated ingredients (olive, tomato, blueberry, macaroni) with bold serif and hand-lettered type on white. Memphis-influenced playful food label design.",
     "added": 1774353600036
   },
   {
@@ -5129,7 +5128,7 @@ window.LIBRARY_DATA =
       "jelly",
       "hakutsuru"
     ],
-    "notes": "HAKUTSURU lemon sparkling jelly sake can \u2014 yellow/gold diamond argyle pattern with illustrated lemon. Heritage Japanese sake brand with a youthful, summery flavour extension.",
+    "notes": "HAKUTSURU lemon sparkling jelly sake can — yellow/gold diamond argyle pattern with illustrated lemon. Heritage Japanese sake brand with a youthful, summery flavour extension.",
     "added": 1774353600037
   },
   {
@@ -5195,13 +5194,13 @@ window.LIBRARY_DATA =
       "wave-pattern",
       "summer"
     ],
-    "notes": "Iriya Morning Glory Festival (\u5165\u8c37\u671d\u9854\u307e\u3064\u308a) poster \u2014 large flat illustrated morning glory flowers in lilac and green on white with wave-line background. Beautiful reference for Japanese festival graphic design.",
+    "notes": "Iriya Morning Glory Festival (入谷朝顔まつり) poster — large flat illustrated morning glory flowers in lilac and green on white with wave-line background. Beautiful reference for Japanese festival graphic design.",
     "added": 1774353600038
   },
   {
     "id": 1774353600039,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-26/27a31742da36aa4dd4b0d7e0db0e3d88.jpg",
-    "client": "Holiland x H\u00e4agen-Dazs",
+    "client": "Holiland x Häagen-Dazs",
     "imageType": "Pack Design",
     "format": [
       "Box"
@@ -5278,7 +5277,7 @@ window.LIBRARY_DATA =
       "holiland",
       "sandwich"
     ],
-    "notes": "H\u00e4agen-Dazs x Holiland \u597d\u5229\u6765 'Baby Snow' strawberry ice cream sandwich \u2014 pink box with illustrated strawberries and product photography. Cute collab packaging for the Chinese premium dessert market.",
+    "notes": "Häagen-Dazs x Holiland 好利来 'Baby Snow' strawberry ice cream sandwich — pink box with illustrated strawberries and product photography. Cute collab packaging for the Chinese premium dessert market.",
     "added": 1774353600039
   },
   {
@@ -5352,7 +5351,7 @@ window.LIBRARY_DATA =
       "flat",
       "rainbow"
     ],
-    "notes": "Coca-Cola illustrated campaign poster \u2014 bold blue background with hand-drawn style retro illustration of hand holding Coke bottle. Japanese/Chinese text, Y2K sticker aesthetic, very fun and graphic.",
+    "notes": "Coca-Cola illustrated campaign poster — bold blue background with hand-drawn style retro illustration of hand holding Coke bottle. Japanese/Chinese text, Y2K sticker aesthetic, very fun and graphic.",
     "added": 1774353600040
   },
   {
@@ -5425,7 +5424,7 @@ window.LIBRARY_DATA =
       "creditrip",
       "luxury"
     ],
-    "notes": "Creditrip 'Happy New Year' CNY campaign poster \u2014 split layout combining bold English typography with Chinese brush calligraphy '\u798f' character. Sophisticated black/gold editorial approach to Chinese New Year.",
+    "notes": "Creditrip 'Happy New Year' CNY campaign poster — split layout combining bold English typography with Chinese brush calligraphy '福' character. Sophisticated black/gold editorial approach to Chinese New Year.",
     "added": 1774353600041
   },
   {
@@ -5493,7 +5492,7 @@ window.LIBRARY_DATA =
       "flower",
       "daisy"
     ],
-    "notes": "SPRING-branded pop-up retail booth in a shopping mall \u2014 neon green checkerboard structure with daisy motifs. Strong reference for energetic in-store brand activation and seasonal retail design.",
+    "notes": "SPRING-branded pop-up retail booth in a shopping mall — neon green checkerboard structure with daisy motifs. Strong reference for energetic in-store brand activation and seasonal retail design.",
     "added": 1774353600042
   },
   {
@@ -5559,7 +5558,7 @@ window.LIBRARY_DATA =
       "orange",
       "gentle"
     ],
-    "notes": "Japanese watercolour illustration of mimosa flowers in yellow, peach and orange \u2014 delicate hand-painted botanical art. Beautiful spring texture reference for feminine, dreamy packaging palettes.",
+    "notes": "Japanese watercolour illustration of mimosa flowers in yellow, peach and orange — delicate hand-painted botanical art. Beautiful spring texture reference for feminine, dreamy packaging palettes.",
     "added": 1774353600043
   },
   {
@@ -5629,7 +5628,7 @@ window.LIBRARY_DATA =
       "white",
       "shanghai"
     ],
-    "notes": "Exhibition poster 'Do Something Aimlessly' \u2014 experimental typography with mirrored/rotated text within an abstract flower shape in pink and green. Strong Swiss modernist reference with playful irreverence.",
+    "notes": "Exhibition poster 'Do Something Aimlessly' — experimental typography with mirrored/rotated text within an abstract flower shape in pink and green. Strong Swiss modernist reference with playful irreverence.",
     "added": 1774353600044
   },
   {
@@ -5710,7 +5709,7 @@ window.LIBRARY_DATA =
       "gourmet",
       "cream"
     ],
-    "notes": "Holiland \u597d\u5229\u6765 BASQUE cheesecake social media visual \u2014 deep terracotta brown with oversized cream Serif 'CHO \u534a\u719f\u5df4\u65af\u514b' typography. Gourmet, heritage feel for premium Chinese bakery brand.",
+    "notes": "Holiland 好利来 BASQUE cheesecake social media visual — deep terracotta brown with oversized cream Serif 'CHO 半熟巴斯克' typography. Gourmet, heritage feel for premium Chinese bakery brand.",
     "added": 1774353600045
   },
   {
@@ -5777,7 +5776,7 @@ window.LIBRARY_DATA =
       "cottagecore",
       "illustrated"
     ],
-    "notes": "Cute blue and white ditsy floral pattern \u2014 small illustrated flowers and leaves scattered on white. Classic cottagecore reference for feminine, gentle pack design or surface pattern inspiration.",
+    "notes": "Cute blue and white ditsy floral pattern — small illustrated flowers and leaves scattered on white. Classic cottagecore reference for feminine, gentle pack design or surface pattern inspiration.",
     "added": 1774353600046
   },
   {
@@ -5845,7 +5844,7 @@ window.LIBRARY_DATA =
       "beginning-of-autumn",
       "seasonal"
     ],
-    "notes": "Chinese '\u7acb\u79cb Beginning of Autumn' seasonal poster \u2014 warm amber gradient with white botanical wheat/reed illustration and tiny ballerina silhouette. Elegant, dreamy seasonal content reference.",
+    "notes": "Chinese '立秋 Beginning of Autumn' seasonal poster — warm amber gradient with white botanical wheat/reed illustration and tiny ballerina silhouette. Elegant, dreamy seasonal content reference.",
     "added": 1774353600047
   },
   {
@@ -5926,7 +5925,7 @@ window.LIBRARY_DATA =
       "range",
       "lemon-lime"
     ],
-    "notes": "Sparkling Urban Lemonade / Yuzu Lime glass bottles \u2014 yellow-green illustrated label on a glass bottle with reflective sky lifestyle photography. Clean Scandinavian-influenced beverage design.",
+    "notes": "Sparkling Urban Lemonade / Yuzu Lime glass bottles — yellow-green illustrated label on a glass bottle with reflective sky lifestyle photography. Clean Scandinavian-influenced beverage design.",
     "added": 1774353600048
   },
   {
@@ -5999,7 +5998,7 @@ window.LIBRARY_DATA =
       "flower",
       "morning-greeting"
     ],
-    "notes": "Chinese 'Hello February / \u65e9\u5b89' morning greeting social poster \u2014 dreamy pink gradient with illustrated abstract flowers and star sparks. Y2K soft aesthetic, common reference for gentle seasonal content.",
+    "notes": "Chinese 'Hello February / 早安' morning greeting social poster — dreamy pink gradient with illustrated abstract flowers and star sparks. Y2K soft aesthetic, common reference for gentle seasonal content.",
     "added": 1774353600049
   },
   {
@@ -6082,7 +6081,7 @@ window.LIBRARY_DATA =
       "flat",
       "grape"
     ],
-    "notes": "\u767d\u8461\u8404 White Grape Kaoliang spirit \u2014 vivid teal/yellow flat pop art illustration of the bottle with bold bilingual typography. Strong reference for young-skewing Chinese spirits branding with streetwear energy.",
+    "notes": "白葡萄 White Grape Kaoliang spirit — vivid teal/yellow flat pop art illustration of the bottle with bold bilingual typography. Strong reference for young-skewing Chinese spirits branding with streetwear energy.",
     "added": 1774353600050
   },
   {
@@ -6154,7 +6153,7 @@ window.LIBRARY_DATA =
       "bananain",
       "gradient"
     ],
-    "notes": "Bananain \u8549\u5185 autumn campus recruitment poster \u2014 warm orange/yellow with layered bold Chinese and English typography. Strong neo-brutalist energy for Chinese lifestyle apparel brand.",
+    "notes": "Bananain 蕉内 autumn campus recruitment poster — warm orange/yellow with layered bold Chinese and English typography. Strong neo-brutalist energy for Chinese lifestyle apparel brand.",
     "added": 1774353600051
   },
   {
@@ -6228,7 +6227,7 @@ window.LIBRARY_DATA =
       "may",
       "spring"
     ],
-    "notes": "MAY HAPPY 5\u6708\u520a graphic magazine-style design \u2014 maximalist collage of icons, symbols and bold mixed typography on teal. Memphis-influenced Chinese design reference for energetic seasonal content.",
+    "notes": "MAY HAPPY 5月刊 graphic magazine-style design — maximalist collage of icons, symbols and bold mixed typography on teal. Memphis-influenced Chinese design reference for energetic seasonal content.",
     "added": 1774353600052
   },
   {
@@ -6306,7 +6305,7 @@ window.LIBRARY_DATA =
       "gin-tonic",
       "range"
     ],
-    "notes": "Schweppes tonic water range branding spread \u2014 glass bottles with illustrated label on neutral background alongside brand identity elements. Reference for premium European mixer/RTD brand design.",
+    "notes": "Schweppes tonic water range branding spread — glass bottles with illustrated label on neutral background alongside brand identity elements. Reference for premium European mixer/RTD brand design.",
     "added": 1774353600053
   },
   {
@@ -6375,7 +6374,7 @@ window.LIBRARY_DATA =
       "flower",
       "elegant"
     ],
-    "notes": "'Spring Wonder \u6625/\u5de1' gallery exhibition poster \u2014 large elegant serif typography with blurred red rose photography on white. Beautiful reference for luxury editorial print design and refined typography.",
+    "notes": "'Spring Wonder 春/巡' gallery exhibition poster — large elegant serif typography with blurred red rose photography on white. Beautiful reference for luxury editorial print design and refined typography.",
     "added": 1774353600054
   },
   {
@@ -6456,7 +6455,7 @@ window.LIBRARY_DATA =
       "taro",
       "dessert"
     ],
-    "notes": "LELECHA \u4e50\u4e50\u8336 'Snow Mountain Bun' launch campaign \u2014 light blue sky background with cream-topped bun product photography. Fresh and youthful Chinese dessert brand campaign reference.",
+    "notes": "LELECHA 乐乐茶 'Snow Mountain Bun' launch campaign — light blue sky background with cream-topped bun product photography. Fresh and youthful Chinese dessert brand campaign reference.",
     "added": 1774353600055
   },
   {
@@ -6527,7 +6526,7 @@ window.LIBRARY_DATA =
       "stripe",
       "money"
     ],
-    "notes": "'The Friendly Unknown' podcast episode 3 'MONEY' cover \u2014 retro illustrated spinning coin on checkerboard floor with hand-lettered type and yellow circle badge. Memphis-influenced editorial illustration.",
+    "notes": "'The Friendly Unknown' podcast episode 3 'MONEY' cover — retro illustrated spinning coin on checkerboard floor with hand-lettered type and yellow circle badge. Memphis-influenced editorial illustration.",
     "added": 1774353600056
   },
   {
@@ -6598,7 +6597,7 @@ window.LIBRARY_DATA =
       "fluid",
       "blur"
     ],
-    "notes": "Abstract digital cocktail illustration \u2014 translucent glass with gradient spheres in pink, purple, and blue on grey. Minimal and dreamy, useful for premium beverage or bar brand references.",
+    "notes": "Abstract digital cocktail illustration — translucent glass with gradient spheres in pink, purple, and blue on grey. Minimal and dreamy, useful for premium beverage or bar brand references.",
     "added": 1774353600057
   },
   {
@@ -6673,7 +6672,7 @@ window.LIBRARY_DATA =
       "ume",
       "soda"
     ],
-    "notes": "POP-YA Japanese umeshu (plum wine) hand-lettered promotional graphic \u2014 bold ink brush calligraphy with illustrated plum branch and drink glass on cream. Beautiful reference for Japanese artisanal alcohol branding.",
+    "notes": "POP-YA Japanese umeshu (plum wine) hand-lettered promotional graphic — bold ink brush calligraphy with illustrated plum branch and drink glass on cream. Beautiful reference for Japanese artisanal alcohol branding.",
     "added": 1774353600058
   },
   {
@@ -6741,7 +6740,7 @@ window.LIBRARY_DATA =
       "festival",
       "hasami"
     ],
-    "notes": "Hasami Pottery Festival 2015 poster \u2014 charming editorial layout with topdown photography of ceramics in blue/white/pastel. Classic Japanese design reference for clean heritage-craft event promotion.",
+    "notes": "Hasami Pottery Festival 2015 poster — charming editorial layout with topdown photography of ceramics in blue/white/pastel. Classic Japanese design reference for clean heritage-craft event promotion.",
     "added": 1774353600059
   },
   {
@@ -6824,7 +6823,7 @@ window.LIBRARY_DATA =
       "neon",
       "dewy"
     ],
-    "notes": "Drunk Elephant skincare gift set range \u2014 multi-coloured matte boxes with bold condensed wordmarks (DEWY, GLOWY, SOFTY, FIRMY) stacked in a lifestyle shot. Strong reference for playful premium beauty packaging.",
+    "notes": "Drunk Elephant skincare gift set range — multi-coloured matte boxes with bold condensed wordmarks (DEWY, GLOWY, SOFTY, FIRMY) stacked in a lifestyle shot. Strong reference for playful premium beauty packaging.",
     "added": 1774353600060
   },
   {
@@ -6900,7 +6899,7 @@ window.LIBRARY_DATA =
       "die-cut",
       "badge"
     ],
-    "notes": "ARKA streetwear price tag design \u2014 die-cut card tag with barcode, neon green accent and checkerboard motif. Edgy, rebellious label reference for fashion-adjacent or streetwear-leaning packaging.",
+    "notes": "ARKA streetwear price tag design — die-cut card tag with barcode, neon green accent and checkerboard motif. Edgy, rebellious label reference for fashion-adjacent or streetwear-leaning packaging.",
     "added": 1774353600061
   },
   {
@@ -6971,7 +6970,7 @@ window.LIBRARY_DATA =
       "zongzi",
       "duanwu"
     ],
-    "notes": "Dragon Boat Festival \u7aef\u5348\u5b89\u5eb7 tech-company poster \u2014 pastel gradient background with neon green geometric zongzi (rice dumpling) shape. Y2K retro-futurist approach to a traditional Chinese festival.",
+    "notes": "Dragon Boat Festival 端午安康 tech-company poster — pastel gradient background with neon green geometric zongzi (rice dumpling) shape. Y2K retro-futurist approach to a traditional Chinese festival.",
     "added": 1774353600062
   },
   {
@@ -7053,7 +7052,7 @@ window.LIBRARY_DATA =
       "gentle",
       "hanayuzu"
     ],
-    "notes": "Hanayuzu no Osake (\u82b1\u3086\u305a\u306e\u304a\u9152) yuzu sake die-cut label \u2014 flower-shaped yellow label with illustrated yuzu and soft hand-lettered script. Delicate artisan label design for Japanese low-alcohol spirits.",
+    "notes": "Hanayuzu no Osake (花ゆずのお酒) yuzu sake die-cut label — flower-shaped yellow label with illustrated yuzu and soft hand-lettered script. Delicate artisan label design for Japanese low-alcohol spirits.",
     "added": 1774353600063
   },
   {
@@ -7139,7 +7138,7 @@ window.LIBRARY_DATA =
       "anmuxi",
       "spring"
     ],
-    "notes": "Anmuxi \u5b89\u6155\u5e0c yoghurt x \u51fa\u8317\u8981\u8d81\u65e9 frog character collaboration \u2014 green illustrated cartoon frog mascot on bottle and campaign spread. Playful Chinese dairy brand seasonal collab reference.",
+    "notes": "Anmuxi 安慕希 yoghurt x 出茗要趁早 frog character collaboration — green illustrated cartoon frog mascot on bottle and campaign spread. Playful Chinese dairy brand seasonal collab reference.",
     "added": 1774353600064
   },
   {
@@ -7211,7 +7210,7 @@ window.LIBRARY_DATA =
       "yellow",
       "architecture"
     ],
-    "notes": "'Dear My Home \uce5c\uc560\ud558\ub294 \ub098\uc758 \uc9d1\uc5d0\uac8c' Korean book cover \u2014 pastel geometric house illustration in pink, blue, yellow and lilac. Memphis-influenced soft editorial design, useful as a palette and geometric style reference.",
+    "notes": "'Dear My Home 친애하는 나의 집에게' Korean book cover — pastel geometric house illustration in pink, blue, yellow and lilac. Memphis-influenced soft editorial design, useful as a palette and geometric style reference.",
     "added": 1774353600065
   },
   {
@@ -7282,7 +7281,7 @@ window.LIBRARY_DATA =
       "verres",
       "intersection"
     ],
-    "notes": "'VERRES' gallery exhibition poster \u2014 two overlapping yellow/gold circles on black. Strikingly minimal Bauhaus-influenced French design. Strong reference for bold dark minimal graphic design.",
+    "notes": "'VERRES' gallery exhibition poster — two overlapping yellow/gold circles on black. Strikingly minimal Bauhaus-influenced French design. Strong reference for bold dark minimal graphic design.",
     "added": 1774353600066
   },
   {
@@ -7371,7 +7370,7 @@ window.LIBRARY_DATA =
       "premium",
       "CHO"
     ],
-    "notes": "CHO dark chocolate gift box range \u2014 three colourways (red, brown, blue) with oversized bold Serif 'CHO' wordmark. Clean, sophisticated Chinese confectionery branding with European design influence.",
+    "notes": "CHO dark chocolate gift box range — three colourways (red, brown, blue) with oversized bold Serif 'CHO' wordmark. Clean, sophisticated Chinese confectionery branding with European design influence.",
     "added": 1774353600067
   },
   {
@@ -7452,7 +7451,7 @@ window.LIBRARY_DATA =
       "iwate",
       "preserve"
     ],
-    "notes": "Iwate Ringyo Blueberry Garden handmade jam jar \u2014 white label with bold illustrated blueberries and hand-lettered script. Minimal artisanal Japanese preserve packaging, classic clean label reference.",
+    "notes": "Iwate Ringyo Blueberry Garden handmade jam jar — white label with bold illustrated blueberries and hand-lettered script. Minimal artisanal Japanese preserve packaging, classic clean label reference.",
     "added": 1774353600068
   },
   {
@@ -7537,7 +7536,7 @@ window.LIBRARY_DATA =
       "dark-green",
       "textured"
     ],
-    "notes": "Holiland \u597d\u5229\u6765 '\u7cbd\u4eab\u597d\u793c' Rice Dumpling Gift Box \u2014 deep green with gold geometric zongzi pattern and foil emboss. Premium Chinese festive gift packaging for Dragon Boat Festival.",
+    "notes": "Holiland 好利来 '粽享好礼' Rice Dumpling Gift Box — deep green with gold geometric zongzi pattern and foil emboss. Premium Chinese festive gift packaging for Dragon Boat Festival.",
     "added": 1774353600069
   },
   {
@@ -7622,7 +7621,7 @@ window.LIBRARY_DATA =
       "holiland",
       "genki-forest"
     ],
-    "notes": "Holiland \u597d\u5229\u6765 x Genki Forest \u5143\u6c14\u68ee\u6797 strawberry cheesecake collab \u2014 white box with bold red strawberry illustration and bilingual campaign copy. Reference for Chinese brand collaboration packaging.",
+    "notes": "Holiland 好利来 x Genki Forest 元气森林 strawberry cheesecake collab — white box with bold red strawberry illustration and bilingual campaign copy. Reference for Chinese brand collaboration packaging.",
     "added": 1774353600070
   },
   {
@@ -7693,7 +7692,7 @@ window.LIBRARY_DATA =
       "saikai",
       "chorus"
     ],
-    "notes": "Saikai Junior Chorus logo \u2014 a smiling music note character with green leaf in yellow and green on white. Charming minimal Japanese mascot identity, good reference for character-based branding.",
+    "notes": "Saikai Junior Chorus logo — a smiling music note character with green leaf in yellow and green on white. Charming minimal Japanese mascot identity, good reference for character-based branding.",
     "added": 1774353600071
   },
   {
@@ -7765,7 +7764,7 @@ window.LIBRARY_DATA =
       "bold",
       "edition"
     ],
-    "notes": "Seoul Design Festival 2019 poster \u2014 bold red background with 3D typographic box sculptures in pink, purple, yellow. High-energy Korean design festival reference with maximalist collage approach.",
+    "notes": "Seoul Design Festival 2019 poster — bold red background with 3D typographic box sculptures in pink, purple, yellow. High-energy Korean design festival reference with maximalist collage approach.",
     "added": 1774353600072
   },
   {
@@ -7838,7 +7837,7 @@ window.LIBRARY_DATA =
       "lilac",
       "comforting"
     ],
-    "notes": "BetterHelp 'There's no shame in asking for help' campaign \u2014 green/mint illustration of two hands forming a protective arch with soft illustrated clouds. Warm, approachable digital mental health campaign reference.",
+    "notes": "BetterHelp 'There's no shame in asking for help' campaign — green/mint illustration of two hands forming a protective arch with soft illustrated clouds. Warm, approachable digital mental health campaign reference.",
     "added": 1774353600073
   },
   {
@@ -7919,7 +7918,7 @@ window.LIBRARY_DATA =
       "brain",
       "no-men"
     ],
-    "notes": "Japanese \u8133\u9eba NO-MEN 'Brain Noodle' product poster \u2014 pastel pink/blue split layout with ramen topshot photography and playful custom logotype. Inventive Japanese instant noodle campaign reference.",
+    "notes": "Japanese 脳麺 NO-MEN 'Brain Noodle' product poster — pastel pink/blue split layout with ramen topshot photography and playful custom logotype. Inventive Japanese instant noodle campaign reference.",
     "added": 1774353600074
   },
   {
@@ -8004,7 +8003,2084 @@ window.LIBRARY_DATA =
       "MXNF",
       "soluble-bean"
     ],
-    "notes": "MXNF \u9c9c\u8da3\u751f\u6d3b\u521b\u7814\u6240 'Vigorous Little Soluble Bean' yoghurt freeze-dried melt \u2014 white box with gradient abstract oval shapes in beige and blue. Clean, minimal Chinese health food packaging with modern lab aesthetic.",
+    "notes": "MXNF 鲜趣生活创研所 'Vigorous Little Soluble Bean' yoghurt freeze-dried melt — white box with gradient abstract oval shapes in beige and blue. Clean, minimal Chinese health food packaging with modern lab aesthetic.",
     "added": 1774353600075
+  },
+  {
+    "id": 1743379200001,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/eca20b8d5ba4202fd422426243544c64.jpg",
+    "client": "NAWAKE",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Juice",
+      "Beverage",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Minimal",
+      "Cool",
+      "Youthful",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Clean",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Cool",
+      "Bold",
+      "Warm"
+    ],
+    "ingredient": [
+      "prune",
+      "plum"
+    ],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Confident",
+      "Joyful",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only",
+      "Condensed"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "purple",
+      "multipack",
+      "stacked",
+      "range",
+      "carton",
+      "bilingual",
+      "wordmark",
+      "hero",
+      "fruit",
+      "centred",
+      "product",
+      "chinese",
+      "nfc",
+      "plum",
+      "box"
+    ],
+    "notes": "NAWAKE prune juice multipack cartons stacked three-high on a purple backdrop. Strong typographic wordmark in black on white with orange accents, bilingual Chinese/English. Great reference for bold sans-serif NFC juice branding with a minimal, confident Chinese aesthetic.",
+    "added": 1743379200001
+  },
+  {
+    "id": 1743379200002,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/ed669562933617b3f2507e9fbc1754a9.jpg",
+    "client": "Unknown",
+    "imageType": "Key Visual",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Health & Wellness",
+      "Food"
+    ],
+    "tonality": [
+      "Dreamy",
+      "Feminine",
+      "Organic",
+      "Calming",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Photography-led",
+      "Flat Design",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Health Conscious",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [
+      "flower",
+      "magnolia"
+    ],
+    "style": [
+      "Chinese",
+      "Minimal",
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday",
+      "Spring"
+    ],
+    "mood": [
+      "Calming",
+      "Wholesome",
+      "Dreamy",
+      "Romantic"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Script",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Transparent"
+    ],
+    "keywords": [
+      "peach",
+      "floral",
+      "botanical",
+      "wellness",
+      "spa",
+      "flower-extract",
+      "zero-sugar",
+      "lifestyle",
+      "hero",
+      "functional",
+      "claims",
+      "bilingual",
+      "soft",
+      "cream",
+      "orange"
+    ],
+    "notes": "Flower extract wellness drink key visual. Soft peach and cream tones, magnolia flowers styled around a transparent bottle with calligraphic Chinese branding. Ideal reference for feminine functional beverage aesthetics with a spa-wellness mood.",
+    "added": 1743379200002
+  },
+  {
+    "id": 1743379200003,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/ee242e5fc286a3e0337e5a6c14cbd844.jpg",
+    "client": "Country Garden",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Dreamy",
+      "Feminine",
+      "Elegant",
+      "Playful",
+      "Youthful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Colour-led",
+      "Gradient"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Women"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Cool",
+      "Gradient",
+      "Muted"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Art Nouveau",
+      "Japanese"
+    ],
+    "occasion": [
+      "Summer"
+    ],
+    "mood": [
+      "Joyful",
+      "Dreamy",
+      "Romantic",
+      "Aspirational"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Condensed",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "peach",
+      "fruit",
+      "illustration",
+      "gradient",
+      "summer",
+      "pink",
+      "blue",
+      "wave",
+      "landscape",
+      "chinese",
+      "bilingual",
+      "editorial",
+      "seasonal",
+      "lifestyle",
+      "real-estate"
+    ],
+    "notes": "Country Garden summer campaign poster with giant illustrated peaches, soft gradient pink-to-blue sky and wave patterns. Strong reference for dreamy summer editorial campaigns with organic fruit motifs and pastel gradient backgrounds.",
+    "added": 1743379200003
+  },
+  {
+    "id": 1743379200004,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/ef76251c18ec8fa4842c1d141aeaf4f3.jpg",
+    "client": "Unknown",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Food",
+      "Snack",
+      "Bakery"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Edgy",
+      "Youthful",
+      "Brutalist"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Colour-led",
+      "Flat Design",
+      "Line Art"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Teens"
+    ],
+    "colourPalette": [
+      "Neon",
+      "Bold",
+      "Cool",
+      "Vivid",
+      "Primary Colours"
+    ],
+    "ingredient": [
+      "dumpling"
+    ],
+    "style": [
+      "Chinese",
+      "Neo-Brutalist",
+      "Y2K",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Easter"
+    ],
+    "mood": [
+      "Playful",
+      "Irreverent",
+      "Joyful",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Condensed",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "neon-green",
+      "dumplings",
+      "illustration",
+      "flat",
+      "festival",
+      "chinese",
+      "bilingual",
+      "headline",
+      "bright",
+      "bold-type",
+      "food",
+      "seasonal",
+      "yellow",
+      "character",
+      "dumpling"
+    ],
+    "notes": "Ching Ming Festival cold dumpling campaign poster. Neon lime green background, bold chunky illustration of dumplings on a plate, brutalist mixed typography with large Chilled text. Excellent reference for bold festival food campaigns with a Gen-Z irreverent tone.",
+    "added": 1743379200004
+  },
+  {
+    "id": 1743379200005,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/eff87c95355f890fc42ef849eab9e64d.jpg",
+    "client": "Unknown",
+    "imageType": "Key Visual",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Dairy",
+      "Beverage",
+      "Health & Wellness",
+      "Food"
+    ],
+    "tonality": [
+      "Playful",
+      "Kawaii",
+      "Youthful",
+      "Feminine",
+      "Friendly"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Illustration-led",
+      "Colour-led",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Women",
+      "Teens"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Cool",
+      "Bright"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Korean",
+      "Kawaii",
+      "Japanese"
+    ],
+    "occasion": [
+      "Launch Campaign",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Playful",
+      "Joyful",
+      "Energising",
+      "Nostalgic"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "cup",
+      "launch",
+      "countdown",
+      "pink",
+      "teal",
+      "green",
+      "kawaii",
+      "bilingual",
+      "range",
+      "campaign",
+      "social-media",
+      "starburst",
+      "cheerful",
+      "probiotic",
+      "yogurt"
+    ],
+    "notes": "Countdown launch campaign for a probiotic yogurt drink. Kawaii-style cups shown as product hero against a pastel pink background with teal/green starburst graphic and bold bilingual countdown text. Great reference for playful Kawaii-influenced FMCG launch social assets.",
+    "added": 1743379200005
+  },
+  {
+    "id": 1743379200006,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/f06d8b52711be86d429e6f50b5bcdaf2.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Playful",
+      "Energising",
+      "Dopamine"
+    ],
+    "designCode": [
+      "Colour-led",
+      "Flat Design",
+      "3D",
+      "Pattern-led",
+      "Illustration-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Bold",
+      "Cool",
+      "Primary Colours",
+      "Bright"
+    ],
+    "ingredient": [],
+    "style": [
+      "Swiss / Modernist",
+      "Bauhaus",
+      "Memphis",
+      "Art Deco"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display"
+    ],
+    "finish": [],
+    "keywords": [
+      "blue",
+      "checkerboard",
+      "3d",
+      "vase",
+      "bowl",
+      "fruit",
+      "striped",
+      "retro",
+      "exhibition",
+      "poster",
+      "illustration",
+      "opart",
+      "optical",
+      "vibrant",
+      "anniversary"
+    ],
+    "notes": "Exhibition poster for a visual art show. Bold blue checkerboard surface with 3D illustrated ceramic vases, bowls and striped fruit in vivid lime, orange and red. Strong reference for bold maximalist 3D illustration style with an Op Art / Swiss Modernist influence.",
+    "added": 1743379200006
+  },
+  {
+    "id": 1743379200007,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/f101480cd973d58821cd712d9d0a77de.jpg",
+    "client": "SEXYTEA",
+    "imageType": "Key Visual",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Playful",
+      "Youthful",
+      "Dopamine"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Women"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bold",
+      "Vivid",
+      "Bright"
+    ],
+    "ingredient": [
+      "tea",
+      "milk tea",
+      "cream"
+    ],
+    "style": [
+      "Chinese",
+      "Retro-Futurist",
+      "Y2K"
+    ],
+    "occasion": [
+      "Launch Campaign",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful",
+      "Adventurous"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "milk-tea",
+      "cup",
+      "hero",
+      "orange",
+      "launch",
+      "campaign",
+      "chinese",
+      "bilingual",
+      "qr",
+      "social",
+      "bubble-tea",
+      "limited",
+      "city",
+      "exclusive",
+      "warm"
+    ],
+    "notes": "SEXYTEA branded milk tea launch campaign visual. Oversized cup hero on a warm orange background with bold Chinese typography, city-exclusive collab callouts and QR code. Strong reference for bubble tea / milk tea launch social KVs with a dopamine colour palette.",
+    "added": 1743379200007
+  },
+  {
+    "id": 1743379200008,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/f1ab68de5024a995d43bd396f36891e7.jpg",
+    "client": "FIREYE",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Edgy",
+      "Playful",
+      "Vibrant",
+      "Youthful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Pop Art",
+      "Flat Design",
+      "Comic"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Teens",
+      "Men"
+    ],
+    "colourPalette": [
+      "Neon",
+      "Bold",
+      "Bright",
+      "Primary Colours",
+      "Vivid"
+    ],
+    "ingredient": [],
+    "style": [
+      "American",
+      "Pop Art",
+      "90s",
+      "Streetwear"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Irreverent",
+      "Playful",
+      "Adventurous"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "comic",
+      "face",
+      "character",
+      "lightning",
+      "burst",
+      "neon",
+      "pink",
+      "yellow",
+      "purple",
+      "blue",
+      "green",
+      "poster",
+      "gig",
+      "band",
+      "summer",
+      "pop-art",
+      "bold"
+    ],
+    "notes": "Fake band poster illustration by FIREYE. Comic-style face with coloured lightning bursts on black background, bold display type. Strong reference for gig poster aesthetics and Y2K/Pop Art illustration style with a maximalist neon colour palette.",
+    "added": 1743379200008
+  },
+  {
+    "id": 1743379200009,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/f1d5b519a468948d53930321eca2cfa8.jpg",
+    "client": "Unknown",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [
+      "Food",
+      "Bakery",
+      "Dairy"
+    ],
+    "tonality": [
+      "Dreamy",
+      "Feminine",
+      "Elegant",
+      "Playful",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Gradient",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Women",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Neon",
+      "Warm",
+      "Vivid",
+      "Pastel",
+      "Gradient"
+    ],
+    "ingredient": [
+      "mango",
+      "cake"
+    ],
+    "style": [
+      "Japanese",
+      "Cottagecore"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Indulgent",
+      "Dreamy",
+      "Aspirational"
+    ],
+    "typography": [
+      "Serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "mango",
+      "cake",
+      "dessert",
+      "flatlay",
+      "illustration",
+      "neon",
+      "gradient",
+      "fruit",
+      "summer",
+      "taiwan",
+      "grid",
+      "editorial",
+      "food",
+      "yellow",
+      "orange",
+      "pink"
+    ],
+    "notes": "Sweety Mango editorial food illustration. Vibrant neon gradient background (pink-orange-yellow) with illustrated mango cake, mango slices and drinks on a grid tablecloth. Excellent reference for dessert/food illustration campaigns with vivid colour gradients and a dreamy, indulgent mood.",
+    "added": 1743379200009
+  },
+  {
+    "id": 1743379200010,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/f2672e8f019543bd4220c5192bb9d670.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Food",
+      "Snack",
+      "Bakery"
+    ],
+    "tonality": [
+      "Heritage",
+      "Retro",
+      "Handcrafted",
+      "Organic",
+      "Friendly"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Handcrafted",
+      "Typography-led",
+      "Line Art"
+    ],
+    "targetAudience": [
+      "Gen X",
+      "Millennial",
+      "Mass Market",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bold",
+      "Monochrome",
+      "Neutral",
+      "Earthy"
+    ],
+    "ingredient": [
+      "dango",
+      "mochi",
+      "soy sauce"
+    ],
+    "style": [
+      "Japanese",
+      "Folk",
+      "Naive"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Nostalgic",
+      "Wholesome",
+      "Grounded",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Hand-lettered",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "dango",
+      "japanese",
+      "handwritten",
+      "brush",
+      "ink",
+      "red",
+      "white",
+      "black",
+      "folk",
+      "naive",
+      "food",
+      "street-food",
+      "traditional",
+      "heritage",
+      "signage"
+    ],
+    "notes": "Japanese-style food illustration/signage for Noto Sato dango. Hand-drawn brush calligraphy and naive illustration of skewered rice dumplings on white. Strong reference for traditional Japanese artisan food branding with a handcrafted folk aesthetic.",
+    "added": 1743379200010
+  },
+  {
+    "id": 1743379200011,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/f29c485ca11ef89614d8a7547393d108.jpg",
+    "client": "Burnbrae / Little Gem",
+    "imageType": "Label Design",
+    "format": [
+      "Bottle",
+      "Label"
+    ],
+    "productCategory": [
+      "Wine",
+      "Alcohol",
+      "Beverage"
+    ],
+    "tonality": [
+      "Elegant",
+      "Feminine",
+      "Dreamy",
+      "Organic",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Flat Design",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Premium",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [
+      "pinot gris",
+      "grape"
+    ],
+    "style": [
+      "European",
+      "British",
+      "Cottagecore",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Romantic",
+      "Dreamy",
+      "Wholesome",
+      "Calming"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Condensed",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "floral",
+      "botanical",
+      "white-flower",
+      "label",
+      "close-up",
+      "wine",
+      "pastel",
+      "blue",
+      "stamp",
+      "crest",
+      "illustration",
+      "cottagecore",
+      "british",
+      "pinot-gris",
+      "soft"
+    ],
+    "notes": "Little Gem Pinot Gris wine label by Burnbrae. Soft sky-blue label with a flat floral illustration (white magnolia, pink and yellow accents), heritage stamp crest. Beautiful reference for feminine, illustrative wine label design with a dreamy Cottagecore-British aesthetic.",
+    "added": 1743379200011
+  },
+  {
+    "id": 1743379200012,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/f3fe05f61c149e2533d4e4baad463ffe.jpg",
+    "client": "MyCaptain Cheese",
+    "imageType": "Pack Design",
+    "format": [
+      "Tin"
+    ],
+    "productCategory": [
+      "Dairy",
+      "Bakery",
+      "Food",
+      "Confectionery"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Retro",
+      "Vibrant",
+      "Gourmet"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Geometric",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bold",
+      "Vivid",
+      "Bright"
+    ],
+    "ingredient": [
+      "cheesecake",
+      "cheese"
+    ],
+    "style": [
+      "Japanese",
+      "Retro-Futurist",
+      "70s",
+      "Bauhaus"
+    ],
+    "occasion": [
+      "Gifting Season",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Indulgent",
+      "Nostalgic",
+      "Playful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte",
+      "Gloss"
+    ],
+    "keywords": [
+      "tin",
+      "round",
+      "cheesecake",
+      "orange",
+      "blue",
+      "white",
+      "slice",
+      "japanese",
+      "geometric",
+      "retro",
+      "dessert",
+      "confectionery",
+      "product",
+      "hero",
+      "gourmet"
+    ],
+    "notes": "MyCaptain Cheesecake tin. Circular tin with bold orange geometric illustration of sliced cake wedges on white, product photography of a real cheesecake slice alongside. Great reference for premium Japanese confectionery gift tin packaging with retro graphic design.",
+    "added": 1743379200012
+  },
+  {
+    "id": 1743379200013,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/f5458b145044b198c15493cae38a929d.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Edgy",
+      "Cool",
+      "Sophisticated",
+      "Brutalist"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Abstract",
+      "Gradient",
+      "3D"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Bold",
+      "Cool",
+      "Neon",
+      "Blue"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Neo-Brutalist",
+      "Swiss / Modernist",
+      "Y2K",
+      "Retro-Futurist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Aspirational",
+      "Energising",
+      "Adventurous"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "blue",
+      "banner",
+      "poster",
+      "design",
+      "portfolio",
+      "grid",
+      "modular",
+      "gradient",
+      "orbit",
+      "3d",
+      "bilingual",
+      "neon",
+      "digital",
+      "ui",
+      "branding"
+    ],
+    "notes": "Designer portfolio showcase page. Vivid electric blue background with bold 3D typographic DESIGN treatment, planet/orbit graphic, and a grid of mini banner/poster works. Strong reference for bold graphic design portfolio aesthetics in a Neo-Brutalist / Y2K style.",
+    "added": 1743379200013
+  },
+  {
+    "id": 1743379200014,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/f5f8651b2b6f52bcefbffd4d5a59d642.jpeg",
+    "client": "Unknown",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Dreamy",
+      "Elegant",
+      "Minimal",
+      "Feminine",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Gradient",
+      "Abstract",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Young Adults",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Gradient",
+      "Cool",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Luxury Editorial",
+      "Japanese",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Dreamy",
+      "Calming",
+      "Romantic",
+      "Aspirational"
+    ],
+    "typography": [
+      "Serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "vase",
+      "floral",
+      "botanical",
+      "pastel",
+      "gradient",
+      "mint",
+      "purple",
+      "peach",
+      "still-life",
+      "illustration",
+      "lifestyle",
+      "editorial",
+      "soft",
+      "elegant",
+      "layered"
+    ],
+    "notes": "Soft pastel still-life editorial illustration. Translucent vases, flower stems, and fruit bowl on a gradient background in mint, lavender and coral. Beautiful reference for dreamy editorial illustration in a feminine luxury style with soft gradient palettes.",
+    "added": 1743379200014
+  },
+  {
+    "id": 1743379200015,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/f6c1f02f4c47cc9e7702de0b2b72ecea.jpg",
+    "client": "Nayuki",
+    "imageType": "Key Visual",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Food",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Playful",
+      "Friendly",
+      "Youthful",
+      "Bold",
+      "Kawaii"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Colour-led",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Women",
+      "Teens"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Cool",
+      "Bright",
+      "Vivid"
+    ],
+    "ingredient": [
+      "lemon",
+      "peach"
+    ],
+    "style": [
+      "Chinese",
+      "Kawaii",
+      "Japanese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful",
+      "Wholesome"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Transparent"
+    ],
+    "keywords": [
+      "sparkling-water",
+      "sugar-free",
+      "bottle",
+      "pink",
+      "yellow",
+      "character",
+      "mascot",
+      "kawaii",
+      "bilingual",
+      "range",
+      "hero",
+      "launch",
+      "chinese",
+      "lemon",
+      "peach"
+    ],
+    "notes": "Nayuki sparkling water duo campaign visual. Pink (peach) and yellow (lemon) sugar-free bottles with cute kawaii character illustrations on labels, cheerful fan-burst background with bold Chinese type claims. Great reference for playful functional beverage range visuals.",
+    "added": 1743379200015
+  },
+  {
+    "id": 1743379200016,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/f9b6f8a751c2b224313c96117704e036.jpg",
+    "client": "Martin Berasategui",
+    "imageType": "Range Shot",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Food",
+      "Snack"
+    ],
+    "tonality": [
+      "Minimal",
+      "Sophisticated",
+      "Gourmet",
+      "Elegant",
+      "Luxury"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Clean",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Gen X",
+      "Millennial",
+      "Women",
+      "Men"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Muted",
+      "Cool",
+      "Monochrome"
+    ],
+    "ingredient": [
+      "pumpkin",
+      "carrot",
+      "cod",
+      "croquette",
+      "lasagne",
+      "pimiento"
+    ],
+    "style": [
+      "European",
+      "French",
+      "Swiss / Modernist",
+      "Luxury Editorial"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Aspirational",
+      "Trustworthy",
+      "Indulgent",
+      "Sophisticated"
+    ],
+    "typography": [
+      "Script",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "silver",
+      "grey",
+      "range",
+      "premium",
+      "chef",
+      "gourmet",
+      "photo",
+      "hero",
+      "box",
+      "flatlay",
+      "stacked",
+      "spanish",
+      "editorial",
+      "fine-dining",
+      "signature"
+    ],
+    "notes": "Martin Berasategui premium frozen food range. Cool silver-grey matte boxes with chef signature script and product photography hero on each pack showing soups, croquettes and stuffed pimientos. Excellent reference for premium chef-branded fine-dining frozen food packaging.",
+    "added": 1743379200016
+  },
+  {
+    "id": 1743379200017,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/fa1866f54063052643e6035cb6d868d6.jpg",
+    "client": "Tencent Music Entertainment",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Cool",
+      "Sophisticated",
+      "Edgy",
+      "Aspirational"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Abstract",
+      "3D",
+      "Gradient"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Blue",
+      "Cool",
+      "Gradient",
+      "Vivid",
+      "Bold"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Neo-Brutalist",
+      "Retro-Futurist",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Aspirational",
+      "Confident",
+      "Adventurous",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "globe",
+      "music",
+      "blue",
+      "3d",
+      "gradient",
+      "orbit",
+      "chinese",
+      "bilingual",
+      "campaign",
+      "social",
+      "tech",
+      "digital",
+      "platform",
+      "sphere",
+      "glow"
+    ],
+    "notes": "Tencent Music overseas campaign poster. Glowing 3D globe with text wrap effect on electric blue gradient background, bold Chinese and English typography announcing global music publishing. Strong reference for tech/music platform campaign visuals with bold blue 3D aesthetics.",
+    "added": 1743379200017
+  },
+  {
+    "id": 1743379200018,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/fab095d747974b40a1485cff14e70cd0.jpg",
+    "client": "Unknown",
+    "imageType": "Range Shot",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Alcohol",
+      "Spirits",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Organic",
+      "Earthy",
+      "Approachable",
+      "Retro"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Typography-led",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Gen X",
+      "Millennial",
+      "Men",
+      "Women",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Earthy",
+      "Muted",
+      "Neutral",
+      "Gradient"
+    ],
+    "ingredient": [
+      "ume",
+      "yuzu",
+      "peach"
+    ],
+    "style": [
+      "Japanese",
+      "Folk",
+      "Heritage"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Nostalgic",
+      "Grounded",
+      "Wholesome",
+      "Calming"
+    ],
+    "typography": [
+      "Serif",
+      "Script",
+      "Mixed Fonts",
+      "Hand-lettered"
+    ],
+    "finish": [
+      "Matte",
+      "Uncoated"
+    ],
+    "keywords": [
+      "umeshu",
+      "sake",
+      "japanese",
+      "range",
+      "trio",
+      "ume",
+      "yuzu",
+      "peach",
+      "warm",
+      "label",
+      "heritage",
+      "illustration",
+      "folk",
+      "earthy",
+      "artisan"
+    ],
+    "notes": "Japanese artisan liqueur trio. Three label bottles in warm amber, yellow and pink tones (umeshu, yuzu sake, peach sake) with illustrated labels and hand-lettered Japanese calligraphy. Great reference for artisanal Japanese spirits with warm earthy heritage label design.",
+    "added": 1743379200018
+  },
+  {
+    "id": 1743379200019,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/facefb7f3f4e164917ca3b295581eb9a.jpg",
+    "client": "Gordon's Gin",
+    "imageType": "Range Shot",
+    "format": [
+      "Can"
+    ],
+    "productCategory": [
+      "Alcohol",
+      "Spirits",
+      "Beverage"
+    ],
+    "tonality": [
+      "Elegant",
+      "Heritage",
+      "Sophisticated",
+      "Organic",
+      "Feminine"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Pattern-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Women",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Cool",
+      "Muted",
+      "Metallic"
+    ],
+    "ingredient": [
+      "cucumber",
+      "elderflower",
+      "gin"
+    ],
+    "style": [
+      "British",
+      "European",
+      "Art Nouveau",
+      "Luxury Editorial"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Sophisticated",
+      "Calming",
+      "Aspirational",
+      "Grounded"
+    ],
+    "typography": [
+      "Script",
+      "Serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Metallic Ink",
+      "Gloss"
+    ],
+    "keywords": [
+      "can",
+      "gin",
+      "tonic",
+      "range",
+      "botanical",
+      "floral",
+      "cucumber",
+      "elderflower",
+      "silver",
+      "white",
+      "green",
+      "yellow",
+      "british",
+      "heritage",
+      "premium"
+    ],
+    "notes": "Gordon's Gin and Schweppes tonic pre-mixed cans. Elegant silver-white cans with botanical illustration of elderflower and cucumber, script wordmark. Excellent reference for premium spirits canned RTD packaging with elegant botanical illustration and British heritage credentials.",
+    "added": 1743379200019
+  },
+  {
+    "id": 1743379200020,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/fbf20df1d7554f5cd3b43605abf2bee0.jpg",
+    "client": "Various",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Minimal",
+      "Sophisticated",
+      "Bold",
+      "Elegant",
+      "Geometric"
+    ],
+    "designCode": [
+      "Abstract",
+      "Geometric",
+      "Flat Design",
+      "Clean",
+      "Visual Hammer"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Premium",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Monochrome",
+      "Bold",
+      "Neutral",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Swiss / Modernist",
+      "Bauhaus",
+      "Scandinavian",
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Aspirational",
+      "Trustworthy",
+      "Grounded"
+    ],
+    "typography": [
+      "Serif",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "logo",
+      "monogram",
+      "geometric",
+      "bird",
+      "eye",
+      "symbol",
+      "branding",
+      "blue",
+      "red",
+      "grey",
+      "white",
+      "abstract",
+      "modern",
+      "identity",
+      "mark"
+    ],
+    "notes": "Logo design reference sheet. Four geometric logo marks including Sony Music Publishing globe, abstract eye Panorama mark, B-letterform monogram, and geometric bird for Mour Oumousse. Strong reference for Swiss Modernist / geometric logo design approaches.",
+    "added": 1743379200020
+  },
+  {
+    "id": 1743379200021,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/fc2980493f43760d457e6f77e917e47b.jpg",
+    "client": "Peach Cheezo",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [
+      "Food",
+      "Dairy",
+      "Confectionery"
+    ],
+    "tonality": [
+      "Playful",
+      "Dreamy",
+      "Feminine",
+      "Kawaii",
+      "Youthful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Gradient",
+      "3D",
+      "Line Art"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Women",
+      "Teens"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Gradient",
+      "Bright"
+    ],
+    "ingredient": [
+      "peach",
+      "cheesecake",
+      "tea",
+      "yoghurt"
+    ],
+    "style": [
+      "Chinese",
+      "Kawaii",
+      "Japanese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Summer",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Indulgent",
+      "Dreamy"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "peach",
+      "ice-cream",
+      "dessert",
+      "popsicle",
+      "pink",
+      "gradient",
+      "3d",
+      "exploded",
+      "layers",
+      "chinese",
+      "bilingual",
+      "summer",
+      "kawaii",
+      "soft",
+      "line-art"
+    ],
+    "notes": "Peach Cheezo ice cream bar campaign KV. Pink gradient background with a 3D exploded view of layered popsicle showing peach, cheese and tea components as deconstructed rings. Strong reference for playful dessert and ice cream launch visuals with 3D food illustration.",
+    "added": 1743379200021
+  },
+  {
+    "id": 1743379200022,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/fdeb3a874fba38fbfdfc719b86ad60e1.jpeg",
+    "client": "Gogusuni / Yellow Planet",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Playful",
+      "Kawaii",
+      "Retro",
+      "Friendly",
+      "Youthful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Flat Design",
+      "Geometric",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Teens",
+      "Young Adults",
+      "Women"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Warm",
+      "Bold",
+      "Primary Colours",
+      "Neon"
+    ],
+    "ingredient": [],
+    "style": [
+      "Korean",
+      "Kawaii",
+      "Y2K",
+      "90s"
+    ],
+    "occasion": [
+      "Everyday",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Nostalgic",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "yellow",
+      "grid",
+      "retro",
+      "computer",
+      "browser",
+      "kawaii",
+      "character",
+      "flower",
+      "cloud",
+      "korean",
+      "flat",
+      "bold",
+      "pattern",
+      "checkered",
+      "y2k"
+    ],
+    "notes": "Yellow Planet site illustration by Gogusuni. Bright all-yellow grid background with a retro browser window containing a kawaii smiling flower character, cloud motifs and bold outlined type. Great reference for playful Korean Y2K / kawaii digital-native brand aesthetics.",
+    "added": 1743379200022
+  },
+  {
+    "id": 1743379200023,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/fdecfa23759416b6b582402765132e53.jpg",
+    "client": "Plantag",
+    "imageType": "Key Visual",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Health & Wellness",
+      "Dairy",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Friendly",
+      "Organic",
+      "Youthful"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Typography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Young Adults",
+      "Millennial",
+      "Women",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Cool",
+      "Neon",
+      "Bold",
+      "Warm"
+    ],
+    "ingredient": [
+      "pistachio",
+      "nut"
+    ],
+    "style": [
+      "Chinese",
+      "Minimal",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Energising",
+      "Wholesome",
+      "Aspirational",
+      "Trustworthy",
+      "Joyful"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Wordmark-led"
+    ],
+    "finish": [
+      "Transparent"
+    ],
+    "keywords": [
+      "pistachio",
+      "plant-milk",
+      "bottle",
+      "green",
+      "yellow",
+      "hero",
+      "lifestyle",
+      "chinese",
+      "bilingual",
+      "hashtag",
+      "clean",
+      "health",
+      "omega3",
+      "nut-milk",
+      "claims"
+    ],
+    "notes": "Plantag pistachio plant milk key visual. Bright lime-green background with product bottle hero and hashtag logo, surrounded by scattered pistachio nuts. Strong reference for bold, health-forward plant-based dairy launch visuals.",
+    "added": 1743379200023
+  },
+  {
+    "id": 1743379200024,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/fe7a650d86ee50f067eaacb4baaec91c.jpg",
+    "client": "Super Plants",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Personal Care",
+      "Household"
+    ],
+    "tonality": [
+      "Playful",
+      "Kawaii",
+      "Bold",
+      "Friendly",
+      "Youthful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Cartoon",
+      "Flat Design",
+      "Comic"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Women",
+      "Teens"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Cool",
+      "Vivid",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Kawaii",
+      "Korean",
+      "Y2K"
+    ],
+    "occasion": [
+      "Limited Edition",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising",
+      "Irreverent"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "mascot",
+      "character",
+      "flower",
+      "bath",
+      "bubble",
+      "green",
+      "blue",
+      "white",
+      "kawaii",
+      "singles-day",
+      "double11",
+      "chinese",
+      "campaign",
+      "illustration",
+      "cartoon"
+    ],
+    "notes": "Super Plants 11.11 / Double 11 campaign poster. Giant kawaii flower character bathing in blue bubbles on green background, bold sans-serif headline. Great reference for playful FMCG campaign art with mascot characters and Chinese e-commerce festival aesthetics.",
+    "added": 1743379200024
+  },
+  {
+    "id": 1743379200025,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/gift_box_product_photography_chinese_traditional_style_2026-03-24.png",
+    "client": "Jetta / LIAM Production",
+    "imageType": "Pack Design",
+    "format": [
+      "Gift Box"
+    ],
+    "productCategory": [
+      "Tea",
+      "Gifting",
+      "Food",
+      "Beverage"
+    ],
+    "tonality": [
+      "Luxury",
+      "Ornate",
+      "Heritage",
+      "Elegant",
+      "Feminine"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Colour-led",
+      "Photography-led"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Millennial",
+      "Gen X",
+      "Women",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Dark",
+      "Warm",
+      "Metallic",
+      "Bold",
+      "Earthy"
+    ],
+    "ingredient": [
+      "tea"
+    ],
+    "style": [
+      "Chinese",
+      "Art Nouveau",
+      "Luxury Editorial",
+      "Folk"
+    ],
+    "occasion": [
+      "Gifting Season",
+      "Chinese New Year",
+      "Lunar New Year"
+    ],
+    "mood": [
+      "Aspirational",
+      "Romantic",
+      "Indulgent",
+      "Nostalgic",
+      "Mysterious"
+    ],
+    "typography": [
+      "Script",
+      "Serif",
+      "Hand-lettered",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Emboss",
+      "Foil",
+      "Soft Touch",
+      "Matte"
+    ],
+    "keywords": [
+      "gift-box",
+      "chinese",
+      "floral",
+      "bird",
+      "hummingbird",
+      "botanical",
+      "navy",
+      "red",
+      "gold",
+      "cream",
+      "luxury",
+      "tea-gift",
+      "traditional",
+      "new-year",
+      "ornate"
+    ],
+    "notes": "Jetta luxury tea gift box set by LIAM Production. Two rigid gift boxes (cream floral birds on white, and deep navy/red bird-and-blossom pattern) styled with teacups and dark red paper fan backdrop. Exceptional reference for premium Chinese New Year gifting packaging with rich botanical bird-and-flower illustration.",
+    "added": 1743379200025
   }
-]
+];

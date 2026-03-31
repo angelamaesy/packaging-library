@@ -1,5 +1,5 @@
 {
-  "total": 366,
+  "total": 100,
   "processed": [
     "00a3d5323c178f036f692a625523d60e 2.jpg",
     "02e5f7741240daac778be8983ac8f819.jpeg",
@@ -75,9 +75,34 @@
     "4874ce55608e878f3ed1ad007766f312.jpg",
     "48f9a4f28932e116f48cddcb9ccf74d6.jpg",
     "4bb42f07618a81f89aa0886b98c4f19d.jpg",
-    "4c9707e0e6e5683d6bd7d9193cd8fa18.jpg"
+    "4c9707e0e6e5683d6bd7d9193cd8fa18.jpg",
+    "eca20b8d5ba4202fd422426243544c64.jpg",
+    "ed669562933617b3f2507e9fbc1754a9.jpg",
+    "ee242e5fc286a3e0337e5a6c14cbd844.jpg",
+    "ef76251c18ec8fa4842c1d141aeaf4f3.jpg",
+    "eff87c95355f890fc42ef849eab9e64d.jpg",
+    "f06d8b52711be86d429e6f50b5bcdaf2.jpg",
+    "f101480cd973d58821cd712d9d0a77de.jpg",
+    "f1ab68de5024a995d43bd396f36891e7.jpg",
+    "f1d5b519a468948d53930321eca2cfa8.jpg",
+    "f2672e8f019543bd4220c5192bb9d670.jpg",
+    "f29c485ca11ef89614d8a7547393d108.jpg",
+    "f3fe05f61c149e2533d4e4baad463ffe.jpg",
+    "f5458b145044b198c15493cae38a929d.jpg",
+    "f5f8651b2b6f52bcefbffd4d5a59d642.jpeg",
+    "f6c1f02f4c47cc9e7702de0b2b72ecea.jpg",
+    "f9b6f8a751c2b224313c96117704e036.jpg",
+    "fa1866f54063052643e6035cb6d868d6.jpg",
+    "fab095d747974b40a1485cff14e70cd0.jpg",
+    "facefb7f3f4e164917ca3b295581eb9a.jpg",
+    "fbf20df1d7554f5cd3b43605abf2bee0.jpg",
+    "fc2980493f43760d457e6f77e917e47b.jpg",
+    "fdeb3a874fba38fbfdfc719b86ad60e1.jpeg",
+    "fdecfa23759416b6b582402765132e53.jpg",
+    "fe7a650d86ee50f067eaacb4baaec91c.jpg",
+    "gift_box_product_photography_chinese_traditional_style_2026-03-24.png"
   ],
-  "last_batch_date": "2026-03-26",
+  "last_batch_date": "2026-03-31",
   "batch_size": 25,
   "notes": "AutoTagger checkpoint. processed = filenames already tagged and moved to dated subfolder. Do not re-tag these."
 }
