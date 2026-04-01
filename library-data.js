@@ -20721,5 +20721,795 @@ const LIBRARY_DATA = [
     ],
     "notes": "Cape Valley Rooibos Tea pouches in pink/green gradient variants with arch motif. Beautiful Art Nouveau-influenced tea packaging — strong heritage botanical reference for wellness brands.",
     "added": 1775015616418
+  },
+  {
+    "id": 1775015622034,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5991689299236_.pic.jpg",
+    "client": "Pixie",
+    "imageType": "Range Shot",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Water"
+    ],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Playful",
+      "Fun",
+      "Bright"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Pattern-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Primary Colours",
+      "Warm"
+    ],
+    "ingredient": [
+      "sparkling water",
+      "fruit"
+    ],
+    "style": [
+      "European",
+      "Y2K",
+      "Memphis"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful",
+      "Adventurous"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "bottle",
+      "sparkling-water",
+      "range",
+      "glass",
+      "illustrated",
+      "geometric",
+      "hex",
+      "colourful",
+      "fruit",
+      "confetti",
+      "label",
+      "transparent",
+      "slim",
+      "water",
+      "summer"
+    ],
+    "notes": "Pixie sparkling water range — 7 tall glass bottles with illustrated label panels in vibrant fruit-themed colours with hex logomark and confetti/geometric motifs. Strong multi-SKU illustrated glass bottle reference.",
+    "added": 1775015622034
+  },
+  {
+    "id": 1775015625501,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/599ef494e1fdff21d275e72c12cd0b37.jpg",
+    "client": "Kanro",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag",
+      "Pouch"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Snack",
+      "Food",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Fresh",
+      "Clean",
+      "Friendly",
+      "Organic",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Photography-led",
+      "Pattern-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Millennial",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Green",
+      "Muted",
+      "Pastel"
+    ],
+    "ingredient": [
+      "sudachi",
+      "citrus",
+      "vitamin C"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Wholesome",
+      "Joyful",
+      "Grounded"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "candy",
+      "throat",
+      "sudachi",
+      "citrus",
+      "japanese",
+      "pouch",
+      "stripe",
+      "green",
+      "fresh",
+      "fruit",
+      "vitamin",
+      "kanro",
+      "lemon",
+      "clean",
+      "functional"
+    ],
+    "notes": "Kanro 瀬戸内すだち throat candy pouch with blue stripe pattern and bold green circle. Classic Japanese confectionery bag design — great reference for citrus/functional candy packaging with clean layout.",
+    "added": 1775015625501
+  },
+  {
+    "id": 1775015629221,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5a620d044608b7c8185ef280c186be9b.jpg",
+    "client": "Eurêka Figeac",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Energising",
+      "Edgy",
+      "Fun"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Neon",
+      "Bold",
+      "Green",
+      "Monochrome"
+    ],
+    "ingredient": [],
+    "style": [
+      "French",
+      "Neo-Brutalist",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Energising",
+      "Confident",
+      "Joyful",
+      "Irreverent"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "event",
+      "green",
+      "neon",
+      "typography",
+      "bold",
+      "french",
+      "festival",
+      "starburst",
+      "badge",
+      "display",
+      "white",
+      "minimal",
+      "neo-brutalist",
+      "exclamation"
+    ],
+    "notes": "Eurêka! festival poster — oversized neon green shape with bold black display type and starburst badge on white. Excellent French neo-brutalist event poster reference for high-impact typography-led design.",
+    "added": 1775015629221
+  },
+  {
+    "id": 1775015632596,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5aa9699c47700833b1a9a2137fb90a57.jpg",
+    "client": "Haloo Camp",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Fun",
+      "Playful",
+      "Vibrant",
+      "Energising"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Vivid",
+      "Bold",
+      "Orange"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Streetwear",
+      "Y2K"
+    ],
+    "occasion": [
+      "Limited Edition",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Adventurous",
+      "Energising",
+      "Joyful",
+      "Playful"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "camping",
+      "festival",
+      "tent",
+      "outdoor",
+      "orange",
+      "bold",
+      "event",
+      "chinese",
+      "bilingual",
+      "flat",
+      "poster",
+      "music",
+      "summer",
+      "starburst",
+      "illustration"
+    ],
+    "notes": "Haloo Camp 2022 outdoor music festival poster with bold orange tent illustration on grey background. Strong bilingual festival poster reference — flat illustration + bold type for Gen Z outdoor event branding.",
+    "added": 1775015632596
+  },
+  {
+    "id": 1775015636990,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5ab9e1ecbbed56f0a5e3f403c6119ae9.jpg",
+    "client": "Unknown",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Dreamy",
+      "Playful",
+      "Bold",
+      "Whimsical",
+      "Cool"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Abstract"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Pastel",
+      "Pink",
+      "Bold"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Y2K",
+      "Bauhaus"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Dreamy",
+      "Nostalgic",
+      "Playful",
+      "Calming"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "clock",
+      "time",
+      "illustration",
+      "pink",
+      "blue",
+      "checkerboard",
+      "poster",
+      "editorial",
+      "bilingual",
+      "bold",
+      "surreal",
+      "abstract",
+      "chinese",
+      "philosophical",
+      "conceptual"
+    ],
+    "notes": "Time Is Amazing editorial poster (2022/06/20) — abstract clock illustration on checkerboard in pink/blue with bold bilingual type. Good reference for conceptual editorial design with philosophical messaging.",
+    "added": 1775015636990
+  },
+  {
+    "id": 1775015639745,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5ba4944a3a5813383495288b99bfecfe.jpg",
+    "client": "Unknown",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Tea",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Fresh",
+      "Clean",
+      "Organic",
+      "Friendly",
+      "Minimal"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Clean",
+      "Gradient"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Young Adults",
+      "Gen Z",
+      "Women"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Cool",
+      "Gradient",
+      "Muted"
+    ],
+    "ingredient": [
+      "guava",
+      "yuzu",
+      "tea"
+    ],
+    "style": [
+      "Chinese",
+      "Minimal",
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Calming",
+      "Joyful",
+      "Grounded"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Script",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "bottle",
+      "tea",
+      "guava",
+      "yuzu",
+      "chinese",
+      "gradient",
+      "organic-shapes",
+      "pastel",
+      "fresh",
+      "hero",
+      "clean",
+      "white",
+      "label",
+      "functional",
+      "health"
+    ],
+    "notes": "Guava tea (芭乐茶) and yuzu tea (油柑茶) 300ml bottles on white — gradient labels with organic blob shapes. Clean minimal Chinese functional tea bottle reference with distinctive pastel gradient label design.",
+    "added": 1775015639745
+  },
+  {
+    "id": 1775015642507,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5d9024fb3c40dad456082b335563746d.jpg",
+    "client": "Plan.P",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [
+      "Food",
+      "Confectionery"
+    ],
+    "tonality": [
+      "Minimal",
+      "Clean",
+      "Playful",
+      "Elegant",
+      "Fresh"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Abstract",
+      "Colour-led",
+      "Gradient"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Cool",
+      "Warm",
+      "Gradient",
+      "Muted"
+    ],
+    "ingredient": [
+      "lychee"
+    ],
+    "style": [
+      "Chinese",
+      "Minimal",
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Dreamy",
+      "Playful",
+      "Calming"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "lychee",
+      "fruit",
+      "illustration",
+      "floating",
+      "gradient",
+      "abstract",
+      "white",
+      "red",
+      "teal",
+      "bilingual",
+      "poster",
+      "minimal",
+      "organic-shapes",
+      "chinese",
+      "botanical"
+    ],
+    "notes": "Plan.P Litchi/荔枝仔 illustration — floating lychee fruits with gradient/halftone texture and teal leaves on white. Elegant minimal fruit illustration reference for food brand visual language or packaging illustration style.",
+    "added": 1775015642507
+  },
+  {
+    "id": 1775015645148,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5dcd27c793cb27570b8a7275bb420828.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Playful",
+      "Fun",
+      "Maximalist"
+    ],
+    "designCode": [
+      "Geometric",
+      "Pattern-led",
+      "Flat Design",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Primary Colours",
+      "Vivid",
+      "Bold"
+    ],
+    "ingredient": [
+      "apple",
+      "cherry",
+      "orange",
+      "pear",
+      "strawberry",
+      "watermelon",
+      "banana"
+    ],
+    "style": [
+      "Swiss / Modernist",
+      "Memphis",
+      "Bauhaus"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display"
+    ],
+    "finish": [],
+    "keywords": [
+      "pattern",
+      "geometric",
+      "fruit",
+      "squares",
+      "vector",
+      "seamless",
+      "tile",
+      "colourful",
+      "reference",
+      "asset",
+      "bold",
+      "shapes",
+      "banana",
+      "strawberry",
+      "watermelon"
+    ],
+    "notes": "Organic Squares seamless vector pattern collection — geometric fruit shapes (apple, cherry, orange, pear, strawberry, watermelon, banana) in bright primary colours. Strong Memphis/Bauhaus geometric pattern reference for fruit brand packaging.",
+    "added": 1775015645148
+  },
+  {
+    "id": 1775015647981,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5de36475fa3ac00dfbcbe8e1bdbb2672.jpg",
+    "client": "Jimena García Designs",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Organic",
+      "Fresh",
+      "Elegant",
+      "Dreamy",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Abstract"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Muted",
+      "Neutral",
+      "Green",
+      "Blue"
+    ],
+    "ingredient": [],
+    "style": [
+      "European",
+      "Folk",
+      "Art Nouveau"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Dreamy",
+      "Wholesome",
+      "Romantic"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "floral",
+      "botanical",
+      "pattern",
+      "poppy",
+      "flower",
+      "leaves",
+      "abstract",
+      "surface",
+      "textile",
+      "navy",
+      "green",
+      "orange",
+      "white",
+      "allover",
+      "illustrated"
+    ],
+    "notes": "Jimena García Designs abstract botanical surface pattern — poppies in navy, green and orange on white. Strong allover floral pattern reference for surface/textile design, premium packaging or wrapping paper.",
+    "added": 1775015647981
+  },
+  {
+    "id": 1775015650863,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5e653b66da7259271d7c59aa59b3fe9e.jpg",
+    "client": "OLIPOP",
+    "imageType": "Range Shot",
+    "format": [
+      "Can"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Health & Wellness",
+      "Supplement"
+    ],
+    "tonality": [
+      "Heritage",
+      "Friendly",
+      "Nostalgic",
+      "Approachable",
+      "Fun",
+      "Wholesome"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Handcrafted"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Millennial",
+      "Young Adults",
+      "Women"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Muted",
+      "Earthy"
+    ],
+    "ingredient": [
+      "cola",
+      "strawberry",
+      "vanilla",
+      "root beer",
+      "cherry",
+      "orange",
+      "lemon",
+      "ginger",
+      "grape"
+    ],
+    "style": [
+      "American",
+      "Retro-Futurist",
+      "70s"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Nostalgic",
+      "Wholesome",
+      "Joyful",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Display",
+      "Script",
+      "Serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "can",
+      "range",
+      "olipop",
+      "sparkling",
+      "tonic",
+      "prebiotic",
+      "health",
+      "illustrated",
+      "vintage",
+      "pastel",
+      "retro",
+      "fruit",
+      "cola",
+      "range-shot",
+      "american"
+    ],
+    "notes": "OLIPOP 8-can sparkling tonic range (Vintage Cola, Strawberry Vanilla, Root Beer, Cherry Vanilla, Tropical Punch, Orange Squeeze, Ginger Lemon, Classic Grape) with illustrated vintage labels. Iconic health-functional beverage range reference — pastel retro illustration applied to full range.",
+    "added": 1775015650863
   }
 ];
