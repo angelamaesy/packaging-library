@@ -1,5 +1,236 @@
 const LIBRARY_DATA = [
   {
+    "id": 1775031295649,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/f6c1f02f4c47cc9e7702de0b2b72ecea.jpg",
+    "client": "",
+    "imageType": "",
+    "format": "",
+    "productCategory": [],
+    "tonality": [],
+    "designCode": [],
+    "targetAudience": [],
+    "colourPalette": [],
+    "ingredient": [],
+    "style": [],
+    "occasion": [],
+    "mood": [],
+    "typography": [],
+    "finish": [],
+    "keywords": [],
+    "notes": "",
+    "added": 1775031295649
+  },
+  {
+    "id": 1775031301106,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/f9b6f8a751c2b224313c96117704e036.jpg",
+    "client": "",
+    "imageType": "",
+    "format": "",
+    "productCategory": [],
+    "tonality": [],
+    "designCode": [],
+    "targetAudience": [],
+    "colourPalette": [],
+    "ingredient": [],
+    "style": [],
+    "occasion": [],
+    "mood": [],
+    "typography": [],
+    "finish": [],
+    "keywords": [],
+    "notes": "",
+    "added": 1775031301106
+  },
+  {
+    "id": 1775031307107,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fa1866f54063052643e6035cb6d868d6.jpg",
+    "client": "",
+    "imageType": "",
+    "format": "",
+    "productCategory": [],
+    "tonality": [],
+    "designCode": [],
+    "targetAudience": [],
+    "colourPalette": [],
+    "ingredient": [],
+    "style": [],
+    "occasion": [],
+    "mood": [],
+    "typography": [],
+    "finish": [],
+    "keywords": [],
+    "notes": "",
+    "added": 1775031307107
+  },
+  {
+    "id": 1775031311189,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fab095d747974b40a1485cff14e70cd0.jpg",
+    "client": "",
+    "imageType": "",
+    "format": "",
+    "productCategory": [],
+    "tonality": [],
+    "designCode": [],
+    "targetAudience": [],
+    "colourPalette": [],
+    "ingredient": [],
+    "style": [],
+    "occasion": [],
+    "mood": [],
+    "typography": [],
+    "finish": [],
+    "keywords": [],
+    "notes": "",
+    "added": 1775031311189
+  },
+  {
+    "id": 1775031314688,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/facefb7f3f4e164917ca3b295581eb9a.jpg",
+    "client": "",
+    "imageType": "",
+    "format": "",
+    "productCategory": [],
+    "tonality": [],
+    "designCode": [],
+    "targetAudience": [],
+    "colourPalette": [],
+    "ingredient": [],
+    "style": [],
+    "occasion": [],
+    "mood": [],
+    "typography": [],
+    "finish": [],
+    "keywords": [],
+    "notes": "",
+    "added": 1775031314688
+  },
+  {
+    "id": 1775031318339,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fbf20df1d7554f5cd3b43605abf2bee0.jpg",
+    "client": "",
+    "imageType": "",
+    "format": "",
+    "productCategory": [],
+    "tonality": [],
+    "designCode": [],
+    "targetAudience": [],
+    "colourPalette": [],
+    "ingredient": [],
+    "style": [],
+    "occasion": [],
+    "mood": [],
+    "typography": [],
+    "finish": [],
+    "keywords": [],
+    "notes": "",
+    "added": 1775031318339
+  },
+  {
+    "id": 1775031323522,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fc2980493f43760d457e6f77e917e47b.jpg",
+    "client": "",
+    "imageType": "",
+    "format": "",
+    "productCategory": [],
+    "tonality": [],
+    "designCode": [],
+    "targetAudience": [],
+    "colourPalette": [],
+    "ingredient": [],
+    "style": [],
+    "occasion": [],
+    "mood": [],
+    "typography": [],
+    "finish": [],
+    "keywords": [],
+    "notes": "",
+    "added": 1775031323522
+  },
+  {
+    "id": 1775031327454,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fdeb3a874fba38fbfdfc719b86ad60e1.jpeg",
+    "client": "",
+    "imageType": "",
+    "format": "",
+    "productCategory": [],
+    "tonality": [],
+    "designCode": [],
+    "targetAudience": [],
+    "colourPalette": [],
+    "ingredient": [],
+    "style": [],
+    "occasion": [],
+    "mood": [],
+    "typography": [],
+    "finish": [],
+    "keywords": [],
+    "notes": "",
+    "added": 1775031327454
+  },
+  {
+    "id": 1775031332360,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fdecfa23759416b6b582402765132e53.jpg",
+    "client": "",
+    "imageType": "",
+    "format": "",
+    "productCategory": [],
+    "tonality": [],
+    "designCode": [],
+    "targetAudience": [],
+    "colourPalette": [],
+    "ingredient": [],
+    "style": [],
+    "occasion": [],
+    "mood": [],
+    "typography": [],
+    "finish": [],
+    "keywords": [],
+    "notes": "",
+    "added": 1775031332360
+  },
+  {
+    "id": 1775031337418,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fe7a650d86ee50f067eaacb4baaec91c.jpg",
+    "client": "",
+    "imageType": "",
+    "format": "",
+    "productCategory": [],
+    "tonality": [],
+    "designCode": [],
+    "targetAudience": [],
+    "colourPalette": [],
+    "ingredient": [],
+    "style": [],
+    "occasion": [],
+    "mood": [],
+    "typography": [],
+    "finish": [],
+    "keywords": [],
+    "notes": "",
+    "added": 1775031337418
+  },
+  {
+    "id": 1775031394357,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/gift_box_product_photography_chinese_traditional_style_2026-03-24.png",
+    "client": "",
+    "imageType": "",
+    "format": "",
+    "productCategory": [],
+    "tonality": [],
+    "designCode": [],
+    "targetAudience": [],
+    "colourPalette": [],
+    "ingredient": [],
+    "style": [],
+    "occasion": [],
+    "mood": [],
+    "typography": [],
+    "finish": [],
+    "keywords": [],
+    "notes": "",
+    "added": 1775031394357
+  },
+  {
     "id": 1774950198243,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/0022d5ab53c0e753e148390a29839dab.jpg",
     "client": "Bath & Body Works",
@@ -15876,5 +16107,2030 @@ const LIBRARY_DATA = [
     ],
     "notes": "MXNF 鲜趣生活创研所 'Vigorous Little Soluble Bean' yoghurt freeze-dried melt — white box with gradient abstract oval shapes in beige and blue. Clean, minimal Chinese health food packaging with modern lab aesthetic.",
     "added": 1774353600075
+  },
+  {
+    "id": 1775015143649,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/10c6a8ce7f090aa7457c5ddbe75973a9.jpg",
+    "client": "Mount Fuji Book",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Gifting",
+      "Beauty"
+    ],
+    "tonality": [
+      "Minimal",
+      "Playful",
+      "Elegant",
+      "Youthful",
+      "Fresh"
+    ],
+    "designCode": [
+      "Colour-led",
+      "Abstract",
+      "Pattern-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Women",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Bright",
+      "Neutral"
+    ],
+    "ingredient": [],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season",
+      "Spring"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Dreamy",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "topdown",
+      "flatlay",
+      "spray",
+      "geometric",
+      "abstract",
+      "pink",
+      "green",
+      "white",
+      "cream",
+      "pattern",
+      "scattered",
+      "topshot",
+      "square",
+      "range",
+      "risograph",
+      "gradient"
+    ],
+    "notes": "Mount Fuji Book cosmetic/gift boxes shot as a topdown flatlay, featuring bold abstract geometric spray patterns in neon pink and lime green on white. Repeating grid composition, visually striking Japanese packaging.",
+    "added": 1775015143649
+  },
+  {
+    "id": 1775015147435,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/1e36ce6033e2d79a488233e4b496166c.jpeg",
+    "client": "Baskin-Robbins",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Confectionery",
+      "Food",
+      "Dairy"
+    ],
+    "tonality": [
+      "Playful",
+      "Fun",
+      "Youthful",
+      "Kawaii",
+      "Bright",
+      "Feminine"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Photography-led",
+      "Mixed Media",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Women",
+      "Kids",
+      "Teens"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Bright"
+    ],
+    "ingredient": [
+      "cheese",
+      "ice cream"
+    ],
+    "style": [
+      "Korean",
+      "Kawaii"
+    ],
+    "occasion": [
+      "Valentines Day"
+    ],
+    "mood": [
+      "Joyful",
+      "Romantic",
+      "Playful",
+      "Indulgent"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "campaign",
+      "poster",
+      "pink",
+      "heart",
+      "rabbit",
+      "bear",
+      "character",
+      "kawaii",
+      "valentine",
+      "mascot",
+      "bilingual",
+      "korean",
+      "icecream",
+      "pastel",
+      "illustrated",
+      "waffle-cone"
+    ],
+    "notes": "Baskin-Robbins Korea Triple Cheese Love Valentines campaign poster with illustrated kawaii rabbit and bear characters alongside product photography of an ice cream cone. Bold display type on pastel pink, layered photomontage.",
+    "added": 1775015147435
+  },
+  {
+    "id": 1775015150498,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/4ed82a28aedd0452d96343eb3ca1730e.jpg",
+    "client": "Sogou Tea",
+    "imageType": "Campaign",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Tea"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Bright",
+      "Youthful",
+      "Fun",
+      "Energising",
+      "Dopamine"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Mixed Media",
+      "Photography-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Teens"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Bold",
+      "Cool",
+      "Vivid",
+      "Blue"
+    ],
+    "ingredient": [
+      "mango",
+      "raspberry",
+      "fruit"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Joyful",
+      "Adventurous",
+      "Playful"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "campaign",
+      "poster",
+      "bubble-tea",
+      "fruit-tea",
+      "cup",
+      "blue",
+      "summer",
+      "bilingual",
+      "character",
+      "illustration",
+      "chinese",
+      "bold",
+      "tropical",
+      "straw",
+      "mango",
+      "raspberry"
+    ],
+    "notes": "Chinese fruit tea brand summer campaign poster for mango raspberry fruit tea. Hero cup with illustrated manga-style character on electric blue. Energetic bilingual typography, strong summer dopamine energy.",
+    "added": 1775015150498
+  },
+  {
+    "id": 1775015153165,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/4ef8724a9df8c68efe3428c7a9e922dc.jpg",
+    "client": "Taipei International Book Exhibition",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Edgy",
+      "Bright",
+      "Maximalist",
+      "Youthful",
+      "Energising"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Geometric",
+      "Colour-led",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Neon",
+      "Bold",
+      "Bright",
+      "Vivid",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Swiss / Modernist",
+      "Neo-Brutalist",
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Confident",
+      "Adventurous"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "exhibition",
+      "book-fair",
+      "neon",
+      "pink",
+      "green",
+      "geometric",
+      "swiss",
+      "modernist",
+      "bilingual",
+      "typography",
+      "bold",
+      "graphic",
+      "2020",
+      "taiwan",
+      "diagonal",
+      "asymmetric"
+    ],
+    "notes": "Taipei International Book Exhibition 2020 poster. Neon pink and green colour blocks on dark navy with bold diagonal layout. Swiss modernist influence with bilingual Chinese/English typography.",
+    "added": 1775015153165
+  },
+  {
+    "id": 1775015156318,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/4f37c5562273040455d3d8b67ff5a4fc.jpeg",
+    "client": "Unknown",
+    "imageType": "Label Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage"
+    ],
+    "tonality": [
+      "Playful",
+      "Dreamy",
+      "Youthful",
+      "Kawaii",
+      "Whimsical",
+      "Cool"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Flat Design",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Women"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Blue",
+      "Neon",
+      "Vivid"
+    ],
+    "ingredient": [],
+    "style": [
+      "Korean",
+      "Y2K",
+      "Japanese",
+      "Kawaii"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Dreamy",
+      "Joyful",
+      "Playful",
+      "Calming"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Hand-lettered",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "label",
+      "bottle",
+      "illustration",
+      "stars",
+      "bubble",
+      "blue",
+      "pastel",
+      "kawaii",
+      "y2k",
+      "bilingual",
+      "japanese",
+      "swimming",
+      "summer",
+      "water",
+      "two-versions",
+      "range"
+    ],
+    "notes": "Two label design variants for a beverage bottle with an illustrated summer pool scene featuring floating bottles, stars and bubbles in cool pastel blue. Y2K kawaii aesthetic with bilingual text elements.",
+    "added": 1775015156318
+  },
+  {
+    "id": 1775015159229,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5030c06ea4ca09d1dd9e37f3bb9c2bf4.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Bright",
+      "Energising",
+      "Fun",
+      "Playful",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Bold",
+      "Vivid",
+      "Primary Colours",
+      "Warm"
+    ],
+    "ingredient": [],
+    "style": [
+      "American",
+      "80s",
+      "Retro-Futurist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Confident",
+      "Empowering",
+      "Joyful"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "typography",
+      "poster",
+      "diagonal",
+      "stripe",
+      "bold",
+      "pink",
+      "teal",
+      "orange",
+      "blue",
+      "motivational",
+      "geometric",
+      "colourblock",
+      "3d-text",
+      "shadow",
+      "retro",
+      "print"
+    ],
+    "notes": "Bold typographic art print Surprise Yourself with 3D-effect lettering across diagonal colour block stripes in hot pink, teal, orange and blue on white. Strong reference for colour-blocking and dimensional type.",
+    "added": 1775015159229
+  },
+  {
+    "id": 1775015466930,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/50f1c7351dc2aa4cb7b49a5a00bbc1d3.jpg",
+    "client": "Glico / Pocky",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Snack",
+      "Confectionery",
+      "Food",
+      "Bakery"
+    ],
+    "tonality": [
+      "Playful",
+      "Bright",
+      "Whimsical",
+      "Youthful",
+      "Approachable",
+      "Feminine",
+      "Friendly"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Women",
+      "Kids",
+      "Teens",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [
+      "blueberry",
+      "milk"
+    ],
+    "style": [
+      "Japanese",
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Wholesome",
+      "Playful",
+      "Indulgent"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "pocky",
+      "biscuit",
+      "stick",
+      "blueberry",
+      "watercolour",
+      "illustration",
+      "japanese",
+      "white",
+      "pastel",
+      "purple",
+      "botanical",
+      "fruit",
+      "chinese",
+      "bilingual",
+      "mass-market",
+      "snack"
+    ],
+    "notes": "Glico Pocky blueberry milk flavour box with watercolour blueberry illustration on white. Soft pastel purple palette, playful and approachable with bilingual Chinese/Japanese typography.",
+    "added": 1775015466930
+  },
+  {
+    "id": 1775015471293,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/51a661f1bf938886df4b977ad980b78d.jpg",
+    "client": "MAGICMORE",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Playful",
+      "Whimsical",
+      "Organic",
+      "Dreamy",
+      "Comforting",
+      "Youthful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Flat Design",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Women",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Earthy",
+      "Cool",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Kawaii"
+    ],
+    "occasion": [
+      "Spring",
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Calming",
+      "Dreamy",
+      "Joyful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Hand-lettered"
+    ],
+    "finish": [],
+    "keywords": [
+      "spring",
+      "illustration",
+      "botanical",
+      "nature",
+      "character",
+      "leaves",
+      "flower",
+      "green",
+      "flat",
+      "vector",
+      "kawaii",
+      "editorial",
+      "seasonal",
+      "ukulele",
+      "music"
+    ],
+    "notes": "MAGICMORE studio Spring Begins seasonal illustration with a tiny character playing ukulele atop a large yellow flower, surrounded by lush tropical green leaves. Clean flat vector style, gentle and whimsical.",
+    "added": 1775015471293
+  },
+  {
+    "id": 1775015473933,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/528804bb6127a23ffb70e02d7ce6da96.jpg",
+    "client": "Banana In",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Personal Care",
+      "Health & Wellness",
+      "Skincare"
+    ],
+    "tonality": [
+      "Cool",
+      "Minimal",
+      "Clinical",
+      "Edgy",
+      "Bold",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Geometric",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z",
+      "Women",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Pastel",
+      "Blue",
+      "Muted",
+      "Monochrome"
+    ],
+    "ingredient": [],
+    "style": [
+      "Swiss / Modernist",
+      "Chinese"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Confident",
+      "Energising",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "campaign",
+      "poster",
+      "blue",
+      "cool",
+      "uv",
+      "skincare",
+      "wellness",
+      "chinese",
+      "swiss",
+      "modernist",
+      "minimal",
+      "geometric",
+      "cross",
+      "bilingual",
+      "summer",
+      "science",
+      "clinical"
+    ],
+    "notes": "Banana In UV protection campaign poster. Cool blue palette with cross/plus geometric motif and Swiss modernist typographic layout with large bold Chinese characters.",
+    "added": 1775015473933
+  },
+  {
+    "id": 1775015477340,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/52c79889ea5eca2638a4f6e730256ff7.jpg",
+    "client": "Unknown",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Dreamy",
+      "Organic",
+      "Earthy",
+      "Feminine",
+      "Whimsical",
+      "Elegant",
+      "Comforting"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Flat Design",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Muted",
+      "Earthy",
+      "Cool",
+      "Neutral"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Folk"
+    ],
+    "occasion": [
+      "Spring",
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Dreamy",
+      "Calming",
+      "Romantic",
+      "Wholesome"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [],
+    "keywords": [
+      "illustration",
+      "botanical",
+      "floral",
+      "nature",
+      "women",
+      "figure",
+      "guitar",
+      "music",
+      "editorial",
+      "green",
+      "cream",
+      "yellow",
+      "folk",
+      "feminine",
+      "garden",
+      "spring"
+    ],
+    "notes": "Soft editorial illustration with two women figures in a lush floral landscape, one playing guitar among oversized white flowers, the other carrying a pot. Gentle green/cream/yellow palette with a folk, dreamy quality.",
+    "added": 1775015477340
+  },
+  {
+    "id": 1775015480218,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/539dbf877c744f43b44478387963c545.jpeg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Baby"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Maximalist",
+      "Fun",
+      "Youthful",
+      "Kawaii",
+      "Retro",
+      "Dopamine"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Flat Design",
+      "Colour-led",
+      "Pop Art",
+      "Doodle"
+    ],
+    "targetAudience": [
+      "Kids",
+      "Teens",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Neon",
+      "Bold",
+      "Bright",
+      "Vivid",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Y2K",
+      "Retro-Futurist",
+      "Memphis"
+    ],
+    "occasion": [
+      "Everyday",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful",
+      "Irreverent"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Uppercase Only",
+      "Condensed",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "toys",
+      "icons",
+      "neon",
+      "green",
+      "retro",
+      "pop",
+      "doodle",
+      "flat",
+      "maximalist",
+      "playful",
+      "candy",
+      "icecream",
+      "sticker",
+      "kawaii",
+      "y2k",
+      "limited-edition",
+      "character",
+      "illustration"
+    ],
+    "notes": "Highly graphic flat design for a toy/collectible brand in neon green with illustrated icons including candy, ice cream and characters. Pop art Y2K/Memphis energy with bold typographic callouts.",
+    "added": 1775015480218
+  },
+  {
+    "id": 1775015482931,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/53a4d0043824824eb457df6d67bfe74a.jpg",
+    "client": "Unknown",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Fun",
+      "Retro",
+      "Bright",
+      "Maximalist",
+      "Energising"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Flat Design",
+      "Colour-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Vivid",
+      "Primary Colours",
+      "Neon"
+    ],
+    "ingredient": [
+      "green tea",
+      "pear"
+    ],
+    "style": [
+      "Memphis",
+      "Retro-Futurist",
+      "Neo-Brutalist",
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Joyful",
+      "Playful",
+      "Irreverent"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "illustration",
+      "tea",
+      "coffee",
+      "french-press",
+      "pear",
+      "green",
+      "pink",
+      "bold",
+      "flat",
+      "risograph",
+      "graphic",
+      "memphis",
+      "retro",
+      "editorial",
+      "mug",
+      "teabag",
+      "two-colour"
+    ],
+    "notes": "Bold flat graphic illustration Green Crush featuring a green tea mug, teabag, French press and pear on hot pink. Strong two-colour Memphis/risograph energy, very graphic and editorial.",
+    "added": 1775015482931
+  },
+  {
+    "id": 1775015486516,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/542236d3a9c532ac87a521d6d88c22c9.jpg",
+    "client": "Dalston Wine Club",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Alcohol",
+      "Wine"
+    ],
+    "tonality": [
+      "Bold",
+      "Edgy",
+      "Maximalist",
+      "Fun",
+      "Playful",
+      "Retro",
+      "Irreverent",
+      "Rebellious"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Illustration-led",
+      "Pattern-led",
+      "Text-driven"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Vivid",
+      "Black & White",
+      "Primary Colours",
+      "Yellow"
+    ],
+    "ingredient": [
+      "grape"
+    ],
+    "style": [
+      "Y2K",
+      "Neo-Brutalist",
+      "Psychedelic",
+      "British"
+    ],
+    "occasion": [
+      "Everyday",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Energising",
+      "Irreverent",
+      "Joyful",
+      "Confident",
+      "Adventurous"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "event",
+      "wine",
+      "yellow",
+      "black",
+      "repeat",
+      "pattern",
+      "psychedelic",
+      "y2k",
+      "brutalist",
+      "grape",
+      "mouth",
+      "bold",
+      "typographic",
+      "neo-brutalist",
+      "london",
+      "party",
+      "allover"
+    ],
+    "notes": "Dalston Wine Club Pet-Nat Party event poster on yellow with all-over text repeat pattern and bold line-art of grapes and mouth. Neo-brutalist Y2K aesthetic, graphic and irreverent. Strong typographic reference.",
+    "added": 1775015486516
+  },
+  {
+    "id": 1775015489259,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/549fc1ed8f78289274be0c4879557bcd.jpg",
+    "client": "Afternoon Tea",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage",
+      "Food"
+    ],
+    "tonality": [
+      "Playful",
+      "Bright",
+      "Friendly",
+      "Approachable",
+      "Fun",
+      "Youthful",
+      "Heritage"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Pattern-led",
+      "Handcrafted"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Women",
+      "Millennial",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Warm",
+      "Pastel",
+      "Gradient"
+    ],
+    "ingredient": [
+      "peach",
+      "pineapple",
+      "lemon",
+      "grape",
+      "lime",
+      "apple",
+      "orange",
+      "darjeeling"
+    ],
+    "style": [
+      "British",
+      "European"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Joyful",
+      "Wholesome",
+      "Playful",
+      "Energising",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Display",
+      "Script",
+      "Hand-lettered",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "tea",
+      "range",
+      "iced-tea",
+      "fruit",
+      "summer",
+      "british",
+      "illustration",
+      "colourful",
+      "handwritten",
+      "multi-sku",
+      "editorial",
+      "flatlay",
+      "cold-brew",
+      "seasonal",
+      "limited-edition",
+      "range-shot"
+    ],
+    "notes": "Afternoon Tea Summer Edition 2016 range of 7 cold-brew iced tea boxes, each colour-coded by fruit flavour with charming handwritten script and fruit illustration. Strong multi-SKU colour differentiation reference.",
+    "added": 1775015489259
+  },
+  {
+    "id": 1775015491724,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/55b87be827d521743ab252d49c66dabb.jpg",
+    "client": "Green Magazine",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Bright",
+      "Fun",
+      "Energising",
+      "Vibrant",
+      "Maximalist"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Flat Design",
+      "Colour-led",
+      "Abstract"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Women"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Bold",
+      "Vivid",
+      "Warm",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Spring",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Confident",
+      "Playful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Wordmark-led"
+    ],
+    "finish": [],
+    "keywords": [
+      "magazine",
+      "editorial",
+      "floral",
+      "botanical",
+      "flower",
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "japanese",
+      "flat",
+      "bold",
+      "abstract",
+      "graphic",
+      "spring",
+      "oversized",
+      "bleed",
+      "cover"
+    ],
+    "notes": "Green Magazine Japan No.279 May 2015 cover with bold oversized abstract flat floral shapes bleeding off the edges in red, pink, magenta, orange and yellow on white. Extremely graphic botanical reference.",
+    "added": 1775015491724
+  },
+  {
+    "id": 1775015494831,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5691689299191_.pic.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Maximalist",
+      "Fun",
+      "Edgy",
+      "Irreverent",
+      "Dopamine"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Illustration-led",
+      "Flat Design",
+      "Mixed Media",
+      "Pop Art"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Vivid",
+      "Primary Colours",
+      "Yellow"
+    ],
+    "ingredient": [
+      "cheese"
+    ],
+    "style": [
+      "Memphis",
+      "Y2K",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Irreverent",
+      "Playful",
+      "Confident"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif",
+      "Uppercase Only",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "cheese",
+      "typography",
+      "memphis",
+      "y2k",
+      "flat",
+      "graphic",
+      "bold",
+      "playful",
+      "editorial",
+      "yellow",
+      "blue",
+      "pink",
+      "collage",
+      "food",
+      "illustration",
+      "humour",
+      "scale"
+    ],
+    "notes": "Playful typographic poster Cheese is Power but not Knowledge with flat illustrated cheese blocks and scales in yellow, blue and pink. Memphis/Y2K collage aesthetic with witty, irreverent messaging.",
+    "added": 1775015494831
+  },
+  {
+    "id": 1775015497712,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/56d1f05392989a9bd90ef2cb7d20aadd.jpg",
+    "client": "Kirin",
+    "imageType": "Campaign",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage",
+      "Dairy"
+    ],
+    "tonality": [
+      "Minimal",
+      "Elegant",
+      "Sophisticated",
+      "Comforting",
+      "Approachable",
+      "Warm"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Geometric",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Women",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Warm",
+      "Muted",
+      "Pastel"
+    ],
+    "ingredient": [
+      "milk tea",
+      "milk"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday",
+      "Autumn",
+      "Winter"
+    ],
+    "mood": [
+      "Calming",
+      "Wholesome",
+      "Trustworthy",
+      "Comforting"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "kirin",
+      "milk-tea",
+      "bottle",
+      "japanese",
+      "product-shot",
+      "geometric",
+      "pattern",
+      "campaign",
+      "clean",
+      "warm",
+      "bilingual",
+      "tea",
+      "new",
+      "hero",
+      "diagonal",
+      "diamond"
+    ],
+    "notes": "Kirin Gogo no Kocha The Meisters Milk Tea new product launch campaign. Clean warm editorial with bottle hero on a geometric diamond-patterned background in muted golds and blues. Japanese retail reference.",
+    "added": 1775015497712
+  },
+  {
+    "id": 1775015500221,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/56fd818d4e5e25d1d51e31f40f2ba943.jpg",
+    "client": "MOTI",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Personal Care",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Cool",
+      "Minimal",
+      "Clean",
+      "Youthful",
+      "Dreamy",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Gradient",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Pastel",
+      "Blue",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Dreamy",
+      "Energising",
+      "Confident"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "summer",
+      "cool",
+      "chinese",
+      "blue",
+      "snowflake",
+      "poster",
+      "campaign",
+      "frosted",
+      "gradient",
+      "clean",
+      "editorial",
+      "bilingual",
+      "minimal",
+      "sky",
+      "calm",
+      "wellness"
+    ],
+    "notes": "MOTI brand summer wellness campaign Art of Staying Cool. Sky blue gradient with large Chinese characters, snowflake motifs and frosted glass effect. Clean and refreshing.",
+    "added": 1775015500221
+  },
+  {
+    "id": 1775015504688,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5701689299192_.pic.jpg",
+    "client": "Recorder Romance",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Bright",
+      "Fun",
+      "Youthful",
+      "Feminine",
+      "Dopamine"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Mixed Media",
+      "Geometric",
+      "Collage"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z",
+      "Women"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Warm",
+      "Vivid"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful",
+      "Aspirational"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif",
+      "Italic"
+    ],
+    "finish": [],
+    "keywords": [
+      "magazine",
+      "editorial",
+      "pink",
+      "bold",
+      "typography",
+      "bilingual",
+      "chinese",
+      "collage",
+      "y2k",
+      "mixed-type",
+      "cover",
+      "playful",
+      "feminine",
+      "2022"
+    ],
+    "notes": "Recorder Romance magazine cover with bold mixed Chinese/English typography in pink, white and black. Energetic bilingual Y2K-influenced editorial design reference.",
+    "added": 1775015504688
+  },
+  {
+    "id": 1775015508450,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5711689299192_.pic.jpg",
+    "client": "Orchard Symphony",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Juice",
+      "Beverage",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Edgy",
+      "Retro",
+      "Playful",
+      "Maximalist",
+      "Heritage",
+      "Irreverent"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Mixed Media",
+      "Collage",
+      "Illustration-led",
+      "Text-driven"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Neutral",
+      "Muted",
+      "Bold",
+      "Black & White"
+    ],
+    "ingredient": [
+      "apple"
+    ],
+    "style": [
+      "Neo-Brutalist",
+      "Chinese",
+      "Retro-Futurist"
+    ],
+    "occasion": [
+      "Everyday",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Adventurous",
+      "Irreverent",
+      "Confident",
+      "Playful"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Serif",
+      "Sans-serif",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "apple",
+      "juice",
+      "poster",
+      "brutalist",
+      "mixed-type",
+      "collage",
+      "black-white",
+      "red",
+      "editorial",
+      "chinese",
+      "campaign",
+      "bilingual",
+      "fruit",
+      "newspaper",
+      "layered",
+      "risograph"
+    ],
+    "notes": "Orchard Symphony The SE(C)reT of the Forest apple juice campaign. Neo-brutalist collage with large illustrated apple, bold mixed type across newspaper-style layered composition. Cream/black/red palette.",
+    "added": 1775015508450
+  },
+  {
+    "id": 1775015514225,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5721689299193_.pic.jpg",
+    "client": "Unknown",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Playful",
+      "Bright",
+      "Fun",
+      "Friendly",
+      "Wholesome",
+      "Approachable",
+      "Organic"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Flat Design",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Warm",
+      "Earthy"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Folk",
+      "Naive"
+    ],
+    "occasion": [
+      "Spring",
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Joyful",
+      "Grounded",
+      "Calming"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "nature",
+      "rural",
+      "illustration",
+      "flat",
+      "green",
+      "animal",
+      "goose",
+      "landscape",
+      "bilingual",
+      "chinese",
+      "folk",
+      "editorial",
+      "earthy",
+      "poster",
+      "farm",
+      "naive",
+      "fields"
+    ],
+    "notes": "Illustrated poster Fields I Love Nature with flat vector rural landscape including mountains, paddyfields, animals (geese, cows) and a sun. Bilingual layout, warm naive folk illustration style.",
+    "added": 1775015514225
+  },
+  {
+    "id": 1775015517324,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5731689299194_.pic.jpg",
+    "client": "MathRoom",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Cool",
+      "Minimal",
+      "Edgy",
+      "Sophisticated",
+      "Playful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Line Art",
+      "Typography-led",
+      "Mixed Media"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Monochrome",
+      "Blue",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Aspirational",
+      "Playful",
+      "Mysterious"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "mathematics",
+      "music",
+      "line-art",
+      "blue",
+      "silver",
+      "illustration",
+      "formula",
+      "editorial",
+      "bilingual",
+      "chinese",
+      "modernist",
+      "instrument",
+      "series",
+      "geometric",
+      "singing-bowl"
+    ],
+    "notes": "MathRoom Fibonacci Sequence Series 2 music/math editorial poster with blue line-art of singing bowls and percussion instruments on silver-grey. Mathematical formula overlay, bilingual typography.",
+    "added": 1775015517324
+  },
+  {
+    "id": 1775015521871,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5741689299194_.pic.jpg",
+    "client": "MathRoom",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Cool",
+      "Sophisticated",
+      "Playful",
+      "Edgy"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Line Art",
+      "Typography-led",
+      "Mixed Media",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Cool",
+      "Blue",
+      "Warm",
+      "Duotone"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist",
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Aspirational",
+      "Playful",
+      "Mysterious"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "mathematics",
+      "music",
+      "illustration",
+      "blue",
+      "gold",
+      "fan",
+      "japanese",
+      "formula",
+      "editorial",
+      "bilingual",
+      "chinese",
+      "modernist",
+      "instrument",
+      "series",
+      "duotone",
+      "floral"
+    ],
+    "notes": "MathRoom Fourier Series Series 7 poster with gold/cream illustrated Japanese fan and floral motif on deep blue. Mathematical formula overlay, duotone contrast, mix of eastern illustration and Swiss modernist layout.",
+    "added": 1775015521871
+  },
+  {
+    "id": 1775015525592,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5751689299195_.pic.jpg",
+    "client": "Pear Tea",
+    "imageType": "Key Visual",
+    "format": [
+      "Cup",
+      "Bag"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Fun",
+      "Youthful",
+      "Kawaii",
+      "Vibrant",
+      "Energising",
+      "Dopamine"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Flat Design",
+      "Visual Hammer"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Teens",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Warm",
+      "Vivid",
+      "Orange"
+    ],
+    "ingredient": [
+      "pear"
+    ],
+    "style": [
+      "Chinese",
+      "Kawaii"
+    ],
+    "occasion": [
+      "Everyday",
+      "Chinese New Year",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful",
+      "Confident"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "tiger",
+      "mascot",
+      "character",
+      "brand",
+      "orange",
+      "beverage",
+      "tea",
+      "cup",
+      "bag",
+      "sticker",
+      "brand-system",
+      "identity",
+      "chinese",
+      "kawaii",
+      "bold",
+      "cny",
+      "illustrated",
+      "tiger-year",
+      "range"
+    ],
+    "notes": "Full brand identity for Pear Tea built around a playful cartoon tiger mascot in bold orange across cup, bag, coasters, stickers and loyalty cards. Strong Chinese kawaii brand system reference.",
+    "added": 1775015525592
+  },
+  {
+    "id": 1775015528632,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5761689299196_.pic.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Bright",
+      "Youthful",
+      "Energising",
+      "Fun"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Geometric",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Vivid",
+      "Yellow",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Swiss / Modernist",
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Joyful",
+      "Confident",
+      "Empowering",
+      "Playful"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "exhibition",
+      "yellow",
+      "black",
+      "typography",
+      "swiss",
+      "modernist",
+      "geometric",
+      "bilingual",
+      "chinese",
+      "bold",
+      "circle",
+      "event",
+      "art",
+      "gallery",
+      "taiwan"
+    ],
+    "notes": "Exhibition poster Had to Sing solo show by Wu Yongjie. Bold yellow background with large black mixed-weight Swiss modernist typography and a geometric circle. Clean and confident bilingual editorial design.",
+    "added": 1775015528632
   }
 ];
