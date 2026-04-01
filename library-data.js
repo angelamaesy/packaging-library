@@ -23142,5 +23142,861 @@ const LIBRARY_DATA = [
     ],
     "notes": "Three Hundred Lychees (三百颗荔枝) — 3 boxes stacked showing consistent wrap-around watercolour illustration. Strong Chinese fruit gifting range reference for artisan brand with folk illustration applied across multiple formats.",
     "added": 1775015722710
+  },
+  {
+    "id": 1775015729767,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/6171689299251_.pic.jpg",
+    "client": "Mago Chicken",
+    "imageType": "Reference",
+    "format": [
+      "Box",
+      "Bag"
+    ],
+    "productCategory": [
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Fun",
+      "Playful",
+      "Vibrant",
+      "Edgy"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Line Art",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Primary Colours",
+      "Warm",
+      "Red",
+      "Monochrome"
+    ],
+    "ingredient": [
+      "fried chicken"
+    ],
+    "style": [
+      "Chinese",
+      "Korean",
+      "Neo-Brutalist",
+      "Streetwear"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising",
+      "Irreverent"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "fried-chicken",
+      "delivery",
+      "korean",
+      "chinese",
+      "bilingual",
+      "red",
+      "white",
+      "line-art",
+      "illustration",
+      "brand-identity",
+      "bold",
+      "food",
+      "streetfood",
+      "box",
+      "packaging"
+    ],
+    "notes": "Mago Chicken 马고치킨 brand identity portfolio screenshot — Chinese fried chicken delivery brand with red/white/black line illustration and bilingual Chinese/Korean type. Strong streetfood brand identity reference with neo-brutalist line art approach.",
+    "added": 1775015729767
+  },
+  {
+    "id": 1775015736818,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/6181689299252_.pic.jpg",
+    "client": "Les Fleurs de Chine",
+    "imageType": "Range Shot",
+    "format": [
+      "Bottle",
+      "Box",
+      "Tin"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Personal Care",
+      "Beauty"
+    ],
+    "tonality": [
+      "Feminine",
+      "Elegant",
+      "Dreamy",
+      "Romantic",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Colour-led",
+      "Photography-led"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Pink",
+      "Warm",
+      "Muted"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "French",
+      "Art Nouveau"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season",
+      "Valentine's Day",
+      "Mother's Day"
+    ],
+    "mood": [
+      "Romantic",
+      "Dreamy",
+      "Aspirational",
+      "Elegant"
+    ],
+    "typography": [
+      "Script",
+      "Serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss",
+      "Soft Touch"
+    ],
+    "keywords": [
+      "skincare",
+      "pink",
+      "floral",
+      "cherry-blossom",
+      "botanical",
+      "bottle",
+      "box",
+      "tin",
+      "beauty",
+      "chinese",
+      "french",
+      "feminine",
+      "range",
+      "pastel",
+      "lotion"
+    ],
+    "notes": "Les Fleurs de Chine pink floral skincare range — pump bottle, box and tins on pink background with cherry blossom illustration. Strong feminine Chinese-French skincare range reference with Art Nouveau botanical illustration.",
+    "added": 1775015736818
+  },
+  {
+    "id": 1775015741084,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/6191689299253_.pic.jpg",
+    "client": "Various",
+    "imageType": "Reference",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Personal Care",
+      "Food",
+      "Confectionery"
+    ],
+    "tonality": [
+      "Fresh",
+      "Clean",
+      "Playful",
+      "Friendly",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Photography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Health Conscious",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Warm",
+      "Pink",
+      "Muted"
+    ],
+    "ingredient": [
+      "peach",
+      "grape",
+      "fruit"
+    ],
+    "style": [
+      "Chinese",
+      "Minimal",
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Joyful",
+      "Calming",
+      "Grounded"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss",
+      "Matte"
+    ],
+    "keywords": [
+      "mouthwash",
+      "box",
+      "fudge",
+      "candy",
+      "peach",
+      "grape",
+      "sugar-free",
+      "chinese",
+      "clean",
+      "fresh",
+      "pastel",
+      "functional",
+      "fruit",
+      "two-products",
+      "reference"
+    ],
+    "notes": "Two Chinese products in one shot: Sun Hedgehog sugar-free mouthwash boxes (illustrated fruit, clean) + Qishi Fruit Fudge pink box (peach photography). Useful reference for functional oral care and confectionery box design in clean minimal style.",
+    "added": 1775015741084
+  },
+  {
+    "id": 1775015743368,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/61a4b1374d8d7582133a2a2e0cf68f0d.jpg",
+    "client": "Kanro",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag",
+      "Pouch"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Snack",
+      "Food",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Soft",
+      "Feminine",
+      "Fresh",
+      "Organic",
+      "Dreamy"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Illustration-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Young Adults",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Pink",
+      "Muted"
+    ],
+    "ingredient": [
+      "peach",
+      "syrup"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Wholesome",
+      "Dreamy",
+      "Romantic"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Script",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "candy",
+      "throat",
+      "peach",
+      "syrup",
+      "japanese",
+      "pouch",
+      "bag",
+      "pink",
+      "soft",
+      "fruit",
+      "kanro",
+      "photograph",
+      "pastel",
+      "feminine",
+      "sweet"
+    ],
+    "notes": "Kanro もも (White Peach) Syrup throat candy bag — soft pink with white peach photography and illustrated syrup motif. Gentle Japanese confectionery packaging reference — photography-led with delicate illustration, strong peach/feminine palette.",
+    "added": 1775015743368
+  },
+  {
+    "id": 1775015745735,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/65052693fde3ac18445d1c6d004152f5.jpg",
+    "client": "Go Groats",
+    "imageType": "Range Shot",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Food",
+      "Snack",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Bold",
+      "Fun",
+      "Vibrant",
+      "Playful",
+      "Energising"
+    ],
+    "designCode": [
+      "Geometric",
+      "Pattern-led",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Health Conscious",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Bold",
+      "Primary Colours",
+      "Dark",
+      "Warm"
+    ],
+    "ingredient": [
+      "buckwheat",
+      "rice",
+      "oatmeal"
+    ],
+    "style": [
+      "European",
+      "Neo-Brutalist",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Playful",
+      "Confident",
+      "Joyful"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "cup",
+      "porridge",
+      "instant",
+      "topdown",
+      "flatlay",
+      "geometric",
+      "circular",
+      "russian",
+      "bold",
+      "colourful",
+      "range",
+      "buckwheat",
+      "oatmeal",
+      "rice",
+      "healthy"
+    ],
+    "notes": "Go Groats instant porridge cup range — top-down flatlay of circular cups in black, purple, teal, beige, yellow and red with geometric label designs. Bold neo-brutalist Russian healthy food brand — strong topdown range shot reference with striking colour variety.",
+    "added": 1775015745735
+  },
+  {
+    "id": 1775015748445,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/65a824d0d1e5d2c78a504cfc39c5f727.jpeg",
+    "client": "Dr. Lemon",
+    "imageType": "Label Design",
+    "format": [
+      "Can"
+    ],
+    "productCategory": [
+      "Alcohol",
+      "Beverage",
+      "Spirits"
+    ],
+    "tonality": [
+      "Bold",
+      "Fun",
+      "Edgy",
+      "Vibrant",
+      "Playful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Line Art",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Green",
+      "Yellow",
+      "Warm"
+    ],
+    "ingredient": [
+      "mojito",
+      "caipirinha",
+      "lime",
+      "lemon"
+    ],
+    "style": [
+      "Latin American",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Playful",
+      "Energising",
+      "Joyful",
+      "Adventurous"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Condensed",
+      "Uppercase Only",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "label",
+      "mojito",
+      "caipirinha",
+      "lime",
+      "lemon",
+      "illustration",
+      "line-art",
+      "bold",
+      "RTD",
+      "cocktail",
+      "argentinian",
+      "green",
+      "yellow",
+      "two-up",
+      "alcohol"
+    ],
+    "notes": "Dr. Lemon Mojito and Caipirinha RTD label designs — line art illustrated cocktail glasses with bold condensed typography on cream. Strong Latin American RTD label reference — confident illustration + type pairing with cream base.",
+    "added": 1775015748445
+  },
+  {
+    "id": 1775015750761,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/662941b949346e1b4893b94bb92035d0.jpg",
+    "client": "LoPrint",
+    "imageType": "Range Shot",
+    "format": [
+      "Tube"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage",
+      "Gifting"
+    ],
+    "tonality": [
+      "Feminine",
+      "Dreamy",
+      "Elegant",
+      "Soft",
+      "Romantic"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Young Adults",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Cool",
+      "Muted"
+    ],
+    "ingredient": [
+      "tea"
+    ],
+    "style": [
+      "Chinese",
+      "Art Nouveau",
+      "Cottagecore"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Calming",
+      "Dreamy",
+      "Romantic",
+      "Wholesome"
+    ],
+    "typography": [
+      "Display",
+      "Script",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss",
+      "Matte"
+    ],
+    "keywords": [
+      "tube",
+      "cylinder",
+      "tea",
+      "chinese",
+      "pastel",
+      "floral",
+      "botanical",
+      "range",
+      "stacked",
+      "pink",
+      "lavender",
+      "mint",
+      "illustration",
+      "gifting",
+      "feminine"
+    ],
+    "notes": "LoPrint Chinese Tea cylindrical tube range — 7+ tubes in soft pastel colours (pink, lavender, mint, yellow) with floral/botanical illustrated wraps stacked on shelf. Excellent pastel botanical tube packaging reference for gifting tea or premium personal care.",
+    "added": 1775015750761
+  },
+  {
+    "id": 1775015753235,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/663e8e3fad2454bd5cb23c3f21df2e45.jpg",
+    "client": "Schweppes",
+    "imageType": "Pack Design",
+    "format": [
+      "Can"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Water"
+    ],
+    "tonality": [
+      "Bold",
+      "Fresh",
+      "Vibrant",
+      "Heritage",
+      "Elegant"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Premium",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Yellow",
+      "Green",
+      "Bold",
+      "Monochrome"
+    ],
+    "ingredient": [
+      "tonic water"
+    ],
+    "style": [
+      "European",
+      "British",
+      "Art Nouveau"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Energising",
+      "Joyful",
+      "Confident",
+      "Aspirational"
+    ],
+    "typography": [
+      "Script",
+      "Display",
+      "Serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss",
+      "Metallic Ink"
+    ],
+    "keywords": [
+      "can",
+      "tonic",
+      "schweppes",
+      "sunflower",
+      "botanical",
+      "yellow",
+      "green",
+      "dots",
+      "illustration",
+      "slim-can",
+      "british",
+      "floral",
+      "bold",
+      "heritage",
+      "RTD"
+    ],
+    "notes": "Schweppes Indian Tonic slim can with bold sunflower and botanical illustration on white/silver with black dot pattern. Strong heritage brand limited edition reference — expressive botanical illustration applied to metallic can format.",
+    "added": 1775015753235
+  },
+  {
+    "id": 1775015755592,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/66d71f3d713d96f84f9b65e058ae6078.jpg",
+    "client": "Karvan Cévitam",
+    "imageType": "Range Shot",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Juice"
+    ],
+    "tonality": [
+      "Fresh",
+      "Vibrant",
+      "Elegant",
+      "Playful",
+      "Bright"
+    ],
+    "designCode": [
+      "Geometric",
+      "Pattern-led",
+      "Colour-led",
+      "Photography-led"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Young Adults",
+      "Women",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Warm",
+      "Cool",
+      "Gradient"
+    ],
+    "ingredient": [
+      "lemon",
+      "elderflower",
+      "strawberry",
+      "rhubarb",
+      "lime",
+      "mint"
+    ],
+    "style": [
+      "European",
+      "Scandinavian"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Aspirational",
+      "Wholesome"
+    ],
+    "typography": [
+      "Script",
+      "Display",
+      "Serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "bottle",
+      "syrup",
+      "range",
+      "geometric",
+      "diamond",
+      "yellow",
+      "pink",
+      "green",
+      "dutch",
+      "lifestyle",
+      "lemon",
+      "strawberry",
+      "lime",
+      "fruit",
+      "elegant"
+    ],
+    "notes": "Karvan Cévitam Signature Blends 3-bottle range (lemon/elderflower, strawberry/rhubarb, lime/mint) with geometric diamond-pattern labels in yellow/pink/green. Elegant European fruit syrup range — geometric pattern-coding by flavour with script logotype.",
+    "added": 1775015755592
+  },
+  {
+    "id": 1775015758897,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/67e6608b4fca4d6c566f414866b0187e.jpg",
+    "client": "今日宜·果酿",
+    "imageType": "Key Visual",
+    "format": [
+      "Can"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Alcohol"
+    ],
+    "tonality": [
+      "Bold",
+      "Cool",
+      "Edgy",
+      "Vibrant",
+      "Playful"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Pattern-led",
+      "Colour-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Pink",
+      "Green",
+      "Bold",
+      "Muted"
+    ],
+    "ingredient": [
+      "peach",
+      "oolong tea"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Joyful",
+      "Confident",
+      "Energising",
+      "Playful"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "can",
+      "sparkling",
+      "fermentation",
+      "peach",
+      "oolong",
+      "chinese",
+      "pixel",
+      "mosaic",
+      "pink",
+      "green",
+      "bilingual",
+      "poster",
+      "natural",
+      "zero-sugar",
+      "campaign"
+    ],
+    "notes": "今日宜·果酿 (Raw Fruit Fermentation) peach oolong sparkling cider campaign poster — pixel/mosaic pattern can on typographic layout in pink/green. Strong Chinese natural fermentation beverage reference with neo-brutalist type and pixel pattern.",
+    "added": 1775015758897
   }
 ];

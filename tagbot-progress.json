@@ -252,7 +252,7 @@
   "batch_size": 50,
   "notes": "AutoTagger checkpoint. processed = filenames already tagged and moved to dated subfolder. Do not re-tag these.",
   "db_total": 502,
-  "db_tagged": 299,
-  "db_remaining": 203,
+  "db_tagged": 309,
+  "db_remaining": 193,
   "last_push": "2026-04-01"
 }
