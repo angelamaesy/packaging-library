@@ -2,232 +2,888 @@ const LIBRARY_DATA = [
   {
     "id": 1775031295649,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/f6c1f02f4c47cc9e7702de0b2b72ecea.jpg",
-    "client": "",
-    "imageType": "",
-    "format": "",
-    "productCategory": [],
-    "tonality": [],
-    "designCode": [],
-    "targetAudience": [],
-    "colourPalette": [],
-    "ingredient": [],
-    "style": [],
-    "occasion": [],
-    "mood": [],
-    "typography": [],
-    "finish": [],
-    "keywords": [],
-    "notes": "",
+    "client": "Nayuki",
+    "imageType": "Campaign",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Water",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Playful",
+      "Friendly",
+      "Fun",
+      "Youthful",
+      "Bright"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Health Conscious",
+      "Women"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Cool",
+      "Vivid"
+    ],
+    "ingredient": [
+      "sparkling water",
+      "peach",
+      "lemon"
+    ],
+    "style": [
+      "Japanese",
+      "Kawaii",
+      "Y2K"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising",
+      "Wholesome"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "bottle",
+      "sparkling-water",
+      "kawaii",
+      "pink",
+      "yellow",
+      "illustration",
+      "campaign",
+      "sugar-free",
+      "zero-calorie",
+      "claims",
+      "bilingual",
+      "nayuki",
+      "functional",
+      "health",
+      "peach"
+    ],
+    "notes": "Nayuki 奈雪 sparkling water campaign poster featuring two bottles (pink/yellow) with kawaii illustration on pastel blue background. Strong functional claims design reference — '0卡0脂0糖' messaging with playful Japanese-inspired illustration.",
     "added": 1775031295649
   },
   {
     "id": 1775031301106,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/f9b6f8a751c2b224313c96117704e036.jpg",
-    "client": "",
-    "imageType": "",
-    "format": "",
-    "productCategory": [],
-    "tonality": [],
-    "designCode": [],
-    "targetAudience": [],
-    "colourPalette": [],
-    "ingredient": [],
-    "style": [],
-    "occasion": [],
-    "mood": [],
-    "typography": [],
-    "finish": [],
-    "keywords": [],
-    "notes": "",
+    "client": "Martín Berasategui",
+    "imageType": "Range Shot",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Food",
+      "Gourmet"
+    ],
+    "tonality": [
+      "Sophisticated",
+      "Gourmet",
+      "Luxury",
+      "Minimal",
+      "Elegant"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Clean",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Muted",
+      "Cool",
+      "Metallic"
+    ],
+    "ingredient": [
+      "soup",
+      "croquette",
+      "cod",
+      "meat",
+      "lasagne"
+    ],
+    "style": [
+      "European",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Aspirational",
+      "Trustworthy",
+      "Indulgent",
+      "Confident"
+    ],
+    "typography": [
+      "Script",
+      "Sans-serif",
+      "Serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte",
+      "Soft Touch"
+    ],
+    "keywords": [
+      "silver",
+      "grey",
+      "chef",
+      "gourmet",
+      "range",
+      "food-photography",
+      "box",
+      "premium",
+      "script",
+      "signature",
+      "hero",
+      "elegant",
+      "spanish",
+      "frozen",
+      "celebrity"
+    ],
+    "notes": "Martín Berasategui chef-range premium frozen food packaging — silver/grey boxes with window food photography and signature script logotype. Excellent premium food range reference using photography + minimal structural design.",
     "added": 1775031301106
   },
   {
     "id": 1775031307107,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fa1866f54063052643e6035cb6d868d6.jpg",
-    "client": "",
-    "imageType": "",
-    "format": "",
+    "client": "Tencent Music / QQ Music",
+    "imageType": "Campaign",
+    "format": [],
     "productCategory": [],
-    "tonality": [],
-    "designCode": [],
-    "targetAudience": [],
-    "colourPalette": [],
+    "tonality": [
+      "Bold",
+      "Energising",
+      "Cool",
+      "Confident",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Typography-led",
+      "3D",
+      "Colour-led",
+      "Abstract"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Bold",
+      "Gradient",
+      "Vivid",
+      "Blue"
+    ],
     "ingredient": [],
-    "style": [],
-    "occasion": [],
-    "mood": [],
-    "typography": [],
+    "style": [
+      "Chinese",
+      "Y2K",
+      "American"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Aspirational",
+      "Confident",
+      "Energising",
+      "Adventurous"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
     "finish": [],
-    "keywords": [],
-    "notes": "",
+    "keywords": [
+      "globe",
+      "music",
+      "tencent",
+      "blue",
+      "gradient",
+      "3D",
+      "sphere",
+      "campaign",
+      "overseas",
+      "bilingual",
+      "tech",
+      "digital",
+      "launch",
+      "brand",
+      "chinese"
+    ],
+    "notes": "Tencent Music / QQ Music overseas campaign poster with 3D globe wrapped in reversed typography on a blue gradient. Strong tech-brand campaign reference for global launch messaging.",
     "added": 1775031307107
   },
   {
     "id": 1775031311189,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fab095d747974b40a1485cff14e70cd0.jpg",
-    "client": "",
-    "imageType": "",
-    "format": "",
-    "productCategory": [],
-    "tonality": [],
-    "designCode": [],
-    "targetAudience": [],
-    "colourPalette": [],
-    "ingredient": [],
-    "style": [],
-    "occasion": [],
-    "mood": [],
-    "typography": [],
-    "finish": [],
-    "keywords": [],
-    "notes": "",
+    "client": "Unknown",
+    "imageType": "Range Shot",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Alcohol",
+      "Spirits",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Organic",
+      "Elegant",
+      "Approachable",
+      "Nostalgic"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Handcrafted",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Women"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Muted",
+      "Earthy",
+      "Neutral"
+    ],
+    "ingredient": [
+      "peach",
+      "yuzu",
+      "plum",
+      "ume"
+    ],
+    "style": [
+      "Japanese",
+      "Folk"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Nostalgic",
+      "Wholesome",
+      "Grounded",
+      "Aspirational"
+    ],
+    "typography": [
+      "Serif",
+      "Script",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "bottle",
+      "japanese",
+      "fruit",
+      "liqueur",
+      "peach",
+      "yuzu",
+      "plum",
+      "ume",
+      "illustration",
+      "label",
+      "range",
+      "heritage",
+      "traditional",
+      "warm",
+      "sake"
+    ],
+    "notes": "Japanese fruit liqueur range — 3 bottles (peach, yuzu, ume) with illustrated labels in warm earthy tones. Classic Japanese heritage bottle label reference for artisan spirits or flavoured liqueur range design.",
     "added": 1775031311189
   },
   {
     "id": 1775031314688,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/facefb7f3f4e164917ca3b295581eb9a.jpg",
-    "client": "",
-    "imageType": "",
-    "format": "",
-    "productCategory": [],
-    "tonality": [],
-    "designCode": [],
-    "targetAudience": [],
-    "colourPalette": [],
-    "ingredient": [],
-    "style": [],
-    "occasion": [],
-    "mood": [],
-    "typography": [],
-    "finish": [],
-    "keywords": [],
-    "notes": "",
+    "client": "Gordon's",
+    "imageType": "Range Shot",
+    "format": [
+      "Can"
+    ],
+    "productCategory": [
+      "Alcohol",
+      "Spirits",
+      "Beverage"
+    ],
+    "tonality": [
+      "Fresh",
+      "Elegant",
+      "Sophisticated",
+      "Heritage",
+      "Organic"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Line Art",
+      "Pattern-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Women",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Muted",
+      "Cool",
+      "Metallic",
+      "Green"
+    ],
+    "ingredient": [
+      "cucumber",
+      "elderflower",
+      "gin"
+    ],
+    "style": [
+      "British",
+      "European"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Calming",
+      "Aspirational",
+      "Elegant",
+      "Wholesome"
+    ],
+    "typography": [
+      "Script",
+      "Serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss",
+      "Metallic Ink"
+    ],
+    "keywords": [
+      "gin",
+      "can",
+      "botanical",
+      "line-art",
+      "elderflower",
+      "cucumber",
+      "silver",
+      "metallic",
+      "range",
+      "british",
+      "slim-can",
+      "alcohol",
+      "heritage",
+      "floral",
+      "illustration"
+    ],
+    "notes": "Gordon's Gin slim cans (cucumber & elderflower) with botanical line art illustration on silver metallic substrate. Strong British heritage RTD can reference — line art + botanicals applied to metallic packaging.",
     "added": 1775031314688
   },
   {
     "id": 1775031318339,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fbf20df1d7554f5cd3b43605abf2bee0.jpg",
-    "client": "",
-    "imageType": "",
-    "format": "",
+    "client": "Various",
+    "imageType": "Reference",
+    "format": [],
     "productCategory": [],
-    "tonality": [],
-    "designCode": [],
-    "targetAudience": [],
-    "colourPalette": [],
+    "tonality": [
+      "Bold",
+      "Minimal",
+      "Clean",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Geometric",
+      "Abstract",
+      "Flat Design",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Primary Colours",
+      "Vivid",
+      "Cool"
+    ],
     "ingredient": [],
-    "style": [],
-    "occasion": [],
-    "mood": [],
-    "typography": [],
+    "style": [
+      "Swiss / Modernist",
+      "Bauhaus",
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Trustworthy",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Serif"
+    ],
     "finish": [],
-    "keywords": [],
-    "notes": "",
+    "keywords": [
+      "logo",
+      "logomark",
+      "icon",
+      "geometric",
+      "abstract",
+      "eye",
+      "bird",
+      "monogram",
+      "symbol",
+      "flat",
+      "minimal",
+      "brand",
+      "identity",
+      "blue",
+      "red"
+    ],
+    "notes": "Logo design reference sheet — Sony Music Publishing, Shawn Banks Panorama, MisterShot B monogram, Mour Oumousse geometric bird. Strong geometric logomark reference for brand identity and symbol design.",
     "added": 1775031318339
   },
   {
     "id": 1775031323522,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fc2980493f43760d457e6f77e917e47b.jpg",
-    "client": "",
-    "imageType": "",
-    "format": "",
-    "productCategory": [],
-    "tonality": [],
-    "designCode": [],
-    "targetAudience": [],
-    "colourPalette": [],
-    "ingredient": [],
-    "style": [],
-    "occasion": [],
-    "mood": [],
-    "typography": [],
+    "client": "Peach Cheezo",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [
+      "Food",
+      "Confectionery",
+      "Snack"
+    ],
+    "tonality": [
+      "Playful",
+      "Fresh",
+      "Vibrant",
+      "Feminine",
+      "Fun"
+    ],
+    "designCode": [
+      "3D",
+      "Photography-led",
+      "Illustration-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Women"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Pink",
+      "Gradient"
+    ],
+    "ingredient": [
+      "peach",
+      "cheese",
+      "tea",
+      "yogurt",
+      "cream"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K",
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Indulgent",
+      "Dreamy"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
     "finish": [],
-    "keywords": [],
-    "notes": "",
+    "keywords": [
+      "icecream",
+      "peach",
+      "3D",
+      "exploded",
+      "product",
+      "pink",
+      "dessert",
+      "layers",
+      "render",
+      "gradient",
+      "fresh",
+      "kawaii",
+      "chinese",
+      "summer",
+      "campaign"
+    ],
+    "notes": "Peach Cheezo 芝芝桃桃 ice cream bar campaign poster with 3D exploded layer render showing tea shell, peach ice cream, yogurt and cheesecake on pink gradient. Excellent food product layering/hero reference for premium dessert brands.",
     "added": 1775031323522
   },
   {
     "id": 1775031327454,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fdeb3a874fba38fbfdfc719b86ad60e1.jpeg",
-    "client": "",
-    "imageType": "",
-    "format": "",
+    "client": "Gogusuni / Yellow Planet",
+    "imageType": "Illustration",
+    "format": [],
     "productCategory": [],
-    "tonality": [],
-    "designCode": [],
-    "targetAudience": [],
-    "colourPalette": [],
+    "tonality": [
+      "Playful",
+      "Fun",
+      "Youthful",
+      "Kawaii",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Flat Design",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Warm",
+      "Yellow",
+      "Primary Colours"
+    ],
     "ingredient": [],
-    "style": [],
-    "occasion": [],
-    "mood": [],
-    "typography": [],
+    "style": [
+      "Korean",
+      "Y2K",
+      "Kawaii"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Wholesome",
+      "Dreamy"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
     "finish": [],
-    "keywords": [],
-    "notes": "",
+    "keywords": [
+      "yellow",
+      "browser",
+      "window",
+      "computer",
+      "kawaii",
+      "character",
+      "cloud",
+      "daisy",
+      "grid",
+      "pattern",
+      "korean",
+      "illustration",
+      "digital",
+      "web",
+      "retro"
+    ],
+    "notes": "Gogusuni Yellow Planet Site illustration using browser-window frame graphic on yellow grid. Strong Korean Y2K digital/web motif reference — great for digital-native brand visual language.",
     "added": 1775031327454
   },
   {
     "id": 1775031332360,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fdecfa23759416b6b582402765132e53.jpg",
-    "client": "",
-    "imageType": "",
-    "format": "",
-    "productCategory": [],
-    "tonality": [],
-    "designCode": [],
-    "targetAudience": [],
-    "colourPalette": [],
-    "ingredient": [],
-    "style": [],
-    "occasion": [],
-    "mood": [],
-    "typography": [],
-    "finish": [],
-    "keywords": [],
-    "notes": "",
+    "client": "Plantag",
+    "imageType": "Key Visual",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Dairy",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Bold",
+      "Fresh",
+      "Vibrant",
+      "Friendly",
+      "Approachable"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Young Adults",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Green",
+      "Warm",
+      "Bright"
+    ],
+    "ingredient": [
+      "pistachio",
+      "plant milk"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Wholesome",
+      "Confident",
+      "Joyful"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "bottle",
+      "pistachio",
+      "plant-milk",
+      "green",
+      "yellow",
+      "bold",
+      "health",
+      "hashtag",
+      "chinese",
+      "functional",
+      "claims",
+      "vegan",
+      "dairy-free",
+      "hero",
+      "omega"
+    ],
+    "notes": "Plantag #植物标签 pistachio plant milk bottle campaign on vivid yellow-green background. Bold hashtag-led branding with functional health claims — strong reference for health-forward Chinese plant-based beverage.",
     "added": 1775031332360
   },
   {
     "id": 1775031337418,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/fe7a650d86ee50f067eaacb4baaec91c.jpg",
-    "client": "",
-    "imageType": "",
-    "format": "",
-    "productCategory": [],
-    "tonality": [],
-    "designCode": [],
-    "targetAudience": [],
-    "colourPalette": [],
+    "client": "Super Plants",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Personal Care",
+      "Household",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Playful",
+      "Fun",
+      "Friendly",
+      "Youthful",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Flat Design",
+      "Cartoon",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Women"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Cool",
+      "Green",
+      "Primary Colours"
+    ],
     "ingredient": [],
-    "style": [],
-    "occasion": [],
-    "mood": [],
-    "typography": [],
+    "style": [
+      "Chinese",
+      "Kawaii",
+      "Y2K"
+    ],
+    "occasion": [
+      "Limited Edition"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Wholesome",
+      "Irreverent"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
     "finish": [],
-    "keywords": [],
-    "notes": "",
+    "keywords": [
+      "flower",
+      "character",
+      "mascot",
+      "bath",
+      "daisy",
+      "duck",
+      "green",
+      "white",
+      "bold",
+      "campaign",
+      "double-eleven",
+      "ecommerce",
+      "chinese",
+      "kawaii",
+      "seasonal"
+    ],
+    "notes": "Super Plants 超级植物 双11 campaign poster with flower mascot character in bathtub on bright green. Fun kawaii ecommerce seasonal campaign reference — character + bold type approach for Double Eleven.",
     "added": 1775031337418
   },
   {
     "id": 1775031394357,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/gift_box_product_photography_chinese_traditional_style_2026-03-24.png",
-    "client": "",
-    "imageType": "",
-    "format": "",
-    "productCategory": [],
-    "tonality": [],
-    "designCode": [],
-    "targetAudience": [],
-    "colourPalette": [],
-    "ingredient": [],
-    "style": [],
-    "occasion": [],
-    "mood": [],
-    "typography": [],
-    "finish": [],
-    "keywords": [],
-    "notes": "",
+    "client": "Jetta",
+    "imageType": "Product Photography",
+    "format": [
+      "Gift Box"
+    ],
+    "productCategory": [
+      "Gifting",
+      "Tea",
+      "Food"
+    ],
+    "tonality": [
+      "Luxury",
+      "Heritage",
+      "Elegant",
+      "Ornate",
+      "Sophisticated",
+      "Feminine"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Pattern-led",
+      "Illustration-led"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Premium",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Dark",
+      "Earthy",
+      "Metallic"
+    ],
+    "ingredient": [
+      "tea"
+    ],
+    "style": [
+      "Chinese",
+      "Art Nouveau",
+      "Folk"
+    ],
+    "occasion": [
+      "Gifting Season",
+      "Chinese New Year",
+      "Lunar New Year",
+      "Mid-Autumn"
+    ],
+    "mood": [
+      "Romantic",
+      "Aspirational",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "typography": [
+      "Script",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss",
+      "Foil",
+      "Emboss"
+    ],
+    "keywords": [
+      "gift-box",
+      "floral",
+      "bird",
+      "botanical",
+      "traditional",
+      "chinese",
+      "tea",
+      "luxury",
+      "ornate",
+      "premium",
+      "pattern",
+      "red",
+      "navy",
+      "cream",
+      "editorial"
+    ],
+    "notes": "Jetta luxury gift box product photography — two boxes (cream and navy/red) with traditional Chinese floral bird pattern, styled with tea cups on dark red background. Premium seasonal gifting reference with editorial staging and rich material finish.",
     "added": 1775031394357
   },
   {
