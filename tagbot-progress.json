@@ -246,13 +246,23 @@
     "5951689299232_.pic.jpg",
     "5961689299233_.pic.jpg",
     "5971689299235_.pic.jpg",
-    "5981689299235_.pic.jpg"
+    "5981689299235_.pic.jpg",
+    "67f712198fbe2b333bcf95f37b4b6c0f.jpg",
+    "67fe27ed728bc337ed6a70b2ce2b27f3.jpg",
+    "69840cc513c592bab2e12d9d633eeef3.jpeg",
+    "69f7e13510ec2728c671109a386d96c2.jpg",
+    "6a8b15f4c64a068b4487c27e3d1f12f4.jpg",
+    "6cd015137db9757c85221d8caaa30475.jpg",
+    "6d6b13612307a96e71a8060f36d80b22.jpeg",
+    "6d92378800a0d8b303bbd5d87fe1ea72.jpeg",
+    "6ebe8dbd3e1ddd9a04b27697f3b335cb.jpg",
+    "6f3bb4c268319c2ccaf9294ab315886b.jpg"
   ],
   "last_batch_date": "2026-04-01",
   "batch_size": 50,
   "notes": "AutoTagger checkpoint. processed = filenames already tagged and moved to dated subfolder. Do not re-tag these.",
   "db_total": 502,
-  "db_tagged": 309,
-  "db_remaining": 193,
+  "db_tagged": 319,
+  "db_remaining": 183,
   "last_push": "2026-04-01"
 }
