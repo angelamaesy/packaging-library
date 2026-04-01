@@ -1,5 +1,8091 @@
 const LIBRARY_DATA = [
   {
+    "id": 1774950198243,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/0022d5ab53c0e753e148390a29839dab.jpg",
+    "client": "Bath & Body Works",
+    "imageType": "Pack Design",
+    "format": [
+      "Sachet"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Clinical",
+      "Minimal",
+      "Clean",
+      "Approachable",
+      "Fresh"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Photography-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Gen Z",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Pastel",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [
+      "hyaluronic acid"
+    ],
+    "style": [
+      "American",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Trustworthy",
+      "Wholesome",
+      "Grounded"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "sheet mask",
+      "sachet",
+      "skincare",
+      "bubble",
+      "water",
+      "droplet",
+      "teal",
+      "mint",
+      "hydration",
+      "moisturising",
+      "serum",
+      "allover",
+      "pattern",
+      "macro"
+    ],
+    "notes": "Bath & Body Works hyaluronic acid gel sheet mask sachet with allover water droplet photography in teal/mint tones. Clean clinical layout with bold display type.",
+    "added": 1774950198243
+  },
+  {
+    "id": 1774950202065,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/002ac04e33139be944b13e5312977de0.jpg",
+    "client": "Noevir Group",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag",
+      "Pouch"
+    ],
+    "productCategory": [
+      "Supplement",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Youthful",
+      "Playful",
+      "Kawaii",
+      "Feminine",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Women",
+      "Gen Z",
+      "Young Adults",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Bright",
+      "Gradient"
+    ],
+    "ingredient": [
+      "strawberry",
+      "milk"
+    ],
+    "style": [
+      "Japanese",
+      "Kawaii"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Wholesome",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "tablet",
+      "supplement",
+      "probiotics",
+      "rice",
+      "Japanese",
+      "kawaii",
+      "pastel",
+      "confetti",
+      "dots",
+      "bilingual",
+      "health",
+      "lactic acid",
+      "pouch",
+      "ziplock"
+    ],
+    "notes": "Japanese diet supplement pouch (Noevir Group) featuring strawberry milk flavoured probiotic tablets. Playful kawaii design with pastel watercolour-style splashes and confetti dots.",
+    "added": 1774950202065
+  },
+  {
+    "id": 1774950204920,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/059f5f37e5f6ad4baa5c7f021fa5c81b.jpg",
+    "client": "Suntory / Iyemon",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Sophisticated",
+      "Minimal",
+      "Gourmet",
+      "Elegant"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Clean",
+      "Visual Hammer"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Mass Market",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Earthy",
+      "Neutral",
+      "Muted"
+    ],
+    "ingredient": [
+      "green tea",
+      "barley",
+      "roasted tea"
+    ],
+    "style": [
+      "Japanese",
+      "Minimal",
+      "Bauhaus"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Trustworthy",
+      "Grounded",
+      "Nostalgic"
+    ],
+    "typography": [
+      "Serif",
+      "Mixed Fonts",
+      "Wordmark-led",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "bottle",
+      "label",
+      "hojicha",
+      "kyoto",
+      "Japanese",
+      "tea",
+      "amber",
+      "brown",
+      "stamp",
+      "seal",
+      "bilingual",
+      "kanji",
+      "premium",
+      "heritage",
+      "craft"
+    ],
+    "notes": "Iyemon Kyoto Blend hojicha roasted tea 600ml PET bottle. Heritage-led label with cream background, large kanji characters, and a red circular stamp seal. Elegant Japanese minimalism.",
+    "added": 1774950204920
+  },
+  {
+    "id": 1774950209199,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/0a53e5f1cd013a111c50ddf2c0183b23.jpg",
+    "client": "Sapporo",
+    "imageType": "Pack Design",
+    "format": [
+      "Can"
+    ],
+    "productCategory": [
+      "Alcohol",
+      "Beverage"
+    ],
+    "tonality": [
+      "Playful",
+      "Youthful",
+      "Vibrant",
+      "Friendly",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Photography-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Women",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Bright",
+      "Warm"
+    ],
+    "ingredient": [
+      "plum",
+      "yogurt",
+      "soda"
+    ],
+    "style": [
+      "Japanese",
+      "Kawaii"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Indulgent",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Mixed Fonts",
+      "Display"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "can",
+      "Japanese",
+      "limited",
+      "seasonal",
+      "plum",
+      "ume",
+      "yogurt",
+      "cocktail",
+      "light blue",
+      "teal",
+      "illustration",
+      "fruit",
+      "liqueur",
+      "kawaii"
+    ],
+    "notes": "Sapporo Umekaku limited edition canned cocktail in ume (plum) yogurt soda flavour. Light teal can with illustration of plum fruit and a yogurt drink, charming kawaii Japanese style.",
+    "added": 1774950209199
+  },
+  {
+    "id": 1774950213332,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/0feb2a89183abb8a8bae3879bfb42429.jpg",
+    "client": "Unknown",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Luxury",
+      "Minimal",
+      "Clinical",
+      "Sophisticated",
+      "Elegant"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Clean",
+      "Visual Hammer"
+    ],
+    "targetAudience": [
+      "Women",
+      "Premium",
+      "Millennial",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Cool",
+      "Pastel",
+      "Muted"
+    ],
+    "ingredient": [],
+    "style": [
+      "Minimal",
+      "European",
+      "Luxury Editorial"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Aspirational",
+      "Confident",
+      "Empowering",
+      "Mysterious"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Uppercase Only",
+      "Display"
+    ],
+    "finish": [],
+    "keywords": [
+      "dropper",
+      "serum",
+      "liquid",
+      "pink",
+      "drop",
+      "science",
+      "clinical",
+      "infographic",
+      "close-up",
+      "macro",
+      "collagen",
+      "skincare",
+      "percentage",
+      "white",
+      "minimal"
+    ],
+    "notes": "Clinical skincare key visual showing a glass dropper dispensing a pink liquid drop, surrounded by percentage-led efficacy claims. Stark white/grey background, confident luxury editorial feel.",
+    "added": 1774950213332
+  },
+  {
+    "id": 1774950217355,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/1237543c30e3d7760f83fdc42af25809.jpg",
+    "client": "Glico",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Snack",
+      "Confectionery",
+      "Food",
+      "Bakery"
+    ],
+    "tonality": [
+      "Heritage",
+      "Earthy",
+      "Approachable",
+      "Organic",
+      "Friendly"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Earthy",
+      "Warm",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [
+      "sweet potato"
+    ],
+    "style": [
+      "Japanese",
+      "Folk"
+    ],
+    "occasion": [
+      "Everyday",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Nostalgic",
+      "Wholesome",
+      "Grounded",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "pocky",
+      "biscuit",
+      "stick",
+      "sweet potato",
+      "kraft",
+      "limited",
+      "regional",
+      "leaves",
+      "botanical",
+      "badge",
+      "Japan",
+      "brown",
+      "orange",
+      "purple",
+      "harvest"
+    ],
+    "notes": "Glico Pocky regional limited edition in sweet potato flavour. Kraft-tone box with botanical illustration of sweet potato plant. Heritage folk feel for a regional specialty SKU.",
+    "added": 1774950217355
+  },
+  {
+    "id": 1774950220905,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/1265f79ef962482211c795e45442b350.jpg",
+    "client": "Coca-Cola / Kochakaden CrafTea",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Bright",
+      "Fresh",
+      "Approachable",
+      "Friendly",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Mass Market",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bright",
+      "Vivid",
+      "Yellow"
+    ],
+    "ingredient": [
+      "lemon",
+      "tea"
+    ],
+    "style": [
+      "Japanese",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Trustworthy",
+      "Wholesome"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts",
+      "Wordmark-led"
+    ],
+    "finish": [
+      "Gloss",
+      "Transparent"
+    ],
+    "keywords": [
+      "lemon",
+      "bottle",
+      "tea",
+      "lemonade",
+      "yellow",
+      "citrus",
+      "fruit",
+      "photography",
+      "close-up",
+      "Japanese",
+      "transparent",
+      "summer",
+      "craft",
+      "crown"
+    ],
+    "notes": "Coca-Cola Kochakaden CrafTea Lemonade PET bottle. Vibrant yellow label with bold lemon photography filling the pack, transparent base showing amber tea liquid. Fresh summer appeal.",
+    "added": 1774950220905
+  },
+  {
+    "id": 1774950224484,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/1b57d5cb05caa734be4a99ae881b5e5b.jpg",
+    "client": "Georgia / Coca-Cola",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Coffee",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Bold",
+      "Masculine",
+      "Sophisticated",
+      "Approachable"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Mass Market",
+      "Men"
+    ],
+    "colourPalette": [
+      "Dark",
+      "Warm",
+      "Neutral",
+      "Metallic"
+    ],
+    "ingredient": [
+      "coffee",
+      "milk"
+    ],
+    "style": [
+      "American",
+      "Retro-Futurist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Trustworthy",
+      "Energising",
+      "Confident",
+      "Grounded"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss",
+      "Metallic Ink"
+    ],
+    "keywords": [
+      "coffee",
+      "bottle",
+      "canned",
+      "Georgia",
+      "zero sugar",
+      "navy",
+      "blue",
+      "gold",
+      "range",
+      "two-pack",
+      "Japanese",
+      "RTD",
+      "craftsman",
+      "creamy"
+    ],
+    "notes": "Georgia Japan Craftsman canned coffee range shot showing two bottle variants (Japan Craftsman Zero and Creamy Cafe Zero). Dark navy labels with gold wordmark, strong masculine heritage positioning.",
+    "added": 1774950224484
+  },
+  {
+    "id": 1774950228637,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/211a13a7bdb9a408abf2e19b8305284a.jpg",
+    "client": "Enter / Panpan Packaging",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Health & Wellness",
+      "Food"
+    ],
+    "tonality": [
+      "Minimal",
+      "Clean",
+      "Organic",
+      "Sophisticated",
+      "Elegant"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Clean",
+      "Photography-led"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Premium",
+      "Women",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Warm",
+      "Muted",
+      "Pastel"
+    ],
+    "ingredient": [
+      "milkvetch root"
+    ],
+    "style": [
+      "Chinese",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Wholesome",
+      "Trustworthy",
+      "Grounded"
+    ],
+    "typography": [
+      "Serif",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Wordmark-led"
+    ],
+    "finish": [
+      "Gloss",
+      "Transparent"
+    ],
+    "keywords": [
+      "bottle",
+      "herbal",
+      "plant drink",
+      "Chinese",
+      "cream",
+      "beige",
+      "bilingual",
+      "seal",
+      "botanical",
+      "transparent",
+      "clean",
+      "functional",
+      "front-back"
+    ],
+    "notes": "Chinese herbal plant drink (Fragrant Milkvetch Root) in a clear squat PET bottle showing front and back. Cream/beige minimal label with botanical seal and bilingual Chinese/English text.",
+    "added": 1774950228637
+  },
+  {
+    "id": 1774950232924,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/2295696d8c0005700245e2893f531c33.jpg",
+    "client": "Wilde Brands",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag"
+    ],
+    "productCategory": [
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Edgy",
+      "Vibrant",
+      "Energising",
+      "Masculine"
+    ],
+    "designCode": [
+      "Colour-led",
+      "Typography-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Athletes",
+      "Millennial",
+      "Men",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Warm",
+      "Green"
+    ],
+    "ingredient": [
+      "chilli",
+      "lime",
+      "pork"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Adventurous",
+      "Energising",
+      "Confident",
+      "Irreverent"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "chips",
+      "protein",
+      "snack",
+      "green",
+      "lime",
+      "chilli",
+      "pork",
+      "bold",
+      "badge",
+      "claims",
+      "certifications",
+      "bag",
+      "foil",
+      "hero"
+    ],
+    "notes": "Wilde protein chips bag in Chili Lime Verde Pork flavour. Vivid green with bold claims-led design and protein badge. Premium functional snack for health-conscious active consumers.",
+    "added": 1774950232924
+  },
+  {
+    "id": 1774950235884,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/22af8060d6db70a1f91d6720e61e0861.jpg",
+    "client": "Officine Universelle Buly 1803",
+    "imageType": "Pack Design",
+    "format": [
+      "Tube",
+      "Box"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Luxury",
+      "Heritage",
+      "Ornate",
+      "Sophisticated",
+      "Elegant"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Visual Hammer"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Women",
+      "Gen X",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Warm",
+      "Muted",
+      "Monochrome"
+    ],
+    "ingredient": [],
+    "style": [
+      "French",
+      "Art Nouveau",
+      "Luxury Editorial"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Aspirational",
+      "Nostalgic",
+      "Romantic",
+      "Indulgent"
+    ],
+    "typography": [
+      "Serif",
+      "Condensed",
+      "Italic",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss",
+      "Emboss"
+    ],
+    "keywords": [
+      "tube",
+      "face cream",
+      "French",
+      "apothecary",
+      "engraving",
+      "etching",
+      "oval",
+      "frame",
+      "figurative",
+      "illustration",
+      "cream",
+      "white",
+      "heritage",
+      "artisan",
+      "Buly"
+    ],
+    "notes": "Officine Universelle Buly 1803 Pommade Virginale face cream tube and box with highly detailed classical engraving-style oval illustration of a woman. Quintessential French apothecary luxury heritage.",
+    "added": 1774950235884
+  },
+  {
+    "id": 1774950238666,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/28e33a84f28b6299bebe96882fdaa2aa.jpg",
+    "client": "Suntory / Iyemon",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Bold",
+      "Sophisticated",
+      "Elegant",
+      "Gourmet"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Visual Hammer"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Mass Market",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Earthy",
+      "Bold",
+      "Vivid"
+    ],
+    "ingredient": [
+      "green tea",
+      "barley",
+      "roasted tea"
+    ],
+    "style": [
+      "Japanese",
+      "Heritage"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Trustworthy",
+      "Grounded",
+      "Nostalgic",
+      "Confident"
+    ],
+    "typography": [
+      "Serif",
+      "Mixed Fonts",
+      "Wordmark-led",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "bottle",
+      "tea",
+      "label",
+      "kyoto",
+      "Japanese",
+      "hojicha",
+      "amber",
+      "red",
+      "stamp",
+      "seal",
+      "round",
+      "kanji",
+      "bilingual",
+      "heritage",
+      "craft"
+    ],
+    "notes": "Iyemon Kyoto Blend hojicha PET bottle with bold red circular stamp/seal label. Strong visual contrast between red stamp and cream background. Different label variant from the companion cream SKU.",
+    "added": 1774950238666
+  },
+  {
+    "id": 1774950241791,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/2b5c1379537ad0b992d5c9540ab45adc.jpg",
+    "client": "SNP Prep / Peptaronic",
+    "imageType": "Pack Design",
+    "format": [
+      "Sachet"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Minimal",
+      "Dreamy",
+      "Feminine",
+      "Clean",
+      "Elegant"
+    ],
+    "designCode": [
+      "Colour-led",
+      "Fluid",
+      "Gradient",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Gen Z",
+      "Millennial",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Gradient",
+      "Warm"
+    ],
+    "ingredient": [],
+    "style": [
+      "Korean",
+      "Minimal",
+      "K-beauty"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Dreamy",
+      "Wholesome",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Wordmark-led"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "sheet mask",
+      "ampoule",
+      "K-beauty",
+      "Korean",
+      "sachet",
+      "bubble",
+      "fluid",
+      "gradient",
+      "pink",
+      "blue",
+      "pearl",
+      "peptide",
+      "hyaluronic",
+      "pastel",
+      "lifestyle"
+    ],
+    "notes": "SNP Prep Peptaronic ampoule mask sachet on a soft pink background with liquid droplets and gel blobs. Gradient pastel design with fluid organic shapes. Quintessential K-beauty aesthetics.",
+    "added": 1774950241791
+  },
+  {
+    "id": 1774950246448,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/2cb77141c60ffeb3f31a303750cf7cc1.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Vibrant",
+      "Maximalist",
+      "Fun"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Handcrafted"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Young Adults",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Warm",
+      "Bold",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Folk",
+      "Naive",
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Irreverent",
+      "Wholesome"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [],
+    "keywords": [
+      "horse",
+      "animal",
+      "floral",
+      "botanical",
+      "painting",
+      "folk",
+      "naive",
+      "colourful",
+      "hand-painted",
+      "blue",
+      "black",
+      "pink",
+      "yellow",
+      "red",
+      "green",
+      "editorial",
+      "photography"
+    ],
+    "notes": "Striking editorial reference photograph of a black horse painted with large colourful folk-art flowers. Bold naive illustration style against powder blue background. Strong visual reference for hand-painted floral motifs.",
+    "added": 1774950246448
+  },
+  {
+    "id": 1774950249275,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/2e832f52ad97b92a04f7442b0f7caabd.jpg",
+    "client": "Dior",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [
+      "Beauty",
+      "Skincare",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Luxury",
+      "Dark",
+      "Elegant",
+      "Sophisticated",
+      "Sensual"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Visual Hammer",
+      "Abstract",
+      "3D"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Women",
+      "Gen X",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Dark",
+      "Pastel",
+      "Cool",
+      "Monochrome"
+    ],
+    "ingredient": [],
+    "style": [
+      "French",
+      "Luxury Editorial"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Aspirational",
+      "Mysterious",
+      "Indulgent",
+      "Dreamy"
+    ],
+    "typography": [
+      "Serif",
+      "Wordmark-led"
+    ],
+    "finish": [],
+    "keywords": [
+      "Dior",
+      "beauty",
+      "product shot",
+      "macro",
+      "close-up",
+      "lilac",
+      "purple",
+      "cream",
+      "texture",
+      "sculpted",
+      "gloss",
+      "melt",
+      "dark",
+      "black",
+      "luxury",
+      "abstract"
+    ],
+    "notes": "Dior key visual showing abstract macro shot of melting/sculpted lilac cream foundation or skincare texture against pure black background. Highly sculptural, sensual luxury editorial aesthetic.",
+    "added": 1774950249275
+  },
+  {
+    "id": 1774950254784,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/337e14ccb2465ac92de5daae938636f3.jpg",
+    "client": "Danone",
+    "imageType": "Pack Design",
+    "format": [
+      "Tray",
+      "Cup"
+    ],
+    "productCategory": [
+      "Dairy",
+      "Food"
+    ],
+    "tonality": [
+      "Heritage",
+      "Bold",
+      "Approachable",
+      "Friendly",
+      "Gourmet"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Millennial",
+      "Gen X",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Neutral",
+      "Muted",
+      "Warm"
+    ],
+    "ingredient": [
+      "blueberry",
+      "yogurt"
+    ],
+    "style": [
+      "European",
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Trustworthy",
+      "Wholesome",
+      "Indulgent",
+      "Grounded"
+    ],
+    "typography": [
+      "Script",
+      "Serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "yogurt",
+      "tub",
+      "blueberry",
+      "Greek",
+      "Danone",
+      "photography",
+      "silver",
+      "badge",
+      "hero",
+      "spoon",
+      "fruit",
+      "dairy",
+      "cream",
+      "white",
+      "blue"
+    ],
+    "notes": "Danone Ultimate Greek Style Yoghurt 850g blueberry tub. Photography-led with blueberries, cream bowl and spoons. Silver lid with robust badge-based labelling. Premium dairy presentation.",
+    "added": 1774950254784
+  },
+  {
+    "id": 1774950260119,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/352065fbd170a3b18a541e0d1801d995.jpg",
+    "client": "LU Biscuits",
+    "imageType": "Range Shot",
+    "format": [
+      "Wrapper",
+      "Bag"
+    ],
+    "productCategory": [
+      "Bakery",
+      "Snack",
+      "Food",
+      "Confectionery"
+    ],
+    "tonality": [
+      "Heritage",
+      "Bold",
+      "Sophisticated",
+      "Elegant",
+      "Approachable"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Typography-led",
+      "Visual Hammer"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Premium",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bold",
+      "Bright",
+      "Vivid"
+    ],
+    "ingredient": [
+      "butter",
+      "biscuit",
+      "chocolate",
+      "lemon"
+    ],
+    "style": [
+      "French",
+      "Heritage",
+      "European"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Nostalgic",
+      "Trustworthy",
+      "Indulgent",
+      "Aspirational"
+    ],
+    "typography": [
+      "Serif",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Wordmark-led",
+      "Display"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "biscuit",
+      "range",
+      "LU",
+      "French",
+      "heritage",
+      "split-design",
+      "blue",
+      "yellow",
+      "brown",
+      "red",
+      "wordmark",
+      "four-SKU",
+      "wrapper",
+      "photography",
+      "engraving"
+    ],
+    "notes": "LU Biscuits range shot showing four SKUs (Beurre, Biscotte, Chocolat, Citron) each with a split-panel design. Product photography on one half, white engraving/logo on the other. Colour-coded by variant.",
+    "added": 1774950260119
+  },
+  {
+    "id": 1774950263311,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/36552b8eacdb33e11512a85d27c48af5.jpg",
+    "client": "Asahi",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag"
+    ],
+    "productCategory": [
+      "Snack",
+      "Bakery",
+      "Health & Wellness",
+      "Food"
+    ],
+    "tonality": [
+      "Clean",
+      "Minimal",
+      "Approachable",
+      "Organic",
+      "Friendly"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Photography-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Women",
+      "Millennial",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Earthy",
+      "Neutral",
+      "Muted"
+    ],
+    "ingredient": [
+      "maple",
+      "cream",
+      "bran",
+      "oat"
+    ],
+    "style": [
+      "Japanese",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Trustworthy",
+      "Grounded",
+      "Calming"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "cracker",
+      "biscuit",
+      "bran",
+      "maple",
+      "beige",
+      "cream",
+      "orange",
+      "Japanese",
+      "health",
+      "fibre",
+      "claims",
+      "badge",
+      "certifications",
+      "nutrition",
+      "bag"
+    ],
+    "notes": "Asahi Cream Genmai Bran Maple flavour nutrition cracker bag. Warm beige/orange palette with maple syrup photography and health claim badges. Functional wellness snack with clean Japanese design.",
+    "added": 1774950263311
+  },
+  {
+    "id": 1774950266265,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/37932e47537a75ce5a5c0d8286afcdbe.jpg",
+    "client": "Lotte",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag",
+      "Wrapper"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Playful",
+      "Youthful",
+      "Fun",
+      "Approachable",
+      "Feminine"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Women",
+      "Gen Z",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Cool",
+      "Bright"
+    ],
+    "ingredient": [
+      "ice cream",
+      "caramel"
+    ],
+    "style": [
+      "Japanese",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Joyful",
+      "Indulgent",
+      "Playful",
+      "Dreamy"
+    ],
+    "typography": [
+      "Script",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Display"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "ice cream",
+      "confectionery",
+      "Lotte",
+      "Japanese",
+      "pink",
+      "mint",
+      "pastel",
+      "range",
+      "two-SKU",
+      "photography",
+      "wrapper",
+      "galette",
+      "pudding",
+      "dessert"
+    ],
+    "notes": "Lotte Sweets Square ice cream range showing two SKUs: Ice Galette (pink) and Ice Pudding (mint/green). Photography-driven with elegant script wordmark. Soft pastel palette, premium confectionery feel.",
+    "added": 1774950266265
+  },
+  {
+    "id": 1774950269140,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/437d699eb26c203e285849b513f18674.jpg",
+    "client": "Unknown (Japanese bakery)",
+    "imageType": "Range Shot",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Bakery",
+      "Snack",
+      "Food",
+      "Gifting"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Vibrant",
+      "Fun",
+      "Approachable"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Illustration-led",
+      "Visual Hammer"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Bold",
+      "Primary Colours"
+    ],
+    "ingredient": [
+      "bread",
+      "biscuit"
+    ],
+    "style": [
+      "Japanese",
+      "Bauhaus",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising",
+      "Confident"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Condensed",
+      "Mixed Fonts",
+      "Wordmark-led"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "blue",
+      "range",
+      "boxes",
+      "flatlay",
+      "topdown",
+      "Japanese",
+      "bold",
+      "vivid",
+      "illustration",
+      "bread",
+      "pastry",
+      "grid",
+      "modular",
+      "typography-driven",
+      "wordmark"
+    ],
+    "notes": "Flat-lay topdown shot of multiple Japanese bakery gift boxes in bold vivid blue with contrasting illustration and typography. Modular range design with strong typographic visual language.",
+    "added": 1774950269140
+  },
+  {
+    "id": 1774950272021,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/4e8adb8659e7a057c1e5de323afd798c.jpg",
+    "client": "Ohayo / Brulee",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Elegant",
+      "Luxury",
+      "Gourmet",
+      "Sophisticated",
+      "Heritage"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Premium",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Warm",
+      "Metallic",
+      "Muted"
+    ],
+    "ingredient": [
+      "chocolate",
+      "caramel",
+      "ice cream"
+    ],
+    "style": [
+      "Japanese",
+      "French"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Indulgent",
+      "Aspirational",
+      "Romantic",
+      "Nostalgic"
+    ],
+    "typography": [
+      "Serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss",
+      "Foil"
+    ],
+    "keywords": [
+      "chocolate",
+      "box",
+      "Japanese",
+      "brulee",
+      "caramel",
+      "gold",
+      "white",
+      "foil",
+      "tile",
+      "mosaic",
+      "photography",
+      "premium",
+      "dessert",
+      "gourmet"
+    ],
+    "notes": "Ohayo Brulee chocolate ice cream box with gold foil mosaic tile border and product photography of a creme brulee dessert. Premium Japanese confectionery with French-inspired naming.",
+    "added": 1774950272021
+  },
+  {
+    "id": 1774950275050,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/4f8ec70483a36997343734614075afb5.jpg",
+    "client": "Shangyi",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Elegant",
+      "Sophisticated",
+      "Minimal",
+      "Gourmet"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Visual Hammer",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Health Conscious",
+      "Millennial",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Cool",
+      "Warm",
+      "Gradient",
+      "Earthy"
+    ],
+    "ingredient": [
+      "oolong tea",
+      "green tea",
+      "longjing"
+    ],
+    "style": [
+      "Chinese",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Aspirational",
+      "Trustworthy",
+      "Grounded"
+    ],
+    "typography": [
+      "Serif",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Wordmark-led"
+    ],
+    "finish": [
+      "Gloss",
+      "Transparent"
+    ],
+    "keywords": [
+      "tea",
+      "bottle",
+      "Chinese",
+      "oolong",
+      "longjing",
+      "range",
+      "two-SKU",
+      "transparent",
+      "label",
+      "editorial",
+      "lifestyle",
+      "overhead",
+      "green",
+      "beige"
+    ],
+    "notes": "Shangyi range shot of two Chinese RTD tea bottles (Longjing and Oolong) in an editorial overhead lifestyle arrangement. Clean minimal labels on transparent bottles showing natural amber liquid.",
+    "added": 1774950275050
+  },
+  {
+    "id": 1774950278711,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/4fa771fa63a936bbe7acca75bba03d47.jpg",
+    "client": "Garden of Eatin'",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag"
+    ],
+    "productCategory": [
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Organic",
+      "Earthy",
+      "Bold",
+      "Friendly",
+      "Bright"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Eco Conscious",
+      "Millennial",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Warm",
+      "Green"
+    ],
+    "ingredient": [
+      "lime",
+      "corn"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Adventurous",
+      "Energising",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "tortilla",
+      "chips",
+      "lime",
+      "corn",
+      "green",
+      "organic",
+      "non-GMO",
+      "gluten-free",
+      "badge",
+      "claims",
+      "bag",
+      "bold",
+      "hero",
+      "American"
+    ],
+    "notes": "Garden of Eatin' White Chips with Touch of Lime tortilla chip bag. Bold green with lime and corn product photography and organic/non-GMO claim badges. Strong health-oriented American snack brand.",
+    "added": 1774950278711
+  },
+  {
+    "id": 1774950282533,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/591dcd6e10f86c7487c80f8e3c874a30.jpg",
+    "client": "Fujiya Look",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Chocolate",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Playful",
+      "Feminine",
+      "Youthful",
+      "Fun",
+      "Approachable"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Gen Z",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Pastel",
+      "Bright",
+      "Vivid"
+    ],
+    "ingredient": [
+      "chocolate",
+      "peach"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Joyful",
+      "Indulgent",
+      "Playful",
+      "Dreamy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "chocolate",
+      "peach",
+      "box",
+      "Japanese",
+      "pink",
+      "limited",
+      "photography",
+      "dessert",
+      "ice cream",
+      "gelato",
+      "confectionery",
+      "seasonal",
+      "premium"
+    ],
+    "notes": "Fujiya Look chocolate box in momo (peach) gelato limited edition. Warm pink box with photographic peach ice cream sundae. Premium Japanese confectionery with seasonal fruit flavour.",
+    "added": 1774950282533
+  },
+  {
+    "id": 1774950286201,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/5c30185f1a42c95d954fa53cb21cbb55.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Minimal",
+      "Fresh",
+      "Clean",
+      "Dreamy",
+      "Organic"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Pattern-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Muted",
+      "Green"
+    ],
+    "ingredient": [
+      "grape"
+    ],
+    "style": [
+      "Minimal",
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Calming",
+      "Wholesome",
+      "Dreamy",
+      "Grounded"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [],
+    "keywords": [
+      "grape",
+      "fruit",
+      "macro",
+      "close-up",
+      "green",
+      "pattern",
+      "allover",
+      "backlit",
+      "translucent",
+      "water",
+      "bubble",
+      "editorial",
+      "mood",
+      "photography"
+    ],
+    "notes": "Macro editorial reference photograph of sliced green grapes in water with bubbles creating an all-over pattern. Translucent lime-green palette, dreamy editorial mood. Useful as colour and texture moodboard reference.",
+    "added": 1774950286201
+  },
+  {
+    "id": 1774950289482,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/5d01737a9ac2eda12938899c52d177a2.jpg",
+    "client": "Allies of Skin",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Clinical",
+      "Bold",
+      "Sophisticated",
+      "Minimal",
+      "Edgy"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Clean",
+      "Visual Hammer"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Health Conscious",
+      "Women",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Dark",
+      "Bold",
+      "Vivid",
+      "Monochrome"
+    ],
+    "ingredient": [],
+    "style": [
+      "American",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Trustworthy",
+      "Empowering",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss",
+      "Metallic Ink"
+    ],
+    "keywords": [
+      "serum",
+      "bottle",
+      "purple",
+      "metallic",
+      "skincare",
+      "pump",
+      "clinical",
+      "bold",
+      "claims",
+      "azelaic",
+      "kojic",
+      "premium",
+      "hero",
+      "dark"
+    ],
+    "notes": "Allies of Skin Azelaic & Kojic Advanced Clarifying Serum in a striking metallic purple pump bottle. Bold clinical typography with ingredient claims. Strong visual shelf presence, premium clean beauty.",
+    "added": 1774950289482
+  },
+  {
+    "id": 1774950292563,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/601a04582b59a830cc397a6677392280.jpg",
+    "client": "Numbuzin",
+    "imageType": "Pack Design",
+    "format": [
+      "Sachet"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Playful",
+      "Feminine",
+      "Youthful",
+      "Kawaii",
+      "Dreamy"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Illustration-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Women",
+      "Gen Z",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Warm",
+      "Gradient"
+    ],
+    "ingredient": [],
+    "style": [
+      "Korean",
+      "K-beauty",
+      "Kawaii"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Playful",
+      "Dreamy",
+      "Joyful",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Script",
+      "Mixed Fonts",
+      "Display"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "sheet mask",
+      "K-beauty",
+      "Korean",
+      "pink",
+      "blue",
+      "gradient",
+      "number",
+      "collagen",
+      "pearl",
+      "shell",
+      "kawaii",
+      "bubble",
+      "sachet",
+      "bilingual"
+    ],
+    "notes": "Numbuzin No.2 Water Collagen 65% Voluming pack with large pink gel numeral 2 as hero visual on a notebook-style sachet. K-beauty playful aesthetic with pearl and shell illustrations.",
+    "added": 1774950292563
+  },
+  {
+    "id": 1774950295712,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/620c9bf039e24a587ac59f6363c44383.jpg",
+    "client": "Frieda Foods",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag"
+    ],
+    "productCategory": [
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Gourmet",
+      "Dark",
+      "Heritage",
+      "Sophisticated",
+      "Bold"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Premium",
+      "Men"
+    ],
+    "colourPalette": [
+      "Dark",
+      "Warm",
+      "Muted",
+      "Earthy"
+    ],
+    "ingredient": [
+      "cheese",
+      "bacon"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Indulgent",
+      "Trustworthy",
+      "Grounded",
+      "Adventurous"
+    ],
+    "typography": [
+      "Serif",
+      "Script",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "cheese stick",
+      "smoked",
+      "bacon",
+      "Japanese",
+      "dark",
+      "brown",
+      "photography",
+      "bag",
+      "gourmet",
+      "adult",
+      "premium",
+      "plate",
+      "dark bg"
+    ],
+    "notes": "Frieda Foods smoked bacon cheese sticks in a dark brown bag with dramatic photography of the sticks on a dark plate. Gourmet adult snack positioning with rich smoky photography.",
+    "added": 1774950295712
+  },
+  {
+    "id": 1774950301004,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/6494daa720dd49e8dd729c58e665c8a0.jpg",
+    "client": "Bibigo / CJ CheilJedang",
+    "imageType": "Pack Design",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Approachable",
+      "Playful",
+      "Fresh"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Mass Market",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Warm",
+      "Vivid",
+      "Green"
+    ],
+    "ingredient": [
+      "seaweed",
+      "corn"
+    ],
+    "style": [
+      "Korean"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Adventurous",
+      "Wholesome",
+      "Joyful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Condensed",
+      "Mixed Fonts",
+      "Display"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "seaweed",
+      "chip",
+      "corn",
+      "Korean",
+      "green",
+      "pouch",
+      "bibigo",
+      "photography",
+      "bold",
+      "snack",
+      "claims",
+      "bilingual",
+      "crispy",
+      "nutrition"
+    ],
+    "notes": "Bibigo Seaweed Chip Sweet Corn flavour pouch by CJ CheilJedang. Bold green with photography of chips and seaweed/corn ingredients. Strong Korean snack brand with global ambitions.",
+    "added": 1774950301004
+  },
+  {
+    "id": 1774950305168,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/67a96acaff997fc2c047b7ebfb77c919.jpg",
+    "client": "Suntory",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle",
+      "Can"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Elegant",
+      "Sophisticated",
+      "Bold",
+      "Gourmet"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Premium",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Dark",
+      "Bold",
+      "Cool",
+      "Metallic"
+    ],
+    "ingredient": [
+      "oolong tea",
+      "jasmine"
+    ],
+    "style": [
+      "Japanese",
+      "Chinese",
+      "Heritage"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Sophisticated",
+      "Trustworthy",
+      "Grounded"
+    ],
+    "typography": [
+      "Serif",
+      "Mixed Fonts",
+      "Wordmark-led"
+    ],
+    "finish": [
+      "Gloss",
+      "Metallic Ink"
+    ],
+    "keywords": [
+      "tea",
+      "can",
+      "oolong",
+      "Japanese",
+      "blue",
+      "navy",
+      "gold",
+      "floral",
+      "botanical",
+      "bird",
+      "heritage",
+      "pattern",
+      "Chinese",
+      "blend",
+      "metallic"
+    ],
+    "notes": "Suntory Oolong Ryo Cha tea can with deep navy blue and intricate gold botanical pattern featuring birds and flowers. Heritage Japanese/Chinese aesthetic with premium metallic finish details.",
+    "added": 1774950305168
+  },
+  {
+    "id": 1774950308034,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/682ea970a6db50b18a8d8a20a6890c5f.jpg",
+    "client": "Avon",
+    "imageType": "Pack Design",
+    "format": [
+      "Sachet"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Vibrant",
+      "Fun",
+      "Approachable"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Photography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Women",
+      "Mass Market",
+      "Young Adults",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Cool",
+      "Warm",
+      "Monochrome"
+    ],
+    "ingredient": [
+      "cucumber",
+      "aloe vera",
+      "grapefruit",
+      "apple"
+    ],
+    "style": [
+      "American",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful",
+      "Confident"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "sheet mask",
+      "sachet",
+      "Avon",
+      "range",
+      "three-SKU",
+      "white",
+      "bold type",
+      "cucumber",
+      "grapefruit",
+      "apple",
+      "photography",
+      "typography-led",
+      "humour",
+      "copywriting"
+    ],
+    "notes": "Avon sheet mask range showing three SKUs with large humorous copy-led typographic design over fruit photography. Strong copywriting-led packaging with cheeky slogans and bold black type.",
+    "added": 1774950308034
+  },
+  {
+    "id": 1774950312094,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/696b23a0202862819c37988aad9c5bf2.jpg",
+    "client": "Unknown",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Dark",
+      "Sophisticated",
+      "Elegant",
+      "Minimalist"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Abstract",
+      "Line Art",
+      "Handcrafted"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Millennial",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Monochrome",
+      "Dark",
+      "Black & White",
+      "Neutral"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Art Nouveau",
+      "Folk"
+    ],
+    "occasion": [
+      "Everyday",
+      "Chinese New Year"
+    ],
+    "mood": [
+      "Mysterious",
+      "Aspirational",
+      "Confident",
+      "Dreamy"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [],
+    "keywords": [
+      "horse",
+      "ink",
+      "brush",
+      "calligraphy",
+      "black",
+      "white",
+      "monochrome",
+      "Chinese",
+      "traditional",
+      "painting",
+      "swirl",
+      "fluid",
+      "dynamic",
+      "animal",
+      "seal"
+    ],
+    "notes": "Chinese ink brush painting of a dynamic horse head rendered in bold black brushstrokes on white paper with a red seal stamp. Reference for Chinese ink art aesthetic in premium packaging design.",
+    "added": 1774950312094
+  },
+  {
+    "id": 1774950316166,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/6a6bb6330095f5c059b825f3cd04b652.jpg",
+    "client": "Lotte Chilsung",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Juice"
+    ],
+    "tonality": [
+      "Bright",
+      "Vibrant",
+      "Youthful",
+      "Playful",
+      "Fresh"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Green",
+      "Warm",
+      "Pastel"
+    ],
+    "ingredient": [
+      "tangerine",
+      "peach"
+    ],
+    "style": [
+      "Korean",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Wholesome",
+      "Adventurous"
+    ],
+    "typography": [
+      "Script",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss",
+      "Transparent"
+    ],
+    "keywords": [
+      "cider",
+      "soda",
+      "bottle",
+      "Korean",
+      "green",
+      "orange",
+      "pink",
+      "range",
+      "two-SKU",
+      "tangerine",
+      "peach",
+      "fruit",
+      "transparent",
+      "Lotte",
+      "summer"
+    ],
+    "notes": "Lotte Chilsung Cider range shot showing two flavour variants (Jeju green tangerine and Korean peach) in clear PET bottles with vivid colour-coded wrap labels. Bright Korean RTD soda design.",
+    "added": 1774950316166
+  },
+  {
+    "id": 1774950321169,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/72d0171bc62fbefee9941fbbdbc57133.jpg",
+    "client": "Smari",
+    "imageType": "Pack Design",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Dairy",
+      "Food",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Clean",
+      "Minimal",
+      "Bold",
+      "Sophisticated",
+      "Approachable"
+    ],
+    "designCode": [
+      "Pattern-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Millennial",
+      "Premium",
+      "Women"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Cool",
+      "Vivid",
+      "Neutral"
+    ],
+    "ingredient": [
+      "blueberry",
+      "yogurt"
+    ],
+    "style": [
+      "Scandinavian",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Trustworthy",
+      "Wholesome",
+      "Confident",
+      "Grounded"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "yogurt",
+      "cup",
+      "Icelandic",
+      "Scandinavian",
+      "stripe",
+      "pattern",
+      "blue",
+      "white",
+      "blueberry",
+      "organic",
+      "dairy",
+      "two-pack",
+      "range",
+      "premium"
+    ],
+    "notes": "Smari Organic Icelandic Yogurt blueberry shown as two-pack range. Bold blue and white diagonal stripe pattern wraps the cup. Clean Scandinavian minimalism with strong typographic presence.",
+    "added": 1774950321169
+  },
+  {
+    "id": 1774950329878,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/772a44d273d0f42e1fbef26f4f065373.jpg",
+    "client": "Allies of Skin",
+    "imageType": "Pack Design",
+    "format": [
+      "Tube",
+      "Box"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Clinical",
+      "Minimal",
+      "Sophisticated",
+      "Clean",
+      "Premium"
+    ],
+    "designCode": [
+      "Gradient",
+      "Typography-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Health Conscious",
+      "Women",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Gradient",
+      "Pastel",
+      "Cool",
+      "Warm"
+    ],
+    "ingredient": [],
+    "style": [
+      "American",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Aspirational",
+      "Trustworthy",
+      "Empowering",
+      "Calming"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte",
+      "Gloss"
+    ],
+    "keywords": [
+      "cleanser",
+      "tube",
+      "box",
+      "gradient",
+      "holographic",
+      "pastel",
+      "rainbow",
+      "skincare",
+      "clinical",
+      "premium",
+      "white",
+      "hero",
+      "Allies of Skin"
+    ],
+    "notes": "Allies of Skin Molecular Silk Amino Hydrating Cleanser tube and box with a stunning holographic rainbow gradient box paired with a clean white tube. Clinical ingredient-led typography.",
+    "added": 1774950329878
+  },
+  {
+    "id": 1774950334288,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/779a3fe2a5bec6b8d7d38ab939031b4c.jpg",
+    "client": "Glico",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag"
+    ],
+    "productCategory": [
+      "Snack",
+      "Confectionery",
+      "Food"
+    ],
+    "tonality": [
+      "Dark",
+      "Bold",
+      "Sophisticated",
+      "Edgy",
+      "Gourmet"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Photography-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Premium",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Dark",
+      "Warm",
+      "Bold",
+      "Neutral"
+    ],
+    "ingredient": [
+      "cheese",
+      "black pepper"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Indulgent",
+      "Mysterious",
+      "Grounded"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed",
+      "Display"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "cheese",
+      "snack",
+      "Japanese",
+      "Glico",
+      "triangle",
+      "dark",
+      "black",
+      "brown",
+      "geometric",
+      "black pepper",
+      "cracker",
+      "gourmet",
+      "adult",
+      "structural"
+    ],
+    "notes": "Glico Pucchizza black pepper cheese cracker in distinctive triangular pack. Dark black/brown with geometric triangular crackers as hero visual. Sophisticated adult snack with unique structural packaging form.",
+    "added": 1774950334288
+  },
+  {
+    "id": 1774950339762,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/77cedada5ab548c4e8baa7ae56044e2c.jpg",
+    "client": "Nacific",
+    "imageType": "Pack Design",
+    "format": [
+      "Box",
+      "Sachet"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Clinical",
+      "Minimal",
+      "Clean",
+      "Approachable",
+      "Elegant"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Gen Z",
+      "Young Adults",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Warm",
+      "Pastel",
+      "Muted"
+    ],
+    "ingredient": [],
+    "style": [
+      "Korean",
+      "K-beauty",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Trustworthy",
+      "Wholesome",
+      "Grounded"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss",
+      "Matte"
+    ],
+    "keywords": [
+      "sheet mask",
+      "K-beauty",
+      "Korean",
+      "white",
+      "yellow",
+      "ceramide",
+      "moisture",
+      "sachet",
+      "box",
+      "multipack",
+      "photography",
+      "minimal",
+      "clean",
+      "clinical"
+    ],
+    "notes": "Nacific Vita Ceramide Moisture Mask Pack 10-count box with individual sachet. Clean white with yellow circle/drop motif. Minimal clinical K-beauty design with photography of the moisture serum drop.",
+    "added": 1774950339762
+  },
+  {
+    "id": 1774950346140,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/7e88391d593a010d6f05e4a5be8d4096.jpg",
+    "client": "Unknown (Chinese brand)",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Juice",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Heritage",
+      "Elegant",
+      "Sophisticated",
+      "Gourmet",
+      "Organic"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Health Conscious",
+      "Millennial",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Warm",
+      "Muted",
+      "Earthy"
+    ],
+    "ingredient": [
+      "pear",
+      "orange"
+    ],
+    "style": [
+      "Chinese",
+      "Heritage",
+      "Folk"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Trustworthy",
+      "Aspirational",
+      "Grounded"
+    ],
+    "typography": [
+      "Serif",
+      "Mixed Fonts",
+      "Wordmark-led"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "fruit drink",
+      "bottle",
+      "Chinese",
+      "pear",
+      "orange",
+      "range",
+      "three-SKU",
+      "watercolour",
+      "illustration",
+      "cream",
+      "heritage",
+      "traditional",
+      "ink",
+      "calligraphy"
+    ],
+    "notes": "Chinese heritage fruit drink range (three SKUs with wintermelon, pear and tangerine variants) in cream-tone bottles with watercolour ink illustration labels. Elegant traditional Chinese aesthetic.",
+    "added": 1774950346140
+  },
+  {
+    "id": 1774950349382,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/7fda0f856b150854aa9a235e40125d8f.jpg",
+    "client": "Purelab",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag",
+      "Pouch"
+    ],
+    "productCategory": [
+      "Supplement",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Clinical",
+      "Fresh",
+      "Clean",
+      "Approachable",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Photography-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Women",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Bright",
+      "Pastel",
+      "Vivid"
+    ],
+    "ingredient": [
+      "ginger"
+    ],
+    "style": [
+      "Japanese",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Trustworthy",
+      "Wholesome",
+      "Confident"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Condensed",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "supplement",
+      "potassium",
+      "Japanese",
+      "blue",
+      "teal",
+      "bubble",
+      "circle",
+      "pouch",
+      "ziplock",
+      "claims",
+      "nutrition",
+      "ginger",
+      "vitamin",
+      "health"
+    ],
+    "notes": "Purelab potassium supplement pouch made in Japan. Light blue/teal with bubble motif and clear nutrition call-outs. Ginger root photography at base. Clean Japanese functional supplement design.",
+    "added": 1774950349382
+  },
+  {
+    "id": 1774950352903,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/82c49b7b01a8540a5aa313682bbcd34d.jpg",
+    "client": "October Fifth",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Bakery",
+      "Snack",
+      "Food",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Organic",
+      "Earthy",
+      "Clean",
+      "Approachable",
+      "Gourmet"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Millennial",
+      "Gen X",
+      "Women"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Earthy",
+      "Neutral",
+      "Vivid"
+    ],
+    "ingredient": [
+      "sesame",
+      "oat",
+      "pumpkin seed",
+      "flaxseed"
+    ],
+    "style": [
+      "Chinese",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Trustworthy",
+      "Grounded",
+      "Gourmet"
+    ],
+    "typography": [
+      "Serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "cracker",
+      "multigrain",
+      "bakery",
+      "Chinese",
+      "orange",
+      "brown",
+      "photography",
+      "seeds",
+      "oat",
+      "sesame",
+      "pumpkin",
+      "flax",
+      "layered",
+      "box",
+      "health"
+    ],
+    "notes": "October Fifth multigrain flaky cracker box (shiyue chuwu). Orange accent with detailed product photography showing 36-layer crispy cracker with sesame, oat and pumpkin seeds. Chinese health snack premium positioning.",
+    "added": 1774950352903
+  },
+  {
+    "id": 1774950357852,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/843893b51a3e7b4788585fca0c1af3ab.jpg",
+    "client": "Lotte Eatmint",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag",
+      "Sachet"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Fresh",
+      "Clean",
+      "Cool",
+      "Bold",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Colour-led",
+      "Geometric",
+      "Clean",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Bright",
+      "Pastel",
+      "Vivid"
+    ],
+    "ingredient": [
+      "mint"
+    ],
+    "style": [
+      "Japanese",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Confident",
+      "Calming",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss",
+      "Metallic Ink"
+    ],
+    "keywords": [
+      "mint",
+      "tablet",
+      "candy",
+      "Japanese",
+      "blue",
+      "white",
+      "Lotte",
+      "dots",
+      "pattern",
+      "gradient",
+      "cool",
+      "fresh",
+      "geometric",
+      "sachet",
+      "new"
+    ],
+    "notes": "Lotte Eatmint clear blue mint tablet sachet. Fresh blue-to-white gradient with dot pattern suggesting mint freshness. Bold EATMINT display wordmark. Clean Japanese confectionery for everyday freshness.",
+    "added": 1774950357852
+  },
+  {
+    "id": 1774950360919,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/853f3c8e6a72af20e04f119ad1a332c8.jpg",
+    "client": "Unknown (Chinese skincare)",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Luxury",
+      "Minimal",
+      "Sophisticated",
+      "Elegant",
+      "Clinical"
+    ],
+    "designCode": [
+      "Photography-led",
+      "3D",
+      "Visual Hammer",
+      "Abstract"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Women",
+      "Millennial",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Warm",
+      "Muted",
+      "Metallic"
+    ],
+    "ingredient": [],
+    "style": [
+      "Minimal",
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Aspirational",
+      "Mysterious",
+      "Indulgent",
+      "Calming"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Wordmark-led"
+    ],
+    "finish": [],
+    "keywords": [
+      "serum",
+      "glass",
+      "sphere",
+      "bubble",
+      "oil",
+      "golden",
+      "macro",
+      "3D",
+      "close-up",
+      "luxury",
+      "collagen",
+      "peptide",
+      "skincare",
+      "editorial",
+      "Chinese"
+    ],
+    "notes": "Chinese skincare key visual featuring three translucent glass spheres containing golden serum with bubbles. Highly editorial 3D macro composition on a warm grey background. Premium collagen/peptide positioning.",
+    "added": 1774950360919
+  },
+  {
+    "id": 1774950364089,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/857afb42ecf23c720c40fcb435eb4d54.jpg",
+    "client": "Suntory / Iyemon",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle",
+      "Can"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Bold",
+      "Vibrant",
+      "Gourmet",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Illustration-led",
+      "Visual Hammer",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Mass Market",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Warm",
+      "Bold",
+      "Green"
+    ],
+    "ingredient": [
+      "matcha",
+      "green tea"
+    ],
+    "style": [
+      "Japanese",
+      "Heritage"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Trustworthy",
+      "Indulgent",
+      "Grounded"
+    ],
+    "typography": [
+      "Serif",
+      "Mixed Fonts",
+      "Wordmark-led",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss",
+      "Metallic Ink"
+    ],
+    "keywords": [
+      "matcha",
+      "latte",
+      "can",
+      "bottle",
+      "green",
+      "Japanese",
+      "Iyemon",
+      "heritage",
+      "bold",
+      "ink wash",
+      "swirl",
+      "fluid",
+      "hot",
+      "seasonal"
+    ],
+    "notes": "Suntory Iyemon Koi-Ama matcha latte can with vivid green and dramatic ink-wash swirl illustration suggesting rich matcha. Bold heritage Japanese label with hot product variant.",
+    "added": 1774950364089
+  },
+  {
+    "id": 1774950367475,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/8597a8cf87e1378d7762f3cbc72f7433.jpg",
+    "client": "Nick. / Nakayamate Kitano",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Food",
+      "Snack",
+      "Bakery"
+    ],
+    "tonality": [
+      "Minimal",
+      "Clean",
+      "Sophisticated",
+      "Approachable",
+      "Playful"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Illustration-led",
+      "Clean",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Cool",
+      "Muted",
+      "Monochrome"
+    ],
+    "ingredient": [
+      "beef",
+      "bread"
+    ],
+    "style": [
+      "Japanese",
+      "Minimal",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Playful",
+      "Trustworthy",
+      "Approachable"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "sandwich",
+      "food",
+      "box",
+      "Japanese",
+      "white",
+      "blue",
+      "navy",
+      "illustration",
+      "flat",
+      "simple",
+      "bilingual",
+      "minimal",
+      "typography",
+      "square"
+    ],
+    "notes": "Nick. Roast Beef Cutlet Sandwich white box with clean bilingual typography and a simple flat illustration of the sandwich. Swiss minimalist inspired Japanese food packaging with playful numbered SKU system.",
+    "added": 1774950367475
+  },
+  {
+    "id": 1774950370460,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/85da14076f00ebbf54ad066873d01f85.jpg",
+    "client": "Suntory / Iyemon",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Minimal",
+      "Sophisticated",
+      "Clean",
+      "Elegant"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Visual Hammer",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Mass Market",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Cool",
+      "Bold",
+      "Green"
+    ],
+    "ingredient": [
+      "green tea"
+    ],
+    "style": [
+      "Japanese",
+      "Minimal",
+      "Heritage"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Trustworthy",
+      "Wholesome",
+      "Grounded"
+    ],
+    "typography": [
+      "Serif",
+      "Wordmark-led",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "green tea",
+      "bottle",
+      "Japanese",
+      "Iyemon",
+      "range",
+      "two-SKU",
+      "glass",
+      "organic",
+      "amber",
+      "label",
+      "bilingual",
+      "stamp",
+      "kanji",
+      "premium"
+    ],
+    "notes": "Iyemon Cha Japanese green tea range shot showing two glass bottle variants (Original Green and Roasted Green). Clean elegant labels with kanji stamp, warm green/amber tones. Organic premium positioning.",
+    "added": 1774950370460
+  },
+  {
+    "id": 1774950376801,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/89a8fbc69ba9272010c4eecf8d7a0787.jpg",
+    "client": "Unknown (luxury skincare)",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Luxury",
+      "Dark",
+      "Sophisticated",
+      "Elegant",
+      "Sensual"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Abstract",
+      "Visual Hammer",
+      "3D"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Women",
+      "Gen X",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Metallic",
+      "Warm",
+      "Neutral",
+      "Dark"
+    ],
+    "ingredient": [],
+    "style": [
+      "Luxury Editorial",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Aspirational",
+      "Mysterious",
+      "Indulgent",
+      "Dreamy"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [],
+    "keywords": [
+      "serum",
+      "ampoule",
+      "gold",
+      "metallic",
+      "macro",
+      "close-up",
+      "capsule",
+      "dropper",
+      "editorial",
+      "luxury",
+      "beauty",
+      "abstract",
+      "topdown",
+      "flatlay"
+    ],
+    "notes": "Luxury skincare key visual: overhead topdown macro shot of a golden needle/dropper dispensing into circular capsule trays with gold-toned serum. No copy visible; purely abstract product beauty photography.",
+    "added": 1774950376801
+  },
+  {
+    "id": 1774950380633,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/8e959d2cc3eb8a71f6608777957cae10.jpg",
+    "client": "Kanro Pure",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag",
+      "Pouch"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Bright",
+      "Playful",
+      "Youthful",
+      "Fun",
+      "Approachable"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Mass Market",
+      "Women"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Warm",
+      "Vivid",
+      "Yellow"
+    ],
+    "ingredient": [
+      "tangerine",
+      "yogurt",
+      "citrus"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday",
+      "Winter",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful",
+      "Nostalgic"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "gummy",
+      "candy",
+      "Japanese",
+      "Kanro",
+      "citrus",
+      "tangerine",
+      "yogurt",
+      "limited",
+      "seasonal",
+      "winter",
+      "yellow",
+      "blue",
+      "orange",
+      "photography",
+      "fruit"
+    ],
+    "notes": "Kanro Pure gummy candy winter limited edition in Citrus & Yogurt flavour. Vibrant yellow/orange pack with large citrus photography. Seasonal Japanese confectionery with snow crystal motifs.",
+    "added": 1774950380633
+  },
+  {
+    "id": 1774950383602,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/8fc6b091397dd7c8bdd5631cba8e9474.jpg",
+    "client": "ABC Cosmetics",
+    "imageType": "Pack Design",
+    "format": [
+      "Sachet"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Fresh",
+      "Organic",
+      "Playful",
+      "Clean",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Pattern-led",
+      "Photography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Women",
+      "Gen Z",
+      "Young Adults",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Green",
+      "Cool"
+    ],
+    "ingredient": [
+      "cucumber"
+    ],
+    "style": [
+      "Minimal",
+      "European"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Wholesome",
+      "Joyful",
+      "Energising"
+    ],
+    "typography": [
+      "Script",
+      "Serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "sheet mask",
+      "cucumber",
+      "green",
+      "pattern",
+      "allover",
+      "sachet",
+      "photography",
+      "botanical",
+      "natural",
+      "facial mask",
+      "fresh",
+      "macro",
+      "ingredient-led"
+    ],
+    "notes": "ABC Cosmetics Cucumber facial mask sachet with all-over repeated cucumber slice photography in vibrant green. Ingredient hero design with script wordmark. Fresh organic beauty positioning.",
+    "added": 1774950383602
+  },
+  {
+    "id": 1774950386358,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/908d9284b6a1d8f0b6664bdb448a69fc.jpg",
+    "client": "Noosa",
+    "imageType": "Pack Design",
+    "format": [
+      "Box",
+      "Cup"
+    ],
+    "productCategory": [
+      "Dairy",
+      "Food",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Vibrant",
+      "Friendly",
+      "Fun"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Illustration-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Health Conscious",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Vivid",
+      "Dark",
+      "Cool"
+    ],
+    "ingredient": [
+      "blueberry",
+      "yogurt"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Trustworthy",
+      "Energising",
+      "Wholesome"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Wordmark-led"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "yogurt",
+      "tub",
+      "multipack",
+      "blue",
+      "blueberry",
+      "Noosa",
+      "American",
+      "bold",
+      "illustration",
+      "gluten-free",
+      "probiotic",
+      "claims",
+      "organic",
+      "box"
+    ],
+    "notes": "Noosa finest yoghurt blueberry 4-pack multipack box. Vivid cobalt blue with bold wordmark and silhouette blueberry illustration. Strong visual shelf presence, humorous approachable American brand.",
+    "added": 1774950386358
+  },
+  {
+    "id": 1774950390830,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/93016a6138a3d3f1e8ff9e08bbbe192f.jpg",
+    "client": "Yakult",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Dairy",
+      "Beverage",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Clean",
+      "Approachable",
+      "Heritage",
+      "Friendly",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Millennial",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Warm",
+      "Bright",
+      "Green"
+    ],
+    "ingredient": [
+      "grape",
+      "muscat"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Energising",
+      "Trustworthy",
+      "Joyful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "Yakult",
+      "bottle",
+      "probiotic",
+      "Japanese",
+      "green",
+      "muscat",
+      "grape",
+      "dairy",
+      "health",
+      "iron",
+      "fermented",
+      "vitamin",
+      "gold",
+      "photography"
+    ],
+    "notes": "Yakult Joa probiotic fermented drink in muscat grape flavour. Green and gold branding with muscat grape photography. Japanese health drink with strong functional claims for iron, folic acid, calcium and vitamin D.",
+    "added": 1774950390830
+  },
+  {
+    "id": 1774950394515,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/94fa0e11913dc8736085a8382e6fbc19.jpg",
+    "client": "Jumor",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Bakery",
+      "Snack",
+      "Food",
+      "Confectionery"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Vibrant",
+      "Fun",
+      "Approachable"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Eco Conscious",
+      "Young Adults",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Cool",
+      "Bold"
+    ],
+    "ingredient": [
+      "chocolate chip",
+      "cookie"
+    ],
+    "style": [
+      "American",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Wholesome",
+      "Trustworthy",
+      "Playful"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "cookie",
+      "chocolate chip",
+      "box",
+      "blue",
+      "purple",
+      "vegan",
+      "organic",
+      "gluten-free",
+      "claims",
+      "American",
+      "photography",
+      "badge",
+      "bold",
+      "certifications"
+    ],
+    "notes": "Jumor Chocolate Chips Cookies box in vivid teal/blue with bold typography and cookie tower photography. Vegan, gluten-free and organic claims prominently displayed. Clean bold American style.",
+    "added": 1774950394515
+  },
+  {
+    "id": 1774950398148,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/9519db1709cdb3c5b68fbfbe010d52c7.jpg",
+    "client": "Lipton",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Vibrant",
+      "Approachable",
+      "Friendly",
+      "Bold"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bright",
+      "Vivid",
+      "Yellow"
+    ],
+    "ingredient": [
+      "apple",
+      "tea"
+    ],
+    "style": [
+      "American",
+      "European"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Trustworthy",
+      "Wholesome"
+    ],
+    "typography": [
+      "Script",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "apple tea",
+      "bottle",
+      "Lipton",
+      "red",
+      "black",
+      "gold",
+      "apple",
+      "photography",
+      "script",
+      "RTD",
+      "Japanese",
+      "sparkle",
+      "ribbon"
+    ],
+    "notes": "Lipton Apple Tea PET bottle with bold script wordmark and apple photography. Warm golden yellow with deep red ribbon detail. Global Lipton brand identity with Japanese market RTD tea format.",
+    "added": 1774950398148
+  },
+  {
+    "id": 1774950403350,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/966275546e1c261c8dfe21cfa307328b.jpg",
+    "client": "Haitai",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Chocolate",
+      "Snack",
+      "Bakery",
+      "Food"
+    ],
+    "tonality": [
+      "Heritage",
+      "Approachable",
+      "Friendly",
+      "Gourmet",
+      "Bold"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Earthy",
+      "Neutral",
+      "Muted"
+    ],
+    "ingredient": [
+      "chocolate",
+      "almond",
+      "walnut",
+      "cookie"
+    ],
+    "style": [
+      "Korean"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Indulgent",
+      "Nostalgic",
+      "Trustworthy",
+      "Wholesome"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "chocolate",
+      "cookie",
+      "Korean",
+      "Haitai",
+      "almond",
+      "walnut",
+      "brown",
+      "photography",
+      "box",
+      "dipped",
+      "multilingual",
+      "confectionery",
+      "gourmet"
+    ],
+    "notes": "Haitai Harmons Dipped Chocolate Cookie box with chocolate-dipped cookies topped with almond and walnut. Warm brown with vivid product photography. Korean confectionery with premium heritage positioning.",
+    "added": 1774950403350
+  },
+  {
+    "id": 1774950406088,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/9a05c8be192f646252737db6cb7db3de.jpg",
+    "client": "Unknown (Japanese supplement)",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag",
+      "Pouch"
+    ],
+    "productCategory": [
+      "Supplement",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Fresh",
+      "Clinical",
+      "Clean",
+      "Vibrant",
+      "Approachable"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Geometric",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Women",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Bright",
+      "Pastel",
+      "Vivid"
+    ],
+    "ingredient": [
+      "ginger"
+    ],
+    "style": [
+      "Japanese",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Trustworthy",
+      "Wholesome",
+      "Calming"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Condensed",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "supplement",
+      "potassium",
+      "Japanese",
+      "blue",
+      "teal",
+      "water",
+      "drop",
+      "ripple",
+      "pouch",
+      "ziplock",
+      "claims",
+      "ginger",
+      "nutrition",
+      "mineral"
+    ],
+    "notes": "Japanese Potassium Rich+ supplement pouch with blue/teal water ripple imagery and bold nutrient call-outs. 270 tablet 30-day supply. Clean Japanese health supplement with functional claims.",
+    "added": 1774950406088
+  },
+  {
+    "id": 1774950408401,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/9a303e1e1406c3195c429927e6876c48.jpg",
+    "client": "Cellcure",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Luxury",
+      "Dreamy",
+      "Sophisticated",
+      "Elegant",
+      "Feminine"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Visual Hammer",
+      "Gradient",
+      "3D"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Women",
+      "Millennial",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Gradient",
+      "Cool",
+      "Warm"
+    ],
+    "ingredient": [],
+    "style": [
+      "Korean",
+      "K-beauty",
+      "Luxury Editorial"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Aspirational",
+      "Dreamy",
+      "Mysterious",
+      "Empowering"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Wordmark-led"
+    ],
+    "finish": [],
+    "keywords": [
+      "serum",
+      "ampoule",
+      "white",
+      "holographic",
+      "rainbow",
+      "gradient",
+      "glow",
+      "ring",
+      "halo",
+      "luxury",
+      "K-beauty",
+      "Korean",
+      "skincare",
+      "editorial",
+      "celestial"
+    ],
+    "notes": "Cellcure White 1000 skincare ampoule key visual set against a holographic rainbow gradient background with a glowing halo ring of light. Dreamy celestial luxury K-beauty editorial aesthetic.",
+    "added": 1774950408401
+  },
+  {
+    "id": 1774950412603,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/9b4ed1f4dfb0dfb706198bc15de8d4af.jpg",
+    "client": "Sable",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Bakery",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Playful",
+      "Bold",
+      "Youthful",
+      "Vibrant",
+      "Fun"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Typography-led",
+      "Cartoon"
+    ],
+    "targetAudience": [
+      "Kids",
+      "Young Adults",
+      "Gen Z",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Warm",
+      "Vivid",
+      "Green"
+    ],
+    "ingredient": [
+      "matcha",
+      "chocolate chip",
+      "cookie"
+    ],
+    "style": [
+      "Chinese",
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising",
+      "Indulgent"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "matcha",
+      "green",
+      "cookie",
+      "character",
+      "mascot",
+      "bilingual",
+      "callout",
+      "badge",
+      "percentage",
+      "claim",
+      "bold-type",
+      "yellow",
+      "product-shot",
+      "crinkle"
+    ],
+    "notes": "Sable matcha cookie box with bold Chinese typography, playful character illustration and vivid green colourway — strong reference for vibrant Asian snack packaging.",
+    "added": 1774950412603
+  },
+  {
+    "id": 1774950415278,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/9cc9004b7cddbcbc1b8bb542b83b5dc7.jpg",
+    "client": "Thymes",
+    "imageType": "Pack Design",
+    "format": [
+      "Tube",
+      "Box"
+    ],
+    "productCategory": [
+      "Personal Care",
+      "Skincare",
+      "Beauty"
+    ],
+    "tonality": [
+      "Elegant",
+      "Dreamy",
+      "Feminine",
+      "Sophisticated",
+      "Calming"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Fluid",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Gen X",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Pastel",
+      "Muted",
+      "Gradient"
+    ],
+    "ingredient": [],
+    "style": [
+      "American",
+      "Luxury Editorial"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Calming",
+      "Dreamy",
+      "Romantic",
+      "Aspirational"
+    ],
+    "typography": [
+      "Serif",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte",
+      "Soft Touch"
+    ],
+    "keywords": [
+      "aqua",
+      "ocean",
+      "wave",
+      "teal",
+      "blue",
+      "hand-cream",
+      "skincare",
+      "gift",
+      "spa",
+      "wellness",
+      "watercolour",
+      "fluid",
+      "bilingual",
+      "range"
+    ],
+    "notes": "Thymes Aqua Coralline hand cream tube and box — fluid watercolour wave pattern in aqua tones, elegant bilingual copy; excellent for premium beauty gifting references.",
+    "added": 1774950415278
+  },
+  {
+    "id": 1774950418271,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/9e5867be80f5c4ccd217deb586e1c34a.jpg",
+    "client": "Unknown",
+    "imageType": "Product Photography",
+    "format": [
+      "Capsule"
+    ],
+    "productCategory": [
+      "Health & Wellness",
+      "Supplement",
+      "Beauty"
+    ],
+    "tonality": [
+      "Luxury",
+      "Bold",
+      "Edgy",
+      "Sophisticated",
+      "Aspirational"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Topshot",
+      "Visual Hammer",
+      "3D"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Premium",
+      "Beauty Enthusiasts"
+    ],
+    "colourPalette": [
+      "Metallic",
+      "Neutral",
+      "Bold",
+      "Warm"
+    ],
+    "ingredient": [],
+    "style": [
+      "Luxury Editorial",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Aspirational",
+      "Indulgent",
+      "Confident",
+      "Mysterious"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [
+      "Transparent",
+      "Metallic Ink",
+      "Gloss"
+    ],
+    "keywords": [
+      "gold",
+      "glitter",
+      "capsule",
+      "pill",
+      "supplement",
+      "beauty",
+      "luxury",
+      "topdown",
+      "flatlay",
+      "editorial",
+      "metallic",
+      "close-up",
+      "burst",
+      "hero"
+    ],
+    "notes": "Split gold-glitter capsule product photography — striking luxury supplement hero shot with metallic spill effect; great for editorial health-beauty visual direction.",
+    "added": 1774950418271
+  },
+  {
+    "id": 1774950421411,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/a3889cc54af4ff2fa264b6422de90412.jpg",
+    "client": "Kagoshima Green Tea",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Elegant",
+      "Organic",
+      "Sophisticated",
+      "Approachable"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Geometric",
+      "Clean",
+      "Illustration-led"
+    ],
+    "targetAudience": [
+      "Gen X",
+      "Millennial",
+      "Health Conscious",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Earthy",
+      "Muted",
+      "Neutral",
+      "Cool",
+      "Green"
+    ],
+    "ingredient": [
+      "green tea",
+      "matcha"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Grounded",
+      "Trustworthy",
+      "Wholesome"
+    ],
+    "typography": [
+      "Mixed Fonts",
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "green-tea",
+      "matcha",
+      "japanese",
+      "kanji",
+      "bottle",
+      "label",
+      "geometric",
+      "diamond",
+      "pattern",
+      "white",
+      "green",
+      "clean",
+      "wellness",
+      "premium",
+      "naturale"
+    ],
+    "notes": "Kagoshima green tea PET bottle with diamond-pattern label and bold kanji typography — clean, trustworthy Japanese RTD tea reference.",
+    "added": 1774950421411
+  },
+  {
+    "id": 1774950425842,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/a55dde3096e1a12047514284b68c36ff.jpg",
+    "client": "Arocell",
+    "imageType": "Pack Design",
+    "format": [
+      "Sachet"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Personal Care",
+      "Beauty"
+    ],
+    "tonality": [
+      "Minimal",
+      "Clinical",
+      "Cool",
+      "Feminine",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Clean",
+      "Illustration-led",
+      "Flat Design",
+      "3D"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Health Conscious",
+      "Beauty Enthusiasts"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Muted",
+      "Green"
+    ],
+    "ingredient": [],
+    "style": [
+      "Korean",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Trustworthy",
+      "Dreamy",
+      "Wholesome"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Condensed",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte",
+      "Frosted"
+    ],
+    "keywords": [
+      "mask",
+      "sheet-mask",
+      "skincare",
+      "K-beauty",
+      "green",
+      "pastel",
+      "bubble",
+      "gel",
+      "cica",
+      "panthenol",
+      "bilingual",
+      "clean",
+      "minimal",
+      "sachet",
+      "lifestyle"
+    ],
+    "notes": "Arocell CICA Repair gel mask sachet in mint green — minimal K-beauty packaging with bubble-gel illustration, soft frosted finish; strong clean skincare reference.",
+    "added": 1774950425842
+  },
+  {
+    "id": 1774950430054,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/a6428b358d0c478e82240e6f1d8ba48e.jpg",
+    "client": "Roshen",
+    "imageType": "Pack Design",
+    "format": [
+      "Wrapper"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Bakery",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Heritage",
+      "Warm",
+      "Retro",
+      "Nostalgic",
+      "Approachable"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Illustration-led",
+      "Handcrafted",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Gen X",
+      "Millennial",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Earthy",
+      "Muted",
+      "Brown"
+    ],
+    "ingredient": [
+      "cocoa",
+      "chocolate",
+      "wafer"
+    ],
+    "style": [
+      "European"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Nostalgic",
+      "Comforting",
+      "Indulgent",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Script",
+      "Serif",
+      "Mixed Fonts",
+      "Display"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "cocoa",
+      "wafer",
+      "roll",
+      "stamp",
+      "badge",
+      "brown",
+      "cream",
+      "photomontage",
+      "product-shot",
+      "chocolate-chip",
+      "classic",
+      "wrapper",
+      "retro",
+      "confectionery"
+    ],
+    "notes": "Roshen Konafetto cocoa wafer roll wrapper — warm brown heritage design with script logotype, cocoa photography and stamp detail; classic European confectionery style.",
+    "added": 1774950430054
+  },
+  {
+    "id": 1774950433718,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/a69523fc78abd00c25c47a029ef47fc3.jpg",
+    "client": "Chobani",
+    "imageType": "Range Shot",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Dairy",
+      "Food",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Minimal",
+      "Clean",
+      "Approachable",
+      "Sophisticated",
+      "Friendly"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Gradient",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Millennial",
+      "Women",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Muted",
+      "Cool",
+      "Neutral",
+      "Gradient"
+    ],
+    "ingredient": [
+      "blueberry",
+      "cherry",
+      "mango",
+      "strawberry",
+      "vanilla",
+      "cinnamon"
+    ],
+    "style": [
+      "American",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Trustworthy",
+      "Calming",
+      "Joyful",
+      "Grounded"
+    ],
+    "typography": [
+      "Serif",
+      "Sans-serif",
+      "Script",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "yogurt",
+      "greek",
+      "range",
+      "gradient",
+      "pastel",
+      "multipack",
+      "blueberry",
+      "mango",
+      "strawberry",
+      "white",
+      "clean",
+      "modular",
+      "hero",
+      "colour-coded"
+    ],
+    "notes": "Chobani 'A hint of' Greek yogurt range — five SKUs showing pastel gradient cups with serif + script mixed typography; best-in-class example of colour-coded range architecture.",
+    "added": 1774950433718
+  },
+  {
+    "id": 1774950437057,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/a93d0601c2b0aa7b3552067f35b33979.jpg",
+    "client": "Nihon Shinyaku / Kiwami Select",
+    "imageType": "Pack Design",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Health & Wellness",
+      "Supplement",
+      "Beauty"
+    ],
+    "tonality": [
+      "Luxury",
+      "Sophisticated",
+      "Elegant",
+      "Feminine",
+      "Gourmet"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Visual Hammer",
+      "Gradient"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Gen X",
+      "Premium",
+      "Beauty Enthusiasts"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Metallic",
+      "Gold",
+      "Gradient",
+      "Neutral"
+    ],
+    "ingredient": [
+      "collagen"
+    ],
+    "style": [
+      "Japanese",
+      "Luxury Editorial"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Aspirational",
+      "Indulgent",
+      "Dreamy",
+      "Romantic"
+    ],
+    "typography": [
+      "Serif",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte",
+      "Metallic Ink",
+      "Foil"
+    ],
+    "keywords": [
+      "collagen",
+      "gold",
+      "liquid",
+      "drop",
+      "drip",
+      "premium",
+      "supplement",
+      "beauty",
+      "japanese",
+      "kanji",
+      "gradient",
+      "warm",
+      "hero",
+      "pouch",
+      "visual-hammer"
+    ],
+    "notes": "Kiwami Select collagen powder pouch with liquid-drop hero shot and warm gold gradient — premium Japanese supplement with luxe editorial treatment.",
+    "added": 1774950437057
+  },
+  {
+    "id": 1774950439988,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/aa822160d6b0bd72cb61a51930b46edc.jpg",
+    "client": "Nissin / mf Moist Fusion",
+    "imageType": "Pack Design",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Health & Wellness",
+      "Supplement",
+      "Beauty"
+    ],
+    "tonality": [
+      "Minimal",
+      "Elegant",
+      "Feminine",
+      "Sophisticated",
+      "Clinical"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Clean",
+      "Abstract",
+      "Gradient"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Health Conscious",
+      "Beauty Enthusiasts"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Pastel",
+      "Cool",
+      "Muted",
+      "White"
+    ],
+    "ingredient": [],
+    "style": [
+      "Japanese",
+      "Minimal",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Aspirational",
+      "Dreamy",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte",
+      "Soft Touch"
+    ],
+    "keywords": [
+      "supplement",
+      "beauty",
+      "japanese",
+      "minimal",
+      "white",
+      "monogram",
+      "wordmark",
+      "capsule",
+      "iridescent",
+      "pearl",
+      "clean",
+      "typography-led",
+      "soft",
+      "wellness"
+    ],
+    "notes": "Nissin mf Moist Fusion supplement pouch — ultra-minimal white design with iridescent capsule graphic and monogram wordmark; refined Japanese beauty supplement reference.",
+    "added": 1774950439988
+  },
+  {
+    "id": 1774950442903,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/aaf27057afabedbf84eda0307e09465b.jpg",
+    "client": "Yoritoko / mi ta su",
+    "imageType": "Pack Design",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Food"
+    ],
+    "tonality": [
+      "Minimal",
+      "Elegant",
+      "Sophisticated",
+      "Approachable",
+      "Organic"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Line Art",
+      "Typography-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Gen X",
+      "Health Conscious",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Muted",
+      "Pastel",
+      "White",
+      "Cool"
+    ],
+    "ingredient": [
+      "beef"
+    ],
+    "style": [
+      "Japanese",
+      "Minimal",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Wholesome",
+      "Grounded",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts",
+      "Serif"
+    ],
+    "finish": [
+      "Matte",
+      "Soft Touch"
+    ],
+    "keywords": [
+      "line-art",
+      "hand",
+      "illustration",
+      "minimalist",
+      "white",
+      "pink",
+      "japanese",
+      "food",
+      "beef",
+      "badge",
+      "icon",
+      "wordmark",
+      "ziplock",
+      "pouch",
+      "negative-space"
+    ],
+    "notes": "Yoritoko mi ta su food pouch — precise line-art hand illustration with mixed Japanese/Latin typography on a clean white ground; excellent minimal Japanese food packaging reference.",
+    "added": 1774950442903
+  },
+  {
+    "id": 1774950445997,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/aba2e75e995887c44c5f4dde56eda1f3.jpg",
+    "client": "Unknown (Chinese Biscuit Brand)",
+    "imageType": "Range Shot",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Bakery",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Playful",
+      "Bold",
+      "Youthful",
+      "Vibrant",
+      "Fun"
+    ],
+    "designCode": [
+      "Colour-led",
+      "Typography-led",
+      "Clean",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Mass Market",
+      "Kids"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Warm",
+      "Primary Colours"
+    ],
+    "ingredient": [
+      "butter",
+      "matcha",
+      "caramel",
+      "sea salt"
+    ],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising",
+      "Appetising"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Uppercase Only",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "biscuit",
+      "waffle",
+      "cookie",
+      "grid",
+      "range",
+      "yellow",
+      "green",
+      "pink",
+      "colour-blocked",
+      "bilingual",
+      "flavour-variant",
+      "modular",
+      "bold-type",
+      "fun"
+    ],
+    "notes": "Chinese butter/matcha/caramel sea salt waffle cookie box range — vivid colour-blocked boxes with bold typography; useful reference for bright Asian snack range design.",
+    "added": 1774950445997
+  },
+  {
+    "id": 1774950448985,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/ac10e6af3ebb33c4b8123626d7e2b500.jpg",
+    "client": "Kirin / Gogo-no-Kocha",
+    "imageType": "Range Shot",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Sophisticated",
+      "Elegant",
+      "Warm",
+      "Gourmet"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Illustration-led",
+      "Clean",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Gen X",
+      "Millennial",
+      "Unisex",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Earthy",
+      "Gold",
+      "Neutral",
+      "Muted"
+    ],
+    "ingredient": [
+      "orange",
+      "milk tea"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Comforting",
+      "Trustworthy",
+      "Grounded",
+      "Nostalgic"
+    ],
+    "typography": [
+      "Mixed Fonts",
+      "Display",
+      "Serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "tea",
+      "orange",
+      "milk-tea",
+      "bottle",
+      "range",
+      "japanese",
+      "gold",
+      "kanji",
+      "label",
+      "warm",
+      "premium",
+      "heritage",
+      "meister",
+      "beverage",
+      "pattern"
+    ],
+    "notes": "Kirin Gogo-no-Kocha 'The Meister's' orange tea and milk tea PET bottles — warm gold heritage label design with premium bilingual typography; strong RTD tea range reference.",
+    "added": 1774950448985
+  },
+  {
+    "id": 1774950453028,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/aeb7785cb457d3daded1dda7337266ee.jpg",
+    "client": "Iyemon Cha",
+    "imageType": "Range Shot",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Elegant",
+      "Organic",
+      "Sophisticated",
+      "Earthy"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Typography-led",
+      "Handcrafted"
+    ],
+    "targetAudience": [
+      "Gen X",
+      "Millennial",
+      "Health Conscious",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Earthy",
+      "Warm",
+      "Gold",
+      "Dark",
+      "Muted"
+    ],
+    "ingredient": [
+      "barley tea",
+      "green tea"
+    ],
+    "style": [
+      "Japanese",
+      "Art Nouveau"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Calming",
+      "Grounded",
+      "Nostalgic",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Mixed Fonts",
+      "Display",
+      "Serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "barley-tea",
+      "mugicha",
+      "floral",
+      "botanical",
+      "morning-glory",
+      "japanese",
+      "limited",
+      "kyoto",
+      "kanji",
+      "dark",
+      "gold",
+      "label",
+      "illustration",
+      "bottle",
+      "range"
+    ],
+    "notes": "Iyemon barley tea limited edition bottles with morning-glory botanical illustration — dark earthy palette; great reference for seasonal Japanese heritage tea design.",
+    "added": 1774950453028
+  },
+  {
+    "id": 1774950465195,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/af88f42ac8c469487283fcf26dd0c48d.jpg",
+    "client": "Iyemon Cha",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Minimal",
+      "Clean",
+      "Organic",
+      "Approachable",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Clean",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Health Conscious",
+      "Unisex",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Muted",
+      "White",
+      "Blue"
+    ],
+    "ingredient": [
+      "lemon",
+      "green tea"
+    ],
+    "style": [
+      "Japanese",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Calming",
+      "Wholesome",
+      "Energising",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Mixed Fonts",
+      "Display",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "lemon",
+      "green-tea",
+      "iced-tea",
+      "morning",
+      "japanese",
+      "kanji",
+      "blue",
+      "white",
+      "pastel",
+      "fruit",
+      "botanical",
+      "label",
+      "bottle",
+      "summer",
+      "clean"
+    ],
+    "notes": "Iyemon morning iced tea lemon bottle — clean pastel blue label with lemon photography and Japanese kanji display type; refreshing summer RTD reference.",
+    "added": 1774950465195
+  },
+  {
+    "id": 1774950468488,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/b1f2231015c08a98b776ecb073e65336.jpg",
+    "client": "Meiji",
+    "imageType": "Pack Design",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Chocolate",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Fun",
+      "Approachable",
+      "Energising"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Illustration-led",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Mass Market",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Green",
+      "Warm"
+    ],
+    "ingredient": [
+      "pistachio",
+      "chocolate"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Indulgent",
+      "Joyful",
+      "Playful",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "pistachio",
+      "chocolate",
+      "green",
+      "nut",
+      "badge",
+      "photomontage",
+      "product-shot",
+      "pouch",
+      "japanese",
+      "bold",
+      "callout",
+      "nutrition",
+      "snack",
+      "confectionery"
+    ],
+    "notes": "Meiji Pistachio Chocolate pouch — vivid green with pistachio photography and bold display type; punchy Japanese snack pack with strong flavour hero.",
+    "added": 1774950468488
+  },
+  {
+    "id": 1774950473691,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/b21466837ca74335ca580d4d2762b085.jpg",
+    "client": "Koiwai / iMUSE",
+    "imageType": "Pack Design",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Dairy",
+      "Food",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Clinical",
+      "Clean",
+      "Sophisticated",
+      "Trustworthy",
+      "Cool"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Clean",
+      "Gradient"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Gen X",
+      "Millennial",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Pastel",
+      "Muted",
+      "White",
+      "Blue"
+    ],
+    "ingredient": [
+      "yogurt"
+    ],
+    "style": [
+      "Japanese",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Trustworthy",
+      "Calming",
+      "Wholesome",
+      "Grounded"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts",
+      "Serif"
+    ],
+    "finish": [
+      "Gloss",
+      "Metallic Ink"
+    ],
+    "keywords": [
+      "yogurt",
+      "probiotic",
+      "japanese",
+      "blue",
+      "gold",
+      "bubble",
+      "health",
+      "functional",
+      "cup",
+      "dairy",
+      "claim",
+      "wellness",
+      "clean",
+      "bilingual",
+      "badge"
+    ],
+    "notes": "Koiwai iMUSE probiotic yogurt cup — clinical sky-blue design with gold foil badge and bubble motif; functional dairy packaging with premium Japanese feel.",
+    "added": 1774950473691
+  },
+  {
+    "id": 1774950478499,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/b500e43867011633abdf467c25742f36.jpg",
+    "client": "Lucknow Lab / Kamino-shima",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Juice",
+      "Beverage"
+    ],
+    "tonality": [
+      "Minimal",
+      "Elegant",
+      "Sophisticated",
+      "Organic",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Clean",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Health Conscious",
+      "Millennial",
+      "Women"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Neutral",
+      "Yellow",
+      "Muted",
+      "White"
+    ],
+    "ingredient": [
+      "lemon"
+    ],
+    "style": [
+      "Japanese",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Wholesome",
+      "Grounded",
+      "Trustworthy",
+      "Joyful"
+    ],
+    "typography": [
+      "Mixed Fonts",
+      "Serif",
+      "Display",
+      "Sans-serif"
+    ],
+    "finish": [
+      "Matte",
+      "Transparent"
+    ],
+    "keywords": [
+      "lemon",
+      "juice",
+      "bottle",
+      "yellow",
+      "japanese",
+      "kanji",
+      "minimal",
+      "label",
+      "artisan",
+      "glass",
+      "fruit",
+      "stamp",
+      "100percent",
+      "clean",
+      "premium"
+    ],
+    "notes": "Lucknow Lab Kamino-shima lemon juice mini bottle — artisan Japanese label with lemon illustration, minimal stamp typography; premium craft juice reference.",
+    "added": 1774950478499
+  },
+  {
+    "id": 1774950482900,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/b51580443baf1614d87a606474c85955.jpg",
+    "client": "Hachiendo / Tokyo Cream Pan",
+    "imageType": "Pack Design",
+    "format": [
+      "Wrapper"
+    ],
+    "productCategory": [
+      "Bakery",
+      "Food",
+      "Snack"
+    ],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Playful",
+      "Youthful",
+      "Fun"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Photography-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Mass Market",
+      "Kids"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Yellow",
+      "Warm"
+    ],
+    "ingredient": [
+      "banana",
+      "cream"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Indulgent",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "banana",
+      "cream-bread",
+      "yellow",
+      "fruit",
+      "photomontage",
+      "product-shot",
+      "wrapper",
+      "japanese",
+      "kanji",
+      "bold",
+      "bakery",
+      "snack",
+      "character",
+      "fun"
+    ],
+    "notes": "Hachiendo Tokyo Cream Pan banana flavour wrapper — bold yellow with large banana photography and kanji display type; energetic Japanese bakery snack reference.",
+    "added": 1774950482900
+  },
+  {
+    "id": 1774950486885,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/b788dbf6ab49fd9af6822d6d7ef8a9cf.jpg",
+    "client": "Kao / Emolika",
+    "imageType": "Pack Design",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Personal Care",
+      "Skincare",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Clinical",
+      "Clean",
+      "Organic",
+      "Approachable",
+      "Calm"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Clean",
+      "Illustration-led"
+    ],
+    "targetAudience": [
+      "Women",
+      "Gen X",
+      "Millennial",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Pastel",
+      "Muted",
+      "Green",
+      "White"
+    ],
+    "ingredient": [],
+    "style": [
+      "Japanese",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Trustworthy",
+      "Wholesome",
+      "Grounded"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte",
+      "Recyclable / Eco"
+    ],
+    "keywords": [
+      "bath",
+      "skincare",
+      "refill",
+      "eco",
+      "herb",
+      "green",
+      "japanese",
+      "kanji",
+      "pouch",
+      "recyclable",
+      "functional",
+      "wellness",
+      "clean",
+      "clinical",
+      "bilingual"
+    ],
+    "notes": "Kao Emolika bath milk refill pouch — clean mint-green design with Japanese clinical typography and eco-friendly cues; functional refill packaging reference.",
+    "added": 1774950486885
+  },
+  {
+    "id": 1774950490697,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/be64cd994c55df51135477e4675d2235.jpg",
+    "client": "Patisserie KIHACHI / Wafers Lab",
+    "imageType": "Key Visual",
+    "format": [
+      "Other"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Bakery",
+      "Food"
+    ],
+    "tonality": [
+      "Minimal",
+      "Elegant",
+      "Sophisticated",
+      "Gourmet",
+      "Bold"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Topshot",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Millennial",
+      "Women",
+      "Food Lovers"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Yellow",
+      "Blue",
+      "Warm"
+    ],
+    "ingredient": [
+      "lemon",
+      "chocolate",
+      "mint"
+    ],
+    "style": [
+      "Japanese",
+      "Luxury Editorial",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Indulgent",
+      "Aspirational",
+      "Joyful",
+      "Playful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "wafer",
+      "lemon",
+      "chocolate",
+      "mint",
+      "yellow",
+      "blue",
+      "product-shot",
+      "editorial",
+      "drip",
+      "pour",
+      "campaign",
+      "split",
+      "duotone",
+      "hero",
+      "finedining"
+    ],
+    "notes": "KIHACHI Wafers Lab campaign showing lemon and chocolate mint flavours with product pour shots on vivid yellow/blue backgrounds — dynamic split-composition food editorial reference.",
+    "added": 1774950490697
+  },
+  {
+    "id": 1774950493249,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/beef79dc5d8e4e16dba93f1476a8d2d4.jpg",
+    "client": "Coca-Cola / Chun Cha She",
+    "imageType": "Range Shot",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Elegant",
+      "Sophisticated",
+      "Heritage",
+      "Vibrant",
+      "Warm"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Illustration-led",
+      "Pattern-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Health Conscious",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Vivid",
+      "Gold",
+      "Yellow",
+      "Gradient"
+    ],
+    "ingredient": [
+      "chrysanthemum",
+      "oolong"
+    ],
+    "style": [
+      "Chinese",
+      "Art Nouveau"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Trustworthy",
+      "Aspirational",
+      "Wholesome"
+    ],
+    "typography": [
+      "Mixed Fonts",
+      "Display",
+      "Serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "tea",
+      "chinese",
+      "bilingual",
+      "botanical",
+      "floral",
+      "oolong",
+      "chrysanthemum",
+      "gold",
+      "pattern",
+      "label",
+      "range",
+      "beverage",
+      "bottle",
+      "warm",
+      "gradient"
+    ],
+    "notes": "Coca-Cola Chun Cha She functional tea range — warm gold gradient bottles with Art Nouveau botanical patterns and bilingual Chinese typography; premium RTD tea design.",
+    "added": 1774950493249
+  },
+  {
+    "id": 1774950497285,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/c702088017bab94edc29c8e26d65b706.jpg",
+    "client": "hydra",
+    "imageType": "Range Shot",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Haircare",
+      "Personal Care",
+      "Skincare"
+    ],
+    "tonality": [
+      "Minimal",
+      "Dreamy",
+      "Sophisticated",
+      "Elegant",
+      "Cool"
+    ],
+    "designCode": [
+      "Gradient",
+      "Colour-led",
+      "Typography-led",
+      "3D",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Gen Z",
+      "Millennial",
+      "Beauty Enthusiasts"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Gradient",
+      "Cool",
+      "Muted",
+      "Duotone"
+    ],
+    "ingredient": [
+      "coconut",
+      "vanilla",
+      "lavender",
+      "chamomile",
+      "tea tree",
+      "eucalyptus"
+    ],
+    "style": [
+      "Minimal",
+      "Swiss / Modernist",
+      "Y2K"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Dreamy",
+      "Calming",
+      "Aspirational",
+      "Empowering"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte",
+      "Soft Touch"
+    ],
+    "keywords": [
+      "haircare",
+      "shampoo",
+      "conditioner",
+      "exfoliator",
+      "gradient",
+      "pastel",
+      "pump",
+      "3D",
+      "range",
+      "yellow",
+      "blue",
+      "green",
+      "minimal",
+      "clean",
+      "beauty"
+    ],
+    "notes": "hydra haircare range — three pump bottles in pastel gradient colourways (yellow/purple/navy), ultra-minimal sans-serif typography; Y2K-adjacent clean beauty reference.",
+    "added": 1774950497285
+  },
+  {
+    "id": 1774950502117,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/c7e40b8931e93a56d0025bfc27728c68.jpg",
+    "client": "Wallaby Organic",
+    "imageType": "Pack Design",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Dairy",
+      "Food",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Heritage",
+      "Approachable",
+      "Bold",
+      "Friendly",
+      "Trustworthy"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Illustration-led",
+      "Clean",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Millennial",
+      "Gen X",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Dark",
+      "Neutral",
+      "White",
+      "Muted",
+      "Cool"
+    ],
+    "ingredient": [
+      "yogurt"
+    ],
+    "style": [
+      "American",
+      "Preppy"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Trustworthy",
+      "Grounded",
+      "Comforting"
+    ],
+    "typography": [
+      "Display",
+      "Serif",
+      "Script",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "yogurt",
+      "greek",
+      "organic",
+      "aussie",
+      "kangaroo",
+      "animal",
+      "navy",
+      "white",
+      "illustration",
+      "bowl",
+      "certifications",
+      "USDA",
+      "dairy",
+      "clean",
+      "artisan"
+    ],
+    "notes": "Wallaby Organic Aussie Greek yogurt tub — navy/white with kangaroo illustration and bold mixed-case display type; trustworthy American organic dairy reference.",
+    "added": 1774950502117
+  },
+  {
+    "id": 1774950505339,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/c874c6dd3f35b1c5056a2df89e1b38f7.jpg",
+    "client": "Glico / Pretz Harvest",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Snack",
+      "Food",
+      "Bakery"
+    ],
+    "tonality": [
+      "Playful",
+      "Vibrant",
+      "Bold",
+      "Youthful",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Photography-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Mass Market",
+      "Kids"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Muted",
+      "Purple",
+      "Green",
+      "Bright"
+    ],
+    "ingredient": [
+      "sweet potato"
+    ],
+    "style": [
+      "Southeast Asian",
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Playful",
+      "Joyful",
+      "Wholesome",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Serif",
+      "Mixed Fonts",
+      "Uppercase Only",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "pretz",
+      "stick",
+      "sweet-potato",
+      "purple",
+      "mint",
+      "vegetable",
+      "box",
+      "illustration",
+      "product-shot",
+      "thai",
+      "bilingual",
+      "harvest",
+      "snack",
+      "bold-type"
+    ],
+    "notes": "Glico Pretz Harvest sweet potato flavour box — mint and purple colourway with bold typography and vegetable photography; bright Southeast Asian snack reference.",
+    "added": 1774950505339
+  },
+  {
+    "id": 1774950511051,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/c95a642c297c260145b2d227cdebffd9.jpg",
+    "client": "Commune",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Personal Care",
+      "Haircare",
+      "Skincare"
+    ],
+    "tonality": [
+      "Heritage",
+      "Sophisticated",
+      "Dark",
+      "Ornate",
+      "Earthy"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Line Art",
+      "Geometric",
+      "Typography-led",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Millennial",
+      "Women",
+      "Eco Conscious"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Warm",
+      "Earthy",
+      "Monochrome",
+      "Muted"
+    ],
+    "ingredient": [],
+    "style": [
+      "Art Nouveau",
+      "Art Deco",
+      "Luxury Editorial"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Aspirational",
+      "Mysterious",
+      "Grounded",
+      "Confident"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte",
+      "Screen Print",
+      "Textured"
+    ],
+    "keywords": [
+      "arch",
+      "tree",
+      "nature",
+      "botanical",
+      "line-art",
+      "engraving",
+      "cream",
+      "black",
+      "pump",
+      "artisan",
+      "premium",
+      "eco",
+      "screenprint",
+      "wordmark",
+      "refill"
+    ],
+    "notes": "Commune hand wash/body wash pump bottles in cream with intricate screen-printed Art Nouveau arch-and-tree motif — premium artisan personal care reference.",
+    "added": 1774950511051
+  },
+  {
+    "id": 1774950515297,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/c9f85b08b4277b791bcabbe6c67b7830.jpg",
+    "client": "Asahi",
+    "imageType": "Pack Design",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Snack",
+      "Health & Wellness",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Playful",
+      "Youthful",
+      "Energising"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Illustration-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Health Conscious",
+      "Mass Market",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Yellow",
+      "Green",
+      "Bright",
+      "Warm"
+    ],
+    "ingredient": [
+      "lemon",
+      "lime",
+      "vitamin C"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Joyful",
+      "Wholesome",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "lemon",
+      "lime",
+      "vitamin-C",
+      "candy",
+      "throat",
+      "yellow",
+      "green",
+      "citrus",
+      "fruit",
+      "pouch",
+      "japanese",
+      "bold",
+      "callout",
+      "health",
+      "photomontage"
+    ],
+    "notes": "Asahi Vitamin C5000 lemon-lime candy pouch — vivid yellow-green with citrus photography and large C5000 callout; energetic health-candy crossover reference.",
+    "added": 1774950515297
+  },
+  {
+    "id": 1774950518070,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/d2b37c5de45506eb562dff0bff90e288.jpg",
+    "client": "Heysong / Zhui Ze",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Elegant",
+      "Sophisticated",
+      "Heritage",
+      "Organic",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Health Conscious",
+      "Gen X",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Green",
+      "Muted",
+      "Gradient",
+      "Neutral"
+    ],
+    "ingredient": [
+      "green tea"
+    ],
+    "style": [
+      "Japanese",
+      "Chinese",
+      "Art Nouveau"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Grounded",
+      "Trustworthy",
+      "Wholesome"
+    ],
+    "typography": [
+      "Mixed Fonts",
+      "Display",
+      "Serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "green-tea",
+      "sencha",
+      "japanese",
+      "chinese",
+      "wave",
+      "pattern",
+      "label",
+      "gold",
+      "bottle",
+      "tea-leaf",
+      "premium",
+      "bilingual",
+      "botanical",
+      "clean",
+      "wellness"
+    ],
+    "notes": "Heysong Zhui Ze sencha PET bottle — green wave-pattern label with bilingual premium typography and tea-leaf illustration; clean Japanese-style RTD tea from Taiwan.",
+    "added": 1774950518070
+  },
+  {
+    "id": 1774950521539,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/d3204c87d6844cf4747cb86f52349596.jpg",
+    "client": "Lay's",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag"
+    ],
+    "productCategory": [
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Luxury",
+      "Dark",
+      "Ornate",
+      "Heritage",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Dark",
+      "Metallic",
+      "Gold",
+      "Green",
+      "Vivid"
+    ],
+    "ingredient": [
+      "potato chip"
+    ],
+    "style": [
+      "Southeast Asian",
+      "Middle Eastern",
+      "Folk"
+    ],
+    "occasion": [
+      "Ramadan",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Mysterious",
+      "Indulgent",
+      "Aspirational",
+      "Confident"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss",
+      "Metallic Ink",
+      "Foil"
+    ],
+    "keywords": [
+      "ramadan",
+      "limited",
+      "dark-green",
+      "gold",
+      "floral",
+      "botanical",
+      "ornate",
+      "pattern",
+      "chips",
+      "potato",
+      "premium",
+      "seasonal",
+      "cultural",
+      "festival",
+      "stamp"
+    ],
+    "notes": "Lay's limited edition Ramadan pack — deep green with intricate gold botanical pattern on dark background; excellent reference for culturally-coded festive packaging.",
+    "added": 1774950521539
+  },
+  {
+    "id": 1774950527783,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/d50514e466995424db206d74501ea346.jpg",
+    "client": "Unknown",
+    "imageType": "Product Photography",
+    "format": [
+      "Other"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Personal Care",
+      "Beauty"
+    ],
+    "tonality": [
+      "Minimal",
+      "Clinical",
+      "Sophisticated",
+      "Cool",
+      "Elegant"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Topshot",
+      "Visual Hammer",
+      "Abstract"
+    ],
+    "targetAudience": [
+      "Women",
+      "Beauty Enthusiasts",
+      "Millennial",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Muted",
+      "Neutral",
+      "Monochrome",
+      "White"
+    ],
+    "ingredient": [],
+    "style": [
+      "Swiss / Modernist",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Aspirational",
+      "Mysterious",
+      "Dreamy"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "serum",
+      "gel",
+      "texture",
+      "blue",
+      "teal",
+      "close-up",
+      "skincare",
+      "beauty",
+      "micro-bead",
+      "editorial",
+      "product-shot",
+      "clinical",
+      "abstract",
+      "negative-space",
+      "topdown"
+    ],
+    "notes": "Close-up macro shot of blue-teal serum/gel texture swirl — abstract skincare ingredient photography with no type; useful editorial beauty texture reference.",
+    "added": 1774950527783
+  },
+  {
+    "id": 1774950532539,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/d6814a5c385b61c20c55ea93afcdf1e4.jpg",
+    "client": "Meiji / Kajuu Gummy",
+    "imageType": "Pack Design",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Youthful",
+      "Playful",
+      "Approachable"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Typography-led",
+      "Illustration-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Kids",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Green",
+      "Warm",
+      "Bright",
+      "Vivid"
+    ],
+    "ingredient": [
+      "pear"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising",
+      "Indulgent"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif",
+      "Condensed"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "gummy",
+      "pear",
+      "fruit",
+      "photomontage",
+      "product-shot",
+      "green",
+      "japanese",
+      "candy",
+      "collagen",
+      "bold",
+      "pouch",
+      "snack",
+      "callout",
+      "fresh"
+    ],
+    "notes": "Meiji Kajuu Gummy pear pouch — split green/pear-photography design with bold Japanese display type; vivid fruit candy reference.",
+    "added": 1774950532539
+  },
+  {
+    "id": 1774950538657,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/d83a66bd8fd0ee3ccf452413131633bb.jpg",
+    "client": "Yuyu-kan / Surat Supli",
+    "imageType": "Range Shot",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Health & Wellness",
+      "Supplement",
+      "Beauty"
+    ],
+    "tonality": [
+      "Feminine",
+      "Kawaii",
+      "Playful",
+      "Dreamy",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Colour-led",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Gen Z",
+      "Beauty Enthusiasts"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Pink",
+      "Warm",
+      "Pastel"
+    ],
+    "ingredient": [],
+    "style": [
+      "Japanese",
+      "Kawaii"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Romantic",
+      "Dreamy"
+    ],
+    "typography": [
+      "Mixed Fonts",
+      "Display",
+      "Serif",
+      "Sans-serif"
+    ],
+    "finish": [
+      "Matte",
+      "Soft Touch"
+    ],
+    "keywords": [
+      "supplement",
+      "beauty",
+      "japanese",
+      "floral",
+      "botanical",
+      "pink",
+      "pattern",
+      "dot",
+      "feminine",
+      "kawaii",
+      "pouch",
+      "range",
+      "wellness",
+      "cute",
+      "lifestyle"
+    ],
+    "notes": "Yuyu-kan slim supplement pouch range in pink dot/floral pattern — feminine kawaii Japanese design with warm pink palette; beauty supplement range reference.",
+    "added": 1774950538657
+  },
+  {
+    "id": 1774950542745,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/d9a2a44349968c8d8e923c1224fc2941.jpg",
+    "client": "Unknown",
+    "imageType": "Product Photography",
+    "format": [
+      "Other"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Feminine",
+      "Elegant",
+      "Dreamy",
+      "Soft",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Topshot",
+      "Visual Hammer",
+      "Abstract"
+    ],
+    "targetAudience": [
+      "Women",
+      "Beauty Enthusiasts",
+      "Millennial",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Pink",
+      "Neutral",
+      "Muted"
+    ],
+    "ingredient": [],
+    "style": [
+      "Luxury Editorial",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Dreamy",
+      "Romantic",
+      "Calming",
+      "Aspirational"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "pink",
+      "beads",
+      "capsule",
+      "serum",
+      "skincare",
+      "beauty",
+      "close-up",
+      "topdown",
+      "texture",
+      "product-shot",
+      "editorial",
+      "feminine",
+      "soft",
+      "luxury",
+      "pastel"
+    ],
+    "notes": "Pink micro-bead serum close-up product photography — soft pink bubble texture on white ground; elegant beauty ingredient editorial shot.",
+    "added": 1774950542745
+  },
+  {
+    "id": 1774950549854,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/d9ee99b47f7673b0db0991e2fa54485d.jpg",
+    "client": "Glico / Cheeza",
+    "imageType": "Pack Design",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Fun",
+      "Playful",
+      "Vibrant",
+      "Youthful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Photography-led",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Mass Market",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Dark",
+      "Bold",
+      "Warm",
+      "Gold",
+      "Vivid"
+    ],
+    "ingredient": [
+      "cheese",
+      "mascarpone"
+    ],
+    "style": [
+      "Japanese",
+      "European"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Indulgent",
+      "Joyful",
+      "Playful",
+      "Comforting"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Serif",
+      "Script",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "cheese",
+      "cracker",
+      "mascarpone",
+      "dark",
+      "gold",
+      "night-sky",
+      "bubble",
+      "star",
+      "photomontage",
+      "product-shot",
+      "pouch",
+      "japanese",
+      "snack",
+      "bold-type"
+    ],
+    "notes": "Glico Cheeza mascarpone cheese cracker pouch — dark navy with gold star/bubble motif and bold mixed typography; playful Japanese premium snack reference.",
+    "added": 1774950549854
+  },
+  {
+    "id": 1774950553442,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/dc47fedd44ab8df96f1f0bf8e0b2111f.jpg",
+    "client": "Asahi / Soy & Cream",
+    "imageType": "Pack Design",
+    "format": [
+      "Wrapper"
+    ],
+    "productCategory": [
+      "Bakery",
+      "Snack",
+      "Food",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Clean",
+      "Sophisticated",
+      "Approachable",
+      "Minimal",
+      "Trustworthy"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Typography-led",
+      "Clean",
+      "Illustration-led"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Millennial",
+      "Women",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Warm",
+      "White",
+      "Muted",
+      "Gold"
+    ],
+    "ingredient": [
+      "soy",
+      "cream",
+      "custard"
+    ],
+    "style": [
+      "Japanese",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Comforting",
+      "Trustworthy",
+      "Grounded"
+    ],
+    "typography": [
+      "Display",
+      "Serif",
+      "Mixed Fonts",
+      "Script",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "soy",
+      "cream",
+      "bran",
+      "cracker",
+      "white",
+      "photomontage",
+      "product-shot",
+      "japanese",
+      "healthy",
+      "wrapper",
+      "food",
+      "bilingual",
+      "certifications",
+      "grain"
+    ],
+    "notes": "Asahi Soy & Cream biscuit wrapper — clean white design with product photography and elegant mixed typography; healthy Japanese bakery snack reference.",
+    "added": 1774950553442
+  },
+  {
+    "id": 1774950556032,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/e85af8493e69dc9f7b080ee7fd2328fa.jpg",
+    "client": "It's Skin",
+    "imageType": "Range Shot",
+    "format": [
+      "Sachet"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Clinical",
+      "Bold",
+      "Vibrant",
+      "Sophisticated",
+      "Youthful"
+    ],
+    "designCode": [
+      "Colour-led",
+      "Gradient",
+      "Typography-led",
+      "Clean",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Gen Z",
+      "Beauty Enthusiasts"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Yellow",
+      "Green",
+      "Gradient",
+      "Bright"
+    ],
+    "ingredient": [],
+    "style": [
+      "Korean",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Confident",
+      "Trustworthy",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte",
+      "Gloss"
+    ],
+    "keywords": [
+      "mask",
+      "sheet-mask",
+      "skincare",
+      "K-beauty",
+      "yellow",
+      "green",
+      "gradient",
+      "vitamin-C",
+      "brightening",
+      "serum",
+      "bilingual",
+      "range",
+      "clinical",
+      "sachet",
+      "clean"
+    ],
+    "notes": "It's Skin Power 10 Formula VC and VB mask sheet sachets — vivid yellow/green gradient design with bold clinical typography; strong K-beauty skincare range reference.",
+    "added": 1774950556032
+  },
+  {
+    "id": 1774950558571,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/ebaa08ff145049623a48eed31f5fdac8.jpg",
+    "client": "BCL / Momopuri",
+    "imageType": "Pack Design",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Health & Wellness",
+      "Supplement",
+      "Beauty"
+    ],
+    "tonality": [
+      "Feminine",
+      "Kawaii",
+      "Dreamy",
+      "Soft",
+      "Playful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Photography-led",
+      "Colour-led",
+      "Gradient"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Gen Z",
+      "Beauty Enthusiasts"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Pink",
+      "Gradient",
+      "White"
+    ],
+    "ingredient": [
+      "peach"
+    ],
+    "style": [
+      "Japanese",
+      "Kawaii"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Dreamy",
+      "Romantic",
+      "Joyful",
+      "Calming"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts",
+      "Serif"
+    ],
+    "finish": [
+      "Matte",
+      "Soft Touch"
+    ],
+    "keywords": [
+      "peach",
+      "supplement",
+      "beauty",
+      "japanese",
+      "pink",
+      "gradient",
+      "kawaii",
+      "feminine",
+      "fruit",
+      "ceramide",
+      "probiotic",
+      "pouch",
+      "visual-hammer",
+      "drop",
+      "soft"
+    ],
+    "notes": "BCL Momopuri peach ceramide supplement pouch — soft pink gradient with oversized peach illustration and dual-language typography; feminine Japanese beauty supplement reference.",
+    "added": 1774950558571
+  },
+  {
+    "id": 1774950561804,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/ec2e20b084d13bc7eab6702ff5498ffa.jpg",
+    "client": "Lotte / ZERO",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Bakery",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Sophisticated",
+      "Heritage",
+      "Warm",
+      "Gourmet",
+      "Approachable"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Typography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Gen X",
+      "Millennial",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Brown",
+      "Dark",
+      "Earthy",
+      "Neutral"
+    ],
+    "ingredient": [
+      "chocolate",
+      "cookie"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Indulgent",
+      "Comforting",
+      "Trustworthy",
+      "Wholesome"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Serif",
+      "Script",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "sugar-free",
+      "zero",
+      "cookie",
+      "chocolate",
+      "sandwich",
+      "product-shot",
+      "brown",
+      "warm",
+      "box",
+      "japanese",
+      "health",
+      "snack",
+      "photomontage",
+      "claim",
+      "bakery"
+    ],
+    "notes": "Lotte ZERO sugar-free sandwich cookie box — warm brown with stacked product photography; classic Japanese healthy-indulgence bakery reference.",
+    "added": 1774950561804
+  },
+  {
+    "id": 1774950565757,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/ee4309feb068ce39e59cca2c1c3c86dc.jpg",
+    "client": "Pokka Sapporo",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Warm",
+      "Sophisticated",
+      "Gourmet",
+      "Trustworthy"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Pattern-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Gen X",
+      "Millennial",
+      "Unisex",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Earthy",
+      "Gold",
+      "Neutral",
+      "Muted"
+    ],
+    "ingredient": [
+      "barley tea"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Comforting",
+      "Trustworthy",
+      "Grounded",
+      "Nostalgic"
+    ],
+    "typography": [
+      "Mixed Fonts",
+      "Display",
+      "Serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "barley-tea",
+      "mugicha",
+      "gold",
+      "wheat",
+      "grain",
+      "japanese",
+      "kanji",
+      "label",
+      "bottle",
+      "warm",
+      "heritage",
+      "iced",
+      "premium",
+      "japan-quality",
+      "stamp"
+    ],
+    "notes": "Pokka Sapporo Nippon Mugicha barley tea bottle — warm gold with wheat illustration and Japan Quality badge; classic trustworthy Japanese barley tea design.",
+    "added": 1774950565757
+  },
+  {
+    "id": 1774950569351,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/eef5e5d674e6c182a873785693f0efd5.jpg",
+    "client": "Samyang / Tangle",
+    "imageType": "Pack Design",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Food",
+      "Snack"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Vibrant",
+      "Youthful",
+      "Fun"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Typography-led",
+      "Colour-led",
+      "Illustration-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Mass Market",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Neutral",
+      "White",
+      "Bold",
+      "Vivid"
+    ],
+    "ingredient": [
+      "noodle",
+      "beef",
+      "alfredo"
+    ],
+    "style": [
+      "Korean",
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Playful",
+      "Energising",
+      "Indulgent",
+      "Adventurous"
+    ],
+    "typography": [
+      "Display",
+      "Script",
+      "Mixed Fonts",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "noodle",
+      "instant",
+      "cup",
+      "pasta",
+      "alfredo",
+      "beef",
+      "korean",
+      "halal",
+      "bold",
+      "topdown",
+      "product-shot",
+      "fun",
+      "microwave",
+      "snack",
+      "orange"
+    ],
+    "notes": "Samyang Tangle bulgogi alfredo cup noodle — clean white with bold script logotype, product photography and Korean Taste of Korea badge; modern Korean convenience food reference.",
+    "added": 1774950569351
+  },
+  {
+    "id": 1774950572259,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/f7da2a463204575ed560ae9fcbd96b54.jpg",
+    "client": "John John",
+    "imageType": "Pack Design",
+    "format": [
+      "Bag"
+    ],
+    "productCategory": [
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Heritage",
+      "Bold",
+      "Sophisticated",
+      "Approachable",
+      "Earthy"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Pattern-led",
+      "Handcrafted",
+      "Line Art"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Premium",
+      "Gen X",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "White",
+      "Earthy",
+      "Muted",
+      "Green"
+    ],
+    "ingredient": [
+      "carrot",
+      "beetroot",
+      "parsnip"
+    ],
+    "style": [
+      "British",
+      "Heritage",
+      "Folk"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Trustworthy",
+      "Wholesome",
+      "Grounded",
+      "Confident"
+    ],
+    "typography": [
+      "Serif",
+      "Display",
+      "Mixed Fonts",
+      "Uppercase Only",
+      "Condensed"
+    ],
+    "finish": [
+      "Matte",
+      "Uncoated"
+    ],
+    "keywords": [
+      "crisps",
+      "vegetable",
+      "root",
+      "carrot",
+      "beetroot",
+      "anchor",
+      "badge",
+      "crest",
+      "illustration",
+      "green",
+      "white",
+      "british",
+      "artisan",
+      "handcooked",
+      "numbered"
+    ],
+    "notes": "John John No.6 Mixed Roots vegetable crisps bag — clean white/green with hand-drawn root vegetable illustration, large numeral display type and anchor crest; premium British artisan snack reference.",
+    "added": 1774950572259
+  },
+  {
+    "id": 1774950576602,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/f9d2fda88def19eeb1f850475fe02e54.jpg",
+    "client": "Ayataka / Coca-Cola Japan",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Heritage",
+      "Elegant",
+      "Sophisticated",
+      "Ornate",
+      "Trustworthy"
+    ],
+    "designCode": [
+      "Pattern-led",
+      "Illustration-led",
+      "Typography-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Gen X",
+      "Millennial",
+      "Unisex",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Dark",
+      "Green",
+      "Muted",
+      "Navy"
+    ],
+    "ingredient": [
+      "green tea"
+    ],
+    "style": [
+      "Japanese",
+      "Art Nouveau"
+    ],
+    "occasion": [
+      "Everyday",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Calming",
+      "Trustworthy",
+      "Nostalgic",
+      "Grounded"
+    ],
+    "typography": [
+      "Mixed Fonts",
+      "Display",
+      "Serif"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "green-tea",
+      "japanese",
+      "kanji",
+      "pattern",
+      "geometric",
+      "teapot",
+      "olympics",
+      "blue",
+      "green",
+      "heritage",
+      "label",
+      "bottle",
+      "kyoto",
+      "premium",
+      "allover"
+    ],
+    "notes": "Coca-Cola Japan Ayataka green tea bottle — allover geometric diamond pattern in dark green/blue with teapot illustration and Olympic partnership badge; heritage Japanese RTD tea reference.",
+    "added": 1774950576602
+  },
+  {
+    "id": 1774950582665,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/fbfeb165bc3e40b670f203b23ea93c2e.jpg",
+    "client": "77 Chocolates / Milano",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Bakery",
+      "Food"
+    ],
+    "tonality": [
+      "Elegant",
+      "Warm",
+      "Sophisticated",
+      "Gourmet",
+      "Approachable"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Typography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Women",
+      "Mass Market",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Pink",
+      "Brown",
+      "Earthy",
+      "Muted"
+    ],
+    "ingredient": [
+      "maple",
+      "raisin",
+      "puff pastry"
+    ],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Indulgent",
+      "Comforting",
+      "Romantic",
+      "Wholesome"
+    ],
+    "typography": [
+      "Display",
+      "Serif",
+      "Mixed Fonts",
+      "Script"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "puff-pastry",
+      "maple",
+      "raisin",
+      "pink",
+      "brown",
+      "taiwanese",
+      "box",
+      "product-shot",
+      "photomontage",
+      "bilingual",
+      "gift",
+      "confectionery",
+      "layered",
+      "warm"
+    ],
+    "notes": "77 Chocolates Milano maple sugar raisin puff pastry box — warm pink/brown with product photography and elegant bilingual typography; Taiwanese confectionery gifting reference.",
+    "added": 1774950582665
+  },
+  {
+    "id": 1774950585851,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-31/ffa13e53f9d1b68988fd3341c59638a5.jpg",
+    "client": "Seoul Milk / Live",
+    "imageType": "Range Shot",
+    "format": [
+      "Carton"
+    ],
+    "productCategory": [
+      "Juice",
+      "Beverage",
+      "Dairy"
+    ],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Playful",
+      "Youthful",
+      "Fun"
+    ],
+    "designCode": [
+      "Colour-led",
+      "Typography-led",
+      "Illustration-led",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Kids",
+      "Young Adults",
+      "Mass Market",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Red",
+      "Purple",
+      "Yellow",
+      "Warm"
+    ],
+    "ingredient": [
+      "apple",
+      "grape",
+      "citrus"
+    ],
+    "style": [
+      "Korean"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful",
+      "Wholesome"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "juice",
+      "fruit",
+      "apple",
+      "grape",
+      "citrus",
+      "carton",
+      "range",
+      "korean",
+      "bilingual",
+      "colourful",
+      "kids",
+      "primary-colours",
+      "fresh",
+      "flavour-variant",
+      "multipack"
+    ],
+    "notes": "Seoul Milk Live fruit juice carton range — three vivid colour-coded cartons in red (apple), purple (grape) and yellow (citrus); energetic Korean kids beverage range reference.",
+    "added": 1774950585851
+  },
+  {
     "id": 1740000000038,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-03-24/Screenshot%202026-03-02%20at%2018.26.42.png",
     "client": "Unknown",
