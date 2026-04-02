@@ -28132,5 +28132,834 @@ const LIBRARY_DATA = [
     ],
     "notes": "水泊梁山 Shuipo Liangshan city impressions poster — bold primary red/yellow/blue flat illustration of hands clinking cups with dramatic cheers burst, massive bilingual display type. High-energy reference for Chinese pop art poster design, primary colour boldness, and illustrated editorial city branding.",
     "added": 1775015915958
+  },
+  {
+    "id": 1775015919809,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/8ebc8077a7ec85b190c56bf29813d980.jpeg",
+    "client": "VO App",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Playful",
+      "Bold",
+      "Vibrant",
+      "Youthful",
+      "Friendly"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Flat Design",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Vivid",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Y2K",
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising",
+      "Adventurous"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "app",
+      "UI",
+      "brand",
+      "voice",
+      "game",
+      "social",
+      "teal",
+      "yellow",
+      "white",
+      "blue",
+      "speech-bubble",
+      "icon",
+      "globe",
+      "controller",
+      "multilingual",
+      "Chinese",
+      "Vietnamese",
+      "tiles",
+      "Y2K",
+      "flat",
+      "digital",
+      "smiley"
+    ],
+    "notes": "VO voice/social gaming app brand identity — tiled layout in teal, yellow, and white with speech bubbles, game controller icons, globe, and multilingual text (Chinese, Vietnamese, English). Strong reference for vibrant multilingual app branding, tile-based composition, and Y2K-influenced digital UI design.",
+    "added": 1775015919809
+  },
+  {
+    "id": 1775015923026,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/90df725fea9daa7f512302e36f955e0f.jpeg",
+    "client": "Kira Kira Beauty Academy",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [
+      "Beauty",
+      "Makeup",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Playful",
+      "Feminine",
+      "Youthful",
+      "Fun",
+      "Kawaii"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Pattern-led",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Women",
+      "Gen Z",
+      "Beauty Enthusiasts"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Bright",
+      "Vivid"
+    ],
+    "ingredient": [],
+    "style": [
+      "Korean",
+      "Y2K"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Aspirational",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Bilingual",
+      "Sans-serif",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "beauty",
+      "school",
+      "poster",
+      "Korean",
+      "pink",
+      "grid",
+      "lips",
+      "lipstick",
+      "bubble-type",
+      "makeup",
+      "academy",
+      "feminine",
+      "kawaii",
+      "Y2K",
+      "star",
+      "recruitment",
+      "bilingual",
+      "pastel",
+      "makeup-brush",
+      "nail"
+    ],
+    "notes": "Kira Kira Beauty School Korean academy recruitment poster — bubblegum pink grid background with bold bubble typography, illustrated lips, and bilingual Korean/English layout. Excellent reference for Korean beauty brand aesthetics, kawaii Y2K poster design, and feminine pink-dominant visual language.",
+    "added": 1775015923026
+  },
+  {
+    "id": 1775015925499,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/9181520b4c9dba69056a70d2f8d7e0e0.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Dairy",
+      "Food",
+      "Snack"
+    ],
+    "tonality": [
+      "Clean",
+      "Minimal",
+      "Playful",
+      "Elegant",
+      "Approachable"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Clean",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Millennial",
+      "Women",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Bright",
+      "Vivid"
+    ],
+    "ingredient": [
+      "soy milk",
+      "lemon"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Wholesome",
+      "Playful",
+      "Calming"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Serif",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "ice-cream",
+      "popsicle",
+      "soy-milk",
+      "Japanese",
+      "grid",
+      "teal",
+      "pink",
+      "yellow",
+      "mint",
+      "editorial",
+      "food-photography",
+      "pastel",
+      "colourful",
+      "recipe",
+      "lifestyle",
+      "cup",
+      "lemon",
+      "summer",
+      "coloured-background",
+      "styled"
+    ],
+    "notes": "Japanese soy milk ice cream recipe/brand editorial layout — colour-blocked grid in teal, pink, yellow, and mint with styled food photography of popsicles and cups. Excellent reference for Japanese food brand editorial design, pastel colour-blocked grid layouts, and appetite-led product photography.",
+    "added": 1775015925499
+  },
+  {
+    "id": 1775015928051,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/925da76ba2655968761bcddeb4722a1b.jpg",
+    "client": "Unknown",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Elegant",
+      "Feminine",
+      "Minimal",
+      "Dreamy",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Handcrafted",
+      "Abstract"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Premium",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Japanese"
+    ],
+    "occasion": [
+      "Spring",
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Romantic",
+      "Dreamy",
+      "Wholesome"
+    ],
+    "typography": [],
+    "finish": [],
+    "keywords": [
+      "botanical",
+      "flower",
+      "illustration",
+      "Chinese",
+      "ink-wash",
+      "plum",
+      "narcissus",
+      "camellia",
+      "peach",
+      "cream",
+      "pink",
+      "white",
+      "seal",
+      "traditional",
+      "elegant",
+      "soft",
+      "gradient",
+      "four-seasons",
+      "nature",
+      "feminine"
+    ],
+    "notes": "Four Chinese botanical flower illustrations (柳枝 plum, 水仙 narcissus, 青稀 bud, 山茶 camellia) on a warm cream background with red stamp seals. Soft gradient ink-wash style. Excellent reference for traditional Chinese botanical illustration, delicate gradient painting technique, and seasonal nature motifs.",
+    "added": 1775015928051
+  },
+  {
+    "id": 1775015931646,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/9291afce6325aae9202847cb7edc8c9b.jpg",
+    "client": "Pentel DelGuard",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Stationery"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Fun",
+      "Youthful",
+      "Energising"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Typography-led",
+      "Mixed Media"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Teens"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Primary Colours",
+      "Vivid"
+    ],
+    "ingredient": [],
+    "style": [
+      "Japanese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Back to School",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising",
+      "Confident"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "stationery",
+      "pencil",
+      "Japanese",
+      "pink",
+      "blue",
+      "celebrity",
+      "face",
+      "cut-out",
+      "campaign",
+      "Y2K",
+      "bold",
+      "promotion",
+      "school",
+      "back-to-school",
+      "web",
+      "banner",
+      "diagonal",
+      "two-colour",
+      "photomontage"
+    ],
+    "notes": "Pentel DelGuard Japanese stationery back-to-school campaign — bold pink and blue split with a celebrity face cut-out, condensed Japanese type, and energetic promotional layout. Reference for Japanese stationery brand campaigns, bold two-colour blocking, and Y2K-era promotional design.",
+    "added": 1775015931646
+  },
+  {
+    "id": 1775015934471,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/936cc621f879e76f03e52b8d404efadc.jpg",
+    "client": "青咖BL",
+    "imageType": "Range Shot",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Coffee",
+      "Beverage"
+    ],
+    "tonality": [
+      "Bold",
+      "Edgy",
+      "Cool",
+      "Sophisticated",
+      "Youthful"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Kinetic / Expressive",
+      "Abstract",
+      "Mixed Media"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Bold",
+      "Vivid"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Energising",
+      "Adventurous",
+      "Irreverent"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Bilingual",
+      "Condensed",
+      "Kinetic / Expressive",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "coffee",
+      "bottle",
+      "Chinese",
+      "bilingual",
+      "kinetic",
+      "expressive",
+      "white",
+      "typography",
+      "bold",
+      "range",
+      "brown",
+      "pink",
+      "blue",
+      "teal",
+      "abstract",
+      "oversized-type",
+      "editorial",
+      "craft",
+      "specialty",
+      "Colombia",
+      "Ethiopia"
+    ],
+    "notes": "青咖BL specialty coffee range — four white plastic bottles each with bold oversized expressive bilingual Chinese/Latin typography in contrasting colours (brown, pink, blue, teal). Exceptional reference for type-as-hero coffee branding, kinetic expressive type on packaging, and editorial Chinese beverage design.",
+    "added": 1775015934471
+  },
+  {
+    "id": 1775015937841,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/9379a930be389c78ac7b81608e368f5d.jpg",
+    "client": "LightCal 轻卡谷",
+    "imageType": "Range Shot",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Snack",
+      "Food",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Playful",
+      "Youthful",
+      "Feminine",
+      "Fun",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Colour-led",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Women",
+      "Gen Z",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Vivid",
+      "Warm"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising",
+      "Wholesome"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Bilingual",
+      "Condensed"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "snack",
+      "low-cal",
+      "Chinese",
+      "blue",
+      "pink",
+      "yellow",
+      "daisy",
+      "sunflower",
+      "pattern",
+      "checkered",
+      "podium",
+      "product-photography",
+      "health",
+      "box",
+      "range",
+      "22kcal",
+      "bilingual",
+      "fun",
+      "bright",
+      "staged"
+    ],
+    "notes": "LightCal 轻卡谷 low-calorie snack boxes — blue and pink boxes with bold daisy/sunflower pattern, staged on pink podiums against a yellow checkered background. Strong reference for Chinese health snack brand design, pattern-led box packaging, and playful product photography staging.",
+    "added": 1775015937841
+  },
+  {
+    "id": 1775015940402,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/941e19b6c2b00a6a7677e429ae38f798.jpg",
+    "client": "想我莓",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Alcohol",
+      "Wine",
+      "Spirits",
+      "Beverage"
+    ],
+    "tonality": [
+      "Feminine",
+      "Elegant",
+      "Dreamy",
+      "Romantic",
+      "Whimsical"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Clean",
+      "Handcrafted"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Muted",
+      "Gradient"
+    ],
+    "ingredient": [
+      "strawberry"
+    ],
+    "style": [
+      "Chinese",
+      "Japanese"
+    ],
+    "occasion": [
+      "Valentine's Day",
+      "Gifting Season",
+      "Everyday"
+    ],
+    "mood": [
+      "Romantic",
+      "Dreamy",
+      "Joyful",
+      "Comforting"
+    ],
+    "typography": [
+      "Display",
+      "Serif",
+      "Mixed Fonts",
+      "Bilingual",
+      "Script"
+    ],
+    "finish": [
+      "Frosted",
+      "Matte"
+    ],
+    "keywords": [
+      "wine",
+      "fruit-wine",
+      "strawberry",
+      "bottle",
+      "round",
+      "squat",
+      "pink",
+      "coral",
+      "frosted",
+      "floral",
+      "feminine",
+      "Chinese",
+      "label",
+      "dreamy",
+      "seashell",
+      "romantic",
+      "gifting",
+      "berry",
+      "baijiu",
+      "oval"
+    ],
+    "notes": "想我莓 strawberry fruit wine — squat round bottle with frosted glass, coral-pink liquid visible through the glass, soft pink floral label with seashell motifs and Chinese/Japanese bilingual script. Beautiful reference for feminine Chinese fruit wine packaging, frosted bottle format, and romantic gifting design.",
+    "added": 1775015940402
+  },
+  {
+    "id": 1775015942998,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/9444d4de601e5d2b93fd38c75e0b4ce4.jpg",
+    "client": "LINLEE",
+    "imageType": "Campaign",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Playful",
+      "Vibrant",
+      "Fun",
+      "Youthful",
+      "Energising"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Typography-led",
+      "Cartoon"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial",
+      "Women"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Neon",
+      "Vivid"
+    ],
+    "ingredient": [
+      "lemon",
+      "strawberry",
+      "matcha"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Valentine's Day",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Romantic",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Bilingual",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "lemon-tea",
+      "Chinese",
+      "Valentines",
+      "green",
+      "neon",
+      "illustrated",
+      "cup",
+      "cartoon",
+      "receipt",
+      "promotion",
+      "discount",
+      "strawberry",
+      "matcha",
+      "lemon",
+      "bilingual",
+      "bubble-tea",
+      "handmade",
+      "campaign",
+      "lime",
+      "seasonal"
+    ],
+    "notes": "LINLEE handmade lemon tea Valentine's Day campaign — neon lime green background with bold illustrated cups (Thai green lemon tea and strawberry lemon tea) bursting from a gift box, receipt-style offer layout, bilingual Chinese/English. Excellent reference for Chinese tea brand seasonal campaigns, cartoon illustration style, and neon-green-dominant promotional design.",
+    "added": 1775015942998
+  },
+  {
+    "id": 1775015946900,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/94e31f5e1946f65fc63940dc0fb32acf.jpg",
+    "client": "Unknown",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Playful",
+      "Organic",
+      "Warm",
+      "Naive",
+      "Whimsical"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Handcrafted",
+      "Abstract",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Women"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bold",
+      "Primary Colours",
+      "Vivid"
+    ],
+    "ingredient": [],
+    "style": [
+      "Naive",
+      "Folk",
+      "American"
+    ],
+    "occasion": [
+      "Everyday",
+      "Spring"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Wholesome",
+      "Energising"
+    ],
+    "typography": [],
+    "finish": [],
+    "keywords": [
+      "flower",
+      "illustration",
+      "orange",
+      "green",
+      "blue",
+      "black",
+      "hand-painted",
+      "naive",
+      "bold",
+      "outline",
+      "folk",
+      "simple",
+      "daisy",
+      "petal",
+      "stem",
+      "leaf",
+      "watercolour",
+      "signed",
+      "artisan",
+      "expressive"
+    ],
+    "notes": "Hand-painted orange flower illustration — bold black outline, vibrant orange petals, green leaves with blue accent brushstrokes, white background. Signed original artwork (appears to be from the 1970s). Reference for naive folk art illustration, bold outline style, and expressive hand-painted florals as a design reference.",
+    "added": 1775015946900
   }
 ];
