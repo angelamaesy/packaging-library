@@ -30634,5 +30634,1869 @@ const LIBRARY_DATA = [
     ],
     "notes": "フジパン レモンケーキ (Fujiband Lemon Cake) winter limited edition wrapper — light blue/aqua background with cheerful yellow lemon illustrations, snowflakes, and bold Japanese type. Great reference for Japanese confectionery seasonal packaging, aqua/yellow citrus palette, and cute winter limited-edition design.",
     "added": 1775016013916
+  },
+  {
+    "id": 1775016138391,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/WechatIMG766.jpeg",
+    "client": "REvER",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Food",
+      "Snack",
+      "Confectionery"
+    ],
+    "tonality": [
+      "Playful",
+      "Bold",
+      "Vibrant",
+      "Youthful",
+      "Fun"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Colour-led",
+      "Abstract",
+      "Mixed Media"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial",
+      "Women"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Vivid",
+      "Pastel"
+    ],
+    "ingredient": [
+      "coconut"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising",
+      "Wholesome"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Bilingual",
+      "Script",
+      "Sans-serif"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "box",
+      "confetti",
+      "abstract",
+      "paint",
+      "splatter",
+      "yellow",
+      "white",
+      "multicolour",
+      "pattern",
+      "bilingual",
+      "Chinese",
+      "coconut",
+      "snack",
+      "playful",
+      "gift",
+      "modern",
+      "brushstroke",
+      "collage",
+      "expressive",
+      "identity"
+    ],
+    "notes": "REvER 'My Rever Moment' snack box — bright yellow panel with bold title on one face, the other face covered in a playful confetti-and-abstract-paint-stroke allover pattern in multicolour on white. Strong reference for expressive abstract pattern packaging, split-face box design, and modern Chinese snack gifting.",
+    "added": 1775016138391
+  },
+  {
+    "id": 1775016141906,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/a052ed3e98b270e547d3927ffcd22f01.jpg",
+    "client": "Unknown",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Dreamy",
+      "Edgy",
+      "Bold",
+      "Sophisticated",
+      "Whimsical"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Mixed Media",
+      "Abstract",
+      "Gradient"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Gradient",
+      "Bold"
+    ],
+    "ingredient": [],
+    "style": [
+      "Y2K",
+      "Retro-Futurist",
+      "Korean"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Mysterious",
+      "Dreamy",
+      "Playful",
+      "Adventurous"
+    ],
+    "typography": [
+      "Display",
+      "Serif",
+      "Mixed Fonts",
+      "Script",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "pink",
+      "yellow",
+      "black",
+      "gradient",
+      "bamboo",
+      "butterfly",
+      "blossom",
+      "circle",
+      "sparkle",
+      "serif",
+      "mixed-type",
+      "Y2K",
+      "holographic",
+      "dreamy",
+      "bold",
+      "question",
+      "abstract",
+      "flora",
+      "retro"
+    ],
+    "notes": "Editorial poster — 'Does such a person really exist?' bold serif type over a pink-to-yellow gradient, with a black circle containing holographic bamboo and cherry blossom botanical illustration, butterflies, and sparkle accents. Strong reference for Y2K mixed-media poster design, gradient-background typography, and East Asian botanical motifs in a modern editorial context.",
+    "added": 1775016141906
+  },
+  {
+    "id": 1775016145156,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/a1405ccf297996c841be0b9825d269ab.jpg",
+    "client": "NICELAB 否锅实验室",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Edgy",
+      "Maximalist",
+      "Rebellious",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Colour-led",
+      "Comic",
+      "Pop Art"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Neon",
+      "Vivid",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Neo-Brutalist",
+      "Streetwear",
+      "Pop Art"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Irreverent",
+      "Rebellious",
+      "Confident",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Bilingual",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "comic",
+      "character",
+      "pink",
+      "yellow",
+      "green",
+      "bold",
+      "Chinese",
+      "bilingual",
+      "pop-art",
+      "illustrated",
+      "face",
+      "crying",
+      "sticker",
+      "neon",
+      "street",
+      "poster",
+      "2021",
+      "rebellious",
+      "maximalist",
+      "neon-yellow"
+    ],
+    "notes": "NICELAB 否锅实验室 'Break the Yoke' campaign — maximalist poster with a crying Pepe-style illustrated pink face surrounded by neon yellow 'PORN' stickers, bold mixed bilingual Chinese/English type. High-energy reference for Chinese streetwear/underground brand poster design, comic illustration, and rebellious maximalist aesthetics.",
+    "added": 1775016145156
+  },
+  {
+    "id": 1775016147959,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/a1ddd1af6a4409605562ac1185fec9ff.jpg",
+    "client": "奈雪の茶 Nayuki",
+    "imageType": "Campaign",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Juice",
+      "Tea"
+    ],
+    "tonality": [
+      "Minimal",
+      "Clean",
+      "Elegant",
+      "Approachable",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Typography-led",
+      "Clean",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Women",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [
+      "yougan",
+      "citrus"
+    ],
+    "style": [
+      "Chinese",
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Wholesome",
+      "Confident",
+      "Trustworthy",
+      "Aspirational"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Bilingual",
+      "Condensed",
+      "Sans-serif"
+    ],
+    "finish": [
+      "Frosted"
+    ],
+    "keywords": [
+      "yougan",
+      "jade",
+      "citrus",
+      "bottle",
+      "frosted",
+      "white",
+      "green",
+      "Nayuki",
+      "Chinese",
+      "bilingual",
+      "premium",
+      "clean",
+      "launch",
+      "hero",
+      "product-shot",
+      "minimal",
+      "tea",
+      "奈雪",
+      "霸气",
+      "66-fruit"
+    ],
+    "notes": "奈雪の茶 Supreme Jade Yougan 霸气玉油柑 hero product KV — frosted white squat bottle with illustrated yougan fruits on a clean white/green background, bold bilingual Chinese/English display type. Excellent reference for Chinese premium tea brand product launches, hero shot design, and frosted bottle packaging with fruit illustration.",
+    "added": 1775016147959
+  },
+  {
+    "id": 1775016154697,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/a34d100f41e64d70e4bd4777315aa29b.jpg",
+    "client": "Unknown (Japanese)",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Fun",
+      "Youthful",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Flat Design",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Mass Market",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Warm",
+      "Vivid"
+    ],
+    "ingredient": [],
+    "style": [
+      "Japanese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Autumn",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful",
+      "Confident"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Condensed",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "Japanese",
+      "campaign",
+      "banner",
+      "pink",
+      "blue",
+      "yellow",
+      "confetti",
+      "bold-type",
+      "autumn",
+      "seasonal",
+      "promotion",
+      "drivers",
+      "celebration",
+      "starburst",
+      "gradient",
+      "fun",
+      "web",
+      "digital",
+      "大感謝祭",
+      "diagonal"
+    ],
+    "notes": "Japanese autumn 大感謝祭 (Grand Thanksgiving Festival) promotional banner — hot pink/coral background with bold condensed Japanese type, confetti, and blue/yellow accent shapes. Reference for Japanese seasonal promotional design, vibrant pink/blue/yellow campaign palettes, and high-energy banner layouts.",
+    "added": 1775016154697
+  },
+  {
+    "id": 1775016159126,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/a3e4c6c58dd50ba7643fb6272d1a6738.jpg",
+    "client": "Unknown",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Dreamy",
+      "Edgy",
+      "Sophisticated",
+      "Cool"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Gradient",
+      "Abstract",
+      "Text-driven"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Cool",
+      "Gradient",
+      "Vivid"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Nostalgic",
+      "Dreamy",
+      "Aspirational",
+      "Mysterious"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Bilingual",
+      "Condensed",
+      "Uppercase Only",
+      "Serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "summer",
+      "lightyear",
+      "blue",
+      "aqua",
+      "gradient",
+      "bold-type",
+      "condensed",
+      "Chinese",
+      "bilingual",
+      "serif",
+      "mixed-type",
+      "film",
+      "editorial",
+      "frosted",
+      "text-heavy",
+      "overlapping",
+      "nostalgia",
+      "夏日光年",
+      "kinetic"
+    ],
+    "notes": "夏日光年 Summer Lightyear typography poster — deep blue/aqua gradient background with oversized layered condensed and serif bilingual type. Strong reference for Chinese editorial typography design, blue gradient aesthetics, and mixed-weight type-as-image composition.",
+    "added": 1775016159126
+  },
+  {
+    "id": 1775016163937,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/a46ad981cbc6d494730385cb62e4b9c4.jpg",
+    "client": "MOMO",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Fun",
+      "Vibrant",
+      "Youthful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Colour-led",
+      "Flat Design",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Vivid",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Confident",
+      "Playful",
+      "Joyful"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Bilingual",
+      "Condensed",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "recruitment",
+      "poster",
+      "Chinese",
+      "bilingual",
+      "pink",
+      "orange",
+      "teal",
+      "white",
+      "graphic-design",
+      "bold",
+      "flat",
+      "geometric",
+      "Y2K",
+      "badge",
+      "hiring",
+      "design-team",
+      "MOMO",
+      "tech",
+      "social",
+      "app"
+    ],
+    "notes": "MOMO Design Team recruitment poster — pink/orange split with bold bilingual Chinese/English type, geometric flat shapes in teal and white, and role badges for Graphic Designer and Gift Designer. Reference for Chinese tech brand creative recruitment design and Y2K flat geometric poster aesthetics.",
+    "added": 1775016163937
+  },
+  {
+    "id": 1775016169723,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/a46f2edc8512ea34ee4315058058748d.jpg",
+    "client": "NEAR / ACME",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Minimal",
+      "Clean",
+      "Sophisticated",
+      "Edgy"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Flat Design",
+      "Geometric",
+      "Abstract"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Warm",
+      "Bold"
+    ],
+    "ingredient": [],
+    "style": [
+      "Swiss / Modernist",
+      "Neo-Brutalist",
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Empowering",
+      "Grounded",
+      "Aspirational"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Bilingual",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "hand",
+      "OK",
+      "gesture",
+      "orange",
+      "grey",
+      "black",
+      "flat",
+      "minimal",
+      "Swiss",
+      "poster",
+      "bilingual",
+      "Chinese",
+      "bold-type",
+      "condensed",
+      "sticker-text",
+      "design-studio",
+      "vector",
+      "2021",
+      "NEAR",
+      "hands"
+    ],
+    "notes": "NEAR studio 'HANDS 拿捏' gesture poster — oversized flat orange OK hand illustration on light grey, bold condensed bilingual type at the bottom, circular sticker text at the gesture hole. Excellent reference for Swiss modernist poster design, oversized flat icon-as-hero, and minimal bilingual type treatment.",
+    "added": 1775016169723
+  },
+  {
+    "id": 1775016177229,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/a65b6b7eb47330fb38d40cf9b139fa18.jpg",
+    "client": "喜茶 HeyTea",
+    "imageType": "Campaign",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Warm",
+      "Friendly",
+      "Playful",
+      "Approachable",
+      "Youthful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Clean",
+      "Flat Design",
+      "Handcrafted"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Women",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Warm",
+      "Muted"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Japanese"
+    ],
+    "occasion": [
+      "Winter",
+      "Everyday"
+    ],
+    "mood": [
+      "Comforting",
+      "Wholesome",
+      "Joyful",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Bilingual",
+      "Sans-serif",
+      "Script"
+    ],
+    "finish": [],
+    "keywords": [
+      "heytea",
+      "bubble-tea",
+      "Chinese",
+      "winter",
+      "warm",
+      "campaign",
+      "cups",
+      "mascot",
+      "character",
+      "illustrated",
+      "promotional",
+      "buy-six-get-one",
+      "white",
+      "cream",
+      "warm-drinks",
+      "阿喜",
+      "seasonal",
+      "handwritten",
+      "cups-lineup",
+      "promotion"
+    ],
+    "notes": "喜茶 HeyTea 冬日暖饮 'Together Drink' winter campaign — warm white/cream layout with a hand-drawn mascot character (阿喜) holding two warmth torches, a lineup of warm-drink cups, and promotional copy. Reference for Chinese milk tea brand seasonal campaigns, illustrated mascot design, and warm-palette winter promotion.",
+    "added": 1775016177229
+  },
+  {
+    "id": 1775016182964,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/a6ce0741f1a72f475e600ae095701b30.jpg",
+    "client": "Unknown / Lin Chen",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Playful",
+      "Warm",
+      "Fun"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Flat Design",
+      "Handcrafted"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Women",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Vivid",
+      "Warm"
+    ],
+    "ingredient": [],
+    "style": [
+      "Naive",
+      "Folk",
+      "European"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Wholesome",
+      "Playful",
+      "Dreamy"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "calendar",
+      "july",
+      "illustration",
+      "green",
+      "white",
+      "orange",
+      "pink",
+      "daisy",
+      "flower",
+      "figure",
+      "woman",
+      "botanical",
+      "summer",
+      "folk",
+      "naive",
+      "sun",
+      "leaves",
+      "textured",
+      "lifestyle",
+      "editorial"
+    ],
+    "notes": "July calendar illustration — vivid green background with oversized white and pink daisies, a reclining figure in black, orange sun disc, and textured botanical leaves. Companion to the August illustration. Bold reference for summer editorial illustration, flat botanical design, and warm character-led calendar artwork.",
+    "added": 1775016182964
+  },
+  {
+    "id": 1775016190484,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/a88fb2da6f0d07e5ee170c32ecc795ea (1).jpg",
+    "client": "LOVEBITES",
+    "imageType": "Pack Design",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Bakery",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Approachable",
+      "Feminine",
+      "Fun"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Women",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Warm",
+      "Vivid"
+    ],
+    "ingredient": [
+      "sea salt",
+      "cookie",
+      "chocolate"
+    ],
+    "style": [
+      "American",
+      "European"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Indulgent",
+      "Joyful",
+      "Playful",
+      "Wholesome"
+    ],
+    "typography": [
+      "Display",
+      "Serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "cookie",
+      "pouch",
+      "mauve",
+      "lilac",
+      "coral",
+      "pink",
+      "sea-salt",
+      "chocolate",
+      "New-York",
+      "lifestyle",
+      "photography",
+      "badge",
+      "bold",
+      "snack",
+      "premium",
+      "cookie-stack",
+      "flatlay",
+      "appetite",
+      "artisan",
+      "bilingual"
+    ],
+    "notes": "LOVEBITES Holiday Sea Salt cookie pouch — mauve/lilac background with bold appetite-led stacked cookie photography, coral badge callouts ('New York Style', 'Holiday Sea Salt'), and complementary coral pouches scattered around. Excellent reference for premium artisan cookie packaging, mauve/coral palette, and appetite photography on pack.",
+    "added": 1775016190484
+  },
+  {
+    "id": 1775016195411,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/a8cbd2e1551414277cb55e244b339848.jpg",
+    "client": "Unknown",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Minimal",
+      "Clean",
+      "Elegant",
+      "Feminine",
+      "Dreamy"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Line Art",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Women",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Neutral",
+      "Muted"
+    ],
+    "ingredient": [],
+    "style": [
+      "European",
+      "Cottagecore",
+      "Scandinavian"
+    ],
+    "occasion": [
+      "Everyday",
+      "Spring"
+    ],
+    "mood": [
+      "Calming",
+      "Romantic",
+      "Dreamy",
+      "Wholesome"
+    ],
+    "typography": [],
+    "finish": [],
+    "keywords": [
+      "floral",
+      "pattern",
+      "blue",
+      "cream",
+      "line-art",
+      "outline",
+      "minimal",
+      "botanical",
+      "abstract",
+      "flower",
+      "leaf",
+      "bud",
+      "repeat",
+      "surface-design",
+      "allover",
+      "Scandinavian",
+      "feminine",
+      "elegant",
+      "wallpaper",
+      "textile"
+    ],
+    "notes": "Minimal blue-on-cream floral line-art allover pattern — loose gestural outline flowers, leaves, and buds in periwinkle/cobalt blue on warm cream. Clean, elegant repeat surface design. Excellent reference for minimal botanical pattern design, blue/cream palettes, and Scandinavian-influenced textile or packaging surface design.",
+    "added": 1775016195411
+  },
+  {
+    "id": 1775016204151,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/a93167e38f2c512418e0f8ec76142388.jpg",
+    "client": "不忻 Buxin",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Minimal",
+      "Clean",
+      "Playful",
+      "Elegant",
+      "Cool"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Clean",
+      "Flat Design",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Premium",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Pastel",
+      "Bright",
+      "Neutral"
+    ],
+    "ingredient": [
+      "oolong",
+      "milk"
+    ],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Calming",
+      "Playful",
+      "Trustworthy",
+      "Aspirational"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Bilingual",
+      "Sans-serif",
+      "Condensed"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "tea",
+      "oolong",
+      "milk",
+      "box",
+      "blue",
+      "white",
+      "Chinese",
+      "bilingual",
+      "illustration",
+      "die-cut",
+      "flower",
+      "lotus",
+      "sticker-shape",
+      "tea-brand",
+      "minimal",
+      "clean",
+      "premium",
+      "modern",
+      "不忻",
+      "structural"
+    ],
+    "notes": "不忻 Buxin 奶香乌龙 milk oolong tea box — sky blue with a bold white die-cut lotus/tea flower shape standing out in relief, bilingual Chinese/English condensed type. Elegant reference for Chinese tea brand minimal packaging, structural die-cut elements, and clean blue/white premium aesthetics.",
+    "added": 1775016204151
+  },
+  {
+    "id": 1775016209937,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/a9479a1aefc31da8eefbd7e670a47f0a.jpg",
+    "client": "Aroma Coffee",
+    "imageType": "Key Visual",
+    "format": [
+      "Cup",
+      "Bag"
+    ],
+    "productCategory": [
+      "Coffee",
+      "Beverage"
+    ],
+    "tonality": [
+      "Bold",
+      "Cool",
+      "Youthful",
+      "Energising",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Visual Hammer",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Cool",
+      "Vivid",
+      "Monochrome"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Streetwear",
+      "Y2K"
+    ],
+    "occasion": [
+      "Everyday",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Confident",
+      "Energising",
+      "Playful",
+      "Irreverent"
+    ],
+    "typography": [
+      "Display",
+      "Condensed",
+      "Wordmark-led",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "blue",
+      "white",
+      "wordmark",
+      "monochrome",
+      "carrier",
+      "cup",
+      "bag",
+      "coffee",
+      "brand-system",
+      "bilingual",
+      "bold",
+      "electric",
+      "streetwear",
+      "identity",
+      "chinese",
+      "modern"
+    ],
+    "notes": "Aroma Coffee brand identity system in vivid electric blue — paper bag, cup carrier box, and cup sleeve unified by bold white wordmark and playful line illustration.",
+    "added": 1775016209937
+  },
+  {
+    "id": 1775016212821,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/aa4e61b9c1c8acf107c8f768cb745edc.jpeg",
+    "client": "Unknown",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Alcohol",
+      "Beverage"
+    ],
+    "tonality": [
+      "Playful",
+      "Bold",
+      "Maximalist",
+      "Youthful",
+      "Fun",
+      "Dopamine"
+    ],
+    "designCode": [
+      "Collage",
+      "Illustration-led",
+      "Colour-led",
+      "Pop Art",
+      "Mixed Media"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Primary Colours",
+      "Bright",
+      "Vivid",
+      "Bold"
+    ],
+    "ingredient": [],
+    "style": [
+      "Memphis",
+      "Y2K",
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Irreverent",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "collage",
+      "memphis",
+      "bilingual",
+      "poster",
+      "event",
+      "friday",
+      "party",
+      "alcohol",
+      "primary",
+      "yellow",
+      "pink",
+      "green",
+      "blue",
+      "red",
+      "geometric",
+      "cutout",
+      "playful"
+    ],
+    "notes": "Crazy Friday event promotion poster in Memphis-inspired collage style — bold primary colours, cutout shapes, bilingual Chinese/English typography.",
+    "added": 1775016212821
+  },
+  {
+    "id": 1775016215147,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/ab5296296ccecc8b8a83d69de2c6287c.jpg",
+    "client": "Unknown",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Minimal",
+      "Dark",
+      "Edgy",
+      "Brutalist",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Abstract",
+      "Geometric",
+      "Vector",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Black & White",
+      "Monochrome",
+      "Dark",
+      "Neutral"
+    ],
+    "ingredient": [],
+    "style": [
+      "Neo-Brutalist",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Mysterious",
+      "Confident",
+      "Grounded"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [],
+    "keywords": [
+      "abstract",
+      "geometric",
+      "black",
+      "white",
+      "spiky",
+      "serrated",
+      "rounded",
+      "square",
+      "mark",
+      "logo",
+      "symbol",
+      "monochrome",
+      "negative-space",
+      "minimal",
+      "identity"
+    ],
+    "notes": "Abstract geometric mark — rounded square with serrated/spiked edges on solid black ground. Strong standalone graphic identity reference with minimal, edgy character.",
+    "added": 1775016215147
+  },
+  {
+    "id": 1775016218206,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/ab8071589e0a9e9df260b9806a4f86f6.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Energising",
+      "Vibrant",
+      "Youthful",
+      "Approachable"
+    ],
+    "designCode": [
+      "Geometric",
+      "Typography-led",
+      "Colour-led",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Bold",
+      "Primary Colours",
+      "Bright"
+    ],
+    "ingredient": [],
+    "style": [
+      "Korean",
+      "Swiss / Modernist",
+      "Bauhaus"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Confident",
+      "Joyful",
+      "Empowering"
+    ],
+    "typography": [
+      "Display",
+      "Condensed",
+      "Uppercase Only",
+      "Mixed Fonts",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "geometric",
+      "purple",
+      "green",
+      "pink",
+      "white",
+      "bold",
+      "bilingual",
+      "korean",
+      "triangle",
+      "circle",
+      "swiss",
+      "modernist",
+      "arts",
+      "education",
+      "rotated-text",
+      "institutional"
+    ],
+    "notes": "International Arts Education Week 2017 poster — Bauhaus-influenced bold geometric shapes in purple, green, and pink with rotated bilingual Korean/English text.",
+    "added": 1775016218206
+  },
+  {
+    "id": 1775016221318,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/abda3e0c70e4c884e6b65647b2d00842.jpg",
+    "client": "Holliland",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Bakery",
+      "Food"
+    ],
+    "tonality": [
+      "Minimal",
+      "Elegant",
+      "Dreamy",
+      "Sophisticated",
+      "Organic"
+    ],
+    "designCode": [
+      "Clean",
+      "Typography-led",
+      "Flat Design",
+      "Photography-led"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Young Adults",
+      "Women",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [
+      "jasmine",
+      "mochi"
+    ],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Calming",
+      "Wholesome",
+      "Dreamy",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Condensed",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "mint",
+      "green",
+      "white",
+      "box",
+      "mochi",
+      "jasmine",
+      "chinese",
+      "minimal",
+      "bilingual",
+      "photography",
+      "frosted",
+      "lifestyle",
+      "clean",
+      "elegant",
+      "modern",
+      "holliland",
+      "confectionery"
+    ],
+    "notes": "Holliland jasmine stuffed mochi ball box — soft mint green minimal packaging with Swiss-inspired bilingual layout, styled with frosted glass props for a dreamy editorial feel.",
+    "added": 1775016221318
+  },
+  {
+    "id": 1775016223911,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/ac20513d4f19e8e1ee4c5108e0b20361.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Edgy",
+      "Brutalist",
+      "Rebellious",
+      "Maximalist"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Collage",
+      "Mixed Media",
+      "Text-driven"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Primary Colours",
+      "Black & White"
+    ],
+    "ingredient": [],
+    "style": [
+      "Neo-Brutalist",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Irreverent",
+      "Confident",
+      "Adventurous",
+      "Empowering"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "yellow",
+      "black",
+      "white",
+      "poster",
+      "brutalist",
+      "torn",
+      "collage",
+      "layered",
+      "editorial",
+      "art-book",
+      "fair",
+      "bold",
+      "overprint",
+      "text-driven",
+      "cutout",
+      "institutional"
+    ],
+    "notes": "Ghent Art Book Fair 2015 poster — torn paper collage aesthetic with overlapping bold black and yellow text blocks, strong neo-brutalist editorial reference.",
+    "added": 1775016223911
+  },
+  {
+    "id": 1775016226355,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/ad4ca256f8b5892ec01a6d82a8112180.jpg",
+    "client": "Unknown",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Playful",
+      "Youthful",
+      "Dopamine",
+      "Dreamy",
+      "Vibrant",
+      "Feminine"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "3D",
+      "Typography-led",
+      "Colour-led",
+      "Fluid"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Women"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Gradient",
+      "Vivid"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Y2K",
+      "Korean"
+    ],
+    "occasion": [
+      "Spring",
+      "Everyday"
+    ],
+    "mood": [
+      "Dreamy",
+      "Joyful",
+      "Playful",
+      "Romantic"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Bold"
+    ],
+    "finish": [],
+    "keywords": [
+      "pink",
+      "green",
+      "floral",
+      "botanical",
+      "begonia",
+      "3D",
+      "inflated",
+      "bubble",
+      "chinese",
+      "poster",
+      "spring",
+      "oversized-type",
+      "bilingual",
+      "Y2K",
+      "gradient",
+      "pastel"
+    ],
+    "notes": "Begonia Flower Sleepless brand event poster — oversized bold Chinese type with inflated 3D pink floral illustration and gradient ground, Y2K-meets-Chinese-modern aesthetic.",
+    "added": 1775016226355
+  },
+  {
+    "id": 1775016228878,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/ade6cce3579636718bfed7a7c3c9a736.jpg",
+    "client": "ENJOY",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Dreamy",
+      "Feminine",
+      "Approachable",
+      "Youthful",
+      "Organic"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Fluid",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Women",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Pastel",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Cottagecore"
+    ],
+    "occasion": [
+      "Spring",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Calming",
+      "Dreamy",
+      "Wholesome"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "cream",
+      "orange",
+      "yellow",
+      "green",
+      "spring",
+      "floral",
+      "botanical",
+      "bubble",
+      "translucent",
+      "illustration",
+      "chinese",
+      "promotion",
+      "retail",
+      "poster",
+      "soft",
+      "gradient"
+    ],
+    "notes": "ENJOY brand spring promotion poster — soft illustrated translucent flower bubbles on warm cream ground with Chinese retail sale messaging. Clean and dreamy seasonal campaign.",
+    "added": 1775016228878
+  },
+  {
+    "id": 1775016232736,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/afbdf6a43549fdbc8c6a8eea05445a02.jpg",
+    "client": "Unknown",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Organic",
+      "Earthy",
+      "Nostalgic",
+      "Heritage",
+      "Dreamy"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Handcrafted",
+      "Mixed Media",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Young Adults",
+      "Women"
+    ],
+    "colourPalette": [
+      "Dark",
+      "Earthy",
+      "Muted"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Folk",
+      "Cottagecore"
+    ],
+    "occasion": [
+      "Spring",
+      "Everyday"
+    ],
+    "mood": [
+      "Nostalgic",
+      "Calming",
+      "Grounded",
+      "Dreamy",
+      "Romantic"
+    ],
+    "typography": [
+      "Script",
+      "Hand-lettered",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "green",
+      "dark",
+      "calligraphy",
+      "handwritten",
+      "nature",
+      "spring",
+      "mountain",
+      "poetry",
+      "chinese",
+      "grass",
+      "landscape",
+      "overlay",
+      "editorial",
+      "photomontage",
+      "folk",
+      "flowers"
+    ],
+    "notes": "Spring Mountain with Poems 2022 — handwritten Chinese calligraphy and brush script overlaid on lush dark green landscape photograph. Poetic folk-meets-editorial aesthetic.",
+    "added": 1775016232736
+  },
+  {
+    "id": 1775016235416,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/b0a007556af758fb62c74d33bd30613d.jpg",
+    "client": "LeTAO",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Chocolate",
+      "Food"
+    ],
+    "tonality": [
+      "Elegant",
+      "Sophisticated",
+      "Approachable",
+      "Organic",
+      "Dreamy"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Pattern-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Women",
+      "Premium",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Muted",
+      "Cool",
+      "Pastel",
+      "Earthy"
+    ],
+    "ingredient": [
+      "white chocolate",
+      "grape"
+    ],
+    "style": [
+      "Japanese",
+      "European",
+      "Scandinavian"
+    ],
+    "occasion": [
+      "Gifting Season",
+      "Everyday",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Wholesome",
+      "Aspirational",
+      "Calming",
+      "Nostalgic"
+    ],
+    "typography": [
+      "Serif",
+      "Script",
+      "Wordmark-led"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "green",
+      "white",
+      "box",
+      "grape",
+      "circle",
+      "stripe",
+      "pattern",
+      "japanese",
+      "confectionery",
+      "chocolate",
+      "letao",
+      "niagara",
+      "flat",
+      "elegant",
+      "souvenir",
+      "gifting",
+      "hokkaido"
+    ],
+    "notes": "LeTAO Niagara Chocolat Blanc Frais box — soft green stripe packaging with circular grape motifs, understated Japanese confectionery design ideal for gifting reference.",
+    "added": 1775016235416
   }
 ];
