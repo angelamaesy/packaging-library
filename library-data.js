@@ -28961,5 +28961,845 @@ const LIBRARY_DATA = [
     ],
     "notes": "Hand-painted orange flower illustration — bold black outline, vibrant orange petals, green leaves with blue accent brushstrokes, white background. Signed original artwork (appears to be from the 1970s). Reference for naive folk art illustration, bold outline style, and expressive hand-painted florals as a design reference.",
     "added": 1775015946900
+  },
+  {
+    "id": 1775015949956,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/95310e6ddba6ac22a20e19d37d2c0731.jpg",
+    "client": "TEACYCLE 亲周期",
+    "imageType": "Range Shot",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Playful",
+      "Friendly",
+      "Approachable",
+      "Youthful",
+      "Bright"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Colour-led",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Women",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Vivid",
+      "Warm",
+      "Cool"
+    ],
+    "ingredient": [
+      "lemon",
+      "dragon fruit"
+    ],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Joyful",
+      "Comforting",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Bilingual",
+      "Condensed"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "tea",
+      "cold",
+      "immunity",
+      "Chinese",
+      "bilingual",
+      "box",
+      "range",
+      "kraft",
+      "pink",
+      "yellow",
+      "green",
+      "fruit",
+      "illustration",
+      "colorful",
+      "stacked",
+      "grid",
+      "wellness",
+      "multipack",
+      "lemon",
+      "dragon-fruit"
+    ],
+    "notes": "TEACYCLE 亲周期 cold-care tea range — small multicolour boxes (pink, yellow, green) with fruit illustrations stacked alongside larger kraft shipping boxes on a grid surface. Excellent reference for Chinese health tea range design, fruit-coded colour systems, and lifestyle product photography staging.",
+    "added": 1775015949956
+  },
+  {
+    "id": 1775015953115,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/956fc88d9a7fa8abef881ef1d673ef78.jpg",
+    "client": "超级植物 / Joy Breeze",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Playful",
+      "Organic",
+      "Energising"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Colour-led",
+      "Flat Design",
+      "Abstract"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Neon",
+      "Vivid"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Spring",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful",
+      "Adventurous"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Bilingual",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "spring",
+      "botanical",
+      "poster",
+      "lime-green",
+      "blue",
+      "white",
+      "abstract",
+      "leaf",
+      "flower",
+      "bold-type",
+      "bilingual",
+      "Chinese",
+      "condensed",
+      "event",
+      "plant",
+      "negative-space",
+      "organic",
+      "flat",
+      "exhibition",
+      "super-spring"
+    ],
+    "notes": "Super Spring 超级植物 exhibition event poster — oversized lime-green abstract botanical shape with a blue oval on white, bold condensed 'SUPER SPRING' type and bilingual Chinese text. Reference for Chinese botanical brand events, neo-brutalist flat shape composition, and high-contrast neon green/blue/white palette.",
+    "added": 1775015953115
+  },
+  {
+    "id": 1775015955908,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/95c634a6911f071ebf0363274d3e4452.jpg",
+    "client": "Unknown",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [
+      "Bakery",
+      "Food",
+      "Confectionery"
+    ],
+    "tonality": [
+      "Bold",
+      "Retro",
+      "Warm",
+      "Fun",
+      "Approachable"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Typography-led",
+      "Colour-led",
+      "Mixed Media"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Mass Market",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bold",
+      "Vivid"
+    ],
+    "ingredient": [
+      "red bean"
+    ],
+    "style": [
+      "Japanese",
+      "Chinese",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Indulgent",
+      "Joyful",
+      "Nostalgic",
+      "Comforting"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Bilingual",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "dorayaki",
+      "pancake",
+      "Japanese",
+      "Chinese",
+      "bilingual",
+      "yellow",
+      "food-photography",
+      "bold-type",
+      "oversized",
+      "copper",
+      "cake",
+      "red-bean",
+      "bakery",
+      "poster",
+      "retro",
+      "warm",
+      "close-up",
+      "hero",
+      "traditional",
+      "どら焼き"
+    ],
+    "notes": "Dorayaki (銅鑼焼 / 铜锣烧) promotional food poster — yellow background with oversized photography of stacked dorayaki, bold bilingual Chinese/Japanese display type filling the frame. Strong reference for Japanese/Chinese food poster design, type-over-food photography, and warm yellow appetising palettes.",
+    "added": 1775015955908
+  },
+  {
+    "id": 1775015958905,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/961ddfe43cd20452d66139c66a9f94ae.jpg",
+    "client": "粗茶淡饭 / 点饭居",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Dark",
+      "Sophisticated",
+      "Edgy",
+      "Elegant"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Text-driven",
+      "Mixed Media"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Dark",
+      "Monochrome",
+      "Black & White"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Mysterious",
+      "Confident",
+      "Grounded",
+      "Aspirational"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Bilingual",
+      "Script",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "typography",
+      "Chinese",
+      "bilingual",
+      "black",
+      "white",
+      "gold",
+      "script",
+      "overlay",
+      "bold",
+      "poster",
+      "music",
+      "event",
+      "dark",
+      "moody",
+      "editorial",
+      "condensed",
+      "calligraphy",
+      "contrast",
+      "elegant",
+      "listening"
+    ],
+    "notes": "粗茶淡饭 (Cu Cha Dan Fan) music/dining event poster — oversized white Chinese characters with a gold script overlay on pure black. 点饭居 brand. Reference for high-contrast dark Chinese editorial typography, gold/white duotone on black, and sophisticated event design.",
+    "added": 1775015958905
+  },
+  {
+    "id": 1775015961996,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/962331a25ca9aaee4ab035bfee7c6e85.jpg",
+    "client": "矢車菊 Cornflower",
+    "imageType": "Reference",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Skincare",
+      "Beauty",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Bold",
+      "Clean",
+      "Sophisticated",
+      "Minimal",
+      "Premium"
+    ],
+    "designCode": [
+      "Pattern-led",
+      "Colour-led",
+      "Geometric",
+      "Clean",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Millennial",
+      "Women",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Vivid",
+      "Cool",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Confident",
+      "Trustworthy",
+      "Aspirational",
+      "Grounded"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Bilingual",
+      "Condensed"
+    ],
+    "finish": [
+      "Matte",
+      "Emboss"
+    ],
+    "keywords": [
+      "brand-identity",
+      "flatlay",
+      "blue",
+      "white",
+      "box",
+      "business-card",
+      "envelope",
+      "tag",
+      "hexagonal",
+      "pattern",
+      "bilingual",
+      "Chinese",
+      "minimal",
+      "premium",
+      "cobalt",
+      "cornflower",
+      "stationery",
+      "identity",
+      "system",
+      "2021"
+    ],
+    "notes": "矢車菊 Cornflower full brand identity flatlay — cobalt blue hexagonal pattern box, business cards, envelopes, tags, and labels, all in electric blue and white. Exceptional reference for monochromatic Chinese brand identity systems, geometric pattern packaging, and premium blue-dominant visual language.",
+    "added": 1775015961996
+  },
+  {
+    "id": 1775015965253,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/96a0791018b525bf302ab67c415701eb.jpg",
+    "client": "SOBRIGHT",
+    "imageType": "Pack Design",
+    "format": [
+      "Box",
+      "Gift Box"
+    ],
+    "productCategory": [
+      "Food",
+      "Gifting",
+      "Snack"
+    ],
+    "tonality": [
+      "Elegant",
+      "Dreamy",
+      "Premium",
+      "Minimal",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Abstract",
+      "Colour-led",
+      "Gradient",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Millennial",
+      "Women",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Neutral",
+      "Cool",
+      "Gradient",
+      "Metallic"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Gifting Season",
+      "Everyday"
+    ],
+    "mood": [
+      "Aspirational",
+      "Calming",
+      "Dreamy",
+      "Grounded"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif"
+    ],
+    "finish": [
+      "Matte",
+      "Soft Touch",
+      "Metallic Ink"
+    ],
+    "keywords": [
+      "gift-box",
+      "silver",
+      "metallic",
+      "gradient",
+      "bokeh",
+      "green",
+      "teal",
+      "abstract",
+      "minimal",
+      "premium",
+      "elegant",
+      "lime",
+      "staged",
+      "product-photography",
+      "clean",
+      "blur",
+      "circles",
+      "spotlight",
+      "food",
+      "gifting"
+    ],
+    "notes": "SOBRIGHT gift box — silver/metallic matte box with soft blurred bokeh circle pattern in green and teal, staged against a bright lime green background on a yellow surface. Strong reference for premium Chinese food gifting, metallic gradient packaging, and high-end lifestyle product photography.",
+    "added": 1775015965253
+  },
+  {
+    "id": 1775015968486,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/96f203edd9e15a52e32021245dfc3bac.jpg",
+    "client": "农夫山泉 清泉",
+    "imageType": "Range Shot",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Water",
+      "Beverage"
+    ],
+    "tonality": [
+      "Minimal",
+      "Clean",
+      "Dreamy",
+      "Elegant",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Clean",
+      "Flat Design"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Millennial",
+      "Health Conscious",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Muted",
+      "Neutral"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Calming",
+      "Wholesome",
+      "Joyful",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Bilingual"
+    ],
+    "finish": [
+      "Frosted",
+      "Matte"
+    ],
+    "keywords": [
+      "water",
+      "sparkling",
+      "bottle",
+      "Chinese",
+      "frosted",
+      "white",
+      "purple",
+      "green",
+      "yellow",
+      "bubble",
+      "float",
+      "illustration",
+      "range",
+      "colour-coded",
+      "flatlay",
+      "grid",
+      "Nongfu",
+      "农夫山泉",
+      "minimal",
+      "pastel"
+    ],
+    "notes": "农夫山泉 清泉 sparkling water range — frosted white bottles with floating illustrated bubbles colour-coded by flavour (purple, lime green, yellow), arranged in a repeating grid flatlay. Excellent reference for Chinese water/beverage minimal pack design, frosted bottle format, and flavour-coded colour system.",
+    "added": 1775015968486
+  },
+  {
+    "id": 1775015971640,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/9730a3e0dfa1528d590eabdb972beed4.jpg",
+    "client": "Unknown",
+    "imageType": "Illustration",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Elegant",
+      "Organic",
+      "Dreamy",
+      "Feminine",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Handcrafted",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Premium",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Dark",
+      "Warm",
+      "Cool",
+      "Earthy"
+    ],
+    "ingredient": [],
+    "style": [
+      "Folk",
+      "European",
+      "Cottagecore"
+    ],
+    "occasion": [
+      "Everyday",
+      "Spring"
+    ],
+    "mood": [
+      "Calming",
+      "Romantic",
+      "Wholesome",
+      "Dreamy"
+    ],
+    "typography": [],
+    "finish": [],
+    "keywords": [
+      "botanical",
+      "illustration",
+      "green",
+      "dark",
+      "pink",
+      "flower",
+      "eucalyptus",
+      "bell-flower",
+      "ladybird",
+      "leaf",
+      "daisy",
+      "patterned",
+      "nature",
+      "folk",
+      "organic",
+      "lush",
+      "rich",
+      "detailed",
+      "texture",
+      "risograph"
+    ],
+    "notes": "Rich botanical illustration on dark teal-green — pink eucalyptus bells, yellow flower bud, daisy clusters, patterned leaves, and two ladybirds. Textured risograph-style. Strong reference for lush dark-background botanical illustration, folk floral design, and nature-led brand identity motifs.",
+    "added": 1775015971640
+  },
+  {
+    "id": 1775015975201,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/9797bc79d50489afb837b338665915a1.jpg",
+    "client": "Bedug Blanja",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Playful",
+      "Fun",
+      "Energising"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Colour-led",
+      "Flat Design",
+      "Cartoon"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Gen Z",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Bright",
+      "Vivid",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Southeast Asian"
+    ],
+    "occasion": [
+      "Ramadan",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Adventurous",
+      "Playful"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "Ramadan",
+      "Indonesian",
+      "promotional",
+      "red",
+      "gold",
+      "teal",
+      "green",
+      "discount",
+      "shopping",
+      "illustration",
+      "cartoon",
+      "flat",
+      "bold",
+      "rounded",
+      "figure",
+      "coins",
+      "seasonal",
+      "Islamic",
+      "campaign",
+      "promo"
+    ],
+    "notes": "Bedug Blanja Ramadan promo campaign — bold red background with rounded display type, an illustrated shopping figure surrounded by product icons, coins and discount badges in gold, teal, and green. Reference for Indonesian/Southeast Asian seasonal promotional design and high-energy flat cartoon campaign aesthetics.",
+    "added": 1775015975201
+  },
+  {
+    "id": 1775015977876,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/981025612590b009d5289c5e07e762e5.jpg",
+    "client": "什麼山塢 COLWHAT",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Minimal",
+      "Elegant",
+      "Cool",
+      "Sophisticated",
+      "Premium"
+    ],
+    "designCode": [
+      "Abstract",
+      "Colour-led",
+      "Gradient",
+      "Clean",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Millennial",
+      "Young Adults",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Gradient",
+      "Cool",
+      "Warm"
+    ],
+    "ingredient": [
+      "oolong",
+      "dragon well",
+      "Lapsang Souchong"
+    ],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Gifting Season",
+      "Everyday"
+    ],
+    "mood": [
+      "Aspirational",
+      "Grounded",
+      "Calming",
+      "Confident"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Bilingual",
+      "Condensed"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "tea",
+      "pyramid",
+      "wedge",
+      "box",
+      "gradient",
+      "blue",
+      "green",
+      "orange",
+      "Chinese",
+      "bilingual",
+      "minimal",
+      "premium",
+      "structural",
+      "three-pack",
+      "latitude",
+      "coordinates",
+      "oolong",
+      "dragon-well",
+      "colwhat",
+      "triangular"
+    ],
+    "notes": "什麼山塢 COLWHAT Chinese tea range — three wedge/pyramid-shaped boxes in full-bleed gradients (ice blue, lime green, orange-red) with coordinates and bilingual type. Exceptional reference for structural Chinese tea packaging, gradient-as-identity, and unconventional box format design.",
+    "added": 1775015977876
   }
 ];
