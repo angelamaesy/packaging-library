@@ -32498,5 +32498,830 @@ const LIBRARY_DATA = [
     ],
     "notes": "LeTAO Niagara Chocolat Blanc Frais box — soft green stripe packaging with circular grape motifs, understated Japanese confectionery design ideal for gifting reference.",
     "added": 1775016235416
+  },
+  {
+    "id": 1775016238571,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/b0c7de256c9a46a4b5a49dc129d80502.jpg",
+    "client": "Captain Cheese",
+    "imageType": "Pack Design",
+    "format": [
+      "Tin"
+    ],
+    "productCategory": [
+      "Confectionery",
+      "Dairy",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Fun",
+      "Bright",
+      "Youthful",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Photography-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Millennial",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Vivid",
+      "Bold",
+      "Bright"
+    ],
+    "ingredient": [
+      "mango",
+      "cheesecake"
+    ],
+    "style": [
+      "Japanese"
+    ],
+    "occasion": [
+      "Summer",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful",
+      "Indulgent"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "orange",
+      "yellow",
+      "teal",
+      "green",
+      "tin",
+      "round",
+      "japanese",
+      "summer",
+      "seasonal",
+      "limited",
+      "mango",
+      "cheesecake",
+      "frozen",
+      "stripe",
+      "badge",
+      "product-shot",
+      "bilingual"
+    ],
+    "notes": "Captain Cheese Tropical Mango Cheesecake summer limited edition tin — vibrant orange/yellow with teal stripe band, geometric pattern lid, and product photography of the slice.",
+    "added": 1775016238571
+  },
+  {
+    "id": 1775016243282,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/b1fd556fff429316ca0d225034d0a82e.jpg",
+    "client": "Nowadays",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Snack",
+      "Food",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Bold",
+      "Youthful",
+      "Energising",
+      "Rebellious",
+      "Approachable"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Pattern-led",
+      "Colour-led",
+      "Text-driven"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Health Conscious",
+      "Eco Conscious"
+    ],
+    "colourPalette": [
+      "Vivid",
+      "Bold",
+      "Cool",
+      "Bright"
+    ],
+    "ingredient": [],
+    "style": [
+      "American",
+      "Neo-Brutalist",
+      "Streetwear"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Confident",
+      "Irreverent",
+      "Playful"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only",
+      "Wordmark-led"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "teal",
+      "mint",
+      "orange",
+      "white",
+      "box",
+      "plant-based",
+      "nuggets",
+      "pattern",
+      "allover",
+      "wordmark",
+      "repeat",
+      "challenger",
+      "health",
+      "claims",
+      "modern",
+      "bold",
+      "american"
+    ],
+    "notes": "Nowadays plant-based nuggets box — bold teal with dense all-over text pattern and oversized white wordmark, confident challenger brand voice with product photography inset.",
+    "added": 1775016243282
+  },
+  {
+    "id": 1775016245892,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/b43729b22565a7edfc4997ce5701f9cf.jpg",
+    "client": "Unknown",
+    "imageType": "Campaign",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage"
+    ],
+    "tonality": [
+      "Bold",
+      "Cool",
+      "Youthful",
+      "Fun",
+      "Vibrant"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Flat Design",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Bold",
+      "Vivid",
+      "Monochrome"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Y2K",
+      "Streetwear"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Joyful",
+      "Confident",
+      "Playful"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "blue",
+      "white",
+      "summer",
+      "solstice",
+      "bottle",
+      "hand",
+      "ocean",
+      "sky",
+      "clouds",
+      "flat",
+      "illustration",
+      "chinese",
+      "bilingual",
+      "seasonal",
+      "campaign",
+      "monochromatic"
+    ],
+    "notes": "Summer Solstice beverage campaign poster — bold blue monochromatic flat illustration with hand holding bottle against ocean and sky backdrop, energetic seasonal Chinese campaign.",
+    "added": 1775016245892
+  },
+  {
+    "id": 1775016248525,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/b48944f15548fcb0d78f5455f83d8dcb.jpg",
+    "client": "Unknown",
+    "imageType": "Campaign",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Tea"
+    ],
+    "tonality": [
+      "Playful",
+      "Nostalgic",
+      "Youthful",
+      "Fun",
+      "Kawaii"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Flat Design",
+      "Colour-led",
+      "Cartoon"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Women"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Muted"
+    ],
+    "ingredient": [
+      "taro",
+      "boba"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K",
+      "Japanese"
+    ],
+    "occasion": [
+      "Everyday",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Nostalgic",
+      "Joyful",
+      "Playful",
+      "Dreamy"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif",
+      "Pixel"
+    ],
+    "finish": [],
+    "keywords": [
+      "pink",
+      "lilac",
+      "purple",
+      "pixel",
+      "8-bit",
+      "gaming",
+      "retro",
+      "taro",
+      "boba",
+      "bubble-tea",
+      "chinese",
+      "campaign",
+      "cup",
+      "checkered",
+      "Y2K",
+      "nostalgia",
+      "character"
+    ],
+    "notes": "Taro Bobo Milk campaign — pixel/8-bit retro gaming aesthetic in soft pink and lilac with taro bubble tea cup illustration, nostalgic Y2K-meets-Chinese-modern appeal.",
+    "added": 1775016248525
+  },
+  {
+    "id": 1775016251058,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/b5a85c60a17be85cb083a59a76623f1a.jpg",
+    "client": "Yo Fun",
+    "imageType": "Key Visual",
+    "format": [],
+    "productCategory": [
+      "Beverage",
+      "Dairy",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Youthful",
+      "Fun",
+      "Bright",
+      "Approachable",
+      "Energising"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Flat Design",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Vivid",
+      "Bright"
+    ],
+    "ingredient": [
+      "fruit"
+    ],
+    "style": [
+      "Chinese",
+      "Minimal",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Energising",
+      "Joyful",
+      "Playful",
+      "Wholesome"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "lavender",
+      "blue",
+      "yellow",
+      "green",
+      "orange",
+      "red",
+      "pink",
+      "fruit",
+      "silhouette",
+      "milkshake",
+      "summer",
+      "zero-sugar",
+      "health",
+      "clean",
+      "chinese",
+      "minimal",
+      "overlapping"
+    ],
+    "notes": "Yo Fun Fruit Milk Shake key visual — overlapping colourful fruit silhouettes on cool lavender ground, zero-sugar summer energy messaging with clean modern layout.",
+    "added": 1775016251058
+  },
+  {
+    "id": 1775016253593,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/b6e3e93e6d68adedbe24dc9a711b1179.jpg",
+    "client": "Coca-Cola",
+    "imageType": "Key Visual",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Youthful",
+      "Fun",
+      "Vibrant",
+      "Cool"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pop Art",
+      "Collage",
+      "Mixed Media",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Bold",
+      "Primary Colours",
+      "Vivid",
+      "Cool"
+    ],
+    "ingredient": [],
+    "style": [
+      "Japanese",
+      "Streetwear",
+      "Y2K"
+    ],
+    "occasion": [
+      "Everyday",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Joyful",
+      "Energising",
+      "Playful",
+      "Irreverent"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed"
+    ],
+    "finish": [],
+    "keywords": [
+      "blue",
+      "red",
+      "white",
+      "coca-cola",
+      "bottle",
+      "sticker",
+      "mosaic",
+      "collage",
+      "illustration",
+      "hand",
+      "japanese",
+      "streetwear",
+      "icons",
+      "editorial",
+      "pop-art",
+      "bilingual",
+      "rainbow"
+    ],
+    "notes": "Coca-Cola illustrated editorial poster — royal blue ground with sticker/icon mosaic collage on bottle, Japanese streetwear-influenced art direction with colourful playful icons.",
+    "added": 1775016253593
+  },
+  {
+    "id": 1775016257151,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/b80a2c5a6c390a4313896f32dff00ad5.jpg",
+    "client": "CHOCDAY",
+    "imageType": "Campaign",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Chocolate",
+      "Confectionery",
+      "Health & Wellness",
+      "Food"
+    ],
+    "tonality": [
+      "Minimal",
+      "Bold",
+      "Sophisticated",
+      "Clinical",
+      "Gourmet"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Clean",
+      "Text-driven"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Health Conscious",
+      "Young Adults",
+      "Women"
+    ],
+    "colourPalette": [
+      "Black & White",
+      "Neutral",
+      "Monochrome"
+    ],
+    "ingredient": [
+      "dark chocolate"
+    ],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist",
+      "Minimal"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Trustworthy",
+      "Confident",
+      "Grounded",
+      "Empowering"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Mixed Fonts",
+      "Condensed",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "white",
+      "black",
+      "yellow",
+      "minimal",
+      "editorial",
+      "poster",
+      "typography",
+      "health",
+      "chocolate",
+      "dark",
+      "chinese",
+      "swiss",
+      "box",
+      "product-shot",
+      "clean",
+      "wellness",
+      "daily"
+    ],
+    "notes": "CHOCDAY daily dark chocolate brand poster — editorial Swiss-minimalist white layout with oversized bold Chinese type, health positioning, and product box shown. Clean and authoritative.",
+    "added": 1775016257151
+  },
+  {
+    "id": 1775016259361,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/b87e178c72b07ac806b96186b1ffc75b.jpg",
+    "client": "Unknown",
+    "imageType": "Pack Design",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Elegant",
+      "Dreamy",
+      "Organic",
+      "Feminine",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Handcrafted",
+      "Colour-led",
+      "Fluid"
+    ],
+    "targetAudience": [
+      "Women",
+      "Millennial",
+      "Gen X",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Vivid",
+      "Pastel",
+      "Gradient"
+    ],
+    "ingredient": [
+      "tea"
+    ],
+    "style": [
+      "Japanese",
+      "Scandinavian",
+      "European"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Calming",
+      "Wholesome",
+      "Romantic",
+      "Dreamy"
+    ],
+    "typography": [
+      "Script",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "teal",
+      "blue",
+      "yellow",
+      "white",
+      "floral",
+      "botanical",
+      "watercolour",
+      "pouch",
+      "tea",
+      "afternoon",
+      "flowers",
+      "soft",
+      "elegant",
+      "japanese",
+      "script",
+      "gradient",
+      "ziplock"
+    ],
+    "notes": "Afternoon Tea Blend pouch — teal to white gradient with loose watercolour floral illustration in blue and yellow, soft and peaceful Japanese tea brand aesthetic.",
+    "added": 1775016259361
+  },
+  {
+    "id": 1775016262785,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/b8e4689e71aca07cf37f0eabf5b30a19.jpg",
+    "client": "Little Sesame",
+    "imageType": "Pack Design",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Food",
+      "Snack"
+    ],
+    "tonality": [
+      "Playful",
+      "Fun",
+      "Approachable",
+      "Friendly",
+      "Bold"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Millennial",
+      "Young Adults",
+      "Health Conscious",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Bright",
+      "Bold"
+    ],
+    "ingredient": [
+      "hummus",
+      "tomato",
+      "onion"
+    ],
+    "style": [
+      "American"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Playful",
+      "Joyful",
+      "Wholesome",
+      "Approachable"
+    ],
+    "typography": [
+      "Display",
+      "Condensed",
+      "Uppercase Only",
+      "Sans-serif"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "orange",
+      "teal",
+      "mint",
+      "pastel",
+      "tub",
+      "cup",
+      "hummus",
+      "circular-text",
+      "radial",
+      "stacked",
+      "american",
+      "challenger",
+      "sun",
+      "logo",
+      "dip",
+      "bold",
+      "friendly"
+    ],
+    "notes": "Little Sesame hummus tubs — stacked pastel-coloured cups with curved radial typography and sun logomark, playful and approachable challenger brand for everyday hummus.",
+    "added": 1775016262785
+  },
+  {
+    "id": 1775016266261,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/b91758c37331382bc1f071bf0ad5d7f2.jpg",
+    "client": "Unknown",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Food",
+      "Confectionery"
+    ],
+    "tonality": [
+      "Bold",
+      "Vibrant",
+      "Fun",
+      "Youthful",
+      "Maximalist"
+    ],
+    "designCode": [
+      "3D",
+      "Illustration-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Millennial"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Vivid",
+      "Bold",
+      "Gradient"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese"
+    ],
+    "occasion": [
+      "Lunar New Year",
+      "Chinese New Year"
+    ],
+    "mood": [
+      "Joyful",
+      "Nostalgic",
+      "Aspirational",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Sans-serif",
+      "Uppercase Only",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "orange",
+      "red",
+      "yellow",
+      "green",
+      "gradient",
+      "3D",
+      "glassmorphism",
+      "tangyuan",
+      "lantern-festival",
+      "chinese",
+      "festive",
+      "bowl",
+      "chopsticks",
+      "glow",
+      "frosted",
+      "seasonal",
+      "new-year"
+    ],
+    "notes": "Happy Lantern Festival campaign poster — bold orange/red gradient with 3D glossy tangyuan in frosted glass bowl and chopsticks, striking festive seasonal visual for Chinese New Year.",
+    "added": 1775016266261
   }
 ];
