@@ -887,6 +887,737 @@ const LIBRARY_DATA = [
     "added": 1775031295649
   },
   {
+    "id": 1775016369994,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/cebd0b65cfc165e42b7be22b553b46fc.jpg",
+    "client": "TOWISH",
+    "imageType": "Campaign",
+    "format": [
+      "Cup",
+      "Tray"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage",
+      "Dairy"
+    ],
+    "tonality": [
+      "Bold",
+      "Youthful",
+      "Approachable"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Photography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bright",
+      "Muted"
+    ],
+    "ingredient": [
+      "milk tea",
+      "cream"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Everyday",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Energising",
+      "Playful",
+      "Confident"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "milk-tea",
+      "cups",
+      "tray",
+      "peach",
+      "orange",
+      "headline",
+      "bilingual",
+      "campaign",
+      "coffee-cup",
+      "graphic",
+      "youth",
+      "brand",
+      "drink"
+    ],
+    "notes": "Milk-tea promo visual with two takeaway cups on a carrier tray, surrounded by oversized bilingual type for a loud grab-and-go café campaign feel.",
+    "added": 1775016369994
+  },
+  {
+    "id": 1775016365176,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/cdaa47e248eb2fad35c1a1ba91de6452.jpg",
+    "client": "ORGA Whole Foods",
+    "imageType": "Pack Design",
+    "format": [
+      "Gift Box",
+      "Tray"
+    ],
+    "productCategory": [
+      "Food",
+      "Gifting"
+    ],
+    "tonality": [
+      "Elegant",
+      "Approachable",
+      "Wholesome"
+    ],
+    "designCode": [
+      "Pattern-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Families",
+      "Women"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Earthy",
+      "Muted"
+    ],
+    "ingredient": [
+      "apple",
+      "pear"
+    ],
+    "style": [
+      "Japanese",
+      "Contemporary"
+    ],
+    "occasion": [
+      "Gifting Season",
+      "Mid-Autumn"
+    ],
+    "mood": [
+      "Wholesome",
+      "Aspirational",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Wordmark-led"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "gift-box",
+      "fruit",
+      "apple",
+      "pear",
+      "tray",
+      "pattern",
+      "orange",
+      "green",
+      "premium",
+      "gifting",
+      "produce",
+      "eco",
+      "clean",
+      "retail"
+    ],
+    "notes": "Premium fruit gift set with soft abstract patterning and an orderly tray presentation that makes fresh produce feel curated and giftable.",
+    "added": 1775016365176
+  },
+  {
+    "id": 1775016359772,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/cda22f2c364910c364fd25bdda3c8a4d.jpg",
+    "client": "Casino",
+    "imageType": "Product Photography",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Water",
+      "Juice"
+    ],
+    "tonality": [
+      "Bright",
+      "Clean",
+      "Approachable"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Geometric",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Unisex",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Cool",
+      "Warm"
+    ],
+    "ingredient": [
+      "lemon"
+    ],
+    "style": [
+      "French",
+      "Contemporary"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Refreshing",
+      "Calming",
+      "Joyful"
+    ],
+    "typography": [
+      "Serif",
+      "Sans-serif"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "bottle",
+      "lemon",
+      "sparkling",
+      "water",
+      "petillante",
+      "green",
+      "yellow",
+      "geometric",
+      "refreshment",
+      "fruit",
+      "studio",
+      "hero",
+      "beverage",
+      "clean"
+    ],
+    "notes": "Clean sparkling lemon beverage shot pairing a simple bottle label with geometric citrus graphics for a fresh supermarket-ready look.",
+    "added": 1775016359772
+  },
+  {
+    "id": 1775016353604,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/cbeaa87c3202161236e4a0fea0002db5.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Apparel"
+    ],
+    "tonality": [
+      "Minimal",
+      "Bold",
+      "Cool"
+    ],
+    "designCode": [
+      "Abstract",
+      "Geometric",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Premium",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Bold",
+      "Monochrome"
+    ],
+    "ingredient": [],
+    "style": [
+      "Swiss / Modernist",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Calming",
+      "Aspirational"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [],
+    "keywords": [
+      "abstract",
+      "blue",
+      "geometric",
+      "symbol",
+      "minimal",
+      "icon",
+      "shape",
+      "vector",
+      "monochrome",
+      "clean",
+      "graphic",
+      "logo",
+      "cool",
+      "design"
+    ],
+    "notes": "Minimal abstract blue-symbol reference built from repeated cutaway geometry, useful for logoform and motion-identity inspiration.",
+    "added": 1775016353604
+  },
+  {
+    "id": 1775016347949,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/cbcec0ac177175e6ff7b1172c5191e1a.jpg",
+    "client": "7UP",
+    "imageType": "Product Photography",
+    "format": [
+      "Can"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Water",
+      "Juice"
+    ],
+    "tonality": [
+      "Bright",
+      "Playful",
+      "Refreshing"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Pattern-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Cool",
+      "Warm",
+      "Vivid"
+    ],
+    "ingredient": [
+      "lemon"
+    ],
+    "style": [
+      "American",
+      "Contemporary"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Refreshing",
+      "Joyful",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss",
+      "Metallic Ink"
+    ],
+    "keywords": [
+      "can",
+      "lemon",
+      "sparkling",
+      "soda",
+      "range",
+      "yellow",
+      "blue",
+      "striped",
+      "citrus",
+      "refreshment",
+      "award",
+      "hero",
+      "beverage",
+      "summer"
+    ],
+    "notes": "Award-winning sparkling lemonade can range with diagonal striping, oversized lemon wordmark, and bright summer-citrus energy.",
+    "added": 1775016347949
+  },
+  {
+    "id": 1775016344732,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/caff4fa9b4ec3389fd77df4961e0a4c4.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Apparel"
+    ],
+    "tonality": [
+      "Bold",
+      "Mysterious",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Abstract",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Premium",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Black & White",
+      "Dark",
+      "Monochrome"
+    ],
+    "ingredient": [],
+    "style": [
+      "European",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Mysterious",
+      "Confident",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Lowercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "beethoven",
+      "optical",
+      "spiral",
+      "monochrome",
+      "black",
+      "white",
+      "abstract",
+      "concert",
+      "graphic",
+      "modernist",
+      "editorial",
+      "geometric",
+      "visual"
+    ],
+    "notes": "High-contrast poster reference using optical black-and-white spiral geometry and minimal type for a dramatic cultural-event feel.",
+    "added": 1775016344732
+  },
+  {
+    "id": 1775016340732,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c9cb87e0c22505cb8b8b60d9d2fc4deb.jpg",
+    "client": "Coca-Cola",
+    "imageType": "Pack Design",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Approachable",
+      "Calming",
+      "Wholesome"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Clean",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Health Conscious",
+      "Women",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bright",
+      "Natural"
+    ],
+    "ingredient": [
+      "lemon",
+      "green tea"
+    ],
+    "style": [
+      "Japanese",
+      "Contemporary"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Calming",
+      "Trustworthy",
+      "Refreshing"
+    ],
+    "typography": [
+      "Serif",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "bottle",
+      "tea",
+      "green-tea",
+      "lemon",
+      "wellness",
+      "refreshment",
+      "yellow",
+      "leaves",
+      "japan",
+      "clean",
+      "functional",
+      "drink",
+      "hero",
+      "natural"
+    ],
+    "notes": "Functional green tea bottle with lemon cues and soft leaf illustration, positioned as a calming daily wellness refreshment.",
+    "added": 1775016340732
+  },
+  {
+    "id": 1775016337935,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c79da0025f8c00229659459bf45ee3d8.jpg",
+    "client": "BODY MAINTÉ",
+    "imageType": "Campaign",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Water",
+      "Beverage",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Bold",
+      "Clinical",
+      "Confident"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Photography-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Athletes",
+      "Men",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Neutral",
+      "Warm"
+    ],
+    "ingredient": [
+      "water"
+    ],
+    "style": [
+      "Japanese",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Energising",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "bottle",
+      "water",
+      "fitness",
+      "conditioning",
+      "yellow",
+      "black",
+      "typography",
+      "oversized",
+      "japan",
+      "sports",
+      "hydration",
+      "clean",
+      "campaign"
+    ],
+    "notes": "Functional drink campaign reference using oversized Japanese type and a centred bottle hero to convey performance and maintenance.",
+    "added": 1775016337935
+  },
+  {
+    "id": 1775016334318,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c78ea68722f9373fb6858d09a3df739c.jpg",
+    "client": "HEYTEA",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Beverage",
+      "Food",
+      "Gifting"
+    ],
+    "tonality": [
+      "Playful",
+      "Youthful",
+      "Approachable"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Typography-led",
+      "Collage"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Warm",
+      "Neutral"
+    ],
+    "ingredient": [
+      "pineapple",
+      "lime"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Summer",
+      "Limited Edition",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Playful",
+      "Energising",
+      "Joyful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "pineapple",
+      "lime",
+      "cutout",
+      "tag",
+      "limited",
+      "yellow",
+      "collage",
+      "fruit",
+      "campaign",
+      "heytea",
+      "summer",
+      "bilingual",
+      "playful"
+    ],
+    "notes": "Fruit-collage campaign visual for a limited pineapple collection using cut tags, wrapped produce, and sharp typographic labelling.",
+    "added": 1775016334318
+  },
+  {
+    "id": 1775016330974,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c7879d72f7dab9f1fda17c5370bca422.jpg",
+    "client": "JRE POINT",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Apparel"
+    ],
+    "tonality": [
+      "Bold",
+      "Energising",
+      "Approachable"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Warm",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Japanese",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Launch Campaign",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Confident",
+      "Energising",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "promotion",
+      "points",
+      "yellow",
+      "green",
+      "black",
+      "numbers",
+      "campaign",
+      "retail",
+      "headline",
+      "graphic",
+      "japan",
+      "coupon",
+      "bold"
+    ],
+    "notes": "Retail campaign poster built around oversized numerical type and bright transit-brand colour blocking for a high-urgency points promotion.",
+    "added": 1775016330974
+  },
+  {
     "id": 1775016327563,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c77d2d42d96b0067ab31cd33f2b8828f.jpg",
     "client": "CHOCDAY",
