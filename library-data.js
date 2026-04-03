@@ -887,6 +887,718 @@ const LIBRARY_DATA = [
     "added": 1775031295649
   },
   {
+    "id": 1775016506401,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/e5c1e47ba285b0594dea7eb95e4536a4.jpg",
+    "client": "WUWEI EISU",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Supplement",
+      "Health & Wellness",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Bold",
+      "Clinical",
+      "Youthful"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Mass Market",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Bright",
+      "Cool"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist",
+      "Y2K"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Energising",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "box",
+      "supplement",
+      "pastel",
+      "cyan",
+      "pink",
+      "lime",
+      "clinical",
+      "type",
+      "geometric",
+      "pharma",
+      "wellness",
+      "range",
+      "modern",
+      "shelf"
+    ],
+    "notes": "Modern wellness packaging range with bold Chinese typography and bright pastel blocking that makes clinical-looking boxes feel contemporary and youthful.",
+    "added": 1775016506401
+  },
+  {
+    "id": 1775016501731,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/e58e4e51ae3b66f92b062c285a56ef86.jpeg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Beauty",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Playful",
+      "Edgy",
+      "Youthful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Doodle"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Cool",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Y2K",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Playful",
+      "Irreverent",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "emotion",
+      "management",
+      "flower",
+      "comic",
+      "speech",
+      "pink",
+      "blue",
+      "arrows",
+      "youth",
+      "graphic",
+      "headline",
+      "doodle",
+      "character"
+    ],
+    "notes": "Youth-culture poster reference using expressive cartoon shapes, arrows, and bilingual type to turn emotional wellbeing into a playful graphic system.",
+    "added": 1775016501731
+  },
+  {
+    "id": 1775016498063,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/e4f73d2ac53e0f6860e67237a4a5cada.jpg",
+    "client": "CHOCDAY",
+    "imageType": "Range Shot",
+    "format": [
+      "Box",
+      "Wrapper"
+    ],
+    "productCategory": [
+      "Chocolate",
+      "Confectionery",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Minimal",
+      "Sophisticated",
+      "Premium"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Women",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bright",
+      "Neutral"
+    ],
+    "ingredient": [
+      "dark chocolate",
+      "almond"
+    ],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Indulgent",
+      "Confident",
+      "Calming"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte",
+      "Foil"
+    ],
+    "keywords": [
+      "chocolate",
+      "box",
+      "range",
+      "premium",
+      "minimal",
+      "yellow",
+      "orange",
+      "cream",
+      "dark",
+      "almond",
+      "type",
+      "shelf",
+      "modern",
+      "giftable"
+    ],
+    "notes": "Premium chocolate range shot using a restrained typographic system and warm colour coding to create a modern, giftable shelf presence.",
+    "added": 1775016498063
+  },
+  {
+    "id": 1775016490837,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/e259f2de1e41e46e50989e2538c5dd8e.jpg",
+    "client": "Equality Unscripted",
+    "imageType": "Campaign",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Alcohol",
+      "Spirits"
+    ],
+    "tonality": [
+      "Sophisticated",
+      "Calming",
+      "Confident"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Illustration-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Young Adults",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Bold",
+      "Warm"
+    ],
+    "ingredient": [
+      "cocktail"
+    ],
+    "style": [
+      "American",
+      "Luxury Editorial"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Aspirational",
+      "Confident",
+      "Calming"
+    ],
+    "typography": [
+      "Script",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "cocktail",
+      "blue",
+      "script",
+      "party",
+      "invitation",
+      "equality",
+      "glass",
+      "straw",
+      "editorial",
+      "event",
+      "restaurant",
+      "nightlife",
+      "elegant"
+    ],
+    "notes": "Elegant after-hours invitation that uses flowing script and a simple cocktail illustration to feel polished, social, and culturally progressive.",
+    "added": 1775016490837
+  },
+  {
+    "id": 1775016487154,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/e204e69201a5abcd6c6d95cba7aff43b.jpg",
+    "client": "ZCOOL",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Apparel"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Energising"
+    ],
+    "designCode": [
+      "3D",
+      "Typography-led",
+      "Illustration-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Creative Professionals"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Warm",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Pop Art",
+      "Y2K"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Confident",
+      "Joyful",
+      "Energising"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "zcool",
+      "3d",
+      "numbers",
+      "red",
+      "yellow",
+      "blue",
+      "event",
+      "creative",
+      "badge",
+      "graphic",
+      "headline",
+      "community",
+      "launch"
+    ],
+    "notes": "Attention-grabbing creative-community poster built from chunky 3D numerals and toy-like colour blocking for an upbeat event announcement.",
+    "added": 1775016487154
+  },
+  {
+    "id": 1775016482403,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/e1a118be05142576773c24645a05393d.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Beauty",
+      "Apparel"
+    ],
+    "tonality": [
+      "Minimal",
+      "Edgy",
+      "Cool"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Line Art",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Black & White",
+      "Minimal",
+      "Monochrome"
+    ],
+    "ingredient": [],
+    "style": [
+      "Swiss / Modernist",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Calming",
+      "Irreverent"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "flower",
+      "line-art",
+      "black",
+      "white",
+      "type",
+      "graphic",
+      "minimal",
+      "modernist",
+      "editorial",
+      "outline",
+      "clean",
+      "visual",
+      "layout"
+    ],
+    "notes": "Minimal black-and-white poster reference combining oversized floral line art with dense uppercase text for a sharp editorial graphic effect.",
+    "added": 1775016482403
+  },
+  {
+    "id": 1775016479343,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/e0e6e27fb9366110db3303e192cd115f.jpg",
+    "client": "Azamino Kodomo Gallery",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Apparel"
+    ],
+    "tonality": [
+      "Playful",
+      "Bright",
+      "Friendly"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Kids",
+      "Parents",
+      "Families"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Warm",
+      "Cool",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Japanese",
+      "Naive"
+    ],
+    "occasion": [
+      "Summer",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Wholesome"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "kids",
+      "monsters",
+      "gallery",
+      "yellow",
+      "blue",
+      "party",
+      "illustration",
+      "family",
+      "event",
+      "cute",
+      "playful",
+      "summer",
+      "culture"
+    ],
+    "notes": "Children’s gallery poster with colourful monster motifs and a warm primary palette, suited to family-focused arts programming references.",
+    "added": 1775016479343
+  },
+  {
+    "id": 1775016476682,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/e0390787394e45fc17080ad4f17b5c2c.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Beauty",
+      "Gifting"
+    ],
+    "tonality": [
+      "Minimal",
+      "Dreamy",
+      "Elegant"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Photography-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Muted",
+      "Cool",
+      "Natural"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Luxury Editorial"
+    ],
+    "occasion": [
+      "Spring",
+      "Everyday"
+    ],
+    "mood": [
+      "Dreamy",
+      "Calming",
+      "Aspirational"
+    ],
+    "typography": [
+      "Serif",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "poetry",
+      "trees",
+      "green",
+      "editorial",
+      "minimal",
+      "white-space",
+      "nature",
+      "serif",
+      "magazine",
+      "soft",
+      "art-direction",
+      "culture",
+      "layout"
+    ],
+    "notes": "Editorial poster reference with generous white space, restrained serif typography, and a tree photograph that creates a poetic, literary mood.",
+    "added": 1775016476682
+  },
+  {
+    "id": 1775016473402,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/df1e4a086762979a8c3635615164c404.jpg",
+    "client": "MOUTION TIME",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Apparel",
+      "Stationery"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Youthful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Families"
+    ],
+    "colourPalette": [
+      "Neon",
+      "Cool",
+      "Black & White"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Japanese",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Summer",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Adventurous",
+      "Playful",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "hiking",
+      "outdoor",
+      "lime",
+      "character",
+      "illustration",
+      "event",
+      "camp",
+      "adventure",
+      "qr",
+      "graphic",
+      "headline",
+      "youth",
+      "festival"
+    ],
+    "notes": "Outdoor event poster using a chunky illustrated hiker and neon-lime accents to make a casual adventure programme feel energetic and youth-oriented.",
+    "added": 1775016473402
+  },
+  {
+    "id": 1775016467985,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/dee96c44be1646d20600c65de4dfcfb9.jpg",
+    "client": "Leticia Plate",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Beauty",
+      "Gifting"
+    ],
+    "tonality": [
+      "Whimsical",
+      "Calming",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Handcrafted",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Muted",
+      "Cool",
+      "Warm"
+    ],
+    "ingredient": [],
+    "style": [
+      "Naive",
+      "Folk"
+    ],
+    "occasion": [
+      "Spring",
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Joyful",
+      "Wholesome"
+    ],
+    "typography": [
+      "Wordmark-led"
+    ],
+    "finish": [],
+    "keywords": [
+      "floral",
+      "yellow",
+      "green",
+      "botanical",
+      "illustration",
+      "handdrawn",
+      "muted",
+      "poster",
+      "art-print",
+      "flower",
+      "folk",
+      "soft",
+      "organic",
+      "nature"
+    ],
+    "notes": "Soft floral illustration reference with hand-drawn yellow blossoms and muted green background, useful for artisanal botanical branding cues.",
+    "added": 1775016467985
+  },
+  {
     "id": 1775016464267,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/dede826a88901f885e29a7cd666ebd14.jpg",
     "client": "Unknown",
