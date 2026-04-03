@@ -887,6 +887,751 @@
     "added": 1775031295649
   },
   {
+    "id": 1775016545004,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/ef76251c18ec8fa4842c1d141aeaf4f3.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Food",
+      "Stationery"
+    ],
+    "tonality": [
+      "Playful",
+      "Bold",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Families",
+      "Young Adults",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Neon",
+      "Bright",
+      "Black & White"
+    ],
+    "ingredient": [
+      "cold food"
+    ],
+    "style": [
+      "Chinese",
+      "Naive"
+    ],
+    "occasion": [
+      "Qingming Festival"
+    ],
+    "mood": [
+      "Playful",
+      "Curious",
+      "Joyful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "festival",
+      "qingming",
+      "food",
+      "neon",
+      "yellow",
+      "illustration",
+      "plate",
+      "headline",
+      "cultural",
+      "educational",
+      "graphic",
+      "minimal",
+      "tradition"
+    ],
+    "notes": "Bright cultural-food poster reference that explains Qingming chilled dishes with a playful neon palette and simple rounded illustration.",
+    "added": 1775016545004
+  },
+  {
+    "id": 1775016541470,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/ee242e5fc286a3e0337e5a6c14cbd844.jpg",
+    "client": "碧桂园湖境",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Gifting",
+      "Food",
+      "Beverage"
+    ],
+    "tonality": [
+      "Dreamy",
+      "Elegant",
+      "Calming"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Families",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Muted"
+    ],
+    "ingredient": [
+      "peach"
+    ],
+    "style": [
+      "Chinese",
+      "Naive"
+    ],
+    "occasion": [
+      "Summer",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Joyful",
+      "Dreamy",
+      "Aspirational"
+    ],
+    "typography": [
+      "Serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "peach",
+      "blue",
+      "pastel",
+      "wave",
+      "summer",
+      "property",
+      "festival",
+      "fruit",
+      "soft",
+      "campaign",
+      "clean",
+      "event",
+      "dreamy"
+    ],
+    "notes": "Soft peach-season campaign poster using oversized fruit and powdery blue waves to create a gentle, premium summer-event atmosphere.",
+    "added": 1775016541470
+  },
+  {
+    "id": 1775016536458,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/ed669562933617b3f2507e9fbc1754a9.jpg",
+    "client": "汉乐",
+    "imageType": "Campaign",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Tea",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Calming",
+      "Approachable",
+      "Dreamy"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Illustration-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Pastel",
+      "Muted"
+    ],
+    "ingredient": [
+      "flower extract",
+      "tea"
+    ],
+    "style": [
+      "Chinese",
+      "Contemporary"
+    ],
+    "occasion": [
+      "Everyday",
+      "Spring"
+    ],
+    "mood": [
+      "Calming",
+      "Wholesome",
+      "Empowering"
+    ],
+    "typography": [
+      "Serif",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "bottle",
+      "flower",
+      "wellness",
+      "spa",
+      "peach",
+      "cream",
+      "petals",
+      "calm",
+      "drink",
+      "tea",
+      "functional",
+      "soft",
+      "hero",
+      "refreshment"
+    ],
+    "notes": "Functional flower-extract drink visual that uses soft blossoms and warm peach tones to position the bottle as a calming, spa-like refreshment.",
+    "added": 1775016536458
+  },
+  {
+    "id": 1775016532123,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/eca20b8d5ba4202fd422426243544c64.jpg",
+    "client": "NAWAKE",
+    "imageType": "Range Shot",
+    "format": [
+      "Can",
+      "Carton"
+    ],
+    "productCategory": [
+      "Juice",
+      "Beverage",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Cool",
+      "Youthful"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Vivid",
+      "Muted"
+    ],
+    "ingredient": [
+      "plum",
+      "juice"
+    ],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Calming",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "juice",
+      "can",
+      "carton",
+      "purple",
+      "plum",
+      "stacked",
+      "modern",
+      "minimal",
+      "type",
+      "shelf",
+      "range",
+      "beverage",
+      "clean",
+      "brand"
+    ],
+    "notes": "Modern plum-juice range with oversized black wordmark and a cool purple studio setup that gives the shelf system a sleek, contemporary edge.",
+    "added": 1775016532123
+  },
+  {
+    "id": 1775016528698,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/eb8c73dc724f2eb15e2536c237bec692.jpg",
+    "client": "Dr. Cheese",
+    "imageType": "Range Shot",
+    "format": [
+      "Cup",
+      "Label"
+    ],
+    "productCategory": [
+      "Dairy",
+      "Food"
+    ],
+    "tonality": [
+      "Approachable",
+      "Bright",
+      "Clean"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Families",
+      "Kids"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bright",
+      "Neutral"
+    ],
+    "ingredient": [
+      "cheese"
+    ],
+    "style": [
+      "Chinese",
+      "Contemporary"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Wholesome",
+      "Joyful",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "cheese",
+      "cups",
+      "dairy",
+      "yellow",
+      "white",
+      "round",
+      "range",
+      "label",
+      "clean",
+      "retail",
+      "family",
+      "food",
+      "packaging",
+      "brand"
+    ],
+    "notes": "Friendly dairy range shot that uses bright yellow-white circles and clear bilingual labelling to make processed cheese feel simple and accessible.",
+    "added": 1775016528698
+  },
+  {
+    "id": 1775016524065,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/eb801f52aca93a07e02b676d14c6cc14.jpg",
+    "client": "CO2FFEE",
+    "imageType": "Product Photography",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Coffee",
+      "Beverage"
+    ],
+    "tonality": [
+      "Bright",
+      "Refreshing",
+      "Playful"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Mass Market",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Warm",
+      "Cool"
+    ],
+    "ingredient": [
+      "coffee",
+      "peach",
+      "grapefruit"
+    ],
+    "style": [
+      "Chinese",
+      "Contemporary"
+    ],
+    "occasion": [
+      "Summer",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Refreshing",
+      "Joyful",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "coffee",
+      "bottle",
+      "splash",
+      "fruit",
+      "peach",
+      "grapefruit",
+      "dots",
+      "magazine",
+      "photography",
+      "refreshment",
+      "ice",
+      "campaign",
+      "hero",
+      "drink"
+    ],
+    "notes": "Magazine-style product shot pairing bottled coffee with water splashes and floating fruit to make the drink feel crisp, juicy, and contemporary.",
+    "added": 1775016524065
+  },
+  {
+    "id": 1775016519927,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/eaff8f32e1b0721e594a03babee1636d.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Beauty"
+    ],
+    "tonality": [
+      "Dreamy",
+      "Calming",
+      "Minimal"
+    ],
+    "designCode": [
+      "Abstract",
+      "Colour-led",
+      "Handcrafted"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Muted"
+    ],
+    "ingredient": [],
+    "style": [
+      "Naive",
+      "Contemporary"
+    ],
+    "occasion": [
+      "Spring",
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Dreamy",
+      "Aspirational"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [],
+    "keywords": [
+      "abstract",
+      "brushstrokes",
+      "pastel",
+      "blue",
+      "mint",
+      "cream",
+      "texture",
+      "painting",
+      "soft",
+      "background",
+      "minimal",
+      "calm",
+      "art",
+      "wash"
+    ],
+    "notes": "Soft abstract brushstroke reference with pale aqua and cream washes, useful as a serene background or colour-material mood cue.",
+    "added": 1775016519927
+  },
+  {
+    "id": 1775016516166,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/e9e83bae73523691905f66dbae6df4b8.jpg",
+    "client": "Never Ending Friending",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Apparel"
+    ],
+    "tonality": [
+      "Cool",
+      "Minimal",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Geometric",
+      "Typography-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Creative Professionals"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Bold",
+      "Monochrome"
+    ],
+    "ingredient": [],
+    "style": [
+      "Swiss / Modernist",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Confident",
+      "Calming",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "blue",
+      "geometric",
+      "networking",
+      "radial",
+      "conference",
+      "minimal",
+      "modernist",
+      "type",
+      "graphic",
+      "clean",
+      "circle",
+      "editorial",
+      "event"
+    ],
+    "notes": "Minimal conference poster reference using a cool blue field and rotating radial geometry to suggest motion, systems, and social connection.",
+    "added": 1775016516166
+  },
+  {
+    "id": 1775016513052,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/e8587fbbc51cf9df4158f453c0f86194.jpg",
+    "client": "HALF TEA",
+    "imageType": "Range Shot",
+    "format": [
+      "Box",
+      "Sachet"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Approachable",
+      "Whimsical",
+      "Calming"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Health Conscious"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Pastel",
+      "Muted"
+    ],
+    "ingredient": [
+      "goji",
+      "chrysanthemum",
+      "raspberry",
+      "rose",
+      "mint",
+      "lemon"
+    ],
+    "style": [
+      "Chinese",
+      "Naive"
+    ],
+    "occasion": [
+      "Everyday",
+      "Spring"
+    ],
+    "mood": [
+      "Calming",
+      "Joyful",
+      "Wholesome"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "tea",
+      "box",
+      "sachet",
+      "botanical",
+      "flower",
+      "fruit",
+      "orange",
+      "pink",
+      "green",
+      "floating",
+      "wellness",
+      "giftable",
+      "soft",
+      "range"
+    ],
+    "notes": "Soft wellness-tea range with floating boxes and sachets, using botanical-fruit illustrations and warm pastel staging for a light, giftable feel.",
+    "added": 1775016513052
+  },
+  {
+    "id": 1775016509671,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/e79e6007821754af7d752b7829dc96de.jpg",
+    "client": "HOWEVER",
+    "imageType": "Range Shot",
+    "format": [
+      "Box",
+      "Cup",
+      "Label",
+      "Card"
+    ],
+    "productCategory": [
+      "Bakery",
+      "Food",
+      "Confectionery"
+    ],
+    "tonality": [
+      "Playful",
+      "Approachable",
+      "Bright"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Illustration-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Families",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Bright",
+      "Warm",
+      "Cool"
+    ],
+    "ingredient": [
+      "hazelnut",
+      "cookie",
+      "apple pie",
+      "ice cream"
+    ],
+    "style": [
+      "Chinese",
+      "Naive"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Wholesome"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "brand-system",
+      "bakery",
+      "ice-cream",
+      "cards",
+      "box",
+      "cup",
+      "blue",
+      "yellow",
+      "orange",
+      "mascot",
+      "menu",
+      "identity",
+      "playful",
+      "retail"
+    ],
+    "notes": "Bright bakery identity system showing boxes, cups, labels, and menu collateral unified by cheerful type, pastel colour blocking, and dessert illustrations.",
+    "added": 1775016509671
+  },
+  {
     "id": 1775016506401,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/e5c1e47ba285b0594dea7eb95e4536a4.jpg",
     "client": "WUWEI EISU",
