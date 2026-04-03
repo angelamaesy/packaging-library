@@ -1,5 +1,77 @@
 [
   {
+    "id": 1775031449365,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/5094cf269407806cc8f2412249bfc845.jpg",
+    "client": "Tiger",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Gifting",
+      "Stationery",
+      "Apparel"
+    ],
+    "tonality": [
+      "Playful",
+      "Bold",
+      "Festive"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Families",
+      "Kids",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bright",
+      "Black & White"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Kawaii",
+      "Y2K"
+    ],
+    "occasion": [
+      "Chinese New Year",
+      "Lunar New Year",
+      "Limited Edition"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Empowering"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "tiger",
+      "new-year",
+      "orange",
+      "mascot",
+      "lucky",
+      "limited",
+      "festive",
+      "2022",
+      "toy",
+      "graphic",
+      "campaign",
+      "cute",
+      "lunar",
+      "bold"
+    ],
+    "notes": "Bold Lunar New Year campaign visual with a toy-like tiger mascot, loud orange framing, and playful bilingual slogans built for festive limited-edition promotion.",
+    "added": 1775031449365
+  },
+  {
     "id": 1775031394357,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/gift_box_product_photography_chinese_traditional_style_2026-03-24.png",
     "client": "Jetta",
@@ -885,6 +957,662 @@
     ],
     "notes": "Nayuki 奈雪 sparkling water campaign poster featuring two bottles (pink/yellow) with kawaii illustration on pastel blue background. Strong functional claims design reference — '0卡0脂0糖' messaging with playful Japanese-inspired illustration.",
     "added": 1775031295649
+  },
+  {
+    "id": 1775016573835,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/f5458b145044b198c15493cae38a929d.jpg",
+    "client": "Visual Design Exchange",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Apparel"
+    ],
+    "tonality": [
+      "Cool",
+      "Edgy",
+      "Futuristic"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Geometric",
+      "Gradient"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Creative Professionals"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Gradient",
+      "Monochrome"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Retro-Futurist",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Confident",
+      "Aspirational",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "blue",
+      "future",
+      "grid",
+      "design",
+      "exchange",
+      "banner",
+      "glow",
+      "gradient",
+      "editorial",
+      "showcase",
+      "creative",
+      "graphic",
+      "reference"
+    ],
+    "notes": "Futuristic blue poster-reference board showcasing a grid of graphic studies, useful for digital-design mood, layout systems, and presentation framing.",
+    "added": 1775016573835
+  },
+  {
+    "id": 1775016568499,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/f3fe05f61c149e2533d4e4baad463ffe.jpg",
+    "client": "MYCAPTAIN CHEESE",
+    "imageType": "Product Photography",
+    "format": [
+      "Tin",
+      "Cake"
+    ],
+    "productCategory": [
+      "Dairy",
+      "Food",
+      "Bakery"
+    ],
+    "tonality": [
+      "Approachable",
+      "Bright",
+      "Indulgent"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Families",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bright",
+      "Neutral"
+    ],
+    "ingredient": [
+      "cheesecake",
+      "cheese"
+    ],
+    "style": [
+      "Japanese",
+      "Contemporary"
+    ],
+    "occasion": [
+      "Everyday",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Indulgent",
+      "Joyful",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "cheesecake",
+      "tin",
+      "slice",
+      "orange",
+      "food",
+      "dessert",
+      "retail",
+      "japanese",
+      "packaging",
+      "round",
+      "bakery",
+      "product-shot",
+      "bright",
+      "indulgent"
+    ],
+    "notes": "Clean cheesecake product shot that pairs the printed tin with a plated slice, making the dessert look convenient, giftable, and premium-but-friendly.",
+    "added": 1775016568499
+  },
+  {
+    "id": 1775016564590,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/f29c485ca11ef89614d8a7547393d108.jpg",
+    "client": "Burnbrae",
+    "imageType": "Label Design",
+    "format": [
+      "Label",
+      "Bottle"
+    ],
+    "productCategory": [
+      "Wine",
+      "Alcohol",
+      "Beverage"
+    ],
+    "tonality": [
+      "Elegant",
+      "Calming",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Clean",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Women",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Muted"
+    ],
+    "ingredient": [
+      "pinot grigio"
+    ],
+    "style": [
+      "Australian",
+      "Naive"
+    ],
+    "occasion": [
+      "Everyday",
+      "Spring"
+    ],
+    "mood": [
+      "Aspirational",
+      "Calming",
+      "Romantic"
+    ],
+    "typography": [
+      "Serif",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "wine",
+      "label",
+      "bottle",
+      "floral",
+      "blue",
+      "pastel",
+      "pinot-grigio",
+      "minimal",
+      "illustration",
+      "premium",
+      "garden",
+      "soft",
+      "elegant",
+      "retail"
+    ],
+    "notes": "Gentle wine-label reference using a pastel floral illustration and restrained typography to give the bottle a soft premium table-wine character.",
+    "added": 1775016564590
+  },
+  {
+    "id": 1775016561893,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/f2672e8f019543bd4220c5192bb9d670.jpg",
+    "client": "Pop-Ya",
+    "imageType": "Pack Design",
+    "format": [
+      "Wrapper"
+    ],
+    "productCategory": [
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Heritage",
+      "Approachable",
+      "Wholesome"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Handcrafted",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Families",
+      "Mass Market",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Neutral",
+      "Black & White"
+    ],
+    "ingredient": [
+      "dango",
+      "soy sauce"
+    ],
+    "style": [
+      "Japanese",
+      "Folk"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Trustworthy",
+      "Grounded",
+      "Nostalgic"
+    ],
+    "typography": [
+      "Hand-lettered",
+      "Display"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "dango",
+      "japanese",
+      "snack",
+      "calligraphy",
+      "black",
+      "red",
+      "white",
+      "heritage",
+      "food",
+      "traditional",
+      "grilled",
+      "soy",
+      "rustic"
+    ],
+    "notes": "Traditional dango poster reference with brush-style Japanese lettering and simple skewer illustrations that evoke nostalgia and handmade food culture.",
+    "added": 1775016561893
+  },
+  {
+    "id": 1775016558822,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/f1d5b519a468948d53930321eca2cfa8.jpg",
+    "client": "Sweety Mango",
+    "imageType": "Campaign",
+    "format": [
+      "Cup",
+      "Cake"
+    ],
+    "productCategory": [
+      "Food",
+      "Beverage",
+      "Bakery"
+    ],
+    "tonality": [
+      "Dreamy",
+      "Bright",
+      "Indulgent"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Gradient",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Women",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bright",
+      "Gradient"
+    ],
+    "ingredient": [
+      "mango",
+      "dessert"
+    ],
+    "style": [
+      "Taiwanese",
+      "Retro-Futurist"
+    ],
+    "occasion": [
+      "Summer",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Joyful",
+      "Dreamy",
+      "Indulgent"
+    ],
+    "typography": [
+      "Serif",
+      "Display"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "mango",
+      "dessert",
+      "cake",
+      "drink",
+      "gradient",
+      "yellow",
+      "orange",
+      "summer",
+      "sweet",
+      "retro",
+      "illustration",
+      "pastel",
+      "menu"
+    ],
+    "notes": "Glossy mango-dessert poster reference using luminous gradients and soft still-life rendering to make cakes and drinks feel summery and indulgent.",
+    "added": 1775016558822
+  },
+  {
+    "id": 1775016555707,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/f1ab68de5024a995d43bd396f36891e7.jpg",
+    "client": "Fireye",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Apparel"
+    ],
+    "tonality": [
+      "Playful",
+      "Edgy",
+      "Rebellious"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Comic",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Warm",
+      "Cool",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "American",
+      "Comic",
+      "Streetwear"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Irreverent",
+      "Energising",
+      "Confident"
+    ],
+    "typography": [
+      "Display",
+      "Uppercase Only",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "comic",
+      "band",
+      "fake-poster",
+      "street",
+      "yellow",
+      "pink",
+      "teal",
+      "burst",
+      "character",
+      "music",
+      "graphic",
+      "youth",
+      "loud"
+    ],
+    "notes": "Loud comic-style band poster reference built from jagged bursts, chunky type, and a cheeky illustrated face for a rebellious street-graphic mood.",
+    "added": 1775016555707
+  },
+  {
+    "id": 1775016553266,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/f101480cd973d58821cd712d9d0a77de.jpg",
+    "client": "SEXYTEA",
+    "imageType": "Campaign",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage",
+      "Dairy"
+    ],
+    "tonality": [
+      "Bold",
+      "Youthful",
+      "Approachable"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Photography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Muted",
+      "Cool"
+    ],
+    "ingredient": [
+      "milk tea",
+      "cream"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Energising",
+      "Playful",
+      "Confident"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts",
+      "Sans-serif"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "milk-tea",
+      "cup",
+      "orange",
+      "teal",
+      "qr",
+      "headline",
+      "graphic",
+      "campaign",
+      "cream",
+      "youth",
+      "brand",
+      "drink",
+      "urban"
+    ],
+    "notes": "Youthful milk-tea promo poster with a creamy cup hero, circular framing, and loud typographic claims aimed at social buzz and first-release hype.",
+    "added": 1775016553266
+  },
+  {
+    "id": 1775016550634,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/f06d8b52711be86d429e6f50b5bcdaf2.jpg",
+    "client": "Heilong Longshan Art Center",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Beauty"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Aspirational"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Op Art"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Creative Professionals",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Bright",
+      "Warm"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Pop Art",
+      "Retro-Futurist"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Joyful",
+      "Curious",
+      "Confident"
+    ],
+    "typography": [
+      "Serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "op-art",
+      "fruit",
+      "vase",
+      "checkerboard",
+      "blue",
+      "orange",
+      "exhibition",
+      "graphic",
+      "art-center",
+      "playful",
+      "type",
+      "culture",
+      "event"
+    ],
+    "notes": "Exhibition poster reference mixing op-art fruit vessels, a checkerboard floor, and elegant type for a vibrant visual-culture event identity.",
+    "added": 1775016550634
+  },
+  {
+    "id": 1775016547945,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/eff87c95355f890fc42ef849eab9e64d.jpg",
+    "client": "美丽专门品",
+    "imageType": "Campaign",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Tea",
+      "Health & Wellness"
+    ],
+    "tonality": [
+      "Playful",
+      "Youthful",
+      "Bright"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Warm"
+    ],
+    "ingredient": [
+      "fruit tea"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Playful",
+      "Energising",
+      "Joyful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "drink",
+      "cup",
+      "countdown",
+      "pink",
+      "mint",
+      "sparkle",
+      "launch",
+      "beverage",
+      "graphic",
+      "headline",
+      "youth",
+      "campaign",
+      "cute"
+    ],
+    "notes": "Countdown launch poster for a fruit-drink brand using candy pastels, oversized numerals, and a takeaway cup hero to create a playful drop feel.",
+    "added": 1775016547945
   },
   {
     "id": 1775016545004,
