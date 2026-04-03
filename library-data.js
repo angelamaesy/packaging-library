@@ -887,6 +887,711 @@ const LIBRARY_DATA = [
     "added": 1775031295649
   },
   {
+    "id": 1775016464267,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/dede826a88901f885e29a7cd666ebd14.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Beauty",
+      "Gifting"
+    ],
+    "tonality": [
+      "Dreamy",
+      "Elegant",
+      "Calming"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Illustration-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Muted"
+    ],
+    "ingredient": [],
+    "style": [
+      "Korean",
+      "Naive",
+      "Contemporary"
+    ],
+    "occasion": [
+      "Spring",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Dreamy",
+      "Calming",
+      "Aspirational"
+    ],
+    "typography": [
+      "Hand-lettered",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "korean",
+      "pink",
+      "blossom",
+      "leaves",
+      "pastel",
+      "market",
+      "soft",
+      "cultural",
+      "spring",
+      "illustration",
+      "type",
+      "minimal",
+      "event"
+    ],
+    "notes": "Soft Korean poster reference combining blossom-like circles, floating leaves, and hand-drawn lettering for a gentle spring cultural-market mood.",
+    "added": 1775016464267
+  },
+  {
+    "id": 1775016458798,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/de0088594653d839976ac7e8ace7f281.jpg",
+    "client": "Jiangxi Designers Carnival",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Apparel"
+    ],
+    "tonality": [
+      "Bold",
+      "Energising",
+      "Edgy"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Geometric",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Creative Professionals"
+    ],
+    "colourPalette": [
+      "Neon",
+      "Bright",
+      "Black & White"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Confident",
+      "Energising",
+      "Empowering"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "designers",
+      "carnival",
+      "neon",
+      "green",
+      "radial",
+      "typography",
+      "event",
+      "creative",
+      "qr",
+      "graphic",
+      "headline",
+      "brutalist",
+      "share"
+    ],
+    "notes": "Neon event poster reference built from radial bursts and dense bilingual type for a high-visibility design-community gathering.",
+    "added": 1775016458798
+  },
+  {
+    "id": 1775016453920,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/dd6f9a7a92b961eda1231eedf82bb3ca.jpg",
+    "client": "Xiaohongshu",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Beauty",
+      "Personal Care",
+      "Skincare"
+    ],
+    "tonality": [
+      "Bright",
+      "Playful",
+      "Refreshing"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Beauty Enthusiasts"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Cool",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Memphis"
+    ],
+    "occasion": [
+      "Summer",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Refreshing",
+      "Playful",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "skincare",
+      "summer",
+      "beauty",
+      "cyan",
+      "yellow",
+      "red",
+      "drops",
+      "bottle",
+      "tube",
+      "live-commerce",
+      "campaign",
+      "refreshing",
+      "graphic"
+    ],
+    "notes": "Summer skincare campaign visual with bright flat product silhouettes and tropical colour blocking designed for social commerce promotion.",
+    "added": 1775016453920
+  },
+  {
+    "id": 1775016450255,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/dac07f86b353ee879b3acd83511a3d1c.jpg",
+    "client": "Unknown",
+    "imageType": "Pack Design",
+    "format": [
+      "Pouch"
+    ],
+    "productCategory": [
+      "Food",
+      "Snack"
+    ],
+    "tonality": [
+      "Heritage",
+      "Organic",
+      "Approachable"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Handcrafted",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Families",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Earthy",
+      "Muted"
+    ],
+    "ingredient": [
+      "miso",
+      "fermented paste"
+    ],
+    "style": [
+      "Japanese",
+      "Folk"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Trustworthy",
+      "Wholesome",
+      "Grounded"
+    ],
+    "typography": [
+      "Hand-lettered",
+      "Display"
+    ],
+    "finish": [
+      "Transparent",
+      "Matte"
+    ],
+    "keywords": [
+      "pouch",
+      "miso",
+      "sauce",
+      "fermented",
+      "japanese",
+      "calligraphy",
+      "white-label",
+      "organic",
+      "rustic",
+      "food",
+      "paste",
+      "packaging",
+      "traditional",
+      "kitchen"
+    ],
+    "notes": "Simple Japanese sauce pouch with expressive brush lettering and a transparent utilitarian pack structure that feels artisanal and honest.",
+    "added": 1775016450255
+  },
+  {
+    "id": 1775016446081,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/da3a1112b648d9dcefc83ed243995755.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Gifting"
+    ],
+    "tonality": [
+      "Minimal",
+      "Festive",
+      "Elegant"
+    ],
+    "designCode": [
+      "Geometric",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Families",
+      "Women"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bright",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Scandinavian",
+      "Contemporary"
+    ],
+    "occasion": [
+      "Christmas"
+    ],
+    "mood": [
+      "Joyful",
+      "Calming",
+      "Aspirational"
+    ],
+    "typography": [
+      "Serif",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "christmas",
+      "card",
+      "geometric",
+      "star",
+      "red",
+      "green",
+      "pink",
+      "minimal",
+      "holiday",
+      "greeting",
+      "graphic",
+      "clean",
+      "festive",
+      "gold"
+    ],
+    "notes": "Minimal Christmas greeting reference using geometric starburst colour blocks and restrained gold type for a polished seasonal look.",
+    "added": 1775016446081
+  },
+  {
+    "id": 1775016441729,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/d96ec55eb4cf0153b6365152d1fb07c4.jpg",
+    "client": "Open Studio x Slumptown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Apparel",
+      "Beauty"
+    ],
+    "tonality": [
+      "Playful",
+      "Friendly",
+      "Dreamy"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Handcrafted"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Pastel",
+      "Bright"
+    ],
+    "ingredient": [],
+    "style": [
+      "American",
+      "Naive",
+      "Retro"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Comforting",
+      "Empowering"
+    ],
+    "typography": [
+      "Display",
+      "Hand-lettered",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "flowers",
+      "hand",
+      "blue",
+      "pink",
+      "studio",
+      "collaboration",
+      "screenprint",
+      "retro",
+      "illustration",
+      "friendly",
+      "graphic",
+      "type",
+      "merch"
+    ],
+    "notes": "Friendly studio-collaboration graphic with retro flowers, bubbly type, and a handmade print sensibility suited to merch or lifestyle branding.",
+    "added": 1775016441729
+  },
+  {
+    "id": 1775016436555,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/d8f604c6c692c906a8cd2256c78e0385.jpg",
+    "client": "Tinylure",
+    "imageType": "Campaign",
+    "format": [
+      "Apparel"
+    ],
+    "productCategory": [
+      "Apparel",
+      "Stationery"
+    ],
+    "tonality": [
+      "Playful",
+      "Edgy",
+      "Youthful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Unisex"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Pastel",
+      "Bright"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Memphis",
+      "Naive"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Playful",
+      "Confident",
+      "Irreverent"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "socks",
+      "plant",
+      "green",
+      "purple",
+      "illustration",
+      "fashion",
+      "event",
+      "editorial",
+      "youth",
+      "cartoon",
+      "graphic",
+      "brand",
+      "playful"
+    ],
+    "notes": "Fashion pop-up poster reference that turns colourful socks into plant-like characters, blending brand promotion with playful illustrated merchandising.",
+    "added": 1775016436555
+  },
+  {
+    "id": 1775016431996,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/d89bba2bc58f8bd7eec18f381f8ba4f2.jpg",
+    "client": "moro.",
+    "imageType": "Campaign",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Juice",
+      "Food"
+    ],
+    "tonality": [
+      "Bright",
+      "Playful",
+      "Energising"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Collage"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Cool",
+      "Neon"
+    ],
+    "ingredient": [
+      "lemon",
+      "lime"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Summer",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Energising",
+      "Joyful",
+      "Playful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "summer",
+      "drink",
+      "blue",
+      "neon",
+      "lemon",
+      "glass",
+      "straw",
+      "headline",
+      "collage",
+      "refreshment",
+      "campaign",
+      "graphic",
+      "youth"
+    ],
+    "notes": "High-energy summer drinks poster using electric blue, neon citrus shapes, and layered type to sell a chilled seasonal beverage mood.",
+    "added": 1775016431996
+  },
+  {
+    "id": 1775016427507,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/d87489dbe4aad5a21a248de0a11deb2a.jpg",
+    "client": "MissCharming",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Apparel"
+    ],
+    "tonality": [
+      "Bold",
+      "Edgy",
+      "Irreverent"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Illustration-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Bright",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Confident",
+      "Irreverent",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "bloggers",
+      "blue",
+      "black",
+      "yellow",
+      "oversized",
+      "type",
+      "cartoon-hand",
+      "editorial",
+      "graphic",
+      "headline",
+      "youth",
+      "event",
+      "bold"
+    ],
+    "notes": "Blunt editorial poster reference driven by oversized Chinese typography, a flat cartoon hand, and bright accent strokes for a loud youth-culture feel.",
+    "added": 1775016427507
+  },
+  {
+    "id": 1775016422535,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/d750cf1c129e67a9c61949025d95eb86.jpg",
+    "client": "PopDaily",
+    "imageType": "Campaign",
+    "format": [
+      "Cup"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Tea",
+      "Food"
+    ],
+    "tonality": [
+      "Playful",
+      "Youthful",
+      "Approachable"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Bright"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Playful",
+      "Joyful",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "tea",
+      "cup",
+      "pink",
+      "turquoise",
+      "headline",
+      "speech-bubble",
+      "soft",
+      "campaign",
+      "youth",
+      "brand",
+      "cute",
+      "launch",
+      "graphic"
+    ],
+    "notes": "Soft, youth-focused beverage launch poster built around a takeaway cup silhouette, candy pastels, and playful headline typography.",
+    "added": 1775016422535
+  },
+  {
     "id": 1775016418919,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/d74e2939a903289063c15fc4cec03f8c.jpg",
     "client": "Aomori / Hokkaido",
