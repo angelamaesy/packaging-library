@@ -376,13 +376,23 @@
     "cbeaa87c3202161236e4a0fea0002db5.jpg",
     "cda22f2c364910c364fd25bdda3c8a4d.jpg",
     "cdaa47e248eb2fad35c1a1ba91de6452.jpg",
-    "cebd0b65cfc165e42b7be22b553b46fc.jpg"
+    "cebd0b65cfc165e42b7be22b553b46fc.jpg",
+    "cf1711f37e749f25a17c615a49c5f135.jpeg",
+    "chinese_festive_gift_box_red_envelope_style_2026-03-24.jpg",
+    "chinese_traditional_folding_gift_box_pattern_2026-03-24.jpg",
+    "d0c779083932edeb66083f3c0ae6cbee.jpeg",
+    "d117370e25dbe7ab59faae701f3209ea.jpg",
+    "d23f559ad41dbed8741858310a472324.jpg",
+    "d2cf715f8199cefd7f10f8e6a865d761.jpg",
+    "d41316a5f2ecd8cfd33ec5a298e6ce59.jpg",
+    "d564d6778fda8166d6570b71674cae0d.jpg",
+    "d74e2939a903289063c15fc4cec03f8c.jpg"
   ],
   "last_batch_date": "2026-04-03",
   "batch_size": 50,
   "notes": "AutoTagger checkpoint. processed = filenames already tagged and moved to dated subfolder. Do not re-tag these.",
   "db_total": 502,
-  "db_tagged": 452,
-  "db_remaining": 50,
+  "db_tagged": 462,
+  "db_remaining": 40,
   "last_push": "2026-04-03"
 }

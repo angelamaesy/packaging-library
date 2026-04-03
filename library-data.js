@@ -887,6 +887,749 @@ const LIBRARY_DATA = [
     "added": 1775031295649
   },
   {
+    "id": 1775016418919,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/d74e2939a903289063c15fc4cec03f8c.jpg",
+    "client": "Aomori / Hokkaido",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Food",
+      "Beverage",
+      "Gifting"
+    ],
+    "tonality": [
+      "Playful",
+      "Bright",
+      "Friendly"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Families",
+      "Kids"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Cool",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "Japanese",
+      "Naive"
+    ],
+    "occasion": [
+      "Summer",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Adventurous"
+    ],
+    "typography": [
+      "Hand-lettered",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "travel",
+      "festival",
+      "shell",
+      "aomori",
+      "hokkaido",
+      "blue",
+      "yellow",
+      "icons",
+      "tourism",
+      "food",
+      "campaign",
+      "summer",
+      "friendly"
+    ],
+    "notes": "Cheerful regional tourism poster using hand-drawn typography, shell framing, and playful local icons to sell a summer destination promotion.",
+    "added": 1775016418919
+  },
+  {
+    "id": 1775016414525,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/d564d6778fda8166d6570b71674cae0d.jpg",
+    "client": "Taro Blast Boboshake",
+    "imageType": "Campaign",
+    "format": [
+      "Cup",
+      "Cup"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage",
+      "Dairy"
+    ],
+    "tonality": [
+      "Kawaii",
+      "Playful",
+      "Dreamy"
+    ],
+    "designCode": [
+      "Pixel Art",
+      "Illustration-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Kids",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Cool",
+      "Muted"
+    ],
+    "ingredient": [
+      "taro",
+      "boba",
+      "cream"
+    ],
+    "style": [
+      "Chinese",
+      "Kawaii",
+      "Y2K"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Playful",
+      "Joyful",
+      "Dreamy"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "pixel",
+      "taro",
+      "boba",
+      "shake",
+      "cup",
+      "game",
+      "pastel",
+      "cute",
+      "retro",
+      "menu",
+      "dessert",
+      "youth",
+      "campaign"
+    ],
+    "notes": "Game-inspired taro boboshake campaign visual rendered in soft pastel pixel graphics, ideal for cute QSR or tea-menu promotion references.",
+    "added": 1775016414525
+  },
+  {
+    "id": 1775016409755,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/d41316a5f2ecd8cfd33ec5a298e6ce59.jpg",
+    "client": "Kirin",
+    "imageType": "Range Shot",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Bright",
+      "Playful",
+      "Approachable"
+    ],
+    "designCode": [
+      "Pattern-led",
+      "Typography-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Women",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bright",
+      "Vivid"
+    ],
+    "ingredient": [
+      "peach",
+      "raspberry",
+      "orange",
+      "honey"
+    ],
+    "style": [
+      "Japanese",
+      "Contemporary"
+    ],
+    "occasion": [
+      "Everyday",
+      "Summer"
+    ],
+    "mood": [
+      "Joyful",
+      "Refreshing",
+      "Playful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Uppercase Only"
+    ],
+    "finish": [
+      "Gloss"
+    ],
+    "keywords": [
+      "bottle",
+      "tea",
+      "range",
+      "peach",
+      "raspberry",
+      "orange",
+      "honey",
+      "pattern",
+      "fruit",
+      "yellow",
+      "pink",
+      "hero",
+      "drink",
+      "refreshment"
+    ],
+    "notes": "Flavoured tea bottle range using bold fruit pattern systems and upbeat colour coding to distinguish variants on shelf.",
+    "added": 1775016409755
+  },
+  {
+    "id": 1775016405514,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/d2cf715f8199cefd7f10f8e6a865d761.jpg",
+    "client": "奈雪の茶",
+    "imageType": "Campaign",
+    "format": [
+      "Carton",
+      "Straw"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage"
+    ],
+    "tonality": [
+      "Bold",
+      "Cool",
+      "Edgy"
+    ],
+    "designCode": [
+      "3D",
+      "Typography-led",
+      "Abstract"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Neon",
+      "Cool",
+      "Bright"
+    ],
+    "ingredient": [
+      "tea"
+    ],
+    "style": [
+      "Chinese",
+      "Retro-Futurist",
+      "Y2K"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Energising",
+      "Confident",
+      "Irreverent"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Hand-lettered"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "carton",
+      "straw",
+      "neon",
+      "green",
+      "3d",
+      "cube",
+      "future",
+      "tea",
+      "headline",
+      "floating",
+      "brand",
+      "y2k",
+      "graphic"
+    ],
+    "notes": "Neon-green futuristic tea campaign built around a glowing carton cube and oversized type for a high-energy youth-facing launch look.",
+    "added": 1775016405514
+  },
+  {
+    "id": 1775016400004,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/d23f559ad41dbed8741858310a472324.jpg",
+    "client": "农夫山泉",
+    "imageType": "Campaign",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Tea",
+      "Beverage",
+      "Dairy"
+    ],
+    "tonality": [
+      "Approachable",
+      "Calming",
+      "Wholesome"
+    ],
+    "designCode": [
+      "Photography-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Women"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Neutral",
+      "Pastel"
+    ],
+    "ingredient": [
+      "milk tea",
+      "tea"
+    ],
+    "style": [
+      "Chinese",
+      "Contemporary"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Trustworthy",
+      "Joyful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "milk-tea",
+      "bottle",
+      "swirl",
+      "leaves",
+      "cream",
+      "beige",
+      "floating",
+      "new",
+      "campaign",
+      "drink",
+      "tea",
+      "soft",
+      "brand"
+    ],
+    "notes": "Soft milk-tea launch visual using floating bottles, tea leaves, and spiral cream cues to signal smoothness and freshness.",
+    "added": 1775016400004
+  },
+  {
+    "id": 1775016396350,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/d117370e25dbe7ab59faae701f3209ea.jpg",
+    "client": "喜茶",
+    "imageType": "Campaign",
+    "format": [
+      "Bottle"
+    ],
+    "productCategory": [
+      "Beverage",
+      "Tea",
+      "Water"
+    ],
+    "tonality": [
+      "Minimal",
+      "Cool",
+      "Experimental"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "3D",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Young Adults",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Cool",
+      "Pastel",
+      "Neutral"
+    ],
+    "ingredient": [
+      "tea",
+      "juice"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K",
+      "Retro-Futurist"
+    ],
+    "occasion": [
+      "Summer",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Refreshing",
+      "Playful",
+      "Confident"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "bottle",
+      "bubbles",
+      "sparkling",
+      "tea",
+      "3d",
+      "white",
+      "blue",
+      "future",
+      "minimal",
+      "heytea",
+      "campaign",
+      "orbit",
+      "light"
+    ],
+    "notes": "Futuristic sparkling tea campaign visual with a ribbed bottle hero, floating bubbles, and low-calorie callouts in a clean icy palette.",
+    "added": 1775016396350
+  },
+  {
+    "id": 1775016389869,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/d0c779083932edeb66083f3c0ae6cbee.jpeg",
+    "client": "Quinnick",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Beauty",
+      "Stationery",
+      "Apparel"
+    ],
+    "tonality": [
+      "Kawaii",
+      "Playful",
+      "Youthful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Cartoon",
+      "Sticker"
+    ],
+    "targetAudience": [
+      "Gen Z",
+      "Kids",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Bright",
+      "Cool"
+    ],
+    "ingredient": [],
+    "style": [
+      "Korean",
+      "Kawaii",
+      "Y2K"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Empowering"
+    ],
+    "typography": [
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "stickers",
+      "kawaii",
+      "pink",
+      "character",
+      "good-vibes",
+      "peach",
+      "flower",
+      "cute",
+      "cartoon",
+      "badge",
+      "y2k",
+      "youth",
+      "illustration",
+      "sheet"
+    ],
+    "notes": "Cute sticker-sheet reference full of cheerful fruit and flower mascots, useful for kawaii branding, merch, and Gen Z accessory graphics.",
+    "added": 1775016389869
+  },
+  {
+    "id": 1775016383803,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/chinese_traditional_folding_gift_box_pattern_2026-03-24.jpg",
+    "client": "JIWEIXUAN",
+    "imageType": "Range Shot",
+    "format": [
+      "Gift Box",
+      "Box",
+      "Jar"
+    ],
+    "productCategory": [
+      "Gifting",
+      "Food",
+      "Snack"
+    ],
+    "tonality": [
+      "Luxury",
+      "Elegant",
+      "Playful"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Pattern-led",
+      "Colour-led"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Families",
+      "Women"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Pastel",
+      "Vivid"
+    ],
+    "ingredient": [
+      "nuts",
+      "snack"
+    ],
+    "style": [
+      "Chinese",
+      "Folk",
+      "Art Nouveau"
+    ],
+    "occasion": [
+      "Gifting Season",
+      "Chinese New Year"
+    ],
+    "mood": [
+      "Joyful",
+      "Aspirational",
+      "Trustworthy"
+    ],
+    "typography": [
+      "Serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte",
+      "Foil"
+    ],
+    "keywords": [
+      "gift-box",
+      "handle",
+      "butterfly",
+      "floral",
+      "orange",
+      "purple",
+      "range",
+      "jar",
+      "premium",
+      "festive",
+      "chinese",
+      "pattern",
+      "snack",
+      "retail"
+    ],
+    "notes": "Premium handled gift-box range with floral butterfly panels and matching snack jars, balancing festive warmth with a contemporary Chinese gifting look.",
+    "added": 1775016383803
+  },
+  {
+    "id": 1775016379749,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/chinese_festive_gift_box_red_envelope_style_2026-03-24.jpg",
+    "client": "Unknown",
+    "imageType": "Pack Design",
+    "format": [
+      "Gift Box",
+      "Box"
+    ],
+    "productCategory": [
+      "Gifting",
+      "Food"
+    ],
+    "tonality": [
+      "Luxury",
+      "Elegant",
+      "Heritage",
+      "Ornate"
+    ],
+    "designCode": [
+      "Pattern-led",
+      "Colour-led",
+      "Handcrafted"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Unisex",
+      "Gen X"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Dark",
+      "Metallic"
+    ],
+    "ingredient": [],
+    "style": [
+      "Chinese",
+      "Folk",
+      "Luxury Editorial"
+    ],
+    "occasion": [
+      "Chinese New Year",
+      "Lunar New Year",
+      "Gifting Season"
+    ],
+    "mood": [
+      "Aspirational",
+      "Trustworthy",
+      "Indulgent"
+    ],
+    "typography": [
+      "No Type"
+    ],
+    "finish": [
+      "Foil",
+      "Emboss",
+      "Textured"
+    ],
+    "keywords": [
+      "gift-box",
+      "red",
+      "envelope",
+      "brocade",
+      "pattern",
+      "floral",
+      "knot",
+      "wood",
+      "premium",
+      "festive",
+      "chinese",
+      "ornate",
+      "craft",
+      "luxury"
+    ],
+    "notes": "Festive Chinese gift box reference with brocade-like floral patterning, red-band wrapping, and a decorative knot closure for premium seasonal gifting.",
+    "added": 1775016379749
+  },
+  {
+    "id": 1775016373372,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/cf1711f37e749f25a17c615a49c5f135.jpeg",
+    "client": "Headspace",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Health & Wellness",
+      "Beauty",
+      "Stationery"
+    ],
+    "tonality": [
+      "Approachable",
+      "Calming",
+      "Friendly"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Women"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bright",
+      "Pastel"
+    ],
+    "ingredient": [],
+    "style": [
+      "American",
+      "Naive"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Calming",
+      "Comforting",
+      "Empowering"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "wellness",
+      "mental-health",
+      "orange",
+      "hug",
+      "illustration",
+      "soft",
+      "support",
+      "campaign",
+      "copy",
+      "minimal",
+      "friendly",
+      "community",
+      "brand"
+    ],
+    "notes": "Supportive wellness campaign visual using Headspace's simple illustration style and warm orange messaging to communicate care and solidarity.",
+    "added": 1775016373372
+  },
+  {
     "id": 1775016369994,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/cebd0b65cfc165e42b7be22b553b46fc.jpg",
     "client": "TOWISH",
