@@ -887,6 +887,742 @@ const LIBRARY_DATA = [
     "added": 1775031295649
   },
   {
+    "id": 1775016327563,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c77d2d42d96b0067ab31cd33f2b8828f.jpg",
+    "client": "CHOCDAY",
+    "imageType": "Pack Design",
+    "format": [
+      "Box",
+      "Wrapper"
+    ],
+    "productCategory": [
+      "Chocolate",
+      "Confectionery",
+      "Snack",
+      "Food"
+    ],
+    "tonality": [
+      "Bold",
+      "Minimal",
+      "Sophisticated"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Clean",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Women",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Cool",
+      "Neutral"
+    ],
+    "ingredient": [
+      "dark chocolate"
+    ],
+    "style": [
+      "Chinese",
+      "Swiss / Modernist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Confident",
+      "Calming",
+      "Indulgent"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte",
+      "Foil"
+    ],
+    "keywords": [
+      "chocolate",
+      "dark",
+      "box",
+      "wrapper",
+      "purple",
+      "yellow",
+      "white",
+      "type",
+      "minimal",
+      "bilingual",
+      "mood",
+      "home",
+      "modern",
+      "graphic"
+    ],
+    "notes": "Modern dark-chocolate pack concept with strong bilingual typography, diagonal colour blocking, and a confident minimal layout.",
+    "added": 1775016327563
+  },
+  {
+    "id": 1775016325221,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c5b51273944332cf204390fbc932e5fa.jpg",
+    "client": "康师傅",
+    "imageType": "Range Shot",
+    "format": [
+      "Carton"
+    ],
+    "productCategory": [
+      "Juice",
+      "Beverage",
+      "Food"
+    ],
+    "tonality": [
+      "Playful",
+      "Bright",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Typography-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Kids"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Bright",
+      "Warm",
+      "Cool"
+    ],
+    "ingredient": [
+      "peach",
+      "orange",
+      "pear",
+      "grape",
+      "mango"
+    ],
+    "style": [
+      "Chinese",
+      "Naive"
+    ],
+    "occasion": [
+      "Summer",
+      "Everyday"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Wholesome"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "carton",
+      "juice",
+      "range",
+      "fruit",
+      "peach",
+      "orange",
+      "pear",
+      "grape",
+      "mango",
+      "pink",
+      "pastel",
+      "illustration",
+      "shelf",
+      "refreshment"
+    ],
+    "notes": "Fruit juice carton range shown across peach, orange, pear, mango, and grape variants with friendly illustrated fruit and soft pastel blocking.",
+    "added": 1775016325221
+  },
+  {
+    "id": 1775016322147,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c51dc504fc43b4c2da3ce32be36f1e27.jpg",
+    "client": "Boden",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Apparel",
+      "Stationery"
+    ],
+    "tonality": [
+      "Playful",
+      "Bright",
+      "Youthful"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Kids",
+      "Parents",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Primary Colours",
+      "Bold"
+    ],
+    "ingredient": [],
+    "style": [
+      "British",
+      "Memphis"
+    ],
+    "occasion": [
+      "Back to School",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Playful",
+      "Energising",
+      "Joyful"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display"
+    ],
+    "finish": [],
+    "keywords": [
+      "instagram",
+      "story",
+      "apparel",
+      "sport",
+      "kids",
+      "campaign",
+      "headline",
+      "blue",
+      "pink",
+      "green",
+      "yellow",
+      "geometric",
+      "social",
+      "bold"
+    ],
+    "notes": "Social-story apparel campaign reference with oversized playful lettering over bright geometric shapes aimed at sporty kidswear promotion.",
+    "added": 1775016322147
+  },
+  {
+    "id": 1775016319859,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c4f2490e36e97d34c9e70c96d768c571.jpg",
+    "client": "Paris Ateliers",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Apparel"
+    ],
+    "tonality": [
+      "Bold",
+      "Playful",
+      "Approachable"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Kids",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Cool",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "French",
+      "Memphis",
+      "Naive"
+    ],
+    "occasion": [
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Playful",
+      "Joyful",
+      "Confident"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "paris",
+      "atelier",
+      "top",
+      "yellow",
+      "pink",
+      "blue",
+      "graphic",
+      "illustration",
+      "geometric",
+      "event",
+      "education",
+      "stacked",
+      "playful"
+    ],
+    "notes": "Bright Paris workshop poster using a stacked spinning-top illustration and chunky sans-serif type for a friendly arts-programme feel.",
+    "added": 1775016319859
+  },
+  {
+    "id": 1775016317109,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c4c668f56fd0f42e236b71283ddf906d.jpg",
+    "client": "Unknown",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Personal Care",
+      "Supplement",
+      "Household"
+    ],
+    "tonality": [
+      "Playful",
+      "Irreverent",
+      "Bold"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Typography-led",
+      "Cartoon"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Bright",
+      "Warm",
+      "Cool",
+      "Primary Colours"
+    ],
+    "ingredient": [],
+    "style": [
+      "American",
+      "Pop Art",
+      "Naive"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Playful",
+      "Irreverent",
+      "Confident"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "packaging",
+      "cartoon",
+      "pharmacy",
+      "bottle",
+      "box",
+      "line-art",
+      "copywriting",
+      "humour",
+      "illustration",
+      "multicolor",
+      "product",
+      "graphic",
+      "editorial"
+    ],
+    "notes": "Humorous packaging illustration reference with mock remedy products, blunt headline copy, and simple outlined forms in a pop editorial style.",
+    "added": 1775016317109
+  },
+  {
+    "id": 1775016314036,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c44df0f023a2d5ee617937063164780d.jpg",
+    "client": "Trip Sweets",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Snack",
+      "Food",
+      "Bakery"
+    ],
+    "tonality": [
+      "Playful",
+      "Bold",
+      "Approachable"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Geometric",
+      "Pattern-led"
+    ],
+    "targetAudience": [
+      "Mass Market",
+      "Young Adults",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Warm",
+      "Bright",
+      "Primary Colours"
+    ],
+    "ingredient": [
+      "tomato",
+      "sesame",
+      "grain"
+    ],
+    "style": [
+      "Chinese",
+      "Neo-Brutalist"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Playful",
+      "Energising",
+      "Wholesome"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "box",
+      "snack",
+      "tomato",
+      "grain",
+      "sesame",
+      "striped",
+      "orange",
+      "yellow",
+      "bold",
+      "bilingual",
+      "geometric",
+      "type",
+      "retro",
+      "food"
+    ],
+    "notes": "Bold snack box concept pairing striped geometry, blunt bilingual type, and a tomato icon for an accessible pantry-shelf look.",
+    "added": 1775016314036
+  },
+  {
+    "id": 1775016311824,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c3d30e5c901e2805a6cd47b55ac6c574.jpg",
+    "client": "林山農選",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Food",
+      "Beverage",
+      "Gifting"
+    ],
+    "tonality": [
+      "Minimal",
+      "Elegant",
+      "Calming"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Gradient",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Premium",
+      "Women",
+      "Young Adults"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Warm",
+      "Muted"
+    ],
+    "ingredient": [
+      "peach",
+      "honey"
+    ],
+    "style": [
+      "Chinese",
+      "Japanese"
+    ],
+    "occasion": [
+      "Summer",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Calming",
+      "Aspirational",
+      "Wholesome"
+    ],
+    "typography": [
+      "Serif",
+      "Sans-serif",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "peach",
+      "honey",
+      "preorder",
+      "gradient",
+      "grain",
+      "pastel",
+      "minimal",
+      "fruit",
+      "editorial",
+      "soft",
+      "premium",
+      "bilingual",
+      "clean"
+    ],
+    "notes": "Minimal preorder poster reference featuring a giant softly rendered peach and restrained typography for a premium fruit launch aesthetic.",
+    "added": 1775016311824
+  },
+  {
+    "id": 1775016309475,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c377faea3ab58fcd09531785f42e9385.jpg",
+    "client": "Food & Wine China Festival",
+    "imageType": "Campaign",
+    "format": [],
+    "productCategory": [
+      "Food",
+      "Beverage",
+      "Gifting"
+    ],
+    "tonality": [
+      "Playful",
+      "Bright",
+      "Whimsical"
+    ],
+    "designCode": [
+      "Illustration-led",
+      "Colour-led",
+      "Clean"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Gen Z",
+      "Mass Market"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Bright",
+      "Warm",
+      "Cool"
+    ],
+    "ingredient": [
+      "peach"
+    ],
+    "style": [
+      "Chinese",
+      "Naive"
+    ],
+    "occasion": [
+      "Summer",
+      "Launch Campaign"
+    ],
+    "mood": [
+      "Joyful",
+      "Playful",
+      "Energising"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "poster",
+      "festival",
+      "peach",
+      "fruit",
+      "market",
+      "pink",
+      "green",
+      "leaves",
+      "event",
+      "summer",
+      "illustration",
+      "minimal",
+      "graphic",
+      "bilingual"
+    ],
+    "notes": "Food festival poster reference built from floating peach graphics, sparse bilingual type, and a bright airy event-promo composition.",
+    "added": 1775016309475
+  },
+  {
+    "id": 1775016305987,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c2e0eebb17a4121ea9440faf5cf80afe.jpeg",
+    "client": "Younggraphic",
+    "imageType": "Reference",
+    "format": [],
+    "productCategory": [
+      "Stationery",
+      "Beauty"
+    ],
+    "tonality": [
+      "Dreamy",
+      "Elegant",
+      "Calming"
+    ],
+    "designCode": [
+      "Gradient",
+      "Photography-led",
+      "Abstract"
+    ],
+    "targetAudience": [
+      "Women",
+      "Young Adults",
+      "Gen Z"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Gradient",
+      "Warm",
+      "Cool"
+    ],
+    "ingredient": [],
+    "style": [
+      "Luxury Editorial",
+      "Art Nouveau"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Dreamy",
+      "Calming",
+      "Aspirational"
+    ],
+    "typography": [
+      "Serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [],
+    "keywords": [
+      "background",
+      "gradient",
+      "grain",
+      "blur",
+      "pastel",
+      "foliage",
+      "botanical",
+      "editorial",
+      "soft",
+      "pink",
+      "yellow",
+      "lilac",
+      "abstract",
+      "template"
+    ],
+    "notes": "Soft grainy gradient background reference with blurred foliage silhouettes and elegant serif type, useful for beauty and editorial mood-setting.",
+    "added": 1775016305987
+  },
+  {
+    "id": 1775016302183,
+    "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c259e5e3943b603250cddae7683bfe4e.jpg",
+    "client": "Qorange",
+    "imageType": "Pack Design",
+    "format": [
+      "Box"
+    ],
+    "productCategory": [
+      "Supplement",
+      "Health & Wellness",
+      "Personal Care"
+    ],
+    "tonality": [
+      "Minimal",
+      "Playful",
+      "Clean"
+    ],
+    "designCode": [
+      "Typography-led",
+      "Colour-led",
+      "Clean",
+      "Geometric"
+    ],
+    "targetAudience": [
+      "Young Adults",
+      "Women",
+      "Premium"
+    ],
+    "colourPalette": [
+      "Pastel",
+      "Bright",
+      "Cool"
+    ],
+    "ingredient": [
+      "orange"
+    ],
+    "style": [
+      "Chinese",
+      "Y2K"
+    ],
+    "occasion": [
+      "Everyday"
+    ],
+    "mood": [
+      "Playful",
+      "Calming",
+      "Aspirational"
+    ],
+    "typography": [
+      "Sans-serif",
+      "Display",
+      "Mixed Fonts"
+    ],
+    "finish": [
+      "Matte"
+    ],
+    "keywords": [
+      "orange",
+      "box",
+      "stacked",
+      "pastel",
+      "yellow",
+      "pink",
+      "mint",
+      "minimal",
+      "type",
+      "bilingual",
+      "supplement",
+      "wellness",
+      "range",
+      "clean"
+    ],
+    "notes": "Pastel wellness box range using oversized rotated type and soft colour blocking for a clean but playful premium supplement look.",
+    "added": 1775016302183
+  },
+  {
     "id": 1775016299328,
     "src": "https://exavuyhylfzbrxrapuor.supabase.co/storage/v1/object/public/tagbot-images/2026-04-01/c1e5a325eea00d41d7c311683b5df934.jpg",
     "client": "茶救星",
